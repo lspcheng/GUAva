@@ -29,7 +29,7 @@ For music:
 3. If clear/moderate to loud music in background, *usability*=0 and code *speech + music*
 4. If only music, *usability*=0 and code *music only*
 
-More details coming soon!
+_More details coming soon!_
 
 ## Transcription Guidelines
 * **Include filler words/syllables** to be phonetically accurate, e.g:
@@ -48,3 +48,40 @@ More details coming soon!
 
 * **But, if suspect artificially missing onset or offset fricative due to pre-processing (i.e., chunking procedure), transcribe full word.** This ensures that we can still use the bulk of the word as well as accurately code for phonological environment (that actually existed in reality, though it didn't make it into the clip accidentally). This assumes that we don't need to look at/analyze those fricatives.
     - _this_ for something like [θɪ] at the end of a clip with very abrupt cut off
+
+* **Also, if there is what seems to be a mispronunciation of a word (with the intended meaning clear based on context), transcribe as the intended word. Use an asterisk to mark this (will be stripped by forced aligner later)** This is just a guideline to be conservative in case that pronunciation is actually how they pronounce this word (e.g., part of their natural variation, due to coarticulation, etc.). If it was an error, it may come out as an outlier or be handled later manually during correction.
+  - _when I say* this..._ where "say" is pronounced like "see"
+
+* **Write out numerals in words, including years**
+  - _two thousand and ten_ for __2010__
+
+* **Keep proper names and acronyms as is.** Can be added to dictionary if necessary.
+  - _FIDM_ for [fɪdm]
+  - _LA_ for [ɜleɪ]
+
+* **If you can make it out, include romanization of non-English words.** See next couple of points on code-switching.
+  - _banchan_ for Korean side dishes
+
+* **If there is code-switching to a different language completely, and you don't know what it is, code it as <cs>.**
+
+11. **If a word is a code switch but identifiable (e.g., pronounced using non-English phonology), code it with a '_cs' tag (for code-switch).** If the word is a non-English word but clearly pronounced with English phonology, don't tag it as a code-switch. If unsure, tag it as a code-switch.
+  - _kare_cs rice_cs_ for 'kare rice' pronounced with Korean phonology
+  - _banchan_cs_
+
+* **If you can't make out a word, code it as <unk>.** If you can't confirm whether the auto-transcription was correct or there wasn't anything there, this is what to do.
+
+* **If, out of an otherwise good audio chunk, there is an individual word or two that cannot be used, mark it with a '_unc' tag (for unclear).** This could be if a word is masked by a noise, overlapping with a sound effect or has some other issue that prevents it from being clear. If unsure which word was affected, be conservative and tag more.
+  - _kare_unc_ for 'kare rice' overlapped with a 'pop' sound effect
+  - _and_unc it's_unc_ for 'and it's' with a pop but not sure exactly when
+  - _Amy_unc and_unc_ for 'Amy and' with cheering noises
+
+* **If a phrase or word is not produced naturally, such as imitating somebody else or doing some sort of skit, code it with a '_unn' (for unnatural).**
+  - _Jennifer_unn packed_unn..._ during an imitation
+
+
+* **If there are multiple issues, that require tags, code them all.**
+  - _kare_cs_unc_
+
+* **If there is a clearly separate laugh, code it as <lgh>.**
+
+* **Otherwise, ignore loud breaths or laughs, including those overlapping with speech.** Breaths should be safely handled (i.e., ignored) by the aligner. Laughs are hard to know how to code/transcribe, and can overlap often with speech. Sometimes speech coincides with a breath (e.g., huff or sigh), which is similar to laughs. These can be dealt with on a case-by-case basis during post-alignment hand-correction.
