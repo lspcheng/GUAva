@@ -62,13 +62,13 @@ _More details coming soon!_
 * **If you can make it out, include romanization of non-English words.** See next couple of points on code-switching.
   - _banchan_ for Korean side dishes
 
-* **If there is code-switching to a different language completely, and you don't know what it is, code it as <cs>.**
+* **If there is code-switching to a different language completely, and you don't know what it is, code it as `<cs>`.**
 
-11. **If a word is a code switch but identifiable (e.g., pronounced using non-English phonology), code it with a '_cs' tag (for code-switch).** If the word is a non-English word but clearly pronounced with English phonology, don't tag it as a code-switch. If unsure, tag it as a code-switch.
+* **If a word is a code switch but identifiable (e.g., pronounced using non-English phonology), code it with a '_cs' tag (for code-switch).** If the word is a non-English word but clearly pronounced with English phonology, don't tag it as a code-switch. If unsure, tag it as a code-switch.
   - _kare_cs rice_cs_ for 'kare rice' pronounced with Korean phonology
   - _banchan_cs_
 
-* **If you can't make out a word, code it as <unk>.** If you can't confirm whether the auto-transcription was correct or there wasn't anything there, this is what to do.
+* **If you can't make out a word, code it as `<unk>`.** If you can't confirm whether the auto-transcription was correct or there wasn't anything there, this is what to do.
 
 * **If, out of an otherwise good audio chunk, there is an individual word or two that cannot be used, mark it with a '_unc' tag (for unclear).** This could be if a word is masked by a noise, overlapping with a sound effect or has some other issue that prevents it from being clear. If unsure which word was affected, be conservative and tag more.
   - _kare_unc_ for 'kare rice' overlapped with a 'pop' sound effect
@@ -82,6 +82,6 @@ _More details coming soon!_
 * **If there are multiple issues, that require tags, code them all.**
   - _kare_cs_unc_
 
-* **If there is a clearly separate laugh, code it as <lgh>.**
+* **If there is a clearly separate laugh, code it as `<lgh>`.**
 
 * **Otherwise, ignore loud breaths or laughs, including those overlapping with speech.** Breaths should be safely handled (i.e., ignored) by the aligner. Laughs are hard to know how to code/transcribe, and can overlap often with speech. Sometimes speech coincides with a breath (e.g., huff or sigh), which is similar to laughs. These can be dealt with on a case-by-case basis during post-alignment hand-correction.
