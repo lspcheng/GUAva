@@ -32,30 +32,30 @@ For music:
 _More details coming soon!_
 
 ## Transcription Guidelines
-* **Include filler words/syllables** to be phonetically accurate, e.g:
+* **Include filler words/syllables.**
   - _um_
   - _uh_
   - _like_
 
-* **Likewise, prefer to be phonetically accurate for colloquial pronunciations rather than standard/full pronunciations.** Can be added to dictionary if not already there. Or, if unstressed words are barely pronounced (or if they were cut off because they were very low amplitude/missing), they can't be analyzed anyway.
+* **Likewise, prefer to be phonetically accurate for colloquial pronunciations rather than standard/full pronunciations.**
   - _'cause_ rather than __because__ for [kəz]
   - _'til_ rather than __until__
   - _just feels a little..._ rather than __it just feels...__
 
-* **Transcribe false starts/parts of words as is phonetically**, to ensure all phonetic detail is accounted for. **Use a hyphen to mark this (will be stripped by forced aligner later).** If full/real word, will be identified correctly in forced alignment. If not full/actual word, will be identified as unknown, which is fine. Other cases should be rare.
+* **Transcribe false starts/parts of words as is phonetically**, to ensure all phonetic detail is accounted for. **Use a hyphen to mark this (will be stripped by forced aligner later).**
     - _I- I_ when repeated start as in "I- I don't even remember..."
     - _lai- laid_
 
-* **But, if suspect artificially missing onset or offset fricative due to pre-processing (i.e., chunking procedure), transcribe full word.** This ensures that we can still use the bulk of the word as well as accurately code for phonological environment (that actually existed in reality, though it didn't make it into the clip accidentally). This assumes that we don't need to look at/analyze those fricatives.
+* **But, if suspect artificially missing onset or offset fricative due to pre-processing (i.e., chunking procedure), transcribe full word.**
     - _this_ for something like [θɪ] at the end of a clip with very abrupt cut off
 
-* **Also, if there is what seems to be a mispronunciation of a word (with the intended meaning clear based on context), transcribe as the intended word. Use an asterisk to mark this (will be stripped by forced aligner later)** This is just a guideline to be conservative in case that pronunciation is actually how they pronounce this word (e.g., part of their natural variation, due to coarticulation, etc.). If it was an error, it may come out as an outlier or be handled later manually during correction.
+* **Also, if there is what seems to be a mispronunciation of a word (with the intended meaning clear based on context), transcribe as the intended word. Use an asterisk to mark this (will be stripped by forced aligner later)**
   - _when I say* this..._ where "say" is pronounced like "see"
 
-* **Write out numerals in words, including years**
+* **Write out numerals in words, including years.**
   - _two thousand and ten_ for __2010__
 
-* **Keep proper names and acronyms as is.** Can be added to dictionary if necessary.
+* **Keep proper names and acronyms as is.**
   - _FIDM_ for [fɪdm]
   - _LA_ for [ɜleɪ]
 
@@ -64,7 +64,7 @@ _More details coming soon!_
 
 * **If there is code-switching to a different language completely, and you don't know what it is, code it as `<cs>`.**
 
-* **If a word is a code switch but identifiable (e.g., pronounced using non-English phonology), code it with a '_cs' tag (for code-switch).** If the word is a non-English word but clearly pronounced with English phonology, don't tag it as a code-switch. If unsure, tag it as a code-switch.
+* **If a word is a code switch but identifiable (e.g., pronounced using non-English phonology), code it with a '_cs' tag (for code-switch).** If the word is a non-English word (e.g. loanword) but clearly pronounced with English phonology, don't have to tag it as a code-switch. If unsure, tag it as a code-switch.
   - _kare_cs rice_cs_ for 'kare rice' pronounced with Korean phonology
   - _banchan_cs_
 
@@ -84,4 +84,4 @@ _More details coming soon!_
 
 * **If there is a clearly separate laugh, code it as `<lgh>`.**
 
-* **Otherwise, ignore loud breaths or laughs, including those overlapping with speech.** Breaths should be safely handled (i.e., ignored) by the aligner. Laughs are hard to know how to code/transcribe, and can overlap often with speech. Sometimes speech coincides with a breath (e.g., huff or sigh), which is similar to laughs. These can be dealt with on a case-by-case basis during post-alignment hand-correction.
+* **Otherwise, ignore loud breaths or laughs, including those overlapping with speech.**  These can be dealt with on a case-by-case basis during post-alignment hand-correction.
