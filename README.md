@@ -23,6 +23,12 @@ The process of the corpus creation and processing is roughly as follows:
 
 ## Coding Guidelines
 
+For music:
+1. If no music in background, *usability*=1
+2. If very quiet/slight music in background, *usability*=1 and code *speech + music*
+3. If clear/moderate to loud music in background, *usability*=0 and code *speech + music*
+4. If only music, *usability*=0 and code *music only*
+
 More details coming soon!
 
 ## Transcription Guidelines
