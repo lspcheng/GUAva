@@ -32,3 +32,19 @@ For music:
 More details coming soon!
 
 ## Transcription Guidelines
+* **Include filler words/syllables** to be phonetically accurate, e.g:
+  - _um_
+  - _uh_
+  - _like_
+
+* **Likewise, prefer to be phonetically accurate for colloquial pronunciations rather than standard/full pronunciations.** Can be added to dictionary if not already there. Or, if unstressed words are barely pronounced (or if they were cut off because they were very low amplitude/missing), they can't be analyzed anyway.
+  - _'cause_ rather than __because__ for [kəz]
+  - _'til_ rather than __until__
+  - _just feels a little..._ rather than __it just feels...__
+
+* **Transcribe false starts/parts of words as is phonetically**, to ensure all phonetic detail is accounted for. **Use a hyphen to mark this (will be stripped by forced aligner later).** If full/real word, will be identified correctly in forced alignment. If not full/actual word, will be identified as unknown, which is fine. Other cases should be rare.
+    - _I- I_ when repeated start as in "I- I don't even remember..."
+    - _lai- laid_
+
+* **But, if suspect artificially missing onset or offset fricative due to pre-processing (i.e., chunking procedure), transcribe full word.** This ensures that we can still use the bulk of the word as well as accurately code for phonological environment (that actually existed in reality, though it didn't make it into the clip accidentally). This assumes that we don't need to look at/analyze those fricatives.
+    - _this_ for something like [θɪ] at the end of a clip with very abrupt cut off
