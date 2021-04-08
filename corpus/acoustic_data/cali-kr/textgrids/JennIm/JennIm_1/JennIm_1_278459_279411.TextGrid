@@ -1,0 +1,104 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0.0
+xmax = 1.4520181405895691
+tiers? <exists>
+size = 2
+item []:
+	item [1]:
+		class = "IntervalTier"
+		name = "utterance - words"
+		xmin = 0.0
+		xmax = 1.4520181405895691
+		intervals: size = 7
+			intervals [1]:
+				xmin = 0.0
+				xmax = 0.250
+				text = ""
+			intervals [2]:
+				xmin = 0.250
+				xmax = 0.400
+				text = "i"
+			intervals [3]:
+				xmin = 0.400
+				xmax = 0.630
+				text = "just"
+			intervals [4]:
+				xmin = 0.630
+				xmax = 0.970
+				text = "said"
+			intervals [5]:
+				xmin = 0.970
+				xmax = 1.000
+				text = ""
+			intervals [6]:
+				xmin = 1.000
+				xmax = 1.180
+				text = "like"
+			intervals [7]:
+				xmin = 1.180
+				xmax = 1.4520181405895691
+				text = ""
+	item [2]:
+		class = "IntervalTier"
+		name = "utterance - phones"
+		xmin = 0.0
+		xmax = 1.4520181405895691
+		intervals: size = 14
+			intervals [1]:
+				xmin = 0.0
+				xmax = 0.250
+				text = ""
+			intervals [2]:
+				xmin = 0.250
+				xmax = 0.400
+				text = "AY1"
+			intervals [3]:
+				xmin = 0.400
+				xmax = 0.490
+				text = "JH"
+			intervals [4]:
+				xmin = 0.490
+				xmax = 0.550
+				text = "IH0"
+			intervals [5]:
+				xmin = 0.550
+				xmax = 0.600
+				text = "S"
+			intervals [6]:
+				xmin = 0.600
+				xmax = 0.630
+				text = "T"
+			intervals [7]:
+				xmin = 0.630
+				xmax = 0.710
+				text = "S"
+			intervals [8]:
+				xmin = 0.710
+				xmax = 0.880
+				text = "EH1"
+			intervals [9]:
+				xmin = 0.880
+				xmax = 0.970
+				text = "D"
+			intervals [10]:
+				xmin = 0.970
+				xmax = 1.000
+				text = "sp"
+			intervals [11]:
+				xmin = 1.000
+				xmax = 1.070
+				text = "L"
+			intervals [12]:
+				xmin = 1.070
+				xmax = 1.130
+				text = "AY1"
+			intervals [13]:
+				xmin = 1.130
+				xmax = 1.180
+				text = "K"
+			intervals [14]:
+				xmin = 1.180
+				xmax = 1.4520181405895691
+				text = ""
