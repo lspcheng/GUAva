@@ -1,0 +1,26 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 5.1000000000000005 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "utterance" 
+        xmin = 0 
+        xmax = 5.1000000000000005 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.25 
+            text = "" 
+        intervals [2]:
+            xmin = 0.25 
+            xmax = 4.8500000000000005 
+            text = "One stereotype that I absolutely struggled with growing up was the model minority stereotype" 
+        intervals [3]:
+            xmin = 4.8500000000000005 
+            xmax = 5.1000000000000005 
+            text = "" 

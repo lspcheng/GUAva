@@ -1,0 +1,26 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 10.26 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "utterance" 
+        xmin = 0 
+        xmax = 10.26 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.25 
+            text = "" 
+        intervals [2]:
+            xmin = 0.25 
+            xmax = 10.01 
+            text = "basically like rice with like veggies like different side dishes that I could eat with my rice and um I remember everyone else was eating like" 
+        intervals [3]:
+            xmin = 10.01 
+            xmax = 10.26 
+            text = "" 

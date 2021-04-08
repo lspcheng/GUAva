@@ -1,0 +1,26 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 9.196009070294785 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "utterance" 
+        xmin = 0 
+        xmax = 9.196009070294785 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.25 
+            text = "" 
+        intervals [2]:
+            xmin = 0.25 
+            xmax = 8.946009070294785 
+            text = "and middle school was when everything just kind of changed for me I feel like it was a lot of factors just hitting all when I was like 11 it was puberty" 
+        intervals [3]:
+            xmin = 8.946009070294785 
+            xmax = 9.196009070294785 
+            text = "" 

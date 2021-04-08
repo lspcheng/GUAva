@@ -1,0 +1,26 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 10.443990929705215 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "utterance" 
+        xmin = 0 
+        xmax = 10.443990929705215 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.25 
+            text = "" 
+        intervals [2]:
+            xmin = 0.25 
+            xmax = 10.193990929705215 
+            text = "I would just see the way people would treat my parents because of their accent People lose their temper people get frustrated people treat you like you're a- you're like you're an idiot when you have an accent and" 
+        intervals [3]:
+            xmin = 10.193990929705215 
+            xmax = 10.443990929705215 
+            text = "" 

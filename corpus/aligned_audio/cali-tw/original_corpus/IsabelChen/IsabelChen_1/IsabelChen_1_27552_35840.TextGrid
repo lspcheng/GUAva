@@ -1,0 +1,26 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 8.788004535147392 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "utterance" 
+        xmin = 0 
+        xmax = 8.788004535147392 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.25 
+            text = "" 
+        intervals [2]:
+            xmin = 0.25 
+            xmax = 8.538004535147392 
+            text = "was doing this in terms of Asians Pacific American Heritage Month and I was watching some videos on BuzzFeed which they also had" 
+        intervals [3]:
+            xmin = 8.538004535147392 
+            xmax = 8.788004535147392 
+            text = "" 
