@@ -5,7 +5,7 @@ The GUAva corpus is created and processed via the [LingTube](https://github.com/
 
 ## Table of Contents
 * [Corpus Details](#corpus-details)
-* [Corpus Processing Guidelines](#corpus-processing-guide)
+* [Corpus Processing Guidelines](#corpus-processing-guidelines)
 
 ## Corpus Details
 
