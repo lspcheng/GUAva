@@ -5,83 +5,109 @@ The GUAva corpus is created and processed via the [LingTube](https://github.com/
 
 ## Table of Contents
 * [Corpus Details](#corpus-details)
-* [Coding Guidelines](#coding-guidelines)
-* [Transcription Guidelines](#transcription-guidelines)
+* [Corpus Processing Guidelines](#corpus-processing-guide)
 
 ## Corpus Details
 
 The process of the corpus creation and processing is roughly as follows:
-1. Identify specific GUA video urls, listed in the [urls](./urls) directory (currently grouped in "sets" per regional and ethnic background)
+1. Identify specific video urls, listed in the [urls](./urls) directory (currently grouped in "sets" per regional and ethnic background)
 2. For each video, download the audio and English subtitles using `yt-tools/scrape-videos.py` into [raw_audio](./corpus/raw_audio) and [raw_subtitles](./corpus/raw_subtitles)
-3. (optional) Correct and/or annotate raw subtitles files (especially auto-subs) with the help of `yt-tools/correct-subtitles.py`
-4. Run conversion scripts to prepare audio (`youspeak/convert-audio.py`) and subtitles (`youspeak/convert-subtitles.py`) to formats amenable to processing
+3. (optional) Correct raw subtitles files (especially auto-subs) with the help of `yt-tools/correct-captions.py`
+4. Run conversion scripts to prepare audio (`youspeak/convert-audio.py`) and subtitles (`youspeak/clean-subtitles.py`) to formats amenable to processing
 5. Chunk the long audio files into short (<10 sec) segments based on pauses/breath breaks using `youspeak/chunk-audio.py`—a necessary and/or useful step for transcription and forced alignment
-6. Code each clip as usable or not (i.e., clear speech without noise, music, etc.) and confirm transcriptions for each segment of speech using `youspeak/classify-chunks.py`, which opens a GUI
+6. Classify each clip as usable or not (i.e., clear speech without noise, music, etc.) and confirm transcriptions for each segment of speech using `youspeak/validate-chunks.py`, which opens a GUI
 7. Match transcriptions to audio in TextGrid format with `youspeak/create-textgrids.py`
-8. Conduct forced alignment using the Montreal Forced aligner, and do manual correction of alignment boundaries
+8. Conduct forced alignment using the Montreal Forced aligner, then do manual correction of alignment boundaries (with the help of `adjust-textgrids.py`)
+
+## Corpus Processing Guidelines
+* [Transcript Correction Guidelines](#transcript-correction-guidelines)
+* [Chunk Classification Guidelines](#chunk-classification-guidelines)
+* [Phonetic Coding Guidelines](#phonetic-coding-guidelines)
+* [Acoustic Segmentation Guidelines](#acoustic-segmentation-guidelines)
+
+### Transcript Correction Guidelines
+
+Listen once through—don’t spend too much time on this stage.
+
+#### Basics:
+* Fix incorrectly transcribed words.
+* Add or keep punctuation at the end of sentence/utterance boundaries (i.e., periods, question marks, etc.)
+  * Don’t worry about commas, but don’t remove if it’s there.
+* If there is a mispronunciation (with the intended meaning clear based on context), transcribe as the intended word and add an asterisk (*). If in doubt, transcribe as it sounds.
+  * e.g., _when I say* this..._ where "say" is pronounced like "see"
+* If false start or single incomplete word, add a hyphen (-).
+  * e.g., "I- I don't even remember..."
+  * e.g., "I mean li- like I don't know"
+* If incomplete sentence/phrase (fragment), add hyphen-period (-.)
+  * e.g., "So I mean-. I mean I was born in California, more specifically the Bay Area.""
+  * e.g., "I don't even li-. I don't like these okay?"
+* Remove anything not actually said (e.g., joke subs, sound effects, commentary).
+
+#### Details:
+* Add or keep filler words (e.g., like, um, uh).
+* For colloquial pronunciations, replace standard/full forms with phonetically-accurate versions (i.e., represent how things are actually pronounced!).
+  * e.g., _'cause_ for "_because_" or _'til_ for "_until_"
+  * e.g., _just feels a little..._ for "_it just feels at little..._"
+  * e.g., _wanna_ for "_want to_" or _dunno_ for "_don't know_"
+* For acronyms, capitalize all letters; don’t add periods (e.g., AM, PM, LA, FIDM).
+  * Otherwise, don’t worry about capitalization (i.e., don’t change whatever’s there).
+
+#### Other:
+* For unidentifiable words, replace with `<unk>` (for unknown).
+* For words/utterances in another language, if you can’t identify the words, replace with `<cs>` (for code switch).
+  * Can transcribe non-English words (e.g., in that language or romanization) but not necessary and don’t spend extra time on this.
+* For laughs separate from speech (i.e. not laughing while speaking), add in `<lgh>` (for laugh).
 
 
-## Coding Guidelines
+### Chunk Classification Guidelines
 
-For music:
+#### Music:
 1. If no music in background, *usability*=1
-2. If very quiet/slight music in background, *usability*=1 and code *speech + music*
-3. If clear/moderate to loud music in background, *usability*=0 and code *speech + music*
-4. If only music, *usability*=0 and code *music only*
+2. If very quiet/slight music in background, *usability*=1 and *speech + music*=1
+3. If clear/moderate to loud music in background, *usability*=0 and *speech + music*=1
+4. If only music, *usability*=0 and *music only*=1
+
+#### Noise:
+1. If no background noise, *usability*=1
+2. If slight noisiness, *usability*=1 and *speech + noise*=1
+3. If clear/moderate to loud noise in background (e.g., traffic, fan, etc.),  *usability*=0 and *speech + noise*=1
+4. If only noise and no speech (incl. loud breath only), *usability*=0 and *noise only*=1
 
 _More details coming soon!_
 
-## Transcription Guidelines
-* **Include filler words/syllables.**
-  - _um_
-  - _uh_
-  - _like_
+### Phonetic Coding Guidelines
 
-* **Likewise, prefer to be phonetically accurate for colloquial pronunciations rather than standard/full pronunciations.**
-  - _'cause_ rather than __because__ for [kəz]
-  - _'til_ rather than __until__
-  - _just feels a little..._ rather than __it just feels...__
+#### Basics
+* Keep and/or add any missing filler words.
+  - e.g., _um_, _uh_, _like_
+* Keep proper names and acronyms as is.
+  - e.g., _FIDM_ for [fɪdm]; _LA_ for [ɜleɪ]
+* Write out numerals in words, including years.
+  - e.g., _twenty ten_ for __2010__
+* If there is a clearly separate laugh, should be marked as `<lgh>`.
+* Otherwise, can ignore loud breaths or laughs, including those overlapping with speech.
 
-* **Transcribe false starts/parts of words as is phonetically**, to ensure all phonetic detail is accounted for. **Use a hyphen to mark this (will be stripped by forced aligner later).**
-    - _I- I_ when repeated start as in "I- I don't even remember..."
-    - _lai- laid_
+#### Code-switching
+* If there is code-switching completely to a different language and words are not identifiable, should be marked as `<cs>`.
+* If a word is identifiable but a code-switch (e.g., pronounced using non-English phonology), mark it with a `_cs` tag (for code-switch).
+  * If you know the language/word, can transcribe non-English words (in orthography or romanization). It may also be in manual captions already.
+    - e.g., _kare_cs rice_cs_ for 'kare rice' pronounced with Korean phonology
+* If the word is a non-English word (e.g. loanword) but clearly pronounced with English phonology, don't tag it.
+  * If unsure, be conservative and tag it as a code-switch.
 
-* **But, if suspect artificially missing onset or offset fricative due to pre-processing (i.e., chunking procedure), transcribe full word.**
-    - _this_ for something like [θɪ] at the end of a clip with very abrupt cut off
-
-* **Also, if there is what seems to be a mispronunciation of a word (with the intended meaning clear based on context), transcribe as the intended word. Use an asterisk to mark this (will be stripped by forced aligner later)**
-  - _when I say* this..._ where "say" is pronounced like "see"
-
-* **Write out numerals in words, including years.**
-  - _two thousand and ten_ for __2010__
-
-* **Keep proper names and acronyms as is.**
-  - _FIDM_ for [fɪdm]
-  - _LA_ for [ɜleɪ]
-
-* **If you can make it out, include romanization of non-English words.** See next couple of points on code-switching.
-  - _banchan_ for Korean side dishes
-
-* **If there is code-switching to a different language completely, and you don't know what it is, code it as `<cs>`.**
-
-* **If a word is a code switch but identifiable (e.g., pronounced using non-English phonology), code it with a '_cs' tag (for code-switch).** If the word is a non-English word (e.g. loanword) but clearly pronounced with English phonology, don't have to tag it as a code-switch. If unsure, tag it as a code-switch.
-  - _kare_cs rice_cs_ for 'kare rice' pronounced with Korean phonology
-  - _banchan_cs_
-
-* **If you can't make out a word, code it as `<unk>`.** If you can't confirm whether the auto-transcription was correct or there wasn't anything there, this is what to do.
-
-* **If, out of an otherwise good audio chunk, there is an individual word or two that cannot be used, mark it with a '_unc' tag (for unclear).** This could be if a word is masked by a noise, overlapping with a sound effect or has some other issue that prevents it from being clear. If unsure which word was affected, be conservative and tag more.
-  - _kare_unc_ for 'kare rice' overlapped with a 'pop' sound effect
-  - _and_unc it's_unc_ for 'and it's' with a pop but not sure exactly when
-  - _Amy_unc and_unc_ for 'Amy and' with cheering noises
-
-* **If a phrase or word is not produced naturally, such as imitating somebody else or doing some sort of skit, code it with a '_unn' (for unnatural).**
-  - _Jennifer_unn packed_unn..._ during an imitation
+#### Unclear, Unnatural or Other Speech
+* If you can't make out a word, should be marked as `<unk>`.
+* If, out of an otherwise good audio chunk, there is an individual word or two that cannot be used, mark it with a `_unc` tag (for unclear).
+  * This could be if a word is masked by a noise, overlapping with a sound effect or has some other issue that prevents it from being clear. If unsure which word was affected, be conservative and tag more.
+    - e.g., _kare_unc_ for 'kare rice' overlapped with a 'pop' sound effect
+    - e.g., _and_unc it's_unc_ for 'and it's' with a pop but not sure exactly when
+    - e.g., _Amy_unc and_unc_ for 'Amy and' with cheering noises
+* If a phrase or word is not produced naturally, such as imitating somebody else or doing some sort of skit, mark it with a `_unn` (for unnatural).
+  - e.g., _Jennifer_unn packed_unn..._ during an imitation
+* If some speech is altered (e.g., pitch raising, sped up) or includes other voices (e.g., someone else speaking), also mark it with `_unn`.
+* If there are multiple issues, that require tags, tag them all.
+  - e.g., _kare_cs_unc_ is a code-switch overlapped with a 'pop' sound
 
 
-* **If there are multiple issues, that require tags, code them all.**
-  - _kare_cs_unc_
-
-* **If there is a clearly separate laugh, code it as `<lgh>`.**
-
-* **Otherwise, ignore loud breaths or laughs, including those overlapping with speech.**  These can be dealt with on a case-by-case basis during post-alignment hand-correction.
+### Acoustic Segmentation Guidelines
+_More details coming soon!_
