@@ -56,7 +56,8 @@ Listen once through—don’t spend too much time on this stage.
 * For unidentifiable words, replace with `<unk>` (for unknown).
 * For words/utterances in another language, if you can’t identify the words, replace with `<cs>` (for code switch).
   * Can transcribe non-English words (e.g., in that language or romanization) but not necessary and don’t spend extra time on this.
-* For laughs separate from speech (i.e. not laughing while speaking), add in `<lgh>` (for laugh).
+* For laughs not overlapping with speech, add in `<lgh>` (for laugh).
+* For any sound effects not overlapping with speech (e.g., transition ring, bell, noise, etc.), add in `<sfx>` (for sound effect).
 
 
 ### Chunk Classification Guidelines
