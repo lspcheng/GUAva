@@ -1,0 +1,26 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 7.291995464852608 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "utterance" 
+        xmin = 0 
+        xmax = 7.291995464852608 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.25 
+            text = "" 
+        intervals [2]:
+            xmin = 0.25 
+            xmax = 7.041995464852608 
+            text = "seventies and eighties music so like with f- fifties I like Doris Day and Bobby Vinton when it comes to seventies and eighties music I like" 
+        intervals [3]:
+            xmin = 7.041995464852608 
+            xmax = 7.291995464852608 
+            text = "" 

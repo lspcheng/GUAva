@@ -1,0 +1,26 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 8.94 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "utterance" 
+        xmin = 0 
+        xmax = 8.94 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.25 
+            text = "" 
+        intervals [2]:
+            xmin = 0.25 
+            xmax = 8.69 
+            text = "but_unc now I I pretty much keep them up on my own every now and then I will get them waxed just like really get a nice cleaning but for the most part I use those little like" 
+        intervals [3]:
+            xmin = 8.69 
+            xmax = 8.94 
+            text = "" 

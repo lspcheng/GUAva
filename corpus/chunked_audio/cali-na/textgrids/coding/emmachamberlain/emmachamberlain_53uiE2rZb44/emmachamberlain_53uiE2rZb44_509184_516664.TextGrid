@@ -1,0 +1,26 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 7.98 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "utterance" 
+        xmin = 0 
+        xmax = 7.98 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.25 
+            text = "" 
+        intervals [2]:
+            xmin = 0.25 
+            xmax = 7.73 
+            text = "swimming in the ocean at like two a m Or something okay That's actually a good  one that would be really fun something like that that would be like really memorable and like special" 
+        intervals [3]:
+            xmin = 7.73 
+            xmax = 7.98 
+            text = "" 

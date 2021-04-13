@@ -1,0 +1,26 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 7.611995464852608 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "utterance" 
+        xmin = 0 
+        xmax = 7.611995464852608 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.25 
+            text = "" 
+        intervals [2]:
+            xmin = 0.25 
+            xmax = 7.361995464852608 
+            text = "I love forever twenty one like I said I really really love that but I also love um I love Hobby Lobby oh my gosh I love Hobby Lobby" 
+        intervals [3]:
+            xmin = 7.361995464852608 
+            xmax = 7.611995464852608 
+            text = "" 

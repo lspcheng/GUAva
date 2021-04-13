@@ -1,0 +1,26 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 7.764263038548753 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "utterance" 
+        xmin = 0 
+        xmax = 7.764263038548753 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.25 
+            text = "" 
+        intervals [2]:
+            xmin = 0.25 
+            xmax = 7.514263038548753 
+            text = "threading so I got I went to like one of those little threading places and got the shape and they I feel like the threading places like shape them really well I don't I couldn't tell you the name of" 
+        intervals [3]:
+            xmin = 7.514263038548753 
+            xmax = 7.764263038548753 
+            text = "" 

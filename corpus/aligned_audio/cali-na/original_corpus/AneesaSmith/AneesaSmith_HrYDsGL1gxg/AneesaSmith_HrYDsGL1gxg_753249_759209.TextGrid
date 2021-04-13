@@ -1,0 +1,26 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 6.46 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "utterance" 
+        xmin = 0 
+        xmax = 6.46 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.25 
+            text = "" 
+        intervals [2]:
+            xmin = 0.25 
+            xmax = 6.21 
+            text = "do I have this do I have this do I have enough lashes do I have enough mascara do I have enough you know like you just always are trying to like go over everything in your head" 
+        intervals [3]:
+            xmin = 6.21 
+            xmax = 6.46 
+            text = "" 

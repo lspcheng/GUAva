@@ -1,0 +1,26 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 9.58 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "utterance" 
+        xmin = 0 
+        xmax = 9.58 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.25 
+            text = "" 
+        intervals [2]:
+            xmin = 0.25 
+            xmax = 9.33 
+            text = "definitely subject you were best at Honestly like depends because like I don't think I'm very like it depends on like if you mean like which one do I personally think I strive at or like which one" 
+        intervals [3]:
+            xmin = 9.33 
+            xmax = 9.58 
+            text = "" 

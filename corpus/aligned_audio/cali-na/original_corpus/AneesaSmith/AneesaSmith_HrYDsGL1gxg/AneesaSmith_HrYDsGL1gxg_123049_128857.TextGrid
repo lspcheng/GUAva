@@ -1,0 +1,26 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 6.308004535147393 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "utterance" 
+        xmin = 0 
+        xmax = 6.308004535147393 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.25 
+            text = "" 
+        intervals [2]:
+            xmin = 0.25 
+            xmax = 6.058004535147393 
+            text = "um it's from Ulta at $17 it's in a little tiny little pink bottle um I use that overnight if I ever have any like" 
+        intervals [3]:
+            xmin = 6.058004535147393 
+            xmax = 6.308004535147393 
+            text = "" 

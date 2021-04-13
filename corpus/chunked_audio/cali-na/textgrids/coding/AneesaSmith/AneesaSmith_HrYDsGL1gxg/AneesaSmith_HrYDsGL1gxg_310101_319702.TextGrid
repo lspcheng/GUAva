@@ -1,0 +1,26 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 10.100997732426304 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "utterance" 
+        xmin = 0 
+        xmax = 10.100997732426304 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.25 
+            text = "" 
+        intervals [2]:
+            xmin = 0.25 
+            xmax = 9.850997732426304 
+            text = "because most the time like if they have like dry skin I like to prep the skin I always start with eye makeup so no matter who I'm working on I always do their eyes first because I like to avoid" 
+        intervals [3]:
+            xmin = 9.850997732426304 
+            xmax = 10.100997732426304 
+            text = "" 

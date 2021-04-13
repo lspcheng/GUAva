@@ -1,0 +1,26 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 8.38 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "utterance" 
+        xmin = 0 
+        xmax = 8.38 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.25 
+            text = "" 
+        intervals [2]:
+            xmin = 0.25 
+            xmax = 8.13 
+            text = "women parts of life li- life like shopping and like stuff like that So it kind of depends which one of your parents are you closest to this is also kind of like" 
+        intervals [3]:
+            xmin = 8.13 
+            xmax = 8.38 
+            text = "" 

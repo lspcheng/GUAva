@@ -1,0 +1,108 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0.0
+xmax = 1.1239909297052155
+tiers? <exists>
+size = 2
+item []:
+	item [1]:
+		class = "IntervalTier"
+		name = "utterance - words"
+		xmin = 0.0
+		xmax = 1.1239909297052155
+		intervals: size = 8
+			intervals [1]:
+				xmin = 0.0
+				xmax = 0.250
+				text = ""
+			intervals [2]:
+				xmin = 0.250
+				xmax = 0.290
+				text = "oh"
+			intervals [3]:
+				xmin = 0.290
+				xmax = 0.370
+				text = "my"
+			intervals [4]:
+				xmin = 0.370
+				xmax = 0.520
+				text = "god"
+			intervals [5]:
+				xmin = 0.520
+				xmax = 0.580
+				text = "my"
+			intervals [6]:
+				xmin = 0.580
+				xmax = 0.620
+				text = ""
+			intervals [7]:
+				xmin = 0.620
+				xmax = 0.850
+				text = "lash"
+			intervals [8]:
+				xmin = 0.850
+				xmax = 1.1239909297052155
+				text = ""
+	item [2]:
+		class = "IntervalTier"
+		name = "utterance - phones"
+		xmin = 0.0
+		xmax = 1.1239909297052155
+		intervals: size = 14
+			intervals [1]:
+				xmin = 0.0
+				xmax = 0.250
+				text = ""
+			intervals [2]:
+				xmin = 0.250
+				xmax = 0.290
+				text = "OW1"
+			intervals [3]:
+				xmin = 0.290
+				xmax = 0.340
+				text = "M"
+			intervals [4]:
+				xmin = 0.340
+				xmax = 0.370
+				text = "AY1"
+			intervals [5]:
+				xmin = 0.370
+				xmax = 0.450
+				text = "G"
+			intervals [6]:
+				xmin = 0.450
+				xmax = 0.480
+				text = "AA1"
+			intervals [7]:
+				xmin = 0.480
+				xmax = 0.520
+				text = "D"
+			intervals [8]:
+				xmin = 0.520
+				xmax = 0.550
+				text = "M"
+			intervals [9]:
+				xmin = 0.550
+				xmax = 0.580
+				text = "AY1"
+			intervals [10]:
+				xmin = 0.580
+				xmax = 0.620
+				text = "sp"
+			intervals [11]:
+				xmin = 0.620
+				xmax = 0.650
+				text = "L"
+			intervals [12]:
+				xmin = 0.650
+				xmax = 0.760
+				text = "AE1"
+			intervals [13]:
+				xmin = 0.760
+				xmax = 0.850
+				text = "SH"
+			intervals [14]:
+				xmin = 0.850
+				xmax = 1.1239909297052155
+				text = ""

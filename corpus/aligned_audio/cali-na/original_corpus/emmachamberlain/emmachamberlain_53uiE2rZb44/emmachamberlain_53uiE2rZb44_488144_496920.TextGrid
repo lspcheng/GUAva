@@ -1,0 +1,26 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 9.276009070294785 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "utterance" 
+        xmin = 0 
+        xmax = 9.276009070294785 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.25 
+            text = "" 
+        intervals [2]:
+            xmin = 0.25 
+            xmax = 9.026009070294785 
+            text = "cause that's just like really boring to me like just so like awkward well with a movie It's just awkward because you can't talk and it's just weird and then if you like went to dinner You're like Forced like" 
+        intervals [3]:
+            xmin = 9.026009070294785 
+            xmax = 9.276009070294785 
+            text = "" 

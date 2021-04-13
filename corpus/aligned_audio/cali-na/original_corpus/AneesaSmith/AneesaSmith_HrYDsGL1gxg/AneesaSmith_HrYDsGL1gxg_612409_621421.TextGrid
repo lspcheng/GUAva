@@ -1,0 +1,26 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 9.511995464852609 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "utterance" 
+        xmin = 0 
+        xmax = 9.511995464852609 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.25 
+            text = "" 
+        intervals [2]:
+            xmin = 0.25 
+            xmax = 9.261995464852609 
+            text = "sorry there was like_lgh something_lgh floating_lgh right here but I would say use the clients products use the stuff that they have so then they- that way they can learn to use like what they have so they don't have" 
+        intervals [3]:
+            xmin = 9.261995464852609 
+            xmax = 9.511995464852609 
+            text = "" 
