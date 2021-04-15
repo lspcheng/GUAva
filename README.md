@@ -25,6 +25,8 @@ The process of the corpus creation and processing is roughly as follows:
 * [Phonetic Coding Guidelines](#phonetic-coding-guidelines)
 * [Acoustic Segmentation Guidelines](#acoustic-segmentation-guidelines)
 
+---
+
 ### Transcript Correction Guidelines
 
 Listen once through—don’t spend too much time on this stage.
@@ -59,6 +61,7 @@ Listen once through—don’t spend too much time on this stage.
 * For laughs not overlapping with speech, add in `<lgh>` (for laugh).
 * For any sound effects not overlapping with speech (e.g., transition ring, bell, noise, etc.), add in `<sfx>` (for sound effect).
 
+---
 
 ### Chunk Classification Guidelines
 
@@ -75,6 +78,8 @@ Listen once through—don’t spend too much time on this stage.
 4. If only noise and no speech (incl. loud breath only), *usability*=0 and *noise only*=1
 
 _More details coming soon!_
+
+---
 
 ### Phonetic Coding Guidelines
 
@@ -109,6 +114,7 @@ _More details coming soon!_
 * If there are multiple issues, that require tags, tag them all.
   - e.g., _kare_cs_unc_ is a code-switch overlapped with a 'pop' sound
 
+---
 
 ### Acoustic Segmentation Guidelines
 _More details coming soon!_
