@@ -1,0 +1,1014 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 473.2691156462585 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "silences" 
+        xmin = 0 
+        xmax = 473.2691156462585 
+        intervals: size = 250 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.129 
+            text = "speech" 
+        intervals [2]:
+            xmin = 0.129 
+            xmax = 9.073 
+            text = "speech" 
+        intervals [3]:
+            xmin = 9.073 
+            xmax = 9.377 
+            text = "silence" 
+        intervals [4]:
+            xmin = 9.377 
+            xmax = 18.402 
+            text = "speech" 
+        intervals [5]:
+            xmin = 18.402 
+            xmax = 18.402557823129246 
+            text = "silence" 
+        intervals [6]:
+            xmin = 18.402557823129246 
+            xmax = 18.818 
+            text = "silence" 
+        intervals [7]:
+            xmin = 18.818 
+            xmax = 18.818557823129243 
+            text = "speech" 
+        intervals [8]:
+            xmin = 18.818557823129243 
+            xmax = 28.41 
+            text = "speech" 
+        intervals [9]:
+            xmin = 28.41 
+            xmax = 28.410557823129245 
+            text = "silence" 
+        intervals [10]:
+            xmin = 28.410557823129245 
+            xmax = 28.802 
+            text = "silence" 
+        intervals [11]:
+            xmin = 28.802 
+            xmax = 28.802557823129245 
+            text = "speech" 
+        intervals [12]:
+            xmin = 28.802557823129245 
+            xmax = 36.242 
+            text = "speech" 
+        intervals [13]:
+            xmin = 36.242 
+            xmax = 36.24255782312924 
+            text = "silence" 
+        intervals [14]:
+            xmin = 36.24255782312924 
+            xmax = 36.538 
+            text = "silence" 
+        intervals [15]:
+            xmin = 36.538 
+            xmax = 36.53855782312924 
+            text = "speech" 
+        intervals [16]:
+            xmin = 36.53855782312924 
+            xmax = 45.186 
+            text = "speech" 
+        intervals [17]:
+            xmin = 45.186 
+            xmax = 45.394 
+            text = "silence" 
+        intervals [18]:
+            xmin = 45.394 
+            xmax = 49.33 
+            text = "speech" 
+        intervals [19]:
+            xmin = 49.33 
+            xmax = 49.434 
+            text = "silence" 
+        intervals [20]:
+            xmin = 49.434 
+            xmax = 54.37 
+            text = "speech" 
+        intervals [21]:
+            xmin = 54.37 
+            xmax = 54.37055782312924 
+            text = "silence" 
+        intervals [22]:
+            xmin = 54.37055782312924 
+            xmax = 54.794 
+            text = "silence" 
+        intervals [23]:
+            xmin = 54.794 
+            xmax = 54.79455782312924 
+            text = "speech" 
+        intervals [24]:
+            xmin = 54.79455782312924 
+            xmax = 58.374 
+            text = "speech" 
+        intervals [25]:
+            xmin = 58.374 
+            xmax = 58.478 
+            text = "silence" 
+        intervals [26]:
+            xmin = 58.478 
+            xmax = 65.038 
+            text = "speech" 
+        intervals [27]:
+            xmin = 65.038 
+            xmax = 65.438 
+            text = "silence" 
+        intervals [28]:
+            xmin = 65.438 
+            xmax = 68.614 
+            text = "speech" 
+        intervals [29]:
+            xmin = 68.614 
+            xmax = 68.75 
+            text = "silence" 
+        intervals [30]:
+            xmin = 68.75 
+            xmax = 69.738 
+            text = "speech" 
+        intervals [31]:
+            xmin = 69.738 
+            xmax = 69.73855782312926 
+            text = "silence" 
+        intervals [32]:
+            xmin = 69.73855782312926 
+            xmax = 70.106 
+            text = "silence" 
+        intervals [33]:
+            xmin = 70.106 
+            xmax = 70.10655782312925 
+            text = "speech" 
+        intervals [34]:
+            xmin = 70.10655782312925 
+            xmax = 74.994 
+            text = "speech" 
+        intervals [35]:
+            xmin = 74.994 
+            xmax = 75.322 
+            text = "silence" 
+        intervals [36]:
+            xmin = 75.322 
+            xmax = 80.506 
+            text = "speech" 
+        intervals [37]:
+            xmin = 80.506 
+            xmax = 80.65 
+            text = "silence" 
+        intervals [38]:
+            xmin = 80.65 
+            xmax = 82.546 
+            text = "speech" 
+        intervals [39]:
+            xmin = 82.546 
+            xmax = 82.54655782312925 
+            text = "silence" 
+        intervals [40]:
+            xmin = 82.54655782312925 
+            xmax = 83.042 
+            text = "silence" 
+        intervals [41]:
+            xmin = 83.042 
+            xmax = 83.04255782312924 
+            text = "speech" 
+        intervals [42]:
+            xmin = 83.04255782312924 
+            xmax = 87.726 
+            text = "speech" 
+        intervals [43]:
+            xmin = 87.726 
+            xmax = 87.894 
+            text = "silence" 
+        intervals [44]:
+            xmin = 87.894 
+            xmax = 95.166 
+            text = "speech" 
+        intervals [45]:
+            xmin = 95.166 
+            xmax = 95.566 
+            text = "silence" 
+        intervals [46]:
+            xmin = 95.566 
+            xmax = 99.006 
+            text = "speech" 
+        intervals [47]:
+            xmin = 99.006 
+            xmax = 99.47 
+            text = "silence" 
+        intervals [48]:
+            xmin = 99.47 
+            xmax = 104.746 
+            text = "speech" 
+        intervals [49]:
+            xmin = 104.746 
+            xmax = 104.74655782312925 
+            text = "silence" 
+        intervals [50]:
+            xmin = 104.74655782312925 
+            xmax = 105.282 
+            text = "silence" 
+        intervals [51]:
+            xmin = 105.282 
+            xmax = 105.28255782312925 
+            text = "speech" 
+        intervals [52]:
+            xmin = 105.28255782312925 
+            xmax = 108.004 
+            text = "speech" 
+        intervals [53]:
+            xmin = 108.004 
+            xmax = 108.172 
+            text = "silence" 
+        intervals [54]:
+            xmin = 108.172 
+            xmax = 118.022 
+            text = "speech" 
+        intervals [55]:
+            xmin = 118.022 
+            xmax = 118.142 
+            text = "silence" 
+        intervals [56]:
+            xmin = 118.142 
+            xmax = 127.694 
+            text = "speech" 
+        intervals [57]:
+            xmin = 127.694 
+            xmax = 127.822 
+            text = "silence" 
+        intervals [58]:
+            xmin = 127.822 
+            xmax = 132.218 
+            text = "speech" 
+        intervals [59]:
+            xmin = 132.218 
+            xmax = 132.21855782312923 
+            text = "silence" 
+        intervals [60]:
+            xmin = 132.21855782312923 
+            xmax = 132.482 
+            text = "silence" 
+        intervals [61]:
+            xmin = 132.482 
+            xmax = 132.48255782312924 
+            text = "speech" 
+        intervals [62]:
+            xmin = 132.48255782312924 
+            xmax = 140.122 
+            text = "speech" 
+        intervals [63]:
+            xmin = 140.122 
+            xmax = 140.12255782312923 
+            text = "silence" 
+        intervals [64]:
+            xmin = 140.12255782312923 
+            xmax = 140.45 
+            text = "silence" 
+        intervals [65]:
+            xmin = 140.45 
+            xmax = 140.45055782312923 
+            text = "speech" 
+        intervals [66]:
+            xmin = 140.45055782312923 
+            xmax = 145.034 
+            text = "speech" 
+        intervals [67]:
+            xmin = 145.034 
+            xmax = 145.03455782312923 
+            text = "silence" 
+        intervals [68]:
+            xmin = 145.03455782312923 
+            xmax = 145.306 
+            text = "silence" 
+        intervals [69]:
+            xmin = 145.306 
+            xmax = 145.30655782312922 
+            text = "speech" 
+        intervals [70]:
+            xmin = 145.30655782312922 
+            xmax = 152.828 
+            text = "speech" 
+        intervals [71]:
+            xmin = 152.828 
+            xmax = 153.22 
+            text = "silence" 
+        intervals [72]:
+            xmin = 153.22 
+            xmax = 155.748 
+            text = "speech" 
+        intervals [73]:
+            xmin = 155.748 
+            xmax = 156.238 
+            text = "silence" 
+        intervals [74]:
+            xmin = 156.238 
+            xmax = 164.6 
+            text = "speech" 
+        intervals [75]:
+            xmin = 164.6 
+            xmax = 164.768 
+            text = "silence" 
+        intervals [76]:
+            xmin = 164.768 
+            xmax = 167.418 
+            text = "speech" 
+        intervals [77]:
+            xmin = 167.418 
+            xmax = 167.41855782312925 
+            text = "silence" 
+        intervals [78]:
+            xmin = 167.41855782312925 
+            xmax = 167.874 
+            text = "silence" 
+        intervals [79]:
+            xmin = 167.874 
+            xmax = 167.87455782312924 
+            text = "speech" 
+        intervals [80]:
+            xmin = 167.87455782312924 
+            xmax = 177.226 
+            text = "speech" 
+        intervals [81]:
+            xmin = 177.226 
+            xmax = 177.402 
+            text = "silence" 
+        intervals [82]:
+            xmin = 177.402 
+            xmax = 184.422 
+            text = "speech" 
+        intervals [83]:
+            xmin = 184.422 
+            xmax = 184.622 
+            text = "silence" 
+        intervals [84]:
+            xmin = 184.622 
+            xmax = 188.254 
+            text = "speech" 
+        intervals [85]:
+            xmin = 188.254 
+            xmax = 188.43 
+            text = "silence" 
+        intervals [86]:
+            xmin = 188.43 
+            xmax = 188.682 
+            text = "speech" 
+        intervals [87]:
+            xmin = 188.682 
+            xmax = 188.794 
+            text = "silence" 
+        intervals [88]:
+            xmin = 188.794 
+            xmax = 196.594 
+            text = "speech" 
+        intervals [89]:
+            xmin = 196.594 
+            xmax = 196.59455782312924 
+            text = "silence" 
+        intervals [90]:
+            xmin = 196.59455782312924 
+            xmax = 196.994 
+            text = "silence" 
+        intervals [91]:
+            xmin = 196.994 
+            xmax = 196.99455782312924 
+            text = "speech" 
+        intervals [92]:
+            xmin = 196.99455782312924 
+            xmax = 205.506 
+            text = "speech" 
+        intervals [93]:
+            xmin = 205.506 
+            xmax = 205.61 
+            text = "silence" 
+        intervals [94]:
+            xmin = 205.61 
+            xmax = 208.754 
+            text = "speech" 
+        intervals [95]:
+            xmin = 208.754 
+            xmax = 208.75455782312923 
+            text = "silence" 
+        intervals [96]:
+            xmin = 208.75455782312923 
+            xmax = 209.522 
+            text = "silence" 
+        intervals [97]:
+            xmin = 209.522 
+            xmax = 209.52255782312923 
+            text = "speech" 
+        intervals [98]:
+            xmin = 209.52255782312923 
+            xmax = 210.018 
+            text = "speech" 
+        intervals [99]:
+            xmin = 210.018 
+            xmax = 210.194 
+            text = "silence" 
+        intervals [100]:
+            xmin = 210.194 
+            xmax = 215.77 
+            text = "speech" 
+        intervals [101]:
+            xmin = 215.77 
+            xmax = 216.218 
+            text = "silence" 
+        intervals [102]:
+            xmin = 216.218 
+            xmax = 225.082 
+            text = "speech" 
+        intervals [103]:
+            xmin = 225.082 
+            xmax = 225.21 
+            text = "silence" 
+        intervals [104]:
+            xmin = 225.21 
+            xmax = 228.682 
+            text = "speech" 
+        intervals [105]:
+            xmin = 228.682 
+            xmax = 228.866 
+            text = "silence" 
+        intervals [106]:
+            xmin = 228.866 
+            xmax = 230.866 
+            text = "speech" 
+        intervals [107]:
+            xmin = 230.866 
+            xmax = 231.442 
+            text = "silence" 
+        intervals [108]:
+            xmin = 231.442 
+            xmax = 241.058 
+            text = "speech" 
+        intervals [109]:
+            xmin = 241.058 
+            xmax = 241.21 
+            text = "silence" 
+        intervals [110]:
+            xmin = 241.21 
+            xmax = 241.57 
+            text = "speech" 
+        intervals [111]:
+            xmin = 241.57 
+            xmax = 242.002 
+            text = "silence" 
+        intervals [112]:
+            xmin = 242.002 
+            xmax = 250.258 
+            text = "speech" 
+        intervals [113]:
+            xmin = 250.258 
+            xmax = 250.482 
+            text = "silence" 
+        intervals [114]:
+            xmin = 250.482 
+            xmax = 251.322 
+            text = "speech" 
+        intervals [115]:
+            xmin = 251.322 
+            xmax = 251.522 
+            text = "silence" 
+        intervals [116]:
+            xmin = 251.522 
+            xmax = 252.37 
+            text = "speech" 
+        intervals [117]:
+            xmin = 252.37 
+            xmax = 252.626 
+            text = "silence" 
+        intervals [118]:
+            xmin = 252.626 
+            xmax = 254.434 
+            text = "speech" 
+        intervals [119]:
+            xmin = 254.434 
+            xmax = 254.802 
+            text = "silence" 
+        intervals [120]:
+            xmin = 254.802 
+            xmax = 257.77 
+            text = "speech" 
+        intervals [121]:
+            xmin = 257.77 
+            xmax = 258.05 
+            text = "silence" 
+        intervals [122]:
+            xmin = 258.05 
+            xmax = 259.258 
+            text = "speech" 
+        intervals [123]:
+            xmin = 259.258 
+            xmax = 259.602 
+            text = "silence" 
+        intervals [124]:
+            xmin = 259.602 
+            xmax = 259.842 
+            text = "speech" 
+        intervals [125]:
+            xmin = 259.842 
+            xmax = 259.84255782312925 
+            text = "silence" 
+        intervals [126]:
+            xmin = 259.84255782312925 
+            xmax = 260.426 
+            text = "silence" 
+        intervals [127]:
+            xmin = 260.426 
+            xmax = 260.42655782312926 
+            text = "speech" 
+        intervals [128]:
+            xmin = 260.42655782312926 
+            xmax = 268.188 
+            text = "speech" 
+        intervals [129]:
+            xmin = 268.188 
+            xmax = 268.348 
+            text = "silence" 
+        intervals [130]:
+            xmin = 268.348 
+            xmax = 271.926 
+            text = "speech" 
+        intervals [131]:
+            xmin = 271.926 
+            xmax = 272.03 
+            text = "silence" 
+        intervals [132]:
+            xmin = 272.03 
+            xmax = 277.255 
+            text = "speech" 
+        intervals [133]:
+            xmin = 277.255 
+            xmax = 277.511 
+            text = "silence" 
+        intervals [134]:
+            xmin = 277.511 
+            xmax = 280.263 
+            text = "speech" 
+        intervals [135]:
+            xmin = 280.263 
+            xmax = 280.519 
+            text = "silence" 
+        intervals [136]:
+            xmin = 280.519 
+            xmax = 283.056 
+            text = "speech" 
+        intervals [137]:
+            xmin = 283.056 
+            xmax = 283.376 
+            text = "silence" 
+        intervals [138]:
+            xmin = 283.376 
+            xmax = 285.248 
+            text = "speech" 
+        intervals [139]:
+            xmin = 285.248 
+            xmax = 285.416 
+            text = "silence" 
+        intervals [140]:
+            xmin = 285.416 
+            xmax = 285.538 
+            text = "speech" 
+        intervals [141]:
+            xmin = 285.538 
+            xmax = 285.5385578231293 
+            text = "silence" 
+        intervals [142]:
+            xmin = 285.5385578231293 
+            xmax = 285.922 
+            text = "silence" 
+        intervals [143]:
+            xmin = 285.922 
+            xmax = 285.9225578231293 
+            text = "speech" 
+        intervals [144]:
+            xmin = 285.9225578231293 
+            xmax = 292.498 
+            text = "speech" 
+        intervals [145]:
+            xmin = 292.498 
+            xmax = 292.49855782312926 
+            text = "silence" 
+        intervals [146]:
+            xmin = 292.49855782312926 
+            xmax = 293.05855782312926 
+            text = "silence" 
+        intervals [147]:
+            xmin = 293.05855782312926 
+            xmax = 293.258 
+            text = "speech" 
+        intervals [148]:
+            xmin = 293.258 
+            xmax = 302.491 
+            text = "speech" 
+        intervals [149]:
+            xmin = 302.491 
+            xmax = 302.803 
+            text = "silence" 
+        intervals [150]:
+            xmin = 302.803 
+            xmax = 308.772 
+            text = "speech" 
+        intervals [151]:
+            xmin = 308.772 
+            xmax = 309.036 
+            text = "silence" 
+        intervals [152]:
+            xmin = 309.036 
+            xmax = 309.31 
+            text = "speech" 
+        intervals [153]:
+            xmin = 309.31 
+            xmax = 309.486 
+            text = "silence" 
+        intervals [154]:
+            xmin = 309.486 
+            xmax = 316.84 
+            text = "speech" 
+        intervals [155]:
+            xmin = 316.84 
+            xmax = 317.088 
+            text = "silence" 
+        intervals [156]:
+            xmin = 317.088 
+            xmax = 318.289 
+            text = "speech" 
+        intervals [157]:
+            xmin = 318.289 
+            xmax = 318.569 
+            text = "silence" 
+        intervals [158]:
+            xmin = 318.569 
+            xmax = 321.385 
+            text = "speech" 
+        intervals [159]:
+            xmin = 321.385 
+            xmax = 321.769 
+            text = "silence" 
+        intervals [160]:
+            xmin = 321.769 
+            xmax = 329.177 
+            text = "speech" 
+        intervals [161]:
+            xmin = 329.177 
+            xmax = 329.809 
+            text = "silence" 
+        intervals [162]:
+            xmin = 329.809 
+            xmax = 336.762 
+            text = "speech" 
+        intervals [163]:
+            xmin = 336.762 
+            xmax = 337.226 
+            text = "silence" 
+        intervals [164]:
+            xmin = 337.226 
+            xmax = 341.878 
+            text = "speech" 
+        intervals [165]:
+            xmin = 341.878 
+            xmax = 342.054 
+            text = "silence" 
+        intervals [166]:
+            xmin = 342.054 
+            xmax = 346.99 
+            text = "speech" 
+        intervals [167]:
+            xmin = 346.99 
+            xmax = 347.15 
+            text = "silence" 
+        intervals [168]:
+            xmin = 347.15 
+            xmax = 355.898 
+            text = "speech" 
+        intervals [169]:
+            xmin = 355.898 
+            xmax = 355.8985578231293 
+            text = "silence" 
+        intervals [170]:
+            xmin = 355.8985578231293 
+            xmax = 356.434 
+            text = "silence" 
+        intervals [171]:
+            xmin = 356.434 
+            xmax = 356.4345578231293 
+            text = "speech" 
+        intervals [172]:
+            xmin = 356.4345578231293 
+            xmax = 361.482 
+            text = "speech" 
+        intervals [173]:
+            xmin = 361.482 
+            xmax = 361.4825578231293 
+            text = "silence" 
+        intervals [174]:
+            xmin = 361.4825578231293 
+            xmax = 362.034 
+            text = "silence" 
+        intervals [175]:
+            xmin = 362.034 
+            xmax = 362.03455782312926 
+            text = "speech" 
+        intervals [176]:
+            xmin = 362.03455782312926 
+            xmax = 368.93 
+            text = "speech" 
+        intervals [177]:
+            xmin = 368.93 
+            xmax = 369.114 
+            text = "silence" 
+        intervals [178]:
+            xmin = 369.114 
+            xmax = 373.13 
+            text = "speech" 
+        intervals [179]:
+            xmin = 373.13 
+            xmax = 373.13055782312927 
+            text = "silence" 
+        intervals [180]:
+            xmin = 373.13055782312927 
+            xmax = 373.634 
+            text = "silence" 
+        intervals [181]:
+            xmin = 373.634 
+            xmax = 373.6345578231293 
+            text = "speech" 
+        intervals [182]:
+            xmin = 373.6345578231293 
+            xmax = 376.346 
+            text = "speech" 
+        intervals [183]:
+            xmin = 376.346 
+            xmax = 376.3465578231293 
+            text = "silence" 
+        intervals [184]:
+            xmin = 376.3465578231293 
+            xmax = 376.706 
+            text = "silence" 
+        intervals [185]:
+            xmin = 376.706 
+            xmax = 376.7065578231293 
+            text = "speech" 
+        intervals [186]:
+            xmin = 376.7065578231293 
+            xmax = 381.628 
+            text = "speech" 
+        intervals [187]:
+            xmin = 381.628 
+            xmax = 381.828 
+            text = "silence" 
+        intervals [188]:
+            xmin = 381.828 
+            xmax = 388.166 
+            text = "speech" 
+        intervals [189]:
+            xmin = 388.166 
+            xmax = 388.566 
+            text = "silence" 
+        intervals [190]:
+            xmin = 388.566 
+            xmax = 389.902 
+            text = "speech" 
+        intervals [191]:
+            xmin = 389.902 
+            xmax = 390.142 
+            text = "silence" 
+        intervals [192]:
+            xmin = 390.142 
+            xmax = 390.818 
+            text = "speech" 
+        intervals [193]:
+            xmin = 390.818 
+            xmax = 390.81855782312925 
+            text = "silence" 
+        intervals [194]:
+            xmin = 390.81855782312925 
+            xmax = 391.25 
+            text = "silence" 
+        intervals [195]:
+            xmin = 391.25 
+            xmax = 391.25055782312927 
+            text = "speech" 
+        intervals [196]:
+            xmin = 391.25055782312927 
+            xmax = 396.234 
+            text = "speech" 
+        intervals [197]:
+            xmin = 396.234 
+            xmax = 396.23455782312925 
+            text = "silence" 
+        intervals [198]:
+            xmin = 396.23455782312925 
+            xmax = 396.946 
+            text = "silence" 
+        intervals [199]:
+            xmin = 396.946 
+            xmax = 396.9465578231293 
+            text = "speech" 
+        intervals [200]:
+            xmin = 396.9465578231293 
+            xmax = 405.674 
+            text = "speech" 
+        intervals [201]:
+            xmin = 405.674 
+            xmax = 405.882 
+            text = "silence" 
+        intervals [202]:
+            xmin = 405.882 
+            xmax = 407.858 
+            text = "speech" 
+        intervals [203]:
+            xmin = 407.858 
+            xmax = 408.16255782312925 
+            text = "silence" 
+        intervals [204]:
+            xmin = 408.16255782312925 
+            xmax = 408.554 
+            text = "silence" 
+        intervals [205]:
+            xmin = 408.554 
+            xmax = 408.55455782312924 
+            text = "speech" 
+        intervals [206]:
+            xmin = 408.55455782312924 
+            xmax = 415.962 
+            text = "speech" 
+        intervals [207]:
+            xmin = 415.962 
+            xmax = 415.96255782312926 
+            text = "silence" 
+        intervals [208]:
+            xmin = 415.96255782312926 
+            xmax = 416.346 
+            text = "silence" 
+        intervals [209]:
+            xmin = 416.346 
+            xmax = 416.3465578231293 
+            text = "speech" 
+        intervals [210]:
+            xmin = 416.3465578231293 
+            xmax = 419.362 
+            text = "speech" 
+        intervals [211]:
+            xmin = 419.362 
+            xmax = 419.3625578231293 
+            text = "silence" 
+        intervals [212]:
+            xmin = 419.3625578231293 
+            xmax = 419.978 
+            text = "silence" 
+        intervals [213]:
+            xmin = 419.978 
+            xmax = 419.9785578231293 
+            text = "speech" 
+        intervals [214]:
+            xmin = 419.9785578231293 
+            xmax = 422.866 
+            text = "speech" 
+        intervals [215]:
+            xmin = 422.866 
+            xmax = 423.018 
+            text = "silence" 
+        intervals [216]:
+            xmin = 423.018 
+            xmax = 427.858 
+            text = "speech" 
+        intervals [217]:
+            xmin = 427.858 
+            xmax = 428.026 
+            text = "silence" 
+        intervals [218]:
+            xmin = 428.026 
+            xmax = 430.202 
+            text = "speech" 
+        intervals [219]:
+            xmin = 430.202 
+            xmax = 430.458 
+            text = "silence" 
+        intervals [220]:
+            xmin = 430.458 
+            xmax = 430.682 
+            text = "speech" 
+        intervals [221]:
+            xmin = 430.682 
+            xmax = 430.954 
+            text = "silence" 
+        intervals [222]:
+            xmin = 430.954 
+            xmax = 431.49 
+            text = "speech" 
+        intervals [223]:
+            xmin = 431.49 
+            xmax = 431.74655782312925 
+            text = "silence" 
+        intervals [224]:
+            xmin = 431.74655782312925 
+            xmax = 432.386 
+            text = "silence" 
+        intervals [225]:
+            xmin = 432.386 
+            xmax = 432.3865578231293 
+            text = "speech" 
+        intervals [226]:
+            xmin = 432.3865578231293 
+            xmax = 435.414 
+            text = "speech" 
+        intervals [227]:
+            xmin = 435.414 
+            xmax = 435.614 
+            text = "silence" 
+        intervals [228]:
+            xmin = 435.614 
+            xmax = 445.498 
+            text = "speech" 
+        intervals [229]:
+            xmin = 445.498 
+            xmax = 445.49855782312926 
+            text = "silence" 
+        intervals [230]:
+            xmin = 445.49855782312926 
+            xmax = 446.122 
+            text = "silence" 
+        intervals [231]:
+            xmin = 446.122 
+            xmax = 446.1225578231293 
+            text = "speech" 
+        intervals [232]:
+            xmin = 446.1225578231293 
+            xmax = 451.146 
+            text = "speech" 
+        intervals [233]:
+            xmin = 451.146 
+            xmax = 451.1465578231293 
+            text = "silence" 
+        intervals [234]:
+            xmin = 451.1465578231293 
+            xmax = 451.546 
+            text = "silence" 
+        intervals [235]:
+            xmin = 451.546 
+            xmax = 451.54655782312926 
+            text = "speech" 
+        intervals [236]:
+            xmin = 451.54655782312926 
+            xmax = 452.17 
+            text = "speech" 
+        intervals [237]:
+            xmin = 452.17 
+            xmax = 452.1705578231293 
+            text = "silence" 
+        intervals [238]:
+            xmin = 452.1705578231293 
+            xmax = 453.45 
+            text = "silence" 
+        intervals [239]:
+            xmin = 453.45 
+            xmax = 453.45055782312926 
+            text = "speech" 
+        intervals [240]:
+            xmin = 453.45055782312926 
+            xmax = 461.443 
+            text = "speech" 
+        intervals [241]:
+            xmin = 461.443 
+            xmax = 461.683 
+            text = "silence" 
+        intervals [242]:
+            xmin = 461.683 
+            xmax = 462.891 
+            text = "speech" 
+        intervals [243]:
+            xmin = 462.891 
+            xmax = 463.139 
+            text = "silence" 
+        intervals [244]:
+            xmin = 463.139 
+            xmax = 463.899 
+            text = "speech" 
+        intervals [245]:
+            xmin = 463.899 
+            xmax = 464.588 
+            text = "silence" 
+        intervals [246]:
+            xmin = 464.588 
+            xmax = 470.854 
+            text = "speech" 
+        intervals [247]:
+            xmin = 470.854 
+            xmax = 471.238 
+            text = "silence" 
+        intervals [248]:
+            xmin = 471.238 
+            xmax = 471.91 
+            text = "speech" 
+        intervals [249]:
+            xmin = 471.91 
+            xmax = 472.03455782312926 
+            text = "silence" 
+        intervals [250]:
+            xmin = 472.03455782312926 
+            xmax = 473.2691156462585 
+            text = "silence" 
