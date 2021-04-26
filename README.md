@@ -98,19 +98,36 @@ Listen once through—don’t spend too much time on this stage.
 
 ### Chunk Classification Guidelines
 
-#### Music:
-1. If no music in background, *usability*=1
-2. If very quiet/slight music in background, *usability*=1 and *speech + music*=1
-3. If clear/moderate to loud music in background, *usability*=0 and *speech + music*=1
-4. If only music, *usability*=0 and *music only*=1
+#### Usable?
 
-#### Noise:
-1. If no background noise, *usability*=1
-2. If slight noisiness, *usability*=1 and *speech + noise*=1
-3. If clear/moderate to loud noise in background (e.g., traffic, fan, etc.),  *usability*=0 and *speech + noise*=1
-4. If only noise and no speech (incl. loud breath only), *usability*=0 and *noise only*=1
+1. Check the box for "Yes" if audio clip is usable, meaning it contains clear, "natural" speech in English, with no (or minimal) background sounds or noise.
 
-_More details coming soon!_
+Here are a list of potential issues that would render a section of speech unusable for the purposes this project:
+* background music
+* background noise (e.g., fan, traffic, city noises)
+* multiple speakers (e.g., overlapping speech with other people)
+* another speaker's voice (e.g., a media clip or meme, a friend in the video)
+* altered voice (e.g., sped up, slowed down, higher pitch)
+* non-English speech (code-switching)
+* "unnatural" or "atypical" speech (e.g., performance/skit, imitation, "putting on a voice")
+* environmental noises (e.g., shuffling, placing something on a table, clapping)
+* sound effects (e.g., cheer, clap, pop, swish)
+
+2. If the clip includes very quiet ambient sounds, like very low music or some small degree of noticeable noise, can still check "Yes" if it seems usable (i,e., loud and clear, natural, etc.), but additionally check off any relevant Main Issues box(es).
+3. If only a portion of the clip contains any of the above issues (e.g., a specific word or the first half of the clip), check off "Yes" along with any relevant Main Issues box(es) and see Phonetic Coding Guidelines below for how to mark these issues in the transcript.
+4. If the vast majority or entire clip contains any combination of above issues, only check off the relevant relevant Main Issues box(es) and do not check "Yes".
+
+#### Main Issues: With Speech
+* **Speech + music:** Speech with any form of background music
+* **Speech + noise:** Speech with any form of background noise
+* **Other / altered voice:** Speech with a voice or multiple voices other than the speaker, the altered voice of the speaker, or the speaker "putting on a voice"
+
+#### Main Issues: Not Speech
+* **Music only:** A period of music but no speech overlapping (often at beginning and ends of videos, as well as some transition periods)
+* **Noise:** A period of non-speech ("silence") with audible noisiness (e.g., a loud breath, background traffic noise)
+* **Other sounds:** Any other case of a non-speech sound, including sound effects and environmental noises
+
+If an issue that affects the whole clip doesn't fit into any of these categories (e.g., code-switching), simply don't check any box.
 
 ---
 
