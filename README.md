@@ -11,9 +11,9 @@ The GUAva corpus is created and processed via the [LingTube](https://github.com/
 
 The process of the corpus creation and processing is roughly as follows:
 1. Identify specific video urls, listed in the [urls](./urls) directory (currently grouped in "sets" per regional and ethnic background)
-2. For each video, download the audio and English subtitles using `yt-tools/scrape-videos.py` into [raw_audio](./corpus/raw_audio) and [raw_subtitles](./corpus/raw_subtitles)
-3. (optional) Correct raw subtitles files (especially auto-subs) with the help of `yt-tools/correct-captions.py`
-4. Run conversion scripts to prepare audio (`youspeak/convert-audio.py`) and subtitles (`youspeak/clean-subtitles.py`) to formats amenable to processing
+2. For each video, download the audio and English captions using `yt-tools/scrape-videos.py` into [raw_audio](./corpus/raw_audio) and [raw_subtitles](./corpus/raw_subtitles)
+3. (optional) Correct raw captions files (especially auto-subs) with the help of `yt-tools/correct-captions.py`
+4. Run conversion scripts to prepare audio (`youspeak/convert-audio.py`) and captions (`youspeak/clean-captions.py`) to formats amenable to processing
 5. Chunk the long audio files into short (<10 sec) segments based on pauses/breath breaks using `youspeak/chunk-audio.py`—a necessary and/or useful step for transcription and forced alignment
 6. Classify each clip as usable or not (i.e., clear speech without noise, music, etc.) and confirm transcriptions for each segment of speech using `youspeak/validate-chunks.py`, which opens a GUI
 7. Match transcriptions to audio in TextGrid format with `youspeak/create-textgrids.py`
@@ -32,51 +32,31 @@ For the purposes of the GUAva corpus, this is how the LingTube scripts will be u
 
 #### Correcting Raw Captions
 
-To run the caption correction script that opens the YouTube video in a web browser and a copy of the raw transcript file in a text editor, the command is
+To run the caption correction script that opens the YouTube video in a web browser and a copy of the raw transcript file in a text editor, the command is `path/to/correct-captions.py -g $GROUP [-ch $CHANNEL]`
 
-`path/to/correct-captions.py -g $GROUP [-ch $CHANNEL]`
+* e.g. To go through all the captions of the Korean (kor) group in order, run `../LingTube/text-tools/correct-captions.py -g kor`
 
-* e.g. To go through all the captions of the Korean (kor) group in order, run
+* e.g. To go through all the files for a particular channel (e.g., AMYLEE), run `../LingTube/text-tools/correct-captions.py -g kor -ch AMYLEE`
 
-`../LingTube/text-tools/correct-captions.py -g kor`
+After a caption file is fully corrected, clean the transcript using `path/to/clean-captions.py -g $GROUP`
 
-* e.g. To go through all the files for a particular channel (e.g., AMYLEE), run
-
-`../LingTube/text-tools/correct-captions.py -g kor -ch AMYLEE`
-
-After a caption file is fully corrected, clean the transcript using
-
-`path/to/clean-captions.py -g $GROUP`
-
-* e.g.
-
-`../LingTube/youspeak/clean-captions.py -g kor`
+* e.g. To clean new caption files in the Korean group, run `../LingTube/youspeak/clean-captions.py -g kor`
 
 #### Validating Audio Chunks
 
-To run the audio chunk validation script for (i) classifying whether a chunk is usable or not, and (ii) matching the transcription to the audio, the command is
+To run the audio chunk validation script for (i) classifying whether a chunk is usable or not, and (ii) matching the transcription to the audio, the command is `path/to/validate-chunks.py -g $GROUP`
 
-`path/to/validate-chunks.py -g $GROUP`
-
-* e.g. To validate a file in the Korean group, run
-
-`../LingTube/youspeak/validate-chunks.py -g kor`
+* e.g. To validate a file in the Korean group, run `../LingTube/youspeak/validate-chunks.py -g kor`
 
 A pop-up file window will then ask you to select to a chunking log file (for a particular video) to begin the process.
 
 #### Adjusting Alignment Boundaries
 
-To run the textgrid alignment adjustment script that opens a Praat with the appropriate directories in place, the command is
+To run the textgrid alignment adjustment script that opens a Praat with the appropriate directories in place, the command is `path/to/adjust-textgrids.py -g $GROUP [-ch $CHANNEL]`
 
-`path/to/adjust-textgrids.py -g $GROUP [-ch $CHANNEL]`
+* e.g. To go through all the channels in Korean (kor) group in order, run `../LingTube/youspeak/adjust-textgrids.py -g kor`
 
-* e.g. To go through all the channels in Korean (kor) group in order, run
-
-`../LingTube/youspeak/adjust-textgrids.py -g kor`
-
-* e.g. To go through all the files for a particular channel (e.g., AMYLEE), run
-
-`../LingTube/youspeak/adjust-textgrids.py -g kor -ch AMYLEE`
+* e.g. To go through all the files for a particular channel (e.g., AMYLEE), run `../LingTube/youspeak/adjust-textgrids.py -g kor -ch AMYLEE`
 
 ---
 
