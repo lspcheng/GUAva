@@ -26,6 +26,59 @@ The process of the corpus creation and processing is roughly as follows:
 * [Acoustic Segmentation Guidelines](#acoustic-segmentation-guidelines)
 
 ---
+### How to Use Scripts
+
+For the purposes of the GUAva corpus, this is how the LingTube scripts will be used to do hand-correction during corpus processing. In most cases, the only parameter that must be specified is the group (i.e., ethnicity grouping code), though a specific channel can be specified for some.
+
+#### Correcting Raw Captions
+
+To run the caption correction script that opens the YouTube video in a web browser and a copy of the raw transcript file in a text editor, the command is
+
+`path/to/correct-captions.py -g $GROUP [-ch $CHANNEL]`
+
+* e.g. To go through all the captions of the Korean (kor) group in order, run
+
+`../LingTube/text-tools/correct-captions.py -g kor`
+
+* e.g. To go through all the files for a particular channel (e.g., AMYLEE), run
+
+`../LingTube/text-tools/correct-captions.py -g kor -ch AMYLEE`
+
+After a caption file is fully corrected, clean the transcript using
+
+`path/to/clean-captions.py -g $GROUP`
+
+* e.g.
+
+`../LingTube/youspeak/clean-captions.py -g kor`
+
+#### Validating Audio Chunks
+
+To run the audio chunk validation script for (i) classifying whether a chunk is usable or not, and (ii) matching the transcription to the audio, the command is
+
+`path/to/validate-chunks.py -g $GROUP`
+
+* e.g. To validate a file in the Korean group, run
+
+`../LingTube/youspeak/validate-chunks.py -g kor`
+
+A pop-up file window will then ask you to select to a chunking log file (for a particular video) to begin the process.
+
+#### Adjusting Alignment Boundaries
+
+To run the textgrid alignment adjustment script that opens a Praat with the appropriate directories in place, the command is
+
+`path/to/adjust-textgrids.py -g $GROUP [-ch $CHANNEL]`
+
+* e.g. To go through all the channels in Korean (kor) group in order, run
+
+`../LingTube/youspeak/adjust-textgrids.py -g kor`
+
+* e.g. To go through all the files for a particular channel (e.g., AMYLEE), run
+
+`../LingTube/youspeak/adjust-textgrids.py -g kor -ch AMYLEE`
+
+---
 
 ### Transcript Correction Guidelines
 
@@ -87,9 +140,12 @@ _More details coming soon!_
 * Keep and/or add any missing filler words.
   - e.g., _um_, _uh_, _like_
 * Keep proper names and acronyms as is.
-  - e.g., _FIDM_ for [fɪdm]; _LA_ for [ɜleɪ]
+  - e.g., _FIDM_ for [fɪdm]; _LA_ for [ɜleɪ]; _UCLA_ for [jusiɜleɪ]
 * Write out numerals in words, including years.
-  - e.g., _twenty ten_ for __2010__
+  - e.g., _twenty ten_ for "2010"
+* Keep and/or fix any colloquial pronunciations.
+    * e.g., _'cause_ for "_because_" or _'til_ for "_until_"
+    * e.g., _wanna_ for "_want to_" or _dunno_ for "_don't know_"
 * If there is a clearly separate laugh, should be marked as `<lgh>`.
 * Otherwise, can ignore loud breaths or laughs, including those overlapping with speech.
 
@@ -104,13 +160,13 @@ _More details coming soon!_
 #### Unclear, Unnatural or Other Speech
 * If you can't make out a word, should be marked as `<unk>`.
 * If, out of an otherwise good audio chunk, there is an individual word or two that cannot be used, mark it with a `_unc` tag (for unclear).
-  * This could be if a word is masked by a noise, overlapping with a sound effect or has some other issue that prevents it from being clear. If unsure which word was affected, be conservative and tag more.
+  * This could be if a word is masked by a noise, overlapping with a sound effect or has some other issue that prevents it from being clear.
     - e.g., _kare_unc_ for 'kare rice' overlapped with a 'pop' sound effect
     - e.g., _and_unc it's_unc_ for 'and it's' with a pop but not sure exactly when
     - e.g., _Amy_unc and_unc_ for 'Amy and' with cheering noises
-* If a phrase or word is not produced naturally, such as imitating somebody else or doing some sort of skit, mark it with a `_unn` (for unnatural).
+* If some speech is altered (e.g., pitch raising, sped up) or includes other voices (e.g., someone else speaking), mark it with `_unn` (for unnatural).
+* If a phrase or word is otherwise not produced in the speaker's "natural" voice, such as imitating somebody else or doing some sort of skit, also mark it with a `_unn` (for unnatural).
   - e.g., _Jennifer_unn packed_unn..._ during an imitation
-* If some speech is altered (e.g., pitch raising, sped up) or includes other voices (e.g., someone else speaking), also mark it with `_unn`.
 * If there are multiple issues, that require tags, tag them all.
   - e.g., _kare_cs_unc_ is a code-switch overlapped with a 'pop' sound
 
