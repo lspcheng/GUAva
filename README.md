@@ -10,10 +10,16 @@ The GUAva corpus is created and processed via the [LingTube](https://github.com/
 ## Corpus Details
 
 The process of the corpus creation and processing is roughly as follows:
+
+### Scrape YouTube
 1. Identify specific video urls, listed in the [lists](./lists) directory (currently grouped in "sets" per ethnic background) and run `yt-tools/scrape-channels.py` to get channel info along with urls in [screened_urls](./corpus/screened_urls)
 2. For each video, download the audio and English captions using `yt-tools/scrape-videos.py` into [raw_audio](./corpus/raw_audio) and [raw_subtitles](./corpus/raw_subtitles)
-3. Process captions (`tx-tools/clean-captions.py`) to a neater format and partially clean text
+
+### Process text
+3. Convert captions (`tx-tools/clean-captions.py`) to a neater format and partially clean text
 4. (optional) Correct raw captions files with the help of `tx-tools/correct-captions.py`
+
+### Process audio
 5. Run conversion script to prepare audio (`youspeak/convert-audio.py`) in format amenable to processing (i.e., mono WAV files)
 6. Chunk the long audio files into short (<10 sec) segments based on pauses/breath breaks using `youspeak/chunk-audio.py`—a necessary and/or useful step for transcription and forced alignment
 7. Classify each clip as usable or not (i.e., clear speech without noise, music, etc.) and confirm transcriptions for each segment of speech using `youspeak/validate-chunks.py`, which opens a GUI
