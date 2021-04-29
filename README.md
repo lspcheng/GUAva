@@ -22,6 +22,8 @@ The process of the corpus creation and processing is roughly as follows:
 ### Process audio
 5. Run conversion script to prepare audio (`youspeak/convert-audio.py`) in format amenable to processing (i.e., mono WAV files)
 6. Chunk the long audio files into short (<10 sec) segments based on pauses/breath breaks using `youspeak/chunk-audio.py`—a necessary and/or useful step for transcription and forced alignment
+
+### Process text + audio
 7. Classify each clip as usable or not (i.e., clear speech without noise, music, etc.) and confirm transcriptions for each segment of speech using `youspeak/validate-chunks.py`, which opens a GUI
 8. Match transcriptions to audio in TextGrid format with `youspeak/create-textgrids.py`
 9. Conduct forced alignment using the Montreal Forced aligner, then do manual correction of alignment boundaries (with the help of `adjust-textgrids.py`)
