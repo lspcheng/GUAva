@@ -174,8 +174,8 @@ If an issue that affects the whole clip doesn't fit into any of these categories
     - e.g., _and_unc it's_unc_ for 'and it's' with a pop but not sure exactly when
     - e.g., _Amy_unc and_unc_ for 'Amy and' with cheering noises
   * Mispronounced words also count here.
-    - e.g., _dad*_unc_ for 'dad*' pronounced more like "daah"
-    - e.g., _place*_unc_ for 'place*' pronounced as "splace"
+    - e.g., _dad_unc_ for 'dad*' pronounced more like "daah"
+    - e.g., _place_unc_ for 'place*' pronounced as "splace"
 * If some speech is altered (e.g., pitch raising, sped up) or includes other voices (e.g., someone else speaking), mark it with `_unn` (for unnatural).
 * If a phrase or word is otherwise not produced in the speaker's "natural" voice, such as imitating somebody else or doing some sort of skit, also mark it with a `_unn` (for unnatural).
   - e.g., _Jennifer_unn packed_unn..._ during an imitation
