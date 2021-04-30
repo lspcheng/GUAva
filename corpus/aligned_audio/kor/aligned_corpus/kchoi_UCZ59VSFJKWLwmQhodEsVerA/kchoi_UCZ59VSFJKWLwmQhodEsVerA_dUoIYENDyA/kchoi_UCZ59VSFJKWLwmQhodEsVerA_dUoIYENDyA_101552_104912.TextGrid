@@ -54,16 +54,16 @@ item []:
 				text = "cool"
 			intervals [11]:
 				xmin = 2.170
-				xmax = 2.240
+				xmax = 2.220
 				text = ""
 			intervals [12]:
-				xmin = 2.240
+				xmin = 2.220
 				xmax = 2.810
-				text = "<unk>"
+				text = "calm"
 			intervals [13]:
 				xmin = 2.810
 				xmax = 3.590
-				text = "<unk>"
+				text = "collected"
 			intervals [14]:
 				xmin = 3.590
 				xmax = 3.86
@@ -73,7 +73,7 @@ item []:
 		name = "utterance - phones"
 		xmin = 0.0
 		xmax = 3.86
-		intervals: size = 24
+		intervals: size = 33
 			intervals [1]:
 				xmin = 0.0
 				xmax = 0.250
@@ -156,17 +156,53 @@ item []:
 				text = "L"
 			intervals [21]:
 				xmin = 2.170
-				xmax = 2.240
+				xmax = 2.220
 				text = "sp"
 			intervals [22]:
-				xmin = 2.240
-				xmax = 2.810
-				text = "spn"
+				xmin = 2.220
+				xmax = 2.370
+				text = "K"
 			intervals [23]:
-				xmin = 2.810
-				xmax = 3.590
-				text = "spn"
+				xmin = 2.370
+				xmax = 2.580
+				text = "AA1"
 			intervals [24]:
+				xmin = 2.580
+				xmax = 2.810
+				text = "M"
+			intervals [25]:
+				xmin = 2.810
+				xmax = 2.960
+				text = "K"
+			intervals [26]:
+				xmin = 2.960
+				xmax = 3.020
+				text = "AH0"
+			intervals [27]:
+				xmin = 3.020
+				xmax = 3.110
+				text = "L"
+			intervals [28]:
+				xmin = 3.110
+				xmax = 3.150
+				text = "EH1"
+			intervals [29]:
+				xmin = 3.150
+				xmax = 3.260
+				text = "K"
+			intervals [30]:
+				xmin = 3.260
+				xmax = 3.340
+				text = "T"
+			intervals [31]:
+				xmin = 3.340
+				xmax = 3.530
+				text = "IH0"
+			intervals [32]:
+				xmin = 3.530
+				xmax = 3.590
+				text = "D"
+			intervals [33]:
 				xmin = 3.590
 				xmax = 3.86
 				text = ""

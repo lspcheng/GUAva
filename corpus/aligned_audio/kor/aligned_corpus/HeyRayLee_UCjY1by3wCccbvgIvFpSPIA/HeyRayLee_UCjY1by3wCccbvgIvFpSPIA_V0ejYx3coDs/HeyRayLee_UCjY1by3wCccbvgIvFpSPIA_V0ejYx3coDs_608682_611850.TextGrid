@@ -11,7 +11,7 @@ item []:
 		name = "utterance - words"
 		xmin = 0.0
 		xmax = 3.6680045351473924
-		intervals: size = 18
+		intervals: size = 16
 			intervals [1]:
 				xmin = 0.0
 				xmax = 0.250
@@ -62,25 +62,17 @@ item []:
 				text = "my"
 			intervals [13]:
 				xmin = 2.540
-				xmax = 2.770
+				xmax = 2.820
 				text = "life"
 			intervals [14]:
-				xmin = 2.770
-				xmax = 2.800
-				text = ""
+				xmin = 2.820
+				xmax = 3.220
+				text = "worse"
 			intervals [15]:
-				xmin = 2.800
-				xmax = 3.170
-				text = "<unk>"
-			intervals [16]:
-				xmin = 3.170
-				xmax = 3.200
-				text = ""
-			intervals [17]:
-				xmin = 3.200
+				xmin = 3.220
 				xmax = 3.400
 				text = "like"
-			intervals [18]:
+			intervals [16]:
 				xmin = 3.400
 				xmax = 3.6680045351473924
 				text = ""
@@ -236,22 +228,22 @@ item []:
 				text = "AY1"
 			intervals [37]:
 				xmin = 2.710
-				xmax = 2.770
+				xmax = 2.820
 				text = "F"
 			intervals [38]:
-				xmin = 2.770
-				xmax = 2.800
-				text = "sp"
+				xmin = 2.820
+				xmax = 2.940
+				text = "W"
 			intervals [39]:
-				xmin = 2.800
-				xmax = 3.170
-				text = "spn"
+				xmin = 2.940
+				xmax = 3.120
+				text = "ER1"
 			intervals [40]:
-				xmin = 3.170
-				xmax = 3.200
-				text = "sp"
+				xmin = 3.120
+				xmax = 3.220
+				text = "S"
 			intervals [41]:
-				xmin = 3.200
+				xmin = 3.220
 				xmax = 3.250
 				text = "L"
 			intervals [42]:

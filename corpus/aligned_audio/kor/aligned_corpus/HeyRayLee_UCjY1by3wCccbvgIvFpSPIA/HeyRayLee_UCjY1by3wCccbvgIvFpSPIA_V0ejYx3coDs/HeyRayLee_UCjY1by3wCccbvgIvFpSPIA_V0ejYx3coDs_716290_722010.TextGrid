@@ -74,12 +74,12 @@ item []:
 				text = "raising"
 			intervals [16]:
 				xmin = 5.080
-				xmax = 5.280
+				xmax = 5.240
 				text = "their"
 			intervals [17]:
-				xmin = 5.280
+				xmin = 5.240
 				xmax = 5.950
-				text = "<unk>"
+				text = "grandkids"
 			intervals [18]:
 				xmin = 5.950
 				xmax = 6.22
@@ -89,7 +89,7 @@ item []:
 		name = "utterance - phones"
 		xmin = 0.0
 		xmax = 6.22
-		intervals: size = 51
+		intervals: size = 58
 			intervals [1]:
 				xmin = 0.0
 				xmax = 0.250
@@ -280,17 +280,45 @@ item []:
 				text = "DH"
 			intervals [48]:
 				xmin = 5.120
-				xmax = 5.170
+				xmax = 5.160
 				text = "EH2"
 			intervals [49]:
-				xmin = 5.170
-				xmax = 5.280
+				xmin = 5.160
+				xmax = 5.240
 				text = "R"
 			intervals [50]:
-				xmin = 5.280
-				xmax = 5.950
-				text = "spn"
+				xmin = 5.240
+				xmax = 5.300
+				text = "G"
 			intervals [51]:
+				xmin = 5.300
+				xmax = 5.350
+				text = "R"
+			intervals [52]:
+				xmin = 5.350
+				xmax = 5.460
+				text = "AE1"
+			intervals [53]:
+				xmin = 5.460
+				xmax = 5.550
+				text = "N"
+			intervals [54]:
+				xmin = 5.550
+				xmax = 5.650
+				text = "K"
+			intervals [55]:
+				xmin = 5.650
+				xmax = 5.800
+				text = "IH2"
+			intervals [56]:
+				xmin = 5.800
+				xmax = 5.880
+				text = "D"
+			intervals [57]:
+				xmin = 5.880
+				xmax = 5.950
+				text = "Z"
+			intervals [58]:
 				xmin = 5.950
 				xmax = 6.22
 				text = ""

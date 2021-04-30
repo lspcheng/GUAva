@@ -42,14 +42,14 @@ item []:
 				text = "so"
 			intervals [8]:
 				xmin = 2.080
-				xmax = 2.410
+				xmax = 2.230
 				text = "much"
 			intervals [9]:
-				xmin = 2.410
-				xmax = 3.030
-				text = "<unk>"
+				xmin = 2.230
+				xmax = 3.040
+				text = "travel"
 			intervals [10]:
-				xmin = 3.030
+				xmin = 3.040
 				xmax = 3.348004535147392
 				text = ""
 	item [2]:
@@ -57,7 +57,7 @@ item []:
 		name = "utterance - phones"
 		xmin = 0.0
 		xmax = 3.348004535147392
-		intervals: size = 20
+		intervals: size = 25
 			intervals [1]:
 				xmin = 0.0
 				xmax = 0.250
@@ -124,17 +124,37 @@ item []:
 				text = "AH1"
 			intervals [17]:
 				xmin = 2.170
-				xmax = 2.410
+				xmax = 2.230
 				text = "CH"
 			intervals [18]:
-				xmin = 2.410
-				xmax = 3.030
-				text = "spn"
+				xmin = 2.230
+				xmax = 2.350
+				text = "T"
 			intervals [19]:
-				xmin = 3.030
+				xmin = 2.350
+				xmax = 2.420
+				text = "R"
+			intervals [20]:
+				xmin = 2.420
+				xmax = 2.520
+				text = "AE1"
+			intervals [21]:
+				xmin = 2.520
+				xmax = 2.600
+				text = "V"
+			intervals [22]:
+				xmin = 2.600
+				xmax = 2.640
+				text = "AH0"
+			intervals [23]:
+				xmin = 2.640
+				xmax = 3.040
+				text = "L"
+			intervals [24]:
+				xmin = 3.040
 				xmax = 3.080
 				text = "sp"
-			intervals [20]:
+			intervals [25]:
 				xmin = 3.080
 				xmax = 3.348004535147392
 				text = ""

@@ -50,14 +50,14 @@ item []:
 				text = "koreatown"
 			intervals [10]:
 				xmin = 3.080
-				xmax = 3.200
+				xmax = 3.240
 				text = "is"
 			intervals [11]:
-				xmin = 3.200
-				xmax = 3.440
-				text = "<unk>"
+				xmin = 3.240
+				xmax = 3.510
+				text = "chock"
 			intervals [12]:
-				xmin = 3.440
+				xmin = 3.510
 				xmax = 3.680
 				text = "full"
 			intervals [13]:
@@ -85,7 +85,7 @@ item []:
 		name = "utterance - phones"
 		xmin = 0.0
 		xmax = 4.996009070294784
-		intervals: size = 55
+		intervals: size = 57
 			intervals [1]:
 				xmin = 0.0
 				xmax = 0.250
@@ -248,61 +248,69 @@ item []:
 				text = "IH1"
 			intervals [41]:
 				xmin = 3.160
-				xmax = 3.200
+				xmax = 3.240
 				text = "S"
 			intervals [42]:
-				xmin = 3.200
-				xmax = 3.440
-				text = "spn"
+				xmin = 3.240
+				xmax = 3.320
+				text = "CH"
 			intervals [43]:
-				xmin = 3.440
+				xmin = 3.320
+				xmax = 3.390
+				text = "AA1"
+			intervals [44]:
+				xmin = 3.390
+				xmax = 3.510
+				text = "K"
+			intervals [45]:
+				xmin = 3.510
 				xmax = 3.560
 				text = "F"
-			intervals [44]:
+			intervals [46]:
 				xmin = 3.560
 				xmax = 3.600
 				text = "UH1"
-			intervals [45]:
+			intervals [47]:
 				xmin = 3.600
 				xmax = 3.680
 				text = "L"
-			intervals [46]:
+			intervals [48]:
 				xmin = 3.680
 				xmax = 3.750
 				text = "AA1"
-			intervals [47]:
+			intervals [49]:
 				xmin = 3.750
 				xmax = 3.780
 				text = "F"
-			intervals [48]:
+			intervals [50]:
 				xmin = 3.780
 				xmax = 3.810
 				text = "DH"
-			intervals [49]:
+			intervals [51]:
 				xmin = 3.810
 				xmax = 3.970
 				text = "AH0"
-			intervals [50]:
+			intervals [52]:
 				xmin = 3.970
 				xmax = 4.050
 				text = "M"
-			intervals [51]:
+			intervals [53]:
 				xmin = 4.050
 				xmax = 4.310
 				text = "sp"
-			intervals [52]:
+			intervals [54]:
 				xmin = 4.310
 				xmax = 4.610
 				text = "AE2"
-			intervals [53]:
+			intervals [55]:
 				xmin = 4.610
 				xmax = 4.640
 				text = "N"
-			intervals [54]:
+			intervals [56]:
 				xmin = 4.640
 				xmax = 4.730
 				text = "D"
-			intervals [55]:
+			intervals [57]:
 				xmin = 4.730
 				xmax = 4.996009070294784
 				text = ""

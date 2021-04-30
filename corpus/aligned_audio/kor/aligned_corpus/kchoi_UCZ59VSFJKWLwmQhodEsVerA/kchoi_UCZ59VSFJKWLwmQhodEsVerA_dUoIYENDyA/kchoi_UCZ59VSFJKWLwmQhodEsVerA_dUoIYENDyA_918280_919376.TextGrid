@@ -26,12 +26,12 @@ item []:
 				text = "really"
 			intervals [4]:
 				xmin = 0.800
-				xmax = 0.950
+				xmax = 0.960
 				text = "had"
 			intervals [5]:
-				xmin = 0.950
+				xmin = 0.960
 				xmax = 1.330
-				text = "<unk>"
+				text = "changed"
 			intervals [6]:
 				xmin = 1.330
 				xmax = 1.5959863945578232
@@ -41,7 +41,7 @@ item []:
 		name = "utterance - phones"
 		xmin = 0.0
 		xmax = 1.5959863945578232
-		intervals: size = 15
+		intervals: size = 19
 			intervals [1]:
 				xmin = 0.0
 				xmax = 0.250
@@ -92,13 +92,29 @@ item []:
 				text = "AE1"
 			intervals [13]:
 				xmin = 0.920
-				xmax = 0.950
+				xmax = 0.960
 				text = "D"
 			intervals [14]:
-				xmin = 0.950
-				xmax = 1.330
-				text = "spn"
+				xmin = 0.960
+				xmax = 1.090
+				text = "CH"
 			intervals [15]:
+				xmin = 1.090
+				xmax = 1.170
+				text = "EY1"
+			intervals [16]:
+				xmin = 1.170
+				xmax = 1.270
+				text = "N"
+			intervals [17]:
+				xmin = 1.270
+				xmax = 1.300
+				text = "JH"
+			intervals [18]:
+				xmin = 1.300
+				xmax = 1.330
+				text = "D"
+			intervals [19]:
 				xmin = 1.330
 				xmax = 1.5959863945578232
 				text = ""

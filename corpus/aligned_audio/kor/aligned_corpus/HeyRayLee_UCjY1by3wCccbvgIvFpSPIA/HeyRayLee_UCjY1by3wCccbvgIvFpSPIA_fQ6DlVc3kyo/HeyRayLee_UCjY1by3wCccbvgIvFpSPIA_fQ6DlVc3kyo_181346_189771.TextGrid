@@ -98,10 +98,10 @@ item []:
 				text = "out"
 			intervals [22]:
 				xmin = 4.490
-				xmax = 4.760
+				xmax = 4.750
 				text = ""
 			intervals [23]:
-				xmin = 4.760
+				xmin = 4.750
 				xmax = 5.060
 				text = "some"
 			intervals [24]:
@@ -155,7 +155,7 @@ item []:
 			intervals [36]:
 				xmin = 7.770
 				xmax = 8.660
-				text = "<unk>"
+				text = "unenergized"
 			intervals [37]:
 				xmin = 8.660
 				xmax = 8.924988662131518
@@ -165,7 +165,7 @@ item []:
 		name = "utterance - phones"
 		xmin = 0.0
 		xmax = 8.924988662131518
-		intervals: size = 96
+		intervals: size = 104
 			intervals [1]:
 				xmin = 0.0
 				xmax = 0.250
@@ -224,10 +224,10 @@ item []:
 				text = "NG"
 			intervals [15]:
 				xmin = 1.250
-				xmax = 1.350
+				xmax = 1.340
 				text = "T"
 			intervals [16]:
-				xmin = 1.350
+				xmin = 1.340
 				xmax = 1.390
 				text = "W"
 			intervals [17]:
@@ -396,10 +396,10 @@ item []:
 				text = "T"
 			intervals [58]:
 				xmin = 4.490
-				xmax = 4.760
+				xmax = 4.750
 				text = "sp"
 			intervals [59]:
-				xmin = 4.760
+				xmin = 4.750
 				xmax = 4.890
 				text = "S"
 			intervals [60]:
@@ -544,9 +544,41 @@ item []:
 				text = "sp"
 			intervals [95]:
 				xmin = 7.770
-				xmax = 8.660
-				text = "spn"
+				xmax = 7.910
+				text = "AH0"
 			intervals [96]:
+				xmin = 7.910
+				xmax = 8.010
+				text = "N"
+			intervals [97]:
+				xmin = 8.010
+				xmax = 8.060
+				text = "EH1"
+			intervals [98]:
+				xmin = 8.060
+				xmax = 8.110
+				text = "N"
+			intervals [99]:
+				xmin = 8.110
+				xmax = 8.230
+				text = "ER0"
+			intervals [100]:
+				xmin = 8.230
+				xmax = 8.330
+				text = "JH"
+			intervals [101]:
+				xmin = 8.330
+				xmax = 8.580
+				text = "AY2"
+			intervals [102]:
+				xmin = 8.580
+				xmax = 8.630
+				text = "Z"
+			intervals [103]:
+				xmin = 8.630
+				xmax = 8.660
+				text = "D"
+			intervals [104]:
 				xmin = 8.660
 				xmax = 8.924988662131518
 				text = ""

@@ -34,12 +34,12 @@ item []:
 				text = "up"
 			intervals [6]:
 				xmin = 1.010
-				xmax = 1.210
+				xmax = 1.200
 				text = "as"
 			intervals [7]:
-				xmin = 1.210
+				xmin = 1.200
 				xmax = 1.620
-				text = "<unk>"
+				text = "hogwarts"
 			intervals [8]:
 				xmin = 1.620
 				xmax = 1.8919954648526076
@@ -49,7 +49,7 @@ item []:
 		name = "utterance - phones"
 		xmin = 0.0
 		xmax = 1.8919954648526076
-		intervals: size = 15
+		intervals: size = 22
 			intervals [1]:
 				xmin = 0.0
 				xmax = 0.250
@@ -96,17 +96,45 @@ item []:
 				text = "P"
 			intervals [12]:
 				xmin = 1.010
-				xmax = 1.170
+				xmax = 1.160
 				text = "AH0"
 			intervals [13]:
-				xmin = 1.170
-				xmax = 1.210
+				xmin = 1.160
+				xmax = 1.200
 				text = "S"
 			intervals [14]:
-				xmin = 1.210
-				xmax = 1.620
-				text = "spn"
+				xmin = 1.200
+				xmax = 1.300
+				text = "HH"
 			intervals [15]:
+				xmin = 1.300
+				xmax = 1.380
+				text = "AA1"
+			intervals [16]:
+				xmin = 1.380
+				xmax = 1.470
+				text = "G"
+			intervals [17]:
+				xmin = 1.470
+				xmax = 1.500
+				text = "W"
+			intervals [18]:
+				xmin = 1.500
+				xmax = 1.530
+				text = "AA2"
+			intervals [19]:
+				xmin = 1.530
+				xmax = 1.560
+				text = "R"
+			intervals [20]:
+				xmin = 1.560
+				xmax = 1.590
+				text = "T"
+			intervals [21]:
+				xmin = 1.590
+				xmax = 1.620
+				text = "S"
+			intervals [22]:
 				xmin = 1.620
 				xmax = 1.8919954648526076
 				text = ""

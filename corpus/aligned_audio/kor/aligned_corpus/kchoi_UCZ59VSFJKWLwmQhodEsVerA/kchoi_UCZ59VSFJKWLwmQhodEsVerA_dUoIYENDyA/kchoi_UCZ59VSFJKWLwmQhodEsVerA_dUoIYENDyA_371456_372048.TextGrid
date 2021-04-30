@@ -18,10 +18,10 @@ item []:
 				text = ""
 			intervals [2]:
 				xmin = 0.250
-				xmax = 0.700
-				text = "<unk>"
+				xmax = 0.730
+				text = "anyway"
 			intervals [3]:
-				xmin = 0.700
+				xmin = 0.730
 				xmax = 1.0919954648526078
 				text = ""
 	item [2]:
@@ -29,20 +29,36 @@ item []:
 		name = "utterance - phones"
 		xmin = 0.0
 		xmax = 1.0919954648526078
-		intervals: size = 4
+		intervals: size = 8
 			intervals [1]:
 				xmin = 0.0
 				xmax = 0.250
 				text = ""
 			intervals [2]:
 				xmin = 0.250
-				xmax = 0.700
-				text = "spn"
+				xmax = 0.320
+				text = "EH1"
 			intervals [3]:
-				xmin = 0.700
+				xmin = 0.320
+				xmax = 0.350
+				text = "N"
+			intervals [4]:
+				xmin = 0.350
+				xmax = 0.420
+				text = "IY0"
+			intervals [5]:
+				xmin = 0.420
+				xmax = 0.490
+				text = "W"
+			intervals [6]:
+				xmin = 0.490
+				xmax = 0.730
+				text = "EY2"
+			intervals [7]:
+				xmin = 0.730
 				xmax = 0.820
 				text = "sp"
-			intervals [4]:
+			intervals [8]:
 				xmin = 0.820
 				xmax = 1.0919954648526078
 				text = ""

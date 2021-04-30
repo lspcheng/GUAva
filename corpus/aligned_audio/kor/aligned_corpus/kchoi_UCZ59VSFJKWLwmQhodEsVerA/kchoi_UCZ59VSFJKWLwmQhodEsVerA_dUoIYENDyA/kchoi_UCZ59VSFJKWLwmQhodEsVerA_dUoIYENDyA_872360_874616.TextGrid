@@ -26,10 +26,10 @@ item []:
 				text = ""
 			intervals [4]:
 				xmin = 0.840
-				xmax = 1.060
-				text = "<unk>"
+				xmax = 1.100
+				text = "thank"
 			intervals [5]:
-				xmin = 1.060
+				xmin = 1.100
 				xmax = 1.310
 				text = "you"
 			intervals [6]:
@@ -57,7 +57,7 @@ item []:
 		name = "utterance - phones"
 		xmin = 0.0
 		xmax = 2.7560090702947844
-		intervals: size = 19
+		intervals: size = 22
 			intervals [1]:
 				xmin = 0.0
 				xmax = 0.250
@@ -80,57 +80,69 @@ item []:
 				text = "sp"
 			intervals [6]:
 				xmin = 0.840
-				xmax = 1.060
-				text = "spn"
+				xmax = 0.880
+				text = "TH"
 			intervals [7]:
-				xmin = 1.060
+				xmin = 0.880
+				xmax = 0.920
+				text = "AE1"
+			intervals [8]:
+				xmin = 0.920
+				xmax = 1.030
+				text = "NG"
+			intervals [9]:
+				xmin = 1.030
+				xmax = 1.100
+				text = "K"
+			intervals [10]:
+				xmin = 1.100
 				xmax = 1.200
 				text = "Y"
-			intervals [8]:
+			intervals [11]:
 				xmin = 1.200
 				xmax = 1.310
 				text = "UW1"
-			intervals [9]:
+			intervals [12]:
 				xmin = 1.310
 				xmax = 1.420
 				text = "F"
-			intervals [10]:
+			intervals [13]:
 				xmin = 1.420
 				xmax = 1.510
 				text = "ER1"
-			intervals [11]:
+			intervals [14]:
 				xmin = 1.510
 				xmax = 1.610
 				text = "S"
-			intervals [12]:
+			intervals [15]:
 				xmin = 1.610
 				xmax = 1.660
 				text = "T"
-			intervals [13]:
+			intervals [16]:
 				xmin = 1.660
 				xmax = 1.700
 				text = "AA1"
-			intervals [14]:
+			intervals [17]:
 				xmin = 1.700
 				xmax = 1.750
 				text = "F"
-			intervals [15]:
+			intervals [18]:
 				xmin = 1.750
 				xmax = 1.790
 				text = "AH0"
-			intervals [16]:
+			intervals [19]:
 				xmin = 1.790
 				xmax = 2.230
 				text = "L"
-			intervals [17]:
+			intervals [20]:
 				xmin = 2.230
 				xmax = 2.460
 				text = "AY1"
-			intervals [18]:
+			intervals [21]:
 				xmin = 2.460
 				xmax = 2.490
 				text = "sp"
-			intervals [19]:
+			intervals [22]:
 				xmin = 2.490
 				xmax = 2.7560090702947844
 				text = ""

@@ -11,7 +11,7 @@ item []:
 		name = "utterance - words"
 		xmin = 0.0
 		xmax = 2.5
-		intervals: size = 9
+		intervals: size = 8
 			intervals [1]:
 				xmin = 0.0
 				xmax = 0.250
@@ -26,25 +26,21 @@ item []:
 				text = "didn't"
 			intervals [4]:
 				xmin = 0.660
-				xmax = 0.840
+				xmax = 0.830
 				text = "go"
 			intervals [5]:
-				xmin = 0.840
-				xmax = 0.900
-				text = ""
-			intervals [6]:
-				xmin = 0.900
+				xmin = 0.830
 				xmax = 1.630
 				text = "to"
-			intervals [7]:
+			intervals [6]:
 				xmin = 1.630
 				xmax = 1.660
 				text = ""
-			intervals [8]:
+			intervals [7]:
 				xmin = 1.660
 				xmax = 2.230
-				text = "<unk>"
-			intervals [9]:
+				text = "midnight"
+			intervals [8]:
 				xmin = 2.230
 				xmax = 2.5
 				text = ""
@@ -53,7 +49,7 @@ item []:
 		name = "utterance - phones"
 		xmin = 0.0
 		xmax = 2.5
-		intervals: size = 16
+		intervals: size = 20
 			intervals [1]:
 				xmin = 0.0
 				xmax = 0.250
@@ -92,29 +88,45 @@ item []:
 				text = "G"
 			intervals [10]:
 				xmin = 0.720
-				xmax = 0.840
+				xmax = 0.830
 				text = "OW1"
 			intervals [11]:
-				xmin = 0.840
-				xmax = 0.900
-				text = "sp"
-			intervals [12]:
-				xmin = 0.900
+				xmin = 0.830
 				xmax = 1.030
 				text = "T"
-			intervals [13]:
+			intervals [12]:
 				xmin = 1.030
 				xmax = 1.630
 				text = "OW0"
-			intervals [14]:
+			intervals [13]:
 				xmin = 1.630
 				xmax = 1.660
 				text = "sp"
-			intervals [15]:
+			intervals [14]:
 				xmin = 1.660
-				xmax = 2.230
-				text = "spn"
+				xmax = 1.780
+				text = "M"
+			intervals [15]:
+				xmin = 1.780
+				xmax = 1.850
+				text = "IH1"
 			intervals [16]:
+				xmin = 1.850
+				xmax = 1.890
+				text = "D"
+			intervals [17]:
+				xmin = 1.890
+				xmax = 2.010
+				text = "N"
+			intervals [18]:
+				xmin = 2.010
+				xmax = 2.190
+				text = "AY2"
+			intervals [19]:
+				xmin = 2.190
+				xmax = 2.230
+				text = "T"
+			intervals [20]:
 				xmin = 2.230
 				xmax = 2.5
 				text = ""

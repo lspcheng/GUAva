@@ -11,7 +11,7 @@ item []:
 		name = "utterance - words"
 		xmin = 0.0
 		xmax = 7.763990929705216
-		intervals: size = 25
+		intervals: size = 26
 			intervals [1]:
 				xmin = 0.0
 				xmax = 0.250
@@ -78,37 +78,41 @@ item []:
 				text = ""
 			intervals [17]:
 				xmin = 4.670
-				xmax = 5.110
+				xmax = 5.070
 				text = "as"
 			intervals [18]:
-				xmin = 5.110
-				xmax = 5.250
-				text = "a"
+				xmin = 5.070
+				xmax = 5.100
+				text = ""
 			intervals [19]:
-				xmin = 5.250
+				xmin = 5.100
+				xmax = 5.220
+				text = "a"
+			intervals [20]:
+				xmin = 5.220
 				xmax = 5.500
 				text = "korean"
-			intervals [20]:
+			intervals [21]:
 				xmin = 5.500
 				xmax = 6.030
 				text = "american"
-			intervals [21]:
+			intervals [22]:
 				xmin = 6.030
 				xmax = 6.190
 				text = ""
-			intervals [22]:
+			intervals [23]:
 				xmin = 6.190
 				xmax = 6.380
 				text = "she"
-			intervals [23]:
+			intervals [24]:
 				xmin = 6.380
 				xmax = 6.700
 				text = "is"
-			intervals [24]:
+			intervals [25]:
 				xmin = 6.700
 				xmax = 7.490
 				text = "<unk>"
-			intervals [25]:
+			intervals [26]:
 				xmin = 7.490
 				xmax = 7.763990929705216
 				text = ""
@@ -117,7 +121,7 @@ item []:
 		name = "utterance - phones"
 		xmin = 0.0
 		xmax = 7.763990929705216
-		intervals: size = 75
+		intervals: size = 76
 			intervals [1]:
 				xmin = 0.0
 				xmax = 0.250
@@ -168,10 +172,10 @@ item []:
 				text = "D"
 			intervals [13]:
 				xmin = 1.430
-				xmax = 1.480
+				xmax = 1.490
 				text = "AH0"
 			intervals [14]:
-				xmin = 1.480
+				xmin = 1.490
 				xmax = 1.540
 				text = "K"
 			intervals [15]:
@@ -332,89 +336,93 @@ item []:
 				text = "AH0"
 			intervals [54]:
 				xmin = 5.040
-				xmax = 5.110
+				xmax = 5.070
 				text = "S"
 			intervals [55]:
-				xmin = 5.110
-				xmax = 5.250
-				text = "AH0"
+				xmin = 5.070
+				xmax = 5.100
+				text = "sp"
 			intervals [56]:
-				xmin = 5.250
+				xmin = 5.100
+				xmax = 5.220
+				text = "EY1"
+			intervals [57]:
+				xmin = 5.220
 				xmax = 5.340
 				text = "K"
-			intervals [57]:
+			intervals [58]:
 				xmin = 5.340
 				xmax = 5.370
 				text = "AO0"
-			intervals [58]:
+			intervals [59]:
 				xmin = 5.370
 				xmax = 5.410
 				text = "R"
-			intervals [59]:
+			intervals [60]:
 				xmin = 5.410
 				xmax = 5.440
 				text = "IY1"
-			intervals [60]:
+			intervals [61]:
 				xmin = 5.440
 				xmax = 5.470
 				text = "AH0"
-			intervals [61]:
+			intervals [62]:
 				xmin = 5.470
 				xmax = 5.500
 				text = "N"
-			intervals [62]:
+			intervals [63]:
 				xmin = 5.500
 				xmax = 5.540
 				text = "AH0"
-			intervals [63]:
+			intervals [64]:
 				xmin = 5.540
 				xmax = 5.600
 				text = "M"
-			intervals [64]:
+			intervals [65]:
 				xmin = 5.600
 				xmax = 5.680
 				text = "EH1"
-			intervals [65]:
+			intervals [66]:
 				xmin = 5.680
 				xmax = 5.710
 				text = "R"
-			intervals [66]:
+			intervals [67]:
 				xmin = 5.710
 				xmax = 5.760
 				text = "AH0"
-			intervals [67]:
+			intervals [68]:
 				xmin = 5.760
 				xmax = 5.820
 				text = "K"
-			intervals [68]:
+			intervals [69]:
 				xmin = 5.820
 				xmax = 5.970
 				text = "AH0"
-			intervals [69]:
+			intervals [70]:
 				xmin = 5.970
 				xmax = 6.030
 				text = "N"
-			intervals [70]:
+			intervals [71]:
 				xmin = 6.030
 				xmax = 6.190
 				text = "sp"
-			intervals [71]:
+			intervals [72]:
 				xmin = 6.190
 				xmax = 6.380
 				text = "SH"
-			intervals [72]:
+			intervals [73]:
 				xmin = 6.380
 				xmax = 6.650
 				text = "IH1"
-			intervals [73]:
+			intervals [74]:
 				xmin = 6.650
 				xmax = 6.700
 				text = "S"
-			intervals [74]:
+			intervals [75]:
 				xmin = 6.700
 				xmax = 7.490
 				text = "spn"
-			intervals [75]:
+			intervals [76]:
 				xmin = 7.490
 				xmax = 7.763990929705216
 				text = ""

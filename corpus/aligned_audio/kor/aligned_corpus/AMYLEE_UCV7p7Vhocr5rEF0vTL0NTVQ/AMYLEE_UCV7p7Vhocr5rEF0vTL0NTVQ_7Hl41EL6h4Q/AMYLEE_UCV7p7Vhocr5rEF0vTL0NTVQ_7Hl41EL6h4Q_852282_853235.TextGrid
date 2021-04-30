@@ -11,7 +11,7 @@ item []:
 		name = "utterance - words"
 		xmin = 0.0
 		xmax = 1.4529931972789116
-		intervals: size = 6
+		intervals: size = 5
 			intervals [1]:
 				xmin = 0.0
 				xmax = 0.250
@@ -26,13 +26,9 @@ item []:
 				text = "thing"
 			intervals [4]:
 				xmin = 0.750
-				xmax = 0.820
-				text = ""
-			intervals [5]:
-				xmin = 0.820
 				xmax = 1.140
 				text = "so"
-			intervals [6]:
+			intervals [5]:
 				xmin = 1.140
 				xmax = 1.4529931972789116
 				text = ""
@@ -41,7 +37,7 @@ item []:
 		name = "utterance - phones"
 		xmin = 0.0
 		xmax = 1.4529931972789116
-		intervals: size = 13
+		intervals: size = 12
 			intervals [1]:
 				xmin = 0.0
 				xmax = 0.250
@@ -68,29 +64,25 @@ item []:
 				text = "TH"
 			intervals [7]:
 				xmin = 0.530
-				xmax = 0.560
+				xmax = 0.590
 				text = "IH1"
 			intervals [8]:
-				xmin = 0.560
+				xmin = 0.590
 				xmax = 0.750
 				text = "NG"
 			intervals [9]:
 				xmin = 0.750
-				xmax = 0.820
-				text = "sp"
-			intervals [10]:
-				xmin = 0.820
 				xmax = 0.890
 				text = "S"
-			intervals [11]:
+			intervals [10]:
 				xmin = 0.890
 				xmax = 1.140
 				text = "OW0"
-			intervals [12]:
+			intervals [11]:
 				xmin = 1.140
 				xmax = 1.180
 				text = "sp"
-			intervals [13]:
+			intervals [12]:
 				xmin = 1.180
 				xmax = 1.4529931972789116
 				text = ""

@@ -11,7 +11,7 @@ item []:
 		name = "utterance - words"
 		xmin = 0.0
 		xmax = 2.108253968253968
-		intervals: size = 7
+		intervals: size = 8
 			intervals [1]:
 				xmin = 0.0
 				xmax = 0.250
@@ -30,13 +30,17 @@ item []:
 				text = ""
 			intervals [5]:
 				xmin = 1.010
-				xmax = 1.480
+				xmax = 1.500
 				text = "and"
 			intervals [6]:
-				xmin = 1.480
+				xmin = 1.500
+				xmax = 1.550
+				text = ""
+			intervals [7]:
+				xmin = 1.550
 				xmax = 1.580
 				text = "be"
-			intervals [7]:
+			intervals [8]:
 				xmin = 1.580
 				xmax = 2.108253968253968
 				text = ""
@@ -45,7 +49,7 @@ item []:
 		name = "utterance - phones"
 		xmin = 0.0
 		xmax = 2.108253968253968
-		intervals: size = 14
+		intervals: size = 15
 			intervals [1]:
 				xmin = 0.0
 				xmax = 0.250
@@ -88,17 +92,21 @@ item []:
 				text = "N"
 			intervals [11]:
 				xmin = 1.370
-				xmax = 1.480
+				xmax = 1.500
 				text = "D"
 			intervals [12]:
-				xmin = 1.480
+				xmin = 1.500
+				xmax = 1.550
+				text = "sp"
+			intervals [13]:
+				xmin = 1.550
 				xmax = 1.580
 				text = "B"
-			intervals [13]:
+			intervals [14]:
 				xmin = 1.580
 				xmax = 1.840
 				text = "sp"
-			intervals [14]:
+			intervals [15]:
 				xmin = 1.840
 				xmax = 2.108253968253968
 				text = ""

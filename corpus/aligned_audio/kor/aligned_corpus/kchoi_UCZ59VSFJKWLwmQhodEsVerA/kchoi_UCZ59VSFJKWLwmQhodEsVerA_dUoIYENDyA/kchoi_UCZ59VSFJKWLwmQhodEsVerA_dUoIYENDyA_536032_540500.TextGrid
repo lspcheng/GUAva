@@ -58,26 +58,26 @@ item []:
 				text = "like"
 			intervals [12]:
 				xmin = 2.550
-				xmax = 2.710
+				xmax = 2.760
 				text = "really"
 			intervals [13]:
-				xmin = 2.710
-				xmax = 2.890
-				text = "<unk>"
+				xmin = 2.760
+				xmax = 3.130
+				text = "strict"
 			intervals [14]:
-				xmin = 2.890
+				xmin = 3.130
 				xmax = 3.870
 				text = "<unk>"
 			intervals [15]:
 				xmin = 3.870
-				xmax = 4.060
+				xmax = 4.050
 				text = ""
 			intervals [16]:
-				xmin = 4.060
-				xmax = 4.640
-				text = "<unk>"
+				xmin = 4.050
+				xmax = 4.670
+				text = "regimen"
 			intervals [17]:
-				xmin = 4.640
+				xmin = 4.670
 				xmax = 4.967981859410431
 				text = ""
 	item [2]:
@@ -85,7 +85,7 @@ item []:
 		name = "utterance - phones"
 		xmin = 0.0
 		xmax = 4.967981859410431
-		intervals: size = 36
+		intervals: size = 47
 			intervals [1]:
 				xmin = 0.0
 				xmax = 0.250
@@ -204,29 +204,73 @@ item []:
 				text = "L"
 			intervals [30]:
 				xmin = 2.680
-				xmax = 2.710
+				xmax = 2.760
 				text = "IY0"
 			intervals [31]:
-				xmin = 2.710
-				xmax = 2.890
-				text = "spn"
+				xmin = 2.760
+				xmax = 2.840
+				text = "S"
 			intervals [32]:
-				xmin = 2.890
+				xmin = 2.840
+				xmax = 2.930
+				text = "T"
+			intervals [33]:
+				xmin = 2.930
+				xmax = 2.960
+				text = "R"
+			intervals [34]:
+				xmin = 2.960
+				xmax = 3.010
+				text = "IH1"
+			intervals [35]:
+				xmin = 3.010
+				xmax = 3.080
+				text = "K"
+			intervals [36]:
+				xmin = 3.080
+				xmax = 3.130
+				text = "T"
+			intervals [37]:
+				xmin = 3.130
 				xmax = 3.870
 				text = "spn"
-			intervals [33]:
+			intervals [38]:
 				xmin = 3.870
-				xmax = 4.060
+				xmax = 4.050
 				text = "sp"
-			intervals [34]:
-				xmin = 4.060
-				xmax = 4.640
-				text = "spn"
-			intervals [35]:
-				xmin = 4.640
+			intervals [39]:
+				xmin = 4.050
+				xmax = 4.140
+				text = "R"
+			intervals [40]:
+				xmin = 4.140
+				xmax = 4.200
+				text = "EH1"
+			intervals [41]:
+				xmin = 4.200
+				xmax = 4.270
+				text = "JH"
+			intervals [42]:
+				xmin = 4.270
+				xmax = 4.330
+				text = "AH0"
+			intervals [43]:
+				xmin = 4.330
+				xmax = 4.390
+				text = "M"
+			intervals [44]:
+				xmin = 4.390
+				xmax = 4.490
+				text = "AH0"
+			intervals [45]:
+				xmin = 4.490
+				xmax = 4.670
+				text = "N"
+			intervals [46]:
+				xmin = 4.670
 				xmax = 4.700
 				text = "sp"
-			intervals [36]:
+			intervals [47]:
 				xmin = 4.700
 				xmax = 4.967981859410431
 				text = ""

@@ -204,14 +204,14 @@ item []:
 				text = "AY1"
 			intervals [20]:
 				xmin = 2.050
-				xmax = 2.110
+				xmax = 2.100
 				text = "K"
 			intervals [21]:
-				xmin = 2.110
-				xmax = 2.140
-				text = "AE1"
+				xmin = 2.100
+				xmax = 2.130
+				text = "AE0"
 			intervals [22]:
-				xmin = 2.140
+				xmin = 2.130
 				xmax = 2.180
 				text = "N"
 			intervals [23]:
@@ -372,10 +372,10 @@ item []:
 				text = "K"
 			intervals [62]:
 				xmin = 5.580
-				xmax = 5.720
+				xmax = 5.660
 				text = "AE1"
 			intervals [63]:
-				xmin = 5.720
+				xmin = 5.660
 				xmax = 5.750
 				text = "N"
 			intervals [64]:

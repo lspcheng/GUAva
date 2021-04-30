@@ -42,30 +42,30 @@ item []:
 				text = "like"
 			intervals [8]:
 				xmin = 2.080
-				xmax = 2.150
+				xmax = 2.130
 				text = ""
 			intervals [9]:
-				xmin = 2.150
+				xmin = 2.130
 				xmax = 2.650
-				text = "<unk>"
+				text = "bugs"
 			intervals [10]:
 				xmin = 2.650
 				xmax = 2.680
 				text = ""
 			intervals [11]:
 				xmin = 2.680
-				xmax = 2.900
+				xmax = 3.020
 				text = "in"
 			intervals [12]:
-				xmin = 2.900
-				xmax = 2.930
+				xmin = 3.020
+				xmax = 3.050
 				text = "the"
 			intervals [13]:
-				xmin = 2.930
-				xmax = 3.390
-				text = "<unk>"
+				xmin = 3.050
+				xmax = 3.400
+				text = "ocean"
 			intervals [14]:
-				xmin = 3.390
+				xmin = 3.400
 				xmax = 3.440
 				text = ""
 			intervals [15]:
@@ -85,7 +85,7 @@ item []:
 		name = "utterance - phones"
 		xmin = 0.0
 		xmax = 4.3960090702947845
-		intervals: size = 35
+		intervals: size = 41
 			intervals [1]:
 				xmin = 0.0
 				xmax = 0.250
@@ -156,10 +156,10 @@ item []:
 				text = "L"
 			intervals [18]:
 				xmin = 1.660
-				xmax = 1.720
+				xmax = 1.730
 				text = "UH1"
 			intervals [19]:
-				xmin = 1.720
+				xmin = 1.730
 				xmax = 1.820
 				text = "K"
 			intervals [20]:
@@ -176,53 +176,77 @@ item []:
 				text = "K"
 			intervals [23]:
 				xmin = 2.080
-				xmax = 2.150
+				xmax = 2.130
 				text = "sp"
 			intervals [24]:
-				xmin = 2.150
-				xmax = 2.650
-				text = "spn"
+				xmin = 2.130
+				xmax = 2.190
+				text = "B"
 			intervals [25]:
+				xmin = 2.190
+				xmax = 2.380
+				text = "AH1"
+			intervals [26]:
+				xmin = 2.380
+				xmax = 2.510
+				text = "G"
+			intervals [27]:
+				xmin = 2.510
+				xmax = 2.650
+				text = "Z"
+			intervals [28]:
 				xmin = 2.650
 				xmax = 2.680
 				text = "sp"
-			intervals [26]:
+			intervals [29]:
 				xmin = 2.680
 				xmax = 2.830
 				text = "IH0"
-			intervals [27]:
-				xmin = 2.830
-				xmax = 2.900
-				text = "N"
-			intervals [28]:
-				xmin = 2.900
-				xmax = 2.930
-				text = "TH"
-			intervals [29]:
-				xmin = 2.930
-				xmax = 3.390
-				text = "spn"
 			intervals [30]:
-				xmin = 3.390
+				xmin = 2.830
+				xmax = 3.020
+				text = "N"
+			intervals [31]:
+				xmin = 3.020
+				xmax = 3.050
+				text = "TH"
+			intervals [32]:
+				xmin = 3.050
+				xmax = 3.140
+				text = "OW1"
+			intervals [33]:
+				xmin = 3.140
+				xmax = 3.250
+				text = "SH"
+			intervals [34]:
+				xmin = 3.250
+				xmax = 3.360
+				text = "AH0"
+			intervals [35]:
+				xmin = 3.360
+				xmax = 3.400
+				text = "N"
+			intervals [36]:
+				xmin = 3.400
 				xmax = 3.440
 				text = "sp"
-			intervals [31]:
+			intervals [37]:
 				xmin = 3.440
 				xmax = 3.510
 				text = "N"
-			intervals [32]:
+			intervals [38]:
 				xmin = 3.510
 				xmax = 3.540
 				text = "OW0"
-			intervals [33]:
+			intervals [39]:
 				xmin = 3.540
 				xmax = 4.070
 				text = "AY1"
-			intervals [34]:
+			intervals [40]:
 				xmin = 4.070
 				xmax = 4.130
 				text = "sp"
-			intervals [35]:
+			intervals [41]:
 				xmin = 4.130
 				xmax = 4.3960090702947845
 				text = ""

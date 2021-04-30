@@ -58,10 +58,10 @@ item []:
 				text = "i"
 			intervals [12]:
 				xmin = 3.230
-				xmax = 3.420
+				xmax = 3.410
 				text = "would"
 			intervals [13]:
-				xmin = 3.420
+				xmin = 3.410
 				xmax = 3.740
 				text = "give"
 			intervals [14]:
@@ -74,12 +74,12 @@ item []:
 				text = "my"
 			intervals [16]:
 				xmin = 4.000
-				xmax = 4.230
+				xmax = 4.260
 				text = "younger"
 			intervals [17]:
-				xmin = 4.230
+				xmin = 4.260
 				xmax = 4.600
-				text = "<unk>"
+				text = "self"
 			intervals [18]:
 				xmin = 4.600
 				xmax = 4.868231292517007
@@ -89,7 +89,7 @@ item []:
 		name = "utterance - phones"
 		xmin = 0.0
 		xmax = 4.868231292517007
-		intervals: size = 48
+		intervals: size = 51
 			intervals [1]:
 				xmin = 0.0
 				xmax = 0.250
@@ -184,10 +184,10 @@ item []:
 				text = "V"
 			intervals [24]:
 				xmin = 2.340
-				xmax = 2.470
+				xmax = 2.480
 				text = "AY1"
 			intervals [25]:
-				xmin = 2.470
+				xmin = 2.480
 				xmax = 2.580
 				text = "S"
 			intervals [26]:
@@ -228,18 +228,18 @@ item []:
 				text = "UH1"
 			intervals [35]:
 				xmin = 3.350
-				xmax = 3.420
+				xmax = 3.410
 				text = "D"
 			intervals [36]:
-				xmin = 3.420
+				xmin = 3.410
 				xmax = 3.460
 				text = "G"
 			intervals [37]:
 				xmin = 3.460
-				xmax = 3.630
+				xmax = 3.620
 				text = "IH1"
 			intervals [38]:
-				xmin = 3.630
+				xmin = 3.620
 				xmax = 3.740
 				text = "V"
 			intervals [39]:
@@ -272,13 +272,25 @@ item []:
 				text = "NG"
 			intervals [46]:
 				xmin = 4.180
-				xmax = 4.230
+				xmax = 4.260
 				text = "ER0"
 			intervals [47]:
-				xmin = 4.230
-				xmax = 4.600
-				text = "spn"
+				xmin = 4.260
+				xmax = 4.350
+				text = "S"
 			intervals [48]:
+				xmin = 4.350
+				xmax = 4.410
+				text = "EH1"
+			intervals [49]:
+				xmin = 4.410
+				xmax = 4.560
+				text = "L"
+			intervals [50]:
+				xmin = 4.560
+				xmax = 4.600
+				text = "F"
+			intervals [51]:
 				xmin = 4.600
 				xmax = 4.868231292517007
 				text = ""

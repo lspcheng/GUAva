@@ -26,14 +26,14 @@ item []:
 				text = "all"
 			intervals [4]:
 				xmin = 0.960
-				xmax = 1.300
+				xmax = 1.290
 				text = "being"
 			intervals [5]:
-				xmin = 1.300
-				xmax = 1.950
-				text = "<unk>"
+				xmin = 1.290
+				xmax = 1.960
+				text = "foreigners"
 			intervals [6]:
-				xmin = 1.950
+				xmin = 1.960
 				xmax = 2.190
 				text = ""
 			intervals [7]:
@@ -49,7 +49,7 @@ item []:
 		name = "utterance - phones"
 		xmin = 0.0
 		xmax = 3.0519954648526078
-		intervals: size = 18
+		intervals: size = 23
 			intervals [1]:
 				xmin = 0.0
 				xmax = 0.250
@@ -92,33 +92,53 @@ item []:
 				text = "IY1"
 			intervals [11]:
 				xmin = 1.100
-				xmax = 1.200
+				xmax = 1.210
 				text = "IH0"
 			intervals [12]:
-				xmin = 1.200
-				xmax = 1.300
+				xmin = 1.210
+				xmax = 1.290
 				text = "NG"
 			intervals [13]:
-				xmin = 1.300
-				xmax = 1.950
-				text = "spn"
+				xmin = 1.290
+				xmax = 1.400
+				text = "F"
 			intervals [14]:
-				xmin = 1.950
+				xmin = 1.400
+				xmax = 1.480
+				text = "AA1"
+			intervals [15]:
+				xmin = 1.480
+				xmax = 1.600
+				text = "R"
+			intervals [16]:
+				xmin = 1.600
+				xmax = 1.670
+				text = "N"
+			intervals [17]:
+				xmin = 1.670
+				xmax = 1.820
+				text = "ER0"
+			intervals [18]:
+				xmin = 1.820
+				xmax = 1.960
+				text = "Z"
+			intervals [19]:
+				xmin = 1.960
 				xmax = 2.190
 				text = "sp"
-			intervals [15]:
+			intervals [20]:
 				xmin = 2.190
 				xmax = 2.360
 				text = "S"
-			intervals [16]:
+			intervals [21]:
 				xmin = 2.360
 				xmax = 2.750
 				text = "OW0"
-			intervals [17]:
+			intervals [22]:
 				xmin = 2.750
 				xmax = 2.780
 				text = "sp"
-			intervals [18]:
+			intervals [23]:
 				xmin = 2.780
 				xmax = 3.0519954648526078
 				text = ""

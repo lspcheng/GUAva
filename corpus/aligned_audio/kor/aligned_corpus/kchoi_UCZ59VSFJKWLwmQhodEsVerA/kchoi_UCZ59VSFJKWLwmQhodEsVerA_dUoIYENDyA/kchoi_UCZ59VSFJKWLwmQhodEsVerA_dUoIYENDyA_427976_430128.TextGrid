@@ -38,20 +38,20 @@ item []:
 				text = "a"
 			intervals [7]:
 				xmin = 1.360
-				xmax = 1.590
+				xmax = 1.620
 				text = "little"
 			intervals [8]:
-				xmin = 1.590
-				xmax = 1.990
-				text = "<unk>"
+				xmin = 1.620
+				xmax = 2.000
+				text = "sliver"
 			intervals [9]:
-				xmin = 1.990
-				xmax = 2.110
+				xmin = 2.000
+				xmax = 2.120
 				text = "of"
 			intervals [10]:
-				xmin = 2.110
+				xmin = 2.120
 				xmax = 2.380
-				text = "<unk>"
+				text = "meat"
 			intervals [11]:
 				xmin = 2.380
 				xmax = 2.651995464852608
@@ -61,7 +61,7 @@ item []:
 		name = "utterance - phones"
 		xmin = 0.0
 		xmax = 2.651995464852608
-		intervals: size = 22
+		intervals: size = 28
 			intervals [1]:
 				xmin = 0.0
 				xmax = 0.250
@@ -128,25 +128,49 @@ item []:
 				text = "AH0"
 			intervals [17]:
 				xmin = 1.540
-				xmax = 1.590
+				xmax = 1.620
 				text = "L"
 			intervals [18]:
-				xmin = 1.590
-				xmax = 1.990
-				text = "spn"
+				xmin = 1.620
+				xmax = 1.710
+				text = "S"
 			intervals [19]:
-				xmin = 1.990
+				xmin = 1.710
+				xmax = 1.760
+				text = "L"
+			intervals [20]:
+				xmin = 1.760
+				xmax = 1.800
+				text = "IH1"
+			intervals [21]:
+				xmin = 1.800
+				xmax = 1.890
+				text = "V"
+			intervals [22]:
+				xmin = 1.890
+				xmax = 2.000
+				text = "ER0"
+			intervals [23]:
+				xmin = 2.000
 				xmax = 2.050
 				text = "AA1"
-			intervals [20]:
+			intervals [24]:
 				xmin = 2.050
-				xmax = 2.110
+				xmax = 2.120
 				text = "F"
-			intervals [21]:
-				xmin = 2.110
+			intervals [25]:
+				xmin = 2.120
+				xmax = 2.210
+				text = "M"
+			intervals [26]:
+				xmin = 2.210
+				xmax = 2.350
+				text = "IY1"
+			intervals [27]:
+				xmin = 2.350
 				xmax = 2.380
-				text = "spn"
-			intervals [22]:
+				text = "T"
+			intervals [28]:
 				xmin = 2.380
 				xmax = 2.651995464852608
 				text = ""

@@ -18,18 +18,18 @@ item []:
 				text = ""
 			intervals [2]:
 				xmin = 0.250
-				xmax = 1.440
-				text = "<unk>"
+				xmax = 0.590
+				text = "knowing"
 			intervals [3]:
-				xmin = 1.440
-				xmax = 1.510
+				xmin = 0.590
+				xmax = 0.650
 				text = "the"
 			intervals [4]:
-				xmin = 1.510
-				xmax = 1.880
-				text = "<unk>"
+				xmin = 0.650
+				xmax = 1.520
+				text = "resilience"
 			intervals [5]:
-				xmin = 1.880
+				xmin = 1.520
 				xmax = 1.940
 				text = "of"
 			intervals [6]:
@@ -41,32 +41,76 @@ item []:
 		name = "utterance - phones"
 		xmin = 0.0
 		xmax = 2.2120181405895694
-		intervals: size = 7
+		intervals: size = 18
 			intervals [1]:
 				xmin = 0.0
 				xmax = 0.250
 				text = ""
 			intervals [2]:
 				xmin = 0.250
-				xmax = 1.440
-				text = "spn"
+				xmax = 0.360
+				text = "N"
 			intervals [3]:
-				xmin = 1.440
-				xmax = 1.510
-				text = "TH"
+				xmin = 0.360
+				xmax = 0.460
+				text = "OW1"
 			intervals [4]:
-				xmin = 1.510
-				xmax = 1.880
-				text = "spn"
+				xmin = 0.460
+				xmax = 0.520
+				text = "IH0"
 			intervals [5]:
-				xmin = 1.880
+				xmin = 0.520
+				xmax = 0.590
+				text = "NG"
+			intervals [6]:
+				xmin = 0.590
+				xmax = 0.650
+				text = "TH"
+			intervals [7]:
+				xmin = 0.650
+				xmax = 0.730
+				text = "R"
+			intervals [8]:
+				xmin = 0.730
+				xmax = 0.810
+				text = "IH0"
+			intervals [9]:
+				xmin = 0.810
+				xmax = 0.890
+				text = "Z"
+			intervals [10]:
+				xmin = 0.890
+				xmax = 0.950
+				text = "IH1"
+			intervals [11]:
+				xmin = 0.950
+				xmax = 1.050
+				text = "L"
+			intervals [12]:
+				xmin = 1.050
+				xmax = 1.150
+				text = "Y"
+			intervals [13]:
+				xmin = 1.150
+				xmax = 1.220
+				text = "AH0"
+			intervals [14]:
+				xmin = 1.220
+				xmax = 1.300
+				text = "N"
+			intervals [15]:
+				xmin = 1.300
+				xmax = 1.520
+				text = "S"
+			intervals [16]:
+				xmin = 1.520
 				xmax = 1.910
 				text = "AA1"
-			intervals [6]:
+			intervals [17]:
 				xmin = 1.910
 				xmax = 1.940
 				text = "F"
-			intervals [7]:
+			intervals [18]:
 				xmin = 1.940
 				xmax = 2.2120181405895694
 				text = ""

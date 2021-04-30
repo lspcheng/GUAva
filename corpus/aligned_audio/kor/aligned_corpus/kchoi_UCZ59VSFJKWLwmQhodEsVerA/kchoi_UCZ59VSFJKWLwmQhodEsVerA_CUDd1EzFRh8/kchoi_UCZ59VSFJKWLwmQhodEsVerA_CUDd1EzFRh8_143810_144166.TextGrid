@@ -19,7 +19,7 @@ item []:
 			intervals [2]:
 				xmin = 0.250
 				xmax = 0.590
-				text = "<unk>"
+				text = "sinks"
 			intervals [3]:
 				xmin = 0.590
 				xmax = 0.8559863945578231
@@ -29,16 +29,32 @@ item []:
 		name = "utterance - phones"
 		xmin = 0.0
 		xmax = 0.8559863945578231
-		intervals: size = 3
+		intervals: size = 7
 			intervals [1]:
 				xmin = 0.0
 				xmax = 0.250
 				text = ""
 			intervals [2]:
 				xmin = 0.250
-				xmax = 0.590
-				text = "spn"
+				xmax = 0.280
+				text = "S"
 			intervals [3]:
+				xmin = 0.280
+				xmax = 0.350
+				text = "IH1"
+			intervals [4]:
+				xmin = 0.350
+				xmax = 0.450
+				text = "NG"
+			intervals [5]:
+				xmin = 0.450
+				xmax = 0.500
+				text = "K"
+			intervals [6]:
+				xmin = 0.500
+				xmax = 0.590
+				text = "S"
+			intervals [7]:
 				xmin = 0.590
 				xmax = 0.8559863945578231
 				text = ""

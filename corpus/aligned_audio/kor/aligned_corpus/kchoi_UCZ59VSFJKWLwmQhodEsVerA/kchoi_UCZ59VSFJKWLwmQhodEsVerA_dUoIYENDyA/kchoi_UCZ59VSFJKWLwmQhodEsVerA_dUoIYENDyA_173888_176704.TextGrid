@@ -11,7 +11,7 @@ item []:
 		name = "utterance - words"
 		xmin = 0.0
 		xmax = 3.3160090702947844
-		intervals: size = 12
+		intervals: size = 13
 			intervals [1]:
 				xmin = 0.0
 				xmax = 0.250
@@ -34,29 +34,33 @@ item []:
 				text = ""
 			intervals [6]:
 				xmin = 1.400
-				xmax = 1.740
+				xmax = 1.660
 				text = "i"
 			intervals [7]:
-				xmin = 1.740
-				xmax = 2.010
-				text = "<unk>"
+				xmin = 1.660
+				xmax = 1.690
+				text = ""
 			intervals [8]:
-				xmin = 2.010
+				xmin = 1.690
+				xmax = 2.020
+				text = "earn"
+			intervals [9]:
+				xmin = 2.020
 				xmax = 2.400
 				text = "more"
-			intervals [9]:
+			intervals [10]:
 				xmin = 2.400
 				xmax = 2.430
 				text = ""
-			intervals [10]:
-				xmin = 2.430
-				xmax = 2.590
-				text = "than"
 			intervals [11]:
-				xmin = 2.590
-				xmax = 3.050
-				text = "<unk>"
+				xmin = 2.430
+				xmax = 2.580
+				text = "than"
 			intervals [12]:
+				xmin = 2.580
+				xmax = 3.050
+				text = "average"
+			intervals [13]:
 				xmin = 3.050
 				xmax = 3.3160090702947844
 				text = ""
@@ -65,7 +69,7 @@ item []:
 		name = "utterance - phones"
 		xmin = 0.0
 		xmax = 3.3160090702947844
-		intervals: size = 20
+		intervals: size = 26
 			intervals [1]:
 				xmin = 0.0
 				xmax = 0.250
@@ -104,45 +108,69 @@ item []:
 				text = "sp"
 			intervals [10]:
 				xmin = 1.400
-				xmax = 1.740
+				xmax = 1.660
 				text = "AY1"
 			intervals [11]:
-				xmin = 1.740
-				xmax = 2.010
-				text = "spn"
+				xmin = 1.660
+				xmax = 1.690
+				text = "sp"
 			intervals [12]:
-				xmin = 2.010
+				xmin = 1.690
+				xmax = 1.940
+				text = "ER1"
+			intervals [13]:
+				xmin = 1.940
+				xmax = 2.020
+				text = "N"
+			intervals [14]:
+				xmin = 2.020
 				xmax = 2.110
 				text = "M"
-			intervals [13]:
+			intervals [15]:
 				xmin = 2.110
 				xmax = 2.180
 				text = "AO0"
-			intervals [14]:
+			intervals [16]:
 				xmin = 2.180
 				xmax = 2.400
 				text = "R"
-			intervals [15]:
+			intervals [17]:
 				xmin = 2.400
 				xmax = 2.430
 				text = "sp"
-			intervals [16]:
+			intervals [18]:
 				xmin = 2.430
 				xmax = 2.460
 				text = "DH"
-			intervals [17]:
+			intervals [19]:
 				xmin = 2.460
 				xmax = 2.510
 				text = "AH0"
-			intervals [18]:
-				xmin = 2.510
-				xmax = 2.590
-				text = "N"
-			intervals [19]:
-				xmin = 2.590
-				xmax = 3.050
-				text = "spn"
 			intervals [20]:
+				xmin = 2.510
+				xmax = 2.580
+				text = "N"
+			intervals [21]:
+				xmin = 2.580
+				xmax = 2.780
+				text = "AE1"
+			intervals [22]:
+				xmin = 2.780
+				xmax = 2.850
+				text = "V"
+			intervals [23]:
+				xmin = 2.850
+				xmax = 2.900
+				text = "R"
+			intervals [24]:
+				xmin = 2.900
+				xmax = 3.020
+				text = "IH0"
+			intervals [25]:
+				xmin = 3.020
+				xmax = 3.050
+				text = "JH"
+			intervals [26]:
 				xmin = 3.050
 				xmax = 3.3160090702947844
 				text = ""
