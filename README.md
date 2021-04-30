@@ -10,14 +10,23 @@ The GUAva corpus is created and processed via the [LingTube](https://github.com/
 ## Corpus Details
 
 The process of the corpus creation and processing is roughly as follows:
-1. Identify specific video urls, listed in the [urls](./urls) directory (currently grouped in "sets" per regional and ethnic background)
+
+### Scrape YouTube
+1. Identify specific video urls, listed in the [lists](./lists) directory (currently grouped in "sets" per ethnic background) and run `yt-tools/scrape-channels.py` to get channel info along with urls in [screened_urls](./corpus/screened_urls)
 2. For each video, download the audio and English captions using `yt-tools/scrape-videos.py` into [raw_audio](./corpus/raw_audio) and [raw_subtitles](./corpus/raw_subtitles)
-3. (optional) Correct raw captions files (especially auto-subs) with the help of `yt-tools/correct-captions.py`
-4. Run conversion scripts to prepare audio (`youspeak/convert-audio.py`) and captions (`youspeak/clean-captions.py`) to formats amenable to processing
-5. Chunk the long audio files into short (<10 sec) segments based on pauses/breath breaks using `youspeak/chunk-audio.py`—a necessary and/or useful step for transcription and forced alignment
-6. Classify each clip as usable or not (i.e., clear speech without noise, music, etc.) and confirm transcriptions for each segment of speech using `youspeak/validate-chunks.py`, which opens a GUI
-7. Match transcriptions to audio in TextGrid format with `youspeak/create-textgrids.py`
-8. Conduct forced alignment using the Montreal Forced aligner, then do manual correction of alignment boundaries (with the help of `adjust-textgrids.py`)
+
+### Process text
+3. Convert captions (`tx-tools/clean-captions.py`) to a neater format and partially clean text
+4. (optional) Correct raw captions files with the help of `tx-tools/correct-captions.py`
+
+### Process audio
+5. Run conversion script to prepare audio (`youspeak/convert-audio.py`) in format amenable to processing (i.e., mono WAV files)
+6. Chunk the long audio files into short (<10 sec) segments based on pauses/breath breaks using `youspeak/chunk-audio.py`—a necessary and/or useful step for transcription and forced alignment
+
+### Process text + audio
+7. Classify each clip as usable or not (i.e., clear speech without noise, music, etc.) and confirm transcriptions for each segment of speech using `youspeak/validate-chunks.py`, which opens a GUI
+8. Match transcriptions to audio in TextGrid format with `youspeak/create-textgrids.py`
+9. Conduct forced alignment using the Montreal Forced aligner, then do manual correction of alignment boundaries (with the help of `adjust-textgrids.py`)
 
 ## Corpus Processing Guidelines
 * [Transcript Correction Guidelines](#transcript-correction-guidelines)
@@ -30,17 +39,14 @@ The process of the corpus creation and processing is roughly as follows:
 
 For the purposes of the GUAva corpus, this is how the LingTube scripts will be used to do hand-correction during corpus processing. In most cases, the only parameter that must be specified is the group (i.e., ethnicity grouping code), though a specific channel can be specified for some.
 
-#### Correcting Raw Captions
+#### Correcting Captions
 
 To run the caption correction script that opens the YouTube video in a web browser and a copy of the raw transcript file in a text editor, the command is `path/to/correct-captions.py -g $GROUP [-ch $CHANNEL]`
 
-* e.g. To go through all the captions of the Korean (kor) group in order, run `../LingTube/text-tools/correct-captions.py -g kor`
+* e.g. To go through all the captions of the Korean (kor) group in order, run `../LingTube/tx-tools/correct-captions.py -g kor`
 
-* e.g. To go through all the files for a particular channel (e.g., AMYLEE), run `../LingTube/text-tools/correct-captions.py -g kor -ch AMYLEE`
+* e.g. To go through all the files for a particular channel (e.g., AMYLEE), run `../LingTube/tx-tools/correct-captions.py -g kor -ch AMYLEE`
 
-After a caption file is fully corrected, clean the transcript using `path/to/clean-captions.py -g $GROUP`
-
-* e.g. To clean new caption files in the Korean group, run `../LingTube/youspeak/clean-captions.py -g kor`
 
 #### Validating Audio Chunks
 
@@ -65,27 +71,34 @@ To run the textgrid alignment adjustment script that opens a Praat with the appr
 Listen once through—don’t spend too much time on this stage.
 
 #### Basics:
+* Remove anything not actually said (e.g., joke subs, sound effects, commentary).
 * Fix incorrectly transcribed words.
-* Add or keep punctuation at the end of sentence/utterance boundaries (i.e., periods, question marks, etc.)
-  * Don’t worry about commas, but don’t remove if it’s there.
 * If there is a mispronunciation (with the intended meaning clear based on context), transcribe as the intended word and add an asterisk (*). If in doubt, transcribe as it sounds.
   * e.g., _when I say* this..._ where "say" is pronounced like "see"
 * If false start or single incomplete word, add a hyphen (-).
   * e.g., "I- I don't even remember..."
   * e.g., "I mean li- like I don't know"
+
+#### Optional
 * If incomplete sentence/phrase (fragment), add hyphen-period (-.)
-  * e.g., "So I mean-. I mean I was born in California, more specifically the Bay Area.""
-  * e.g., "I don't even li-. I don't like these okay?"
-* Remove anything not actually said (e.g., joke subs, sound effects, commentary).
+  * e.g., "So I mean-. I mean I was born in California, more specifically the Bay Area."
+  * e.g., "I don't even li-. I don't like these so"
+* Add or keep punctuation at the end of sentence/utterance boundaries (i.e., periods, question marks, etc.)
+  * Don’t worry about commas, but don’t remove if it’s there.
 
 #### Details:
-* Add or keep filler words (e.g., like, um, uh).
+* Add or keep filler words (e.g., like, um, uh, you know).
 * For colloquial pronunciations, replace standard/full forms with phonetically-accurate versions (i.e., represent how things are actually pronounced!).
   * e.g., _'cause_ for "_because_" or _'til_ for "_until_"
   * e.g., _just feels a little..._ for "_it just feels at little..._"
   * e.g., _wanna_ for "_want to_" or _dunno_ for "_don't know_"
-* For acronyms, capitalize all letters; don’t add periods (e.g., AM, PM, LA, FIDM).
+* For acronyms, capitalize all letters; don’t add periods (e.g., AM, PM, LA, FIDM, UCLA, US).
   * Otherwise, don’t worry about capitalization (i.e., don’t change whatever’s there).
+* For numerals (including times and years), write out pronunciation in words.
+  * e.g., _a hundred_ or _one hundred_ for 100
+  * e.g., _five AM_ for 5:00 a.m.
+  * e.g., _twenty-four seven_ for 24/7
+  * e.g., _twenty ten_ for "2010"
 
 #### Other:
 * For unidentifiable words, replace with `<unk>` (for unknown).
@@ -136,13 +149,12 @@ If an issue that affects the whole clip doesn't fit into any of these categories
 #### Basics
 * Keep and/or add any missing filler words.
   - e.g., _um_, _uh_, _like_
-* Keep proper names and acronyms as is.
+* Keep and/or fix any acronyms or abbreviations to all caps.
   - e.g., _FIDM_ for [fɪdm]; _LA_ for [ɜleɪ]; _UCLA_ for [jusiɜleɪ]
-* Write out numerals in words, including years.
-  - e.g., _twenty ten_ for "2010"
 * Keep and/or fix any colloquial pronunciations.
     * e.g., _'cause_ for "_because_" or _'til_ for "_until_"
     * e.g., _wanna_ for "_want to_" or _dunno_ for "_don't know_"
+* If there is a sound effect (e.g., swish, ding) not overlapping with speech, add in `<sfx>` (for sound effect).
 * If there is a clearly separate laugh, should be marked as `<lgh>`.
 * Otherwise, can ignore loud breaths or laughs, including those overlapping with speech.
 
@@ -161,6 +173,9 @@ If an issue that affects the whole clip doesn't fit into any of these categories
     - e.g., _kare_unc_ for 'kare rice' overlapped with a 'pop' sound effect
     - e.g., _and_unc it's_unc_ for 'and it's' with a pop but not sure exactly when
     - e.g., _Amy_unc and_unc_ for 'Amy and' with cheering noises
+  * Mispronounced words also count here.
+    - e.g., _dad_unc_ for 'dad*' pronounced more like "daah"
+    - e.g., _place_unc_ for 'place*' pronounced as "splace"
 * If some speech is altered (e.g., pitch raising, sped up) or includes other voices (e.g., someone else speaking), mark it with `_unn` (for unnatural).
 * If a phrase or word is otherwise not produced in the speaker's "natural" voice, such as imitating somebody else or doing some sort of skit, also mark it with a `_unn` (for unnatural).
   - e.g., _Jennifer_unn packed_unn..._ during an imitation
