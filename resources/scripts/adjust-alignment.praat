@@ -1,17 +1,15 @@
-################################################################
-# This is a script that automatically brings up a TextGrid for
-# marking boundaries. The 'outdir' - the directory to where the
-# files are written must be different from the text grid source
-# directory or else the progam will keep bringing up the same
-# files if you don't finish in one session. A text grid is only
-# saved if you click 'continue'.
+#########################################################################
+# This is a script that automatically brings up a Sound and
+# TextGrid for adjusting boundaries after forced alignment.
+# It is a component of adjust-textgrids.py in LingTube/YouSpeak.
 # -------------------------------------------------------------
-# Modified by Lauretta Cheng - UM - Apr 2021
-# Original by Grant McGuire - UCSC - July 2011
-################################################################
+# Lauretta Cheng, 2021
+# Based on scripts by Grant McGuire, Katherine Crosswhite, Mark Antoniou
+#########################################################################
 
-# Be sure not to forget the slash (Windows: backslash, OSX: forward
-# slash)  at the end of the directory name.
+# Compatible with both Windows and OSX
+# Requires the slash at the end of the directory name.
+# (Windows: backslash, OSX: forward slash)
 
 form Modify textgrids
 	comment Source Audio Directory
@@ -22,22 +20,23 @@ form Modify textgrids
 	sentence out_audio_dir replace_me_with_out_audpath
 	comment Directory to write the TextGrid to
 	sentence out_tg_dir replace_me_with_out_tgpath
+	comment Review List Directory
+	sentence out_list_dir replace_me_with_out_listpath
 endform
 
 #first rename
 clearinfo
 Create Strings as file list... list 'audio_dir$'*.wav
-all = Get number of strings
-iter = 0
+number_of_files = Get number of strings
 
-for ifile to all
+Read Strings from raw text file... 'out_list_dir$'full-review.txt
+Read Strings from raw text file... 'out_list_dir$'flagged-review.txt
+
+for i_file to number_of_files
 	select Strings list
-	soundname$ = Get string... ifile
+	soundname$ = Get string... i_file
 	name$ = soundname$-".wav"
 	Read from file... 'audio_dir$''name$'.wav
-
-	# Read in TextGrid
-	select Sound 'name$'
 	Read from file... 'tg_dir$''name$'.TextGrid
 
 	# Now bring up the editor to work on fixing the boundaries
@@ -45,31 +44,50 @@ for ifile to all
 	select Sound 'name$'
 	plus TextGrid 'name$'
 	Edit
-		#pause Please Edit TextGrid
 		beginPause: "Edit Text Grid"
 			comment: "Please adjust the boundaries on the TextGrid."
-		clicked = endPause: "Quit", "Save & Continue", 2, 1
+		clicked = endPause: "Quit", "Skip", "Done", "Flag", 3, 1
 		if clicked = 1
 					endeditor
 					select all
 					Remove
 					exitScript ()
+		elsif clicked = 2
+					select TextGrid 'name$'
+					plus Sound 'name$'
+					Remove
+		elsif clicked = 3
+					# Now save the result
+					select TextGrid 'name$'
+					Write to text file... 'out_tg_dir$''name$'.TextGrid
+					Remove
+					select Sound 'name$'
+					Write to WAV file... 'out_audio_dir$''name$'.wav
+					Remove
+					# Now add filename to full review file
+					select Strings full-review
+					Insert string... 0 'name$'.wav
+					Save as raw text file... 'out_list_dir$'full-review.txt
+					# Delete file
+					filedelete 'audio_dir$''name$'.wav
+		elsif clicked = 4
+					# Now save the result
+					select TextGrid 'name$'
+					Write to text file... 'out_tg_dir$''name$'.TextGrid
+					Remove
+					select Sound 'name$'
+					Write to WAV file... 'out_audio_dir$''name$'.wav
+					Remove
+					# Write filename to flagged review file
+					select Strings flagged-review
+					Insert string... 0 'name$'.wav
+					Save as raw text file... 'out_list_dir$'flagged-review.txt
+					# Delete file
+					filedelete 'audio_dir$''name$'.wav
 		endif
-    endeditor
+	endeditor
 
-	# Now save the result
-	select TextGrid 'name$'
-	Write to text file... 'out_tg_dir$''name$'.TextGrid
-	select Sound 'name$'
-	Write to WAV file... 'out_audio_dir$''name$'.wav
-	filedelete 'audio_dir$''name$'.wav
-	iter = iter + 1
-
-# Clear the lists
-select all
-minus Strings list
-Remove
 endfor
 
-select Strings list
+select all
 Remove
