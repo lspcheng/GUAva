@@ -79,31 +79,34 @@ Listen once through—don’t spend too much time on this stage.
   * e.g., "I- I don't even remember..."
   * e.g., "I mean li- like I don't know"
 
+<!--
 #### Optional
 * If incomplete sentence/phrase (fragment), add hyphen-period (-.)
   * e.g., "So I mean-. I mean I was born in California, more specifically the Bay Area."
   * e.g., "I don't even li-. I don't like these so"
 * Add or keep punctuation at the end of sentence/utterance boundaries (i.e., periods, question marks, etc.)
   * Don’t worry about commas, but don’t remove if it’s there.
+-->
 
 #### Details:
 * Add or keep filler words (e.g., like, um, uh, you know).
 * For colloquial pronunciations, replace standard/full forms with phonetically-accurate versions (i.e., represent how things are actually pronounced!).
   * e.g., _'cause_ for "_because_" or _'til_ for "_until_"
   * e.g., _just feels a little..._ for "_it just feels at little..._"
-  * e.g., _wanna_ for "_want to_" or _dunno_ for "_don't know_"
+  * e.g., _wanna_ for "_want to_", _dunno_ for "_don't know_", _y'know_ for "_you know_"
 * For acronyms, capitalize all letters; don’t add periods (e.g., AM, PM, LA, FIDM, UCLA, US).
   * Otherwise, don’t worry about capitalization (i.e., don’t change whatever’s there).
 * For numerals (including times and years), write out pronunciation in words.
   * e.g., _a hundred_ or _one hundred_ for 100
   * e.g., _five AM_ for 5:00 a.m.
-  * e.g., _twenty-four seven_ for 24/7
+  * e.g., _twenty four seven_ for 24/7
   * e.g., _twenty ten_ for "2010"
 
 #### Other:
 * For unidentifiable words, replace with `<unk>` (for unknown).
 * For words/utterances in another language, if you can’t identify the words, replace with `<cs>` (for code switch).
   * Can transcribe non-English words (e.g., in that language or romanization) but not necessary and don’t spend extra time on this.
+    * e.g., _kare rice_ for 'kare rice' pronounced with Korean phonology
 * For laughs not overlapping with speech, add in `<lgh>` (for laugh).
 * For any sound effects not overlapping with speech (e.g., transition ring, bell, noise, etc.), add in `<sfx>` (for sound effect).
 
@@ -147,40 +150,35 @@ If an issue that affects the whole clip doesn't fit into any of these categories
 ### Phonetic Coding Guidelines
 
 #### Basics
-* Keep and/or add any missing filler words.
-  - e.g., _um_, _uh_, _like_
-* Keep and/or fix any acronyms or abbreviations to all caps.
-  - e.g., _FIDM_ for [fɪdm]; _LA_ for [ɜleɪ]; _UCLA_ for [jusiɜleɪ]
-* Keep and/or fix any colloquial pronunciations.
-    * e.g., _'cause_ for "_because_" or _'til_ for "_until_"
-    * e.g., _wanna_ for "_want to_" or _dunno_ for "_don't know_"
-* If there is a sound effect (e.g., swish, ding) not overlapping with speech, add in `<sfx>` (for sound effect).
-* If there is a clearly separate laugh, should be marked as `<lgh>`.
-* Otherwise, can ignore loud breaths or laughs, including those overlapping with speech.
+* Fix any of the following:
+    - missing filler words should be added (_um_, _uh_, _like_)
+    - numerals should be written in number words (e.g., _a hundred_ or _one hundred_ for "100")
+    - acronyms or abbreviations should be all caps without periods (e.g., _LA_ not "l.a.", "la", or "L.A.")
+    - colloquial pronunciations should be as pronounced (e.g., _'cause_, _'til_, _wanna_, _dunno_, _y'know_)
+    - mispronounced words should have a following asterisk (e.g., _dad*_ pronounced like "daah", _place*_ pronounced like "splace")
+    - hyphenated words should have NO hyphens (e.g., _twenty nine_ not "twenty-nine", _self conscious_ not "self-conscious", _cooccur_ not "co-occur")
+    - cut-off words, either as produced by the speaker or artificially via the chunking process, SHOULD have a following hyphen (e.g., _li-_ for cut-off "like") even when the initial part is cut off (e.g., _tion-_ for cut-off "action"). Alternatively, can use preceding apostrophe-hyphen notation (e.g., _'-tion') but NOT only preceding hyphen.
+    - sound effects (e.g., swish, ding) not overlapping with speech, should be marked with `<sfx>`
+    - laughs not overlapping with speech should be marked with `<lgh>`
 
 #### Code-switching
 * If there is code-switching completely to a different language and words are not identifiable, should be marked as `<cs>`.
-* If a word is identifiable but a code-switch (e.g., pronounced using non-English phonology), mark it with a `_cs` tag (for code-switch).
-  * If you know the language/word, can transcribe non-English words (in orthography or romanization). It may also be in manual captions already.
-    - e.g., _kare_cs rice_cs_ for 'kare rice' pronounced with Korean phonology
-* If the word is a non-English word (e.g. loanword) but clearly pronounced with English phonology, don't tag it.
-  * If unsure, be conservative and tag it as a code-switch.
+* If a word is identifiable but a code-switch (e.g., pronounced using non-English phonology), mark it with a `_cs` tag (e.g., _kare_cs rice_cs_)
+* If the word is a non-English word (e.g. loanword) but clearly pronounced with English phonology, don't tag it. If unsure, leave as is for later decision.
 
 #### Unclear, Unnatural or Other Speech
 * If you can't make out a word, should be marked as `<unk>`.
 * If, out of an otherwise good audio chunk, there is an individual word or two that cannot be used, mark it with a `_unc` tag (for unclear).
   * This could be if a word is masked by a noise, overlapping with a sound effect or has some other issue that prevents it from being clear.
     - e.g., _kare_unc_ for 'kare rice' overlapped with a 'pop' sound effect
-    - e.g., _and_unc it's_unc_ for 'and it's' with a pop but not sure exactly when
     - e.g., _Amy_unc and_unc_ for 'Amy and' with cheering noises
-  * Mispronounced words also count here.
-    - e.g., _dad_unc_ for 'dad*' pronounced more like "daah"
-    - e.g., _place_unc_ for 'place*' pronounced as "splace"
 * If some speech is altered (e.g., pitch raising, sped up) or includes other voices (e.g., someone else speaking), mark it with `_unn` (for unnatural).
+  - e.g., _what_unn do_unn you_unn mean_unn_ with sped up speech
 * If a phrase or word is otherwise not produced in the speaker's "natural" voice, such as imitating somebody else or doing some sort of skit, also mark it with a `_unn` (for unnatural).
   - e.g., _Jennifer_unn packed_unn..._ during an imitation
 * If there are multiple issues, that require tags, tag them all.
   - e.g., _kare_cs_unc_ is a code-switch overlapped with a 'pop' sound
+* If unsure what words are affected (e.g., if you hear clicks but don't know whether and where it overlaps with speech), leave as is for later decision.
 
 ---
 
