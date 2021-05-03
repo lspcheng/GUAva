@@ -32,8 +32,9 @@ The process of the corpus creation and processing is roughly as follows:
 * [Transcript Correction Guidelines](#transcript-correction-guidelines)
 * [Chunk Classification Guidelines](#chunk-classification-guidelines)
 * [Phonetic Coding Guidelines](#phonetic-coding-guidelines)
+<!--
 * [Acoustic Segmentation Guidelines](#acoustic-segmentation-guidelines)
-
+-->
 ---
 ### How to Use Scripts
 
@@ -94,8 +95,12 @@ Listen once through—don’t spend too much time on this stage.
   * e.g., _'cause_ for "_because_" or _'til_ for "_until_"
   * e.g., _just feels a little..._ for "_it just feels at little..._"
   * e.g., _wanna_ for "_want to_", _dunno_ for "_don't know_", _y'know_ for "_you know_"
-* For acronyms, capitalize all letters; don’t add periods (e.g., AM, PM, LA, FIDM, UCLA, US).
-  * Otherwise, don’t worry about capitalization (i.e., don’t change whatever’s there).
+* For acronyms, capitalize all letters; don’t add periods or spaces
+  * e.g., _AM_ and _PM_ for "a.m." and "p.m."
+  * e.g., _LA_, _FIDM_, _UCLA_, _US_
+* Other than that, don’t worry about capitalization (i.e., don’t change whatever’s there).
+* For abbreviations, write out full forms as possible.
+  * e.g., _et cetera_ for "etc"
 * For numerals (including times and years), write out pronunciation in words.
   * e.g., _a hundred_ or _one hundred_ for 100
   * e.g., _five AM_ for 5:00 a.m.
@@ -153,7 +158,7 @@ If an issue that affects the whole clip doesn't fit into any of these categories
 * Fix any of the following:
     - missing filler words should be added (_um_, _uh_, _like_)
     - numerals should be written in number words (e.g., _a hundred_ or _one hundred_ for "100")
-    - acronyms or abbreviations should be all caps without periods (e.g., _LA_ not "l.a.", "la", or "L.A.")
+    - acronyms or abbreviations should be all caps without periods (e.g., _LA_ not "l.a.", "la", or "L.A.", _US_ not "u.s.")
     - colloquial pronunciations should be as pronounced (e.g., _'cause_, _'til_, _wanna_, _dunno_, _y'know_)
     - mispronounced words should have a following asterisk (e.g., _dad*_ pronounced like "daah", _place*_ pronounced like "splace")
     - hyphenated words should have NO hyphens (e.g., _twenty nine_ not "twenty-nine", _self conscious_ not "self-conscious", _cooccur_ not "co-occur")
@@ -181,6 +186,50 @@ If an issue that affects the whole clip doesn't fit into any of these categories
 * If unsure what words are affected (e.g., if you hear clicks but don't know whether and where it overlaps with speech), leave as is for later decision.
 
 ---
-
+<!--
 ### Acoustic Segmentation Guidelines
-_More details coming soon!_
+
+#### Vowels
+Main criteria:
+* Start and end of (complex) periodicity
+* Start and end of formants, focusing on F2
+* Change (increase and drop) in waveform amplitude
+
+Notes:
+* Include transitions in vowel segment if there is a clear boundary between consonant and vowel. Transitions may come from adjacent stops and liquids/nasals with clear formant patterning shift (e.g., anti-formants to none)
+* If devoiced (e.g., in aspiration), use formant pattern in the aspiration to serve as beginning and end point
+* If vowel offset is glottalised, do not include glottalized sections in vowel segment. Use a change in the shape of successive pitch periods (lengthening or doubling) as the end point.
+
+Boundary cues:
+* After or before glides and liquids without clear formant shift boundary, use auditory/impressionistic judgement of the point at which the following portion does not sound like the glide/liquid but more like a stop (e.g., sounds like [b] not [w], [d] not [l])
+* Similar with adjacent vowels, use auditory /impressionistic judgment
+* Before nasals, use the appearance of nasal formant structure and a waveform amplitude minimum (low amplitude corresponding to some form of closure) as the end point
+* Before fricatives, use the onset of visible frication as the end point.
+
+Syllabic consonants:
+* Count syllabic consonants as vocalic segments. They won't be marked as such so when they are identified, mark with double letters and the stress value: 'RR0', LL0', 'NN0', 'MM0'.
+  - e.g., "and" pronounced as only the syllabic nasal should be segmented as NN0 rather than AE0 N or AE0 N D.
+
+### Consonants
+Stops:
+* Start of “silence” (i.e., offset of higher frequency components, formats, etc.) to end of release burst
+* If glottalized/glottal stop, use lowered amplitude and/or offset of higher frequency components, as well as change in the shape of successive pitch periods (lengthening or doubling)
+
+Fricative:
+* Start and end of clear frication noise in waveform
+
+Affricates:
+* Start of stop (silence) to end of fricative (noise)
+
+Sonorants:
+* Point of amplitude change (lower) and/or distinct formant patterns (eg., anti-formants)
+* As mentioned above in vowel section, use auditory/impressionistic boundary judgment as necessary
+
+<!--
+Phrases:
+* Add 'sp' to pauses/silence if missing
+* For false starts, repairs or restarts, delete and replace with 'sp'
+E.g. but i- i- it's just
+E.g. is the something on my fai- face
+E.g. I just thought I just thought that you should know
+-->
