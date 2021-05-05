@@ -91,6 +91,7 @@ Listen once through—don’t spend too much time on this stage.
 
 #### Details:
 * Add or keep filler words (e.g., like, um, uh, you know).
+* Remove hyphens (-) from hyphenated words (e.g., _self conscious_ not "self-conscious")
 * For colloquial pronunciations, replace standard/full forms with phonetically-accurate versions (i.e., represent how things are actually pronounced!).
   * e.g., _'cause_ for "_because_" or _'til_ for "_until_"
   * e.g., _just feels a little..._ for "_it just feels at little..._"
