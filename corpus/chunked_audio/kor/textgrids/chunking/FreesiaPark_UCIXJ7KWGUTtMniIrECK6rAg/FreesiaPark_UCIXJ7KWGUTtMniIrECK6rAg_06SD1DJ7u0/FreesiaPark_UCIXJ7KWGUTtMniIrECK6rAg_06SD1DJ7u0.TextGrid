@@ -1,0 +1,4350 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 837.9849433106576 
+tiers? <exists> 
+size = 3 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "silences" 
+        xmin = 0 
+        xmax = 837.9849433106576 
+        intervals: size = 225 
+        intervals [1]:
+            xmin = 0 
+            xmax = 4 
+            text = "speech" 
+        intervals [2]:
+            xmin = 4 
+            xmax = 17 
+            text = "music" 
+        intervals [3]:
+            xmin = 17 
+            xmax = 27.275995464852606 
+            text = "speech" 
+        intervals [4]:
+            xmin = 27.275995464852606 
+            xmax = 28.056 
+            text = "silence" 
+        intervals [5]:
+            xmin = 28.056 
+            xmax = 33.61290181143988 
+            text = "speech" 
+        intervals [6]:
+            xmin = 33.61290181143988 
+            xmax = 76 
+            text = "music" 
+        intervals [7]:
+            xmin = 76 
+            xmax = 76.39200000000001 
+            text = "silence" 
+        intervals [8]:
+            xmin = 76.39200000000001 
+            xmax = 76.52000000000001 
+            text = "speech" 
+        intervals [9]:
+            xmin = 76.52000000000001 
+            xmax = 77.47200000000001 
+            text = "silence" 
+        intervals [10]:
+            xmin = 77.47200000000001 
+            xmax = 77.58400000000002 
+            text = "speech" 
+        intervals [11]:
+            xmin = 77.58400000000002 
+            xmax = 77.70400000000001 
+            text = "silence" 
+        intervals [12]:
+            xmin = 77.70400000000001 
+            xmax = 79.17600000000002 
+            text = "speech" 
+        intervals [13]:
+            xmin = 79.17600000000002 
+            xmax = 79.57600000000001 
+            text = "silence" 
+        intervals [14]:
+            xmin = 79.57600000000001 
+            xmax = 82.36800000000001 
+            text = "speech" 
+        intervals [15]:
+            xmin = 82.36800000000001 
+            xmax = 82.48000000000002 
+            text = "silence" 
+        intervals [16]:
+            xmin = 82.48000000000002 
+            xmax = 85.95200000000001 
+            text = "speech" 
+        intervals [17]:
+            xmin = 85.95200000000001 
+            xmax = 86.096 
+            text = "silence" 
+        intervals [18]:
+            xmin = 86.096 
+            xmax = 89.376 
+            text = "speech" 
+        intervals [19]:
+            xmin = 89.376 
+            xmax = 89.68800000000002 
+            text = "silence" 
+        intervals [20]:
+            xmin = 89.68800000000002 
+            xmax = 96.424 
+            text = "speech" 
+        intervals [21]:
+            xmin = 96.424 
+            xmax = 96.528 
+            text = "silence" 
+        intervals [22]:
+            xmin = 96.528 
+            xmax = 100 
+            text = "speech" 
+        intervals [23]:
+            xmin = 100 
+            xmax = 129 
+            text = "music" 
+        intervals [24]:
+            xmin = 129 
+            xmax = 133.74399999999997 
+            text = "speech" 
+        intervals [25]:
+            xmin = 133.74399999999997 
+            xmax = 134.23199999999997 
+            text = "silence" 
+        intervals [26]:
+            xmin = 134.23199999999997 
+            xmax = 139.79199999999997 
+            text = "speech" 
+        intervals [27]:
+            xmin = 139.79199999999997 
+            xmax = 140.248 
+            text = "silence" 
+        intervals [28]:
+            xmin = 140.248 
+            xmax = 145.04 
+            text = "speech" 
+        intervals [29]:
+            xmin = 145.04 
+            xmax = 146.49599999999998 
+            text = "silence" 
+        intervals [30]:
+            xmin = 146.49599999999998 
+            xmax = 150.528 
+            text = "speech" 
+        intervals [31]:
+            xmin = 150.528 
+            xmax = 152.67199999999997 
+            text = "silence" 
+        intervals [32]:
+            xmin = 152.67199999999997 
+            xmax = 152.97599999999997 
+            text = "speech" 
+        intervals [33]:
+            xmin = 152.97599999999997 
+            xmax = 153.504 
+            text = "silence" 
+        intervals [34]:
+            xmin = 153.504 
+            xmax = 154.07999999999998 
+            text = "speech" 
+        intervals [35]:
+            xmin = 154.07999999999998 
+            xmax = 154.67199999999997 
+            text = "silence" 
+        intervals [36]:
+            xmin = 154.67199999999997 
+            xmax = 156.51999999999998 
+            text = "speech" 
+        intervals [37]:
+            xmin = 156.51999999999998 
+            xmax = 156.944 
+            text = "silence" 
+        intervals [38]:
+            xmin = 156.944 
+            xmax = 158.39999546485262 
+            text = "speech" 
+        intervals [39]:
+            xmin = 158.39999546485262 
+            xmax = 158.6639954648526 
+            text = "silence" 
+        intervals [40]:
+            xmin = 158.6639954648526 
+            xmax = 167 
+            text = "speech" 
+        intervals [41]:
+            xmin = 167 
+            xmax = 306 
+            text = "music" 
+        intervals [42]:
+            xmin = 306 
+            xmax = 310.35200000000003 
+            text = "speech" 
+        intervals [43]:
+            xmin = 310.35200000000003 
+            xmax = 310.70400000000006 
+            text = "silence" 
+        intervals [44]:
+            xmin = 310.70400000000006 
+            xmax = 311.16800000000006 
+            text = "speech" 
+        intervals [45]:
+            xmin = 311.16800000000006 
+            xmax = 313.27200000000005 
+            text = "silence" 
+        intervals [46]:
+            xmin = 313.27200000000005 
+            xmax = 314.36 
+            text = "speech" 
+        intervals [47]:
+            xmin = 314.36 
+            xmax = 314.80000000000007 
+            text = "silence" 
+        intervals [48]:
+            xmin = 314.80000000000007 
+            xmax = 314.90400000000005 
+            text = "speech" 
+        intervals [49]:
+            xmin = 314.90400000000005 
+            xmax = 315.02400000000006 
+            text = "silence" 
+        intervals [50]:
+            xmin = 315.02400000000006 
+            xmax = 317.16 
+            text = "speech" 
+        intervals [51]:
+            xmin = 317.16 
+            xmax = 317.42400000000004 
+            text = "silence" 
+        intervals [52]:
+            xmin = 317.42400000000004 
+            xmax = 317.648 
+            text = "speech" 
+        intervals [53]:
+            xmin = 317.648 
+            xmax = 317.88000000000005 
+            text = "silence" 
+        intervals [54]:
+            xmin = 317.88000000000005 
+            xmax = 319.95200000000006 
+            text = "speech" 
+        intervals [55]:
+            xmin = 319.95200000000006 
+            xmax = 320.05600000000004 
+            text = "silence" 
+        intervals [56]:
+            xmin = 320.05600000000004 
+            xmax = 324.56000000000006 
+            text = "speech" 
+        intervals [57]:
+            xmin = 324.56000000000006 
+            xmax = 324.71200000000005 
+            text = "silence" 
+        intervals [58]:
+            xmin = 324.71200000000005 
+            xmax = 324.81600000000003 
+            text = "speech" 
+        intervals [59]:
+            xmin = 324.81600000000003 
+            xmax = 324.92 
+            text = "silence" 
+        intervals [60]:
+            xmin = 324.92 
+            xmax = 326.53600000000006 
+            text = "speech" 
+        intervals [61]:
+            xmin = 326.53600000000006 
+            xmax = 326.98400000000004 
+            text = "silence" 
+        intervals [62]:
+            xmin = 326.98400000000004 
+            xmax = 327.10400000000004 
+            text = "speech" 
+        intervals [63]:
+            xmin = 327.10400000000004 
+            xmax = 327.232 
+            text = "silence" 
+        intervals [64]:
+            xmin = 327.232 
+            xmax = 329.12000000000006 
+            text = "speech" 
+        intervals [65]:
+            xmin = 329.12000000000006 
+            xmax = 329.30400000000003 
+            text = "silence" 
+        intervals [66]:
+            xmin = 329.30400000000003 
+            xmax = 329.408 
+            text = "speech" 
+        intervals [67]:
+            xmin = 329.408 
+            xmax = 329.56000000000006 
+            text = "silence" 
+        intervals [68]:
+            xmin = 329.56000000000006 
+            xmax = 329.72800000000007 
+            text = "speech" 
+        intervals [69]:
+            xmin = 329.72800000000007 
+            xmax = 330.04 
+            text = "silence" 
+        intervals [70]:
+            xmin = 330.04 
+            xmax = 331.16 
+            text = "speech" 
+        intervals [71]:
+            xmin = 331.16 
+            xmax = 331.288 
+            text = "silence" 
+        intervals [72]:
+            xmin = 331.288 
+            xmax = 331.56800000000004 
+            text = "speech" 
+        intervals [73]:
+            xmin = 331.56800000000004 
+            xmax = 332.21600000000007 
+            text = "silence" 
+        intervals [74]:
+            xmin = 332.21600000000007 
+            xmax = 333.064 
+            text = "speech" 
+        intervals [75]:
+            xmin = 333.064 
+            xmax = 333.232 
+            text = "silence" 
+        intervals [76]:
+            xmin = 333.232 
+            xmax = 333.336 
+            text = "speech" 
+        intervals [77]:
+            xmin = 333.336 
+            xmax = 333.47200000000004 
+            text = "silence" 
+        intervals [78]:
+            xmin = 333.47200000000004 
+            xmax = 333.82400000000007 
+            text = "speech" 
+        intervals [79]:
+            xmin = 333.82400000000007 
+            xmax = 334.232 
+            text = "silence" 
+        intervals [80]:
+            xmin = 334.232 
+            xmax = 341.04800000000006 
+            text = "speech" 
+        intervals [81]:
+            xmin = 341.04800000000006 
+            xmax = 341.72800000000007 
+            text = "silence" 
+        intervals [82]:
+            xmin = 341.72800000000007 
+            xmax = 342.12000000000006 
+            text = "speech" 
+        intervals [83]:
+            xmin = 342.12000000000006 
+            xmax = 342.39200000000005 
+            text = "silence" 
+        intervals [84]:
+            xmin = 342.39200000000005 
+            xmax = 343.77600000000007 
+            text = "speech" 
+        intervals [85]:
+            xmin = 343.77600000000007 
+            xmax = 344.33600000000007 
+            text = "silence" 
+        intervals [86]:
+            xmin = 344.33600000000007 
+            xmax = 345.75200000000007 
+            text = "speech" 
+        intervals [87]:
+            xmin = 345.75200000000007 
+            xmax = 345.9440000000001 
+            text = "silence" 
+        intervals [88]:
+            xmin = 345.9440000000001 
+            xmax = 355 
+            text = "speech" 
+        intervals [89]:
+            xmin = 355 
+            xmax = 366 
+            text = "music" 
+        intervals [90]:
+            xmin = 366 
+            xmax = 376 
+            text = "speech" 
+        intervals [91]:
+            xmin = 376 
+            xmax = 490 
+            text = "music" 
+        intervals [92]:
+            xmin = 490 
+            xmax = 496.208 
+            text = "speech" 
+        intervals [93]:
+            xmin = 496.208 
+            xmax = 496.60800000000006 
+            text = "silence" 
+        intervals [94]:
+            xmin = 496.60800000000006 
+            xmax = 505.1240000000001 
+            text = "speech" 
+        intervals [95]:
+            xmin = 505.1240000000001 
+            xmax = 505.62000000000006 
+            text = "silence" 
+        intervals [96]:
+            xmin = 505.62000000000006 
+            xmax = 507.79200000000003 
+            text = "speech" 
+        intervals [97]:
+            xmin = 507.79200000000003 
+            xmax = 508.12800000000004 
+            text = "silence" 
+        intervals [98]:
+            xmin = 508.12800000000004 
+            xmax = 515.504 
+            text = "speech" 
+        intervals [99]:
+            xmin = 515.504 
+            xmax = 515.784 
+            text = "silence" 
+        intervals [100]:
+            xmin = 515.784 
+            xmax = 515.9920000000001 
+            text = "speech" 
+        intervals [101]:
+            xmin = 515.9920000000001 
+            xmax = 516.8960000000001 
+            text = "silence" 
+        intervals [102]:
+            xmin = 516.8960000000001 
+            xmax = 518.5840000000001 
+            text = "speech" 
+        intervals [103]:
+            xmin = 518.5840000000001 
+            xmax = 518.744 
+            text = "silence" 
+        intervals [104]:
+            xmin = 518.744 
+            xmax = 528.104 
+            text = "speech" 
+        intervals [105]:
+            xmin = 528.104 
+            xmax = 528.32 
+            text = "silence" 
+        intervals [106]:
+            xmin = 528.32 
+            xmax = 532.3280000000001 
+            text = "speech" 
+        intervals [107]:
+            xmin = 532.3280000000001 
+            xmax = 532.5120000000001 
+            text = "silence" 
+        intervals [108]:
+            xmin = 532.5120000000001 
+            xmax = 532.984 
+            text = "speech" 
+        intervals [109]:
+            xmin = 532.984 
+            xmax = 533.264 
+            text = "silence" 
+        intervals [110]:
+            xmin = 533.264 
+            xmax = 535.616 
+            text = "speech" 
+        intervals [111]:
+            xmin = 535.616 
+            xmax = 535.888 
+            text = "silence" 
+        intervals [112]:
+            xmin = 535.888 
+            xmax = 537.368 
+            text = "speech" 
+        intervals [113]:
+            xmin = 537.368 
+            xmax = 537.9680000000001 
+            text = "silence" 
+        intervals [114]:
+            xmin = 537.9680000000001 
+            xmax = 541.88 
+            text = "speech" 
+        intervals [115]:
+            xmin = 541.88 
+            xmax = 542.128 
+            text = "silence" 
+        intervals [116]:
+            xmin = 542.128 
+            xmax = 548.456 
+            text = "speech" 
+        intervals [117]:
+            xmin = 548.456 
+            xmax = 548.9440000000001 
+            text = "silence" 
+        intervals [118]:
+            xmin = 548.9440000000001 
+            xmax = 550.9439931972789 
+            text = "speech" 
+        intervals [119]:
+            xmin = 550.9439931972789 
+            xmax = 551.167993197279 
+            text = "silence" 
+        intervals [120]:
+            xmin = 551.167993197279 
+            xmax = 560.6799931972789 
+            text = "speech" 
+        intervals [121]:
+            xmin = 560.6799931972789 
+            xmax = 560.911993197279 
+            text = "silence" 
+        intervals [122]:
+            xmin = 560.911993197279 
+            xmax = 564.3519909297053 
+            text = "speech" 
+        intervals [123]:
+            xmin = 564.3519909297053 
+            xmax = 564.9519909297053 
+            text = "silence" 
+        intervals [124]:
+            xmin = 564.9519909297053 
+            xmax = 572.3679909297053 
+            text = "speech" 
+        intervals [125]:
+            xmin = 572.3679909297053 
+            xmax = 572.5679909297053 
+            text = "silence" 
+        intervals [126]:
+            xmin = 572.5679909297053 
+            xmax = 574.224 
+            text = "speech" 
+        intervals [127]:
+            xmin = 574.224 
+            xmax = 574.9440000000001 
+            text = "silence" 
+        intervals [128]:
+            xmin = 574.9440000000001 
+            xmax = 576.12 
+            text = "speech" 
+        intervals [129]:
+            xmin = 576.12 
+            xmax = 576.2320000000001 
+            text = "silence" 
+        intervals [130]:
+            xmin = 576.2320000000001 
+            xmax = 580.808 
+            text = "speech" 
+        intervals [131]:
+            xmin = 580.808 
+            xmax = 581.048 
+            text = "silence" 
+        intervals [132]:
+            xmin = 581.048 
+            xmax = 582.48 
+            text = "speech" 
+        intervals [133]:
+            xmin = 582.48 
+            xmax = 582.6320000000001 
+            text = "silence" 
+        intervals [134]:
+            xmin = 582.6320000000001 
+            xmax = 587 
+            text = "speech" 
+        intervals [135]:
+            xmin = 587 
+            xmax = 602 
+            text = "music" 
+        intervals [136]:
+            xmin = 602 
+            xmax = 609.5120000000001 
+            text = "speech" 
+        intervals [137]:
+            xmin = 609.5120000000001 
+            xmax = 609.64 
+            text = "silence" 
+        intervals [138]:
+            xmin = 609.64 
+            xmax = 616.5360045351474 
+            text = "speech" 
+        intervals [139]:
+            xmin = 616.5360045351474 
+            xmax = 616.7360045351473 
+            text = "silence" 
+        intervals [140]:
+            xmin = 616.7360045351473 
+            xmax = 622.8160045351474 
+            text = "speech" 
+        intervals [141]:
+            xmin = 622.8160045351474 
+            xmax = 623.0000045351474 
+            text = "silence" 
+        intervals [142]:
+            xmin = 623.0000045351474 
+            xmax = 624.4160045351474 
+            text = "speech" 
+        intervals [143]:
+            xmin = 624.4160045351474 
+            xmax = 624.5760045351474 
+            text = "silence" 
+        intervals [144]:
+            xmin = 624.5760045351474 
+            xmax = 628.4640045351474 
+            text = "speech" 
+        intervals [145]:
+            xmin = 628.4640045351474 
+            xmax = 628.8480000000001 
+            text = "silence" 
+        intervals [146]:
+            xmin = 628.8480000000001 
+            xmax = 633.168 
+            text = "speech" 
+        intervals [147]:
+            xmin = 633.168 
+            xmax = 634.1840000000001 
+            text = "silence" 
+        intervals [148]:
+            xmin = 634.1840000000001 
+            xmax = 634.72 
+            text = "speech" 
+        intervals [149]:
+            xmin = 634.72 
+            xmax = 635.144 
+            text = "silence" 
+        intervals [150]:
+            xmin = 635.144 
+            xmax = 639.616 
+            text = "speech" 
+        intervals [151]:
+            xmin = 639.616 
+            xmax = 639.832 
+            text = "silence" 
+        intervals [152]:
+            xmin = 639.832 
+            xmax = 642.104 
+            text = "speech" 
+        intervals [153]:
+            xmin = 642.104 
+            xmax = 642.4240000000001 
+            text = "silence" 
+        intervals [154]:
+            xmin = 642.4240000000001 
+            xmax = 643.6400000000001 
+            text = "speech" 
+        intervals [155]:
+            xmin = 643.6400000000001 
+            xmax = 643.952 
+            text = "silence" 
+        intervals [156]:
+            xmin = 643.952 
+            xmax = 645.1840000000001 
+            text = "speech" 
+        intervals [157]:
+            xmin = 645.1840000000001 
+            xmax = 645.312 
+            text = "silence" 
+        intervals [158]:
+            xmin = 645.312 
+            xmax = 654.032 
+            text = "speech" 
+        intervals [159]:
+            xmin = 654.032 
+            xmax = 654.168 
+            text = "silence" 
+        intervals [160]:
+            xmin = 654.168 
+            xmax = 661.6560000000001 
+            text = "speech" 
+        intervals [161]:
+            xmin = 661.6560000000001 
+            xmax = 661.76 
+            text = "silence" 
+        intervals [162]:
+            xmin = 661.76 
+            xmax = 663.928 
+            text = "speech" 
+        intervals [163]:
+            xmin = 663.928 
+            xmax = 664.0640000000001 
+            text = "silence" 
+        intervals [164]:
+            xmin = 664.0640000000001 
+            xmax = 672.1600000000001 
+            text = "speech" 
+        intervals [165]:
+            xmin = 672.1600000000001 
+            xmax = 672.296 
+            text = "silence" 
+        intervals [166]:
+            xmin = 672.296 
+            xmax = 674 
+            text = "speech" 
+        intervals [167]:
+            xmin = 674 
+            xmax = 694 
+            text = "music" 
+        intervals [168]:
+            xmin = 694 
+            xmax = 699.1799954648526 
+            text = "speech" 
+        intervals [169]:
+            xmin = 699.1799954648526 
+            xmax = 699.3879954648526 
+            text = "silence" 
+        intervals [170]:
+            xmin = 699.3879954648526 
+            xmax = 699.5239954648526 
+            text = "speech" 
+        intervals [171]:
+            xmin = 699.5239954648526 
+            xmax = 699.8279954648526 
+            text = "silence" 
+        intervals [172]:
+            xmin = 699.8279954648526 
+            xmax = 706.7099977324264 
+            text = "speech" 
+        intervals [173]:
+            xmin = 706.7099977324264 
+            xmax = 706.9259977324264 
+            text = "silence" 
+        intervals [174]:
+            xmin = 706.9259977324264 
+            xmax = 710.9579977324264 
+            text = "speech" 
+        intervals [175]:
+            xmin = 710.9579977324264 
+            xmax = 711.672 
+            text = "silence" 
+        intervals [176]:
+            xmin = 711.672 
+            xmax = 712.6080000000001 
+            text = "speech" 
+        intervals [177]:
+            xmin = 712.6080000000001 
+            xmax = 712.712 
+            text = "silence" 
+        intervals [178]:
+            xmin = 712.712 
+            xmax = 714.2 
+            text = "speech" 
+        intervals [179]:
+            xmin = 714.2 
+            xmax = 714.416 
+            text = "silence" 
+        intervals [180]:
+            xmin = 714.416 
+            xmax = 714.808 
+            text = "speech" 
+        intervals [181]:
+            xmin = 714.808 
+            xmax = 714.9200000000001 
+            text = "silence" 
+        intervals [182]:
+            xmin = 714.9200000000001 
+            xmax = 722.768 
+            text = "speech" 
+        intervals [183]:
+            xmin = 722.768 
+            xmax = 723.032 
+            text = "silence" 
+        intervals [184]:
+            xmin = 723.032 
+            xmax = 727.672 
+            text = "speech" 
+        intervals [185]:
+            xmin = 727.672 
+            xmax = 728.0160000000001 
+            text = "silence" 
+        intervals [186]:
+            xmin = 728.0160000000001 
+            xmax = 731.08 
+            text = "speech" 
+        intervals [187]:
+            xmin = 731.08 
+            xmax = 731.3040000000001 
+            text = "silence" 
+        intervals [188]:
+            xmin = 731.3040000000001 
+            xmax = 733 
+            text = "speech" 
+        intervals [189]:
+            xmin = 733 
+            xmax = 749 
+            text = "music" 
+        intervals [190]:
+            xmin = 749 
+            xmax = 753.176 
+            text = "speech" 
+        intervals [191]:
+            xmin = 753.176 
+            xmax = 753.576 
+            text = "silence" 
+        intervals [192]:
+            xmin = 753.576 
+            xmax = 755.4480000000001 
+            text = "speech" 
+        intervals [193]:
+            xmin = 755.4480000000001 
+            xmax = 755.624 
+            text = "silence" 
+        intervals [194]:
+            xmin = 755.624 
+            xmax = 757.784 
+            text = "speech" 
+        intervals [195]:
+            xmin = 757.784 
+            xmax = 757.9680000000001 
+            text = "silence" 
+        intervals [196]:
+            xmin = 757.9680000000001 
+            xmax = 761.1840000000001 
+            text = "speech" 
+        intervals [197]:
+            xmin = 761.1840000000001 
+            xmax = 761.288 
+            text = "silence" 
+        intervals [198]:
+            xmin = 761.288 
+            xmax = 762.928 
+            text = "speech" 
+        intervals [199]:
+            xmin = 762.928 
+            xmax = 763.0400000000001 
+            text = "silence" 
+        intervals [200]:
+            xmin = 763.0400000000001 
+            xmax = 770.784 
+            text = "speech" 
+        intervals [201]:
+            xmin = 770.784 
+            xmax = 770.96 
+            text = "silence" 
+        intervals [202]:
+            xmin = 770.96 
+            xmax = 775.9680000000001 
+            text = "speech" 
+        intervals [203]:
+            xmin = 775.9680000000001 
+            xmax = 776.072 
+            text = "silence" 
+        intervals [204]:
+            xmin = 776.072 
+            xmax = 777.5840000000001 
+            text = "speech" 
+        intervals [205]:
+            xmin = 777.5840000000001 
+            xmax = 777.712 
+            text = "silence" 
+        intervals [206]:
+            xmin = 777.712 
+            xmax = 780.9680000000001 
+            text = "speech" 
+        intervals [207]:
+            xmin = 780.9680000000001 
+            xmax = 781.1600000000001 
+            text = "silence" 
+        intervals [208]:
+            xmin = 781.1600000000001 
+            xmax = 783.2320000000001 
+            text = "speech" 
+        intervals [209]:
+            xmin = 783.2320000000001 
+            xmax = 784.032 
+            text = "silence" 
+        intervals [210]:
+            xmin = 784.032 
+            xmax = 787.576 
+            text = "speech" 
+        intervals [211]:
+            xmin = 787.576 
+            xmax = 787.6800000000001 
+            text = "silence" 
+        intervals [212]:
+            xmin = 787.6800000000001 
+            xmax = 797.2359977324262 
+            text = "speech" 
+        intervals [213]:
+            xmin = 797.2359977324262 
+            xmax = 797.5079977324262 
+            text = "silence" 
+        intervals [214]:
+            xmin = 797.5079977324262 
+            xmax = 798.662 
+            text = "speech" 
+        intervals [215]:
+            xmin = 798.662 
+            xmax = 798.998 
+            text = "silence" 
+        intervals [216]:
+            xmin = 798.998 
+            xmax = 804.407 
+            text = "speech" 
+        intervals [217]:
+            xmin = 804.407 
+            xmax = 804.695 
+            text = "silence" 
+        intervals [218]:
+            xmin = 804.695 
+            xmax = 810.4150000000001 
+            text = "speech" 
+        intervals [219]:
+            xmin = 810.4150000000001 
+            xmax = 810.759 
+            text = "silence" 
+        intervals [220]:
+            xmin = 810.759 
+            xmax = 814.672 
+            text = "speech" 
+        intervals [221]:
+            xmin = 814.672 
+            xmax = 815.008 
+            text = "silence" 
+        intervals [222]:
+            xmin = 815.008 
+            xmax = 824.6880000000001 
+            text = "speech" 
+        intervals [223]:
+            xmin = 824.6880000000001 
+            xmax = 824.864 
+            text = "silence" 
+        intervals [224]:
+            xmin = 824.864 
+            xmax = 825 
+            text = "speech" 
+        intervals [225]:
+            xmin = 825 
+            xmax = 837.9849433106576 
+            text = "music" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "music" 
+        xmin = 0 
+        xmax = 837.9849433106576 
+        intervals: size = 20 
+        intervals [1]:
+            xmin = 0 
+            xmax = 4 
+            text = "speech" 
+        intervals [2]:
+            xmin = 4 
+            xmax = 17 
+            text = "music" 
+        intervals [3]:
+            xmin = 17 
+            xmax = 31 
+            text = "speech" 
+        intervals [4]:
+            xmin = 31 
+            xmax = 76 
+            text = "music" 
+        intervals [5]:
+            xmin = 76 
+            xmax = 100 
+            text = "speech" 
+        intervals [6]:
+            xmin = 100 
+            xmax = 129 
+            text = "music" 
+        intervals [7]:
+            xmin = 129 
+            xmax = 167 
+            text = "speech" 
+        intervals [8]:
+            xmin = 167 
+            xmax = 306 
+            text = "music" 
+        intervals [9]:
+            xmin = 306 
+            xmax = 355 
+            text = "speech" 
+        intervals [10]:
+            xmin = 355 
+            xmax = 366 
+            text = "music" 
+        intervals [11]:
+            xmin = 366 
+            xmax = 376 
+            text = "speech" 
+        intervals [12]:
+            xmin = 376 
+            xmax = 490 
+            text = "music" 
+        intervals [13]:
+            xmin = 490 
+            xmax = 587 
+            text = "speech" 
+        intervals [14]:
+            xmin = 587 
+            xmax = 602 
+            text = "music" 
+        intervals [15]:
+            xmin = 602 
+            xmax = 674 
+            text = "speech" 
+        intervals [16]:
+            xmin = 674 
+            xmax = 694 
+            text = "music" 
+        intervals [17]:
+            xmin = 694 
+            xmax = 733 
+            text = "speech" 
+        intervals [18]:
+            xmin = 733 
+            xmax = 749 
+            text = "music" 
+        intervals [19]:
+            xmin = 749 
+            xmax = 825 
+            text = "speech" 
+        intervals [20]:
+            xmin = 825 
+            xmax = 837.9849433106576 
+            text = "music" 
+    item [3]:
+        class = "IntervalTier" 
+        name = "music-by-sec" 
+        xmin = 0 
+        xmax = 837.9849433106576 
+        intervals: size = 836 
+        intervals [1]:
+            xmin = 0 
+            xmax = 1 
+            text = "speech (0.782)" 
+        intervals [2]:
+            xmin = 1 
+            xmax = 2 
+            text = "speech (0.141)" 
+        intervals [3]:
+            xmin = 2 
+            xmax = 3 
+            text = "speech (0.616)" 
+        intervals [4]:
+            xmin = 3 
+            xmax = 4 
+            text = "speech (0.375)" 
+        intervals [5]:
+            xmin = 4 
+            xmax = 5 
+            text = "music (0.018)" 
+        intervals [6]:
+            xmin = 5 
+            xmax = 6 
+            text = "music (0.001)" 
+        intervals [7]:
+            xmin = 6 
+            xmax = 7 
+            text = "music (0.0)" 
+        intervals [8]:
+            xmin = 7 
+            xmax = 8 
+            text = "music (0.0)" 
+        intervals [9]:
+            xmin = 8 
+            xmax = 9 
+            text = "music (0.0)" 
+        intervals [10]:
+            xmin = 9 
+            xmax = 10 
+            text = "music (0.001)" 
+        intervals [11]:
+            xmin = 10 
+            xmax = 11 
+            text = "music (0.003)" 
+        intervals [12]:
+            xmin = 11 
+            xmax = 12 
+            text = "music (0.003)" 
+        intervals [13]:
+            xmin = 12 
+            xmax = 13 
+            text = "music (0.048)" 
+        intervals [14]:
+            xmin = 13 
+            xmax = 14 
+            text = "music (0.011)" 
+        intervals [15]:
+            xmin = 14 
+            xmax = 15 
+            text = "music (0.028)" 
+        intervals [16]:
+            xmin = 15 
+            xmax = 16 
+            text = "speech (0.23)" 
+        intervals [17]:
+            xmin = 16 
+            xmax = 17 
+            text = "speech (0.103)" 
+        intervals [18]:
+            xmin = 17 
+            xmax = 18 
+            text = "speech (0.984)" 
+        intervals [19]:
+            xmin = 18 
+            xmax = 19 
+            text = "speech (0.959)" 
+        intervals [20]:
+            xmin = 19 
+            xmax = 20 
+            text = "speech (1.0)" 
+        intervals [21]:
+            xmin = 20 
+            xmax = 21 
+            text = "speech (0.997)" 
+        intervals [22]:
+            xmin = 21 
+            xmax = 22 
+            text = "speech (0.997)" 
+        intervals [23]:
+            xmin = 22 
+            xmax = 23 
+            text = "speech (0.995)" 
+        intervals [24]:
+            xmin = 23 
+            xmax = 24 
+            text = "music (0.068)" 
+        intervals [25]:
+            xmin = 24 
+            xmax = 25 
+            text = "speech (0.197)" 
+        intervals [26]:
+            xmin = 25 
+            xmax = 26 
+            text = "speech (0.854)" 
+        intervals [27]:
+            xmin = 26 
+            xmax = 27 
+            text = "speech (0.941)" 
+        intervals [28]:
+            xmin = 27 
+            xmax = 28 
+            text = "speech (0.999)" 
+        intervals [29]:
+            xmin = 28 
+            xmax = 29 
+            text = "speech (0.801)" 
+        intervals [30]:
+            xmin = 29 
+            xmax = 30 
+            text = "speech (0.973)" 
+        intervals [31]:
+            xmin = 30 
+            xmax = 31 
+            text = "speech (0.896)" 
+        intervals [32]:
+            xmin = 31 
+            xmax = 32 
+            text = "music (0.003)" 
+        intervals [33]:
+            xmin = 32 
+            xmax = 33 
+            text = "music (0.0)" 
+        intervals [34]:
+            xmin = 33 
+            xmax = 34 
+            text = "music (0.0)" 
+        intervals [35]:
+            xmin = 34 
+            xmax = 35 
+            text = "music (0.0)" 
+        intervals [36]:
+            xmin = 35 
+            xmax = 36 
+            text = "music (0.0)" 
+        intervals [37]:
+            xmin = 36 
+            xmax = 37 
+            text = "music (0.0)" 
+        intervals [38]:
+            xmin = 37 
+            xmax = 38 
+            text = "music (0.0)" 
+        intervals [39]:
+            xmin = 38 
+            xmax = 39 
+            text = "music (0.0)" 
+        intervals [40]:
+            xmin = 39 
+            xmax = 40 
+            text = "music (0.0)" 
+        intervals [41]:
+            xmin = 40 
+            xmax = 41 
+            text = "music (0.0)" 
+        intervals [42]:
+            xmin = 41 
+            xmax = 42 
+            text = "music (0.0)" 
+        intervals [43]:
+            xmin = 42 
+            xmax = 43 
+            text = "music (0.0)" 
+        intervals [44]:
+            xmin = 43 
+            xmax = 44 
+            text = "music (0.0)" 
+        intervals [45]:
+            xmin = 44 
+            xmax = 45 
+            text = "music (0.0)" 
+        intervals [46]:
+            xmin = 45 
+            xmax = 46 
+            text = "music (0.0)" 
+        intervals [47]:
+            xmin = 46 
+            xmax = 47 
+            text = "music (0.0)" 
+        intervals [48]:
+            xmin = 47 
+            xmax = 48 
+            text = "music (0.0)" 
+        intervals [49]:
+            xmin = 48 
+            xmax = 49 
+            text = "music (0.0)" 
+        intervals [50]:
+            xmin = 49 
+            xmax = 50 
+            text = "music (0.0)" 
+        intervals [51]:
+            xmin = 50 
+            xmax = 51 
+            text = "music (0.0)" 
+        intervals [52]:
+            xmin = 51 
+            xmax = 52 
+            text = "music (0.0)" 
+        intervals [53]:
+            xmin = 52 
+            xmax = 53 
+            text = "music (0.0)" 
+        intervals [54]:
+            xmin = 53 
+            xmax = 54 
+            text = "music (0.0)" 
+        intervals [55]:
+            xmin = 54 
+            xmax = 55 
+            text = "music (0.0)" 
+        intervals [56]:
+            xmin = 55 
+            xmax = 56 
+            text = "music (0.0)" 
+        intervals [57]:
+            xmin = 56 
+            xmax = 57 
+            text = "music (0.0)" 
+        intervals [58]:
+            xmin = 57 
+            xmax = 58 
+            text = "music (0.0)" 
+        intervals [59]:
+            xmin = 58 
+            xmax = 59 
+            text = "music (0.0)" 
+        intervals [60]:
+            xmin = 59 
+            xmax = 60 
+            text = "music (0.0)" 
+        intervals [61]:
+            xmin = 60 
+            xmax = 61 
+            text = "music (0.0)" 
+        intervals [62]:
+            xmin = 61 
+            xmax = 62 
+            text = "music (0.0)" 
+        intervals [63]:
+            xmin = 62 
+            xmax = 63 
+            text = "music (0.0)" 
+        intervals [64]:
+            xmin = 63 
+            xmax = 64 
+            text = "music (0.0)" 
+        intervals [65]:
+            xmin = 64 
+            xmax = 65 
+            text = "music (0.0)" 
+        intervals [66]:
+            xmin = 65 
+            xmax = 66 
+            text = "music (0.0)" 
+        intervals [67]:
+            xmin = 66 
+            xmax = 67 
+            text = "speech (0.21)" 
+        intervals [68]:
+            xmin = 67 
+            xmax = 68 
+            text = "speech (0.973)" 
+        intervals [69]:
+            xmin = 68 
+            xmax = 69 
+            text = "speech (0.598)" 
+        intervals [70]:
+            xmin = 69 
+            xmax = 70 
+            text = "speech (0.756)" 
+        intervals [71]:
+            xmin = 70 
+            xmax = 71 
+            text = "speech (0.617)" 
+        intervals [72]:
+            xmin = 71 
+            xmax = 72 
+            text = "speech (0.791)" 
+        intervals [73]:
+            xmin = 72 
+            xmax = 73 
+            text = "music (0.019)" 
+        intervals [74]:
+            xmin = 73 
+            xmax = 74 
+            text = "speech (0.834)" 
+        intervals [75]:
+            xmin = 74 
+            xmax = 75 
+            text = "speech (0.826)" 
+        intervals [76]:
+            xmin = 75 
+            xmax = 76 
+            text = "speech (0.594)" 
+        intervals [77]:
+            xmin = 76 
+            xmax = 77 
+            text = "speech (0.979)" 
+        intervals [78]:
+            xmin = 77 
+            xmax = 78 
+            text = "speech (0.967)" 
+        intervals [79]:
+            xmin = 78 
+            xmax = 79 
+            text = "speech (0.996)" 
+        intervals [80]:
+            xmin = 79 
+            xmax = 80 
+            text = "speech (0.998)" 
+        intervals [81]:
+            xmin = 80 
+            xmax = 81 
+            text = "speech (0.797)" 
+        intervals [82]:
+            xmin = 81 
+            xmax = 82 
+            text = "speech (0.965)" 
+        intervals [83]:
+            xmin = 82 
+            xmax = 83 
+            text = "speech (0.994)" 
+        intervals [84]:
+            xmin = 83 
+            xmax = 84 
+            text = "speech (0.907)" 
+        intervals [85]:
+            xmin = 84 
+            xmax = 85 
+            text = "speech (0.996)" 
+        intervals [86]:
+            xmin = 85 
+            xmax = 86 
+            text = "speech (0.968)" 
+        intervals [87]:
+            xmin = 86 
+            xmax = 87 
+            text = "speech (0.434)" 
+        intervals [88]:
+            xmin = 87 
+            xmax = 88 
+            text = "speech (0.111)" 
+        intervals [89]:
+            xmin = 88 
+            xmax = 89 
+            text = "speech (0.126)" 
+        intervals [90]:
+            xmin = 89 
+            xmax = 90 
+            text = "speech (0.214)" 
+        intervals [91]:
+            xmin = 90 
+            xmax = 91 
+            text = "music (0.021)" 
+        intervals [92]:
+            xmin = 91 
+            xmax = 92 
+            text = "music (0.099)" 
+        intervals [93]:
+            xmin = 92 
+            xmax = 93 
+            text = "music (0.026)" 
+        intervals [94]:
+            xmin = 93 
+            xmax = 94 
+            text = "speech (0.972)" 
+        intervals [95]:
+            xmin = 94 
+            xmax = 95 
+            text = "speech (0.996)" 
+        intervals [96]:
+            xmin = 95 
+            xmax = 96 
+            text = "speech (1.0)" 
+        intervals [97]:
+            xmin = 96 
+            xmax = 97 
+            text = "speech (1.0)" 
+        intervals [98]:
+            xmin = 97 
+            xmax = 98 
+            text = "speech (0.935)" 
+        intervals [99]:
+            xmin = 98 
+            xmax = 99 
+            text = "speech (0.954)" 
+        intervals [100]:
+            xmin = 99 
+            xmax = 100 
+            text = "speech (0.483)" 
+        intervals [101]:
+            xmin = 100 
+            xmax = 101 
+            text = "music (0.007)" 
+        intervals [102]:
+            xmin = 101 
+            xmax = 102 
+            text = "music (0.005)" 
+        intervals [103]:
+            xmin = 102 
+            xmax = 103 
+            text = "music (0.0)" 
+        intervals [104]:
+            xmin = 103 
+            xmax = 104 
+            text = "music (0.0)" 
+        intervals [105]:
+            xmin = 104 
+            xmax = 105 
+            text = "music (0.0)" 
+        intervals [106]:
+            xmin = 105 
+            xmax = 106 
+            text = "music (0.0)" 
+        intervals [107]:
+            xmin = 106 
+            xmax = 107 
+            text = "music (0.0)" 
+        intervals [108]:
+            xmin = 107 
+            xmax = 108 
+            text = "music (0.0)" 
+        intervals [109]:
+            xmin = 108 
+            xmax = 109 
+            text = "music (0.0)" 
+        intervals [110]:
+            xmin = 109 
+            xmax = 110 
+            text = "music (0.0)" 
+        intervals [111]:
+            xmin = 110 
+            xmax = 111 
+            text = "music (0.0)" 
+        intervals [112]:
+            xmin = 111 
+            xmax = 112 
+            text = "music (0.0)" 
+        intervals [113]:
+            xmin = 112 
+            xmax = 113 
+            text = "music (0.0)" 
+        intervals [114]:
+            xmin = 113 
+            xmax = 114 
+            text = "music (0.0)" 
+        intervals [115]:
+            xmin = 114 
+            xmax = 115 
+            text = "music (0.0)" 
+        intervals [116]:
+            xmin = 115 
+            xmax = 116 
+            text = "music (0.0)" 
+        intervals [117]:
+            xmin = 116 
+            xmax = 117 
+            text = "music (0.0)" 
+        intervals [118]:
+            xmin = 117 
+            xmax = 118 
+            text = "music (0.0)" 
+        intervals [119]:
+            xmin = 118 
+            xmax = 119 
+            text = "music (0.0)" 
+        intervals [120]:
+            xmin = 119 
+            xmax = 120 
+            text = "music (0.0)" 
+        intervals [121]:
+            xmin = 120 
+            xmax = 121 
+            text = "music (0.0)" 
+        intervals [122]:
+            xmin = 121 
+            xmax = 122 
+            text = "music (0.0)" 
+        intervals [123]:
+            xmin = 122 
+            xmax = 123 
+            text = "music (0.0)" 
+        intervals [124]:
+            xmin = 123 
+            xmax = 124 
+            text = "music (0.006)" 
+        intervals [125]:
+            xmin = 124 
+            xmax = 125 
+            text = "music (0.002)" 
+        intervals [126]:
+            xmin = 125 
+            xmax = 126 
+            text = "speech (0.887)" 
+        intervals [127]:
+            xmin = 126 
+            xmax = 127 
+            text = "speech (0.169)" 
+        intervals [128]:
+            xmin = 127 
+            xmax = 128 
+            text = "music (0.059)" 
+        intervals [129]:
+            xmin = 128 
+            xmax = 129 
+            text = "speech (0.79)" 
+        intervals [130]:
+            xmin = 129 
+            xmax = 130 
+            text = "speech (0.914)" 
+        intervals [131]:
+            xmin = 130 
+            xmax = 131 
+            text = "speech (0.983)" 
+        intervals [132]:
+            xmin = 131 
+            xmax = 132 
+            text = "speech (1.0)" 
+        intervals [133]:
+            xmin = 132 
+            xmax = 133 
+            text = "speech (1.0)" 
+        intervals [134]:
+            xmin = 133 
+            xmax = 134 
+            text = "speech (0.997)" 
+        intervals [135]:
+            xmin = 134 
+            xmax = 135 
+            text = "speech (0.992)" 
+        intervals [136]:
+            xmin = 135 
+            xmax = 136 
+            text = "speech (0.963)" 
+        intervals [137]:
+            xmin = 136 
+            xmax = 137 
+            text = "speech (0.582)" 
+        intervals [138]:
+            xmin = 137 
+            xmax = 138 
+            text = "speech (0.982)" 
+        intervals [139]:
+            xmin = 138 
+            xmax = 139 
+            text = "speech (0.979)" 
+        intervals [140]:
+            xmin = 139 
+            xmax = 140 
+            text = "speech (0.994)" 
+        intervals [141]:
+            xmin = 140 
+            xmax = 141 
+            text = "speech (0.968)" 
+        intervals [142]:
+            xmin = 141 
+            xmax = 142 
+            text = "speech (0.988)" 
+        intervals [143]:
+            xmin = 142 
+            xmax = 143 
+            text = "speech (0.999)" 
+        intervals [144]:
+            xmin = 143 
+            xmax = 144 
+            text = "speech (0.999)" 
+        intervals [145]:
+            xmin = 144 
+            xmax = 145 
+            text = "speech (0.999)" 
+        intervals [146]:
+            xmin = 145 
+            xmax = 146 
+            text = "speech (0.999)" 
+        intervals [147]:
+            xmin = 146 
+            xmax = 147 
+            text = "speech (0.999)" 
+        intervals [148]:
+            xmin = 147 
+            xmax = 148 
+            text = "speech (0.999)" 
+        intervals [149]:
+            xmin = 148 
+            xmax = 149 
+            text = "speech (1.0)" 
+        intervals [150]:
+            xmin = 149 
+            xmax = 150 
+            text = "speech (1.0)" 
+        intervals [151]:
+            xmin = 150 
+            xmax = 151 
+            text = "speech (1.0)" 
+        intervals [152]:
+            xmin = 151 
+            xmax = 152 
+            text = "speech (1.0)" 
+        intervals [153]:
+            xmin = 152 
+            xmax = 153 
+            text = "speech (0.977)" 
+        intervals [154]:
+            xmin = 153 
+            xmax = 154 
+            text = "speech (0.999)" 
+        intervals [155]:
+            xmin = 154 
+            xmax = 155 
+            text = "speech (0.997)" 
+        intervals [156]:
+            xmin = 155 
+            xmax = 156 
+            text = "speech (0.993)" 
+        intervals [157]:
+            xmin = 156 
+            xmax = 157 
+            text = "speech (1.0)" 
+        intervals [158]:
+            xmin = 157 
+            xmax = 158 
+            text = "speech (0.987)" 
+        intervals [159]:
+            xmin = 158 
+            xmax = 159 
+            text = "speech (0.971)" 
+        intervals [160]:
+            xmin = 159 
+            xmax = 160 
+            text = "speech (0.79)" 
+        intervals [161]:
+            xmin = 160 
+            xmax = 161 
+            text = "speech (0.703)" 
+        intervals [162]:
+            xmin = 161 
+            xmax = 162 
+            text = "speech (0.357)" 
+        intervals [163]:
+            xmin = 162 
+            xmax = 163 
+            text = "speech (0.995)" 
+        intervals [164]:
+            xmin = 163 
+            xmax = 164 
+            text = "speech (1.0)" 
+        intervals [165]:
+            xmin = 164 
+            xmax = 165 
+            text = "speech (1.0)" 
+        intervals [166]:
+            xmin = 165 
+            xmax = 166 
+            text = "speech (1.0)" 
+        intervals [167]:
+            xmin = 166 
+            xmax = 167 
+            text = "speech (1.0)" 
+        intervals [168]:
+            xmin = 167 
+            xmax = 168 
+            text = "music (0.013)" 
+        intervals [169]:
+            xmin = 168 
+            xmax = 169 
+            text = "music (0.0)" 
+        intervals [170]:
+            xmin = 169 
+            xmax = 170 
+            text = "music (0.0)" 
+        intervals [171]:
+            xmin = 170 
+            xmax = 171 
+            text = "music (0.0)" 
+        intervals [172]:
+            xmin = 171 
+            xmax = 172 
+            text = "music (0.0)" 
+        intervals [173]:
+            xmin = 172 
+            xmax = 173 
+            text = "music (0.0)" 
+        intervals [174]:
+            xmin = 173 
+            xmax = 174 
+            text = "music (0.0)" 
+        intervals [175]:
+            xmin = 174 
+            xmax = 175 
+            text = "music (0.0)" 
+        intervals [176]:
+            xmin = 175 
+            xmax = 176 
+            text = "music (0.0)" 
+        intervals [177]:
+            xmin = 176 
+            xmax = 177 
+            text = "music (0.0)" 
+        intervals [178]:
+            xmin = 177 
+            xmax = 178 
+            text = "music (0.0)" 
+        intervals [179]:
+            xmin = 178 
+            xmax = 179 
+            text = "music (0.0)" 
+        intervals [180]:
+            xmin = 179 
+            xmax = 180 
+            text = "music (0.0)" 
+        intervals [181]:
+            xmin = 180 
+            xmax = 181 
+            text = "music (0.0)" 
+        intervals [182]:
+            xmin = 181 
+            xmax = 182 
+            text = "music (0.0)" 
+        intervals [183]:
+            xmin = 182 
+            xmax = 183 
+            text = "music (0.0)" 
+        intervals [184]:
+            xmin = 183 
+            xmax = 184 
+            text = "music (0.0)" 
+        intervals [185]:
+            xmin = 184 
+            xmax = 185 
+            text = "music (0.0)" 
+        intervals [186]:
+            xmin = 185 
+            xmax = 186 
+            text = "music (0.0)" 
+        intervals [187]:
+            xmin = 186 
+            xmax = 187 
+            text = "music (0.0)" 
+        intervals [188]:
+            xmin = 187 
+            xmax = 188 
+            text = "music (0.0)" 
+        intervals [189]:
+            xmin = 188 
+            xmax = 189 
+            text = "music (0.0)" 
+        intervals [190]:
+            xmin = 189 
+            xmax = 190 
+            text = "music (0.0)" 
+        intervals [191]:
+            xmin = 190 
+            xmax = 191 
+            text = "music (0.0)" 
+        intervals [192]:
+            xmin = 191 
+            xmax = 192 
+            text = "music (0.0)" 
+        intervals [193]:
+            xmin = 192 
+            xmax = 193 
+            text = "music (0.0)" 
+        intervals [194]:
+            xmin = 193 
+            xmax = 194 
+            text = "music (0.0)" 
+        intervals [195]:
+            xmin = 194 
+            xmax = 195 
+            text = "music (0.0)" 
+        intervals [196]:
+            xmin = 195 
+            xmax = 196 
+            text = "music (0.0)" 
+        intervals [197]:
+            xmin = 196 
+            xmax = 197 
+            text = "music (0.0)" 
+        intervals [198]:
+            xmin = 197 
+            xmax = 198 
+            text = "music (0.0)" 
+        intervals [199]:
+            xmin = 198 
+            xmax = 199 
+            text = "music (0.0)" 
+        intervals [200]:
+            xmin = 199 
+            xmax = 200 
+            text = "music (0.0)" 
+        intervals [201]:
+            xmin = 200 
+            xmax = 201 
+            text = "music (0.0)" 
+        intervals [202]:
+            xmin = 201 
+            xmax = 202 
+            text = "music (0.0)" 
+        intervals [203]:
+            xmin = 202 
+            xmax = 203 
+            text = "music (0.0)" 
+        intervals [204]:
+            xmin = 203 
+            xmax = 204 
+            text = "music (0.0)" 
+        intervals [205]:
+            xmin = 204 
+            xmax = 205 
+            text = "music (0.0)" 
+        intervals [206]:
+            xmin = 205 
+            xmax = 206 
+            text = "music (0.0)" 
+        intervals [207]:
+            xmin = 206 
+            xmax = 207 
+            text = "music (0.0)" 
+        intervals [208]:
+            xmin = 207 
+            xmax = 208 
+            text = "music (0.0)" 
+        intervals [209]:
+            xmin = 208 
+            xmax = 209 
+            text = "music (0.0)" 
+        intervals [210]:
+            xmin = 209 
+            xmax = 210 
+            text = "music (0.0)" 
+        intervals [211]:
+            xmin = 210 
+            xmax = 211 
+            text = "music (0.0)" 
+        intervals [212]:
+            xmin = 211 
+            xmax = 212 
+            text = "music (0.0)" 
+        intervals [213]:
+            xmin = 212 
+            xmax = 213 
+            text = "music (0.0)" 
+        intervals [214]:
+            xmin = 213 
+            xmax = 214 
+            text = "music (0.0)" 
+        intervals [215]:
+            xmin = 214 
+            xmax = 215 
+            text = "music (0.0)" 
+        intervals [216]:
+            xmin = 215 
+            xmax = 216 
+            text = "music (0.0)" 
+        intervals [217]:
+            xmin = 216 
+            xmax = 217 
+            text = "music (0.0)" 
+        intervals [218]:
+            xmin = 217 
+            xmax = 218 
+            text = "music (0.0)" 
+        intervals [219]:
+            xmin = 218 
+            xmax = 219 
+            text = "music (0.0)" 
+        intervals [220]:
+            xmin = 219 
+            xmax = 220 
+            text = "music (0.0)" 
+        intervals [221]:
+            xmin = 220 
+            xmax = 221 
+            text = "music (0.0)" 
+        intervals [222]:
+            xmin = 221 
+            xmax = 222 
+            text = "music (0.0)" 
+        intervals [223]:
+            xmin = 222 
+            xmax = 223 
+            text = "music (0.0)" 
+        intervals [224]:
+            xmin = 223 
+            xmax = 224 
+            text = "music (0.0)" 
+        intervals [225]:
+            xmin = 224 
+            xmax = 225 
+            text = "music (0.0)" 
+        intervals [226]:
+            xmin = 225 
+            xmax = 226 
+            text = "music (0.0)" 
+        intervals [227]:
+            xmin = 226 
+            xmax = 227 
+            text = "music (0.0)" 
+        intervals [228]:
+            xmin = 227 
+            xmax = 228 
+            text = "music (0.0)" 
+        intervals [229]:
+            xmin = 228 
+            xmax = 229 
+            text = "music (0.0)" 
+        intervals [230]:
+            xmin = 229 
+            xmax = 230 
+            text = "music (0.0)" 
+        intervals [231]:
+            xmin = 230 
+            xmax = 231 
+            text = "music (0.0)" 
+        intervals [232]:
+            xmin = 231 
+            xmax = 232 
+            text = "music (0.0)" 
+        intervals [233]:
+            xmin = 232 
+            xmax = 233 
+            text = "music (0.0)" 
+        intervals [234]:
+            xmin = 233 
+            xmax = 234 
+            text = "music (0.0)" 
+        intervals [235]:
+            xmin = 234 
+            xmax = 235 
+            text = "music (0.0)" 
+        intervals [236]:
+            xmin = 235 
+            xmax = 236 
+            text = "music (0.0)" 
+        intervals [237]:
+            xmin = 236 
+            xmax = 237 
+            text = "music (0.0)" 
+        intervals [238]:
+            xmin = 237 
+            xmax = 238 
+            text = "music (0.0)" 
+        intervals [239]:
+            xmin = 238 
+            xmax = 239 
+            text = "music (0.0)" 
+        intervals [240]:
+            xmin = 239 
+            xmax = 240 
+            text = "music (0.0)" 
+        intervals [241]:
+            xmin = 240 
+            xmax = 241 
+            text = "music (0.0)" 
+        intervals [242]:
+            xmin = 241 
+            xmax = 242 
+            text = "music (0.0)" 
+        intervals [243]:
+            xmin = 242 
+            xmax = 243 
+            text = "music (0.0)" 
+        intervals [244]:
+            xmin = 243 
+            xmax = 244 
+            text = "music (0.0)" 
+        intervals [245]:
+            xmin = 244 
+            xmax = 245 
+            text = "music (0.0)" 
+        intervals [246]:
+            xmin = 245 
+            xmax = 246 
+            text = "music (0.0)" 
+        intervals [247]:
+            xmin = 246 
+            xmax = 247 
+            text = "music (0.0)" 
+        intervals [248]:
+            xmin = 247 
+            xmax = 248 
+            text = "music (0.0)" 
+        intervals [249]:
+            xmin = 248 
+            xmax = 249 
+            text = "music (0.0)" 
+        intervals [250]:
+            xmin = 249 
+            xmax = 250 
+            text = "music (0.0)" 
+        intervals [251]:
+            xmin = 250 
+            xmax = 251 
+            text = "music (0.0)" 
+        intervals [252]:
+            xmin = 251 
+            xmax = 252 
+            text = "music (0.0)" 
+        intervals [253]:
+            xmin = 252 
+            xmax = 253 
+            text = "music (0.0)" 
+        intervals [254]:
+            xmin = 253 
+            xmax = 254 
+            text = "music (0.0)" 
+        intervals [255]:
+            xmin = 254 
+            xmax = 255 
+            text = "music (0.0)" 
+        intervals [256]:
+            xmin = 255 
+            xmax = 256 
+            text = "music (0.0)" 
+        intervals [257]:
+            xmin = 256 
+            xmax = 257 
+            text = "music (0.0)" 
+        intervals [258]:
+            xmin = 257 
+            xmax = 258 
+            text = "music (0.0)" 
+        intervals [259]:
+            xmin = 258 
+            xmax = 259 
+            text = "music (0.0)" 
+        intervals [260]:
+            xmin = 259 
+            xmax = 260 
+            text = "music (0.0)" 
+        intervals [261]:
+            xmin = 260 
+            xmax = 261 
+            text = "music (0.0)" 
+        intervals [262]:
+            xmin = 261 
+            xmax = 262 
+            text = "music (0.0)" 
+        intervals [263]:
+            xmin = 262 
+            xmax = 263 
+            text = "music (0.0)" 
+        intervals [264]:
+            xmin = 263 
+            xmax = 264 
+            text = "music (0.0)" 
+        intervals [265]:
+            xmin = 264 
+            xmax = 265 
+            text = "music (0.0)" 
+        intervals [266]:
+            xmin = 265 
+            xmax = 266 
+            text = "music (0.0)" 
+        intervals [267]:
+            xmin = 266 
+            xmax = 267 
+            text = "music (0.0)" 
+        intervals [268]:
+            xmin = 267 
+            xmax = 268 
+            text = "music (0.0)" 
+        intervals [269]:
+            xmin = 268 
+            xmax = 269 
+            text = "music (0.0)" 
+        intervals [270]:
+            xmin = 269 
+            xmax = 270 
+            text = "music (0.0)" 
+        intervals [271]:
+            xmin = 270 
+            xmax = 271 
+            text = "music (0.0)" 
+        intervals [272]:
+            xmin = 271 
+            xmax = 272 
+            text = "music (0.0)" 
+        intervals [273]:
+            xmin = 272 
+            xmax = 273 
+            text = "music (0.0)" 
+        intervals [274]:
+            xmin = 273 
+            xmax = 274 
+            text = "music (0.0)" 
+        intervals [275]:
+            xmin = 274 
+            xmax = 275 
+            text = "music (0.0)" 
+        intervals [276]:
+            xmin = 275 
+            xmax = 276 
+            text = "music (0.0)" 
+        intervals [277]:
+            xmin = 276 
+            xmax = 277 
+            text = "music (0.0)" 
+        intervals [278]:
+            xmin = 277 
+            xmax = 278 
+            text = "music (0.0)" 
+        intervals [279]:
+            xmin = 278 
+            xmax = 279 
+            text = "music (0.0)" 
+        intervals [280]:
+            xmin = 279 
+            xmax = 280 
+            text = "music (0.0)" 
+        intervals [281]:
+            xmin = 280 
+            xmax = 281 
+            text = "music (0.0)" 
+        intervals [282]:
+            xmin = 281 
+            xmax = 282 
+            text = "music (0.0)" 
+        intervals [283]:
+            xmin = 282 
+            xmax = 283 
+            text = "music (0.0)" 
+        intervals [284]:
+            xmin = 283 
+            xmax = 284 
+            text = "music (0.0)" 
+        intervals [285]:
+            xmin = 284 
+            xmax = 285 
+            text = "music (0.0)" 
+        intervals [286]:
+            xmin = 285 
+            xmax = 286 
+            text = "music (0.0)" 
+        intervals [287]:
+            xmin = 286 
+            xmax = 287 
+            text = "music (0.0)" 
+        intervals [288]:
+            xmin = 287 
+            xmax = 288 
+            text = "music (0.0)" 
+        intervals [289]:
+            xmin = 288 
+            xmax = 289 
+            text = "music (0.0)" 
+        intervals [290]:
+            xmin = 289 
+            xmax = 290 
+            text = "music (0.0)" 
+        intervals [291]:
+            xmin = 290 
+            xmax = 291 
+            text = "music (0.0)" 
+        intervals [292]:
+            xmin = 291 
+            xmax = 292 
+            text = "music (0.0)" 
+        intervals [293]:
+            xmin = 292 
+            xmax = 293 
+            text = "music (0.0)" 
+        intervals [294]:
+            xmin = 293 
+            xmax = 294 
+            text = "music (0.0)" 
+        intervals [295]:
+            xmin = 294 
+            xmax = 295 
+            text = "music (0.0)" 
+        intervals [296]:
+            xmin = 295 
+            xmax = 296 
+            text = "music (0.0)" 
+        intervals [297]:
+            xmin = 296 
+            xmax = 297 
+            text = "music (0.0)" 
+        intervals [298]:
+            xmin = 297 
+            xmax = 298 
+            text = "music (0.0)" 
+        intervals [299]:
+            xmin = 298 
+            xmax = 299 
+            text = "music (0.0)" 
+        intervals [300]:
+            xmin = 299 
+            xmax = 300 
+            text = "music (0.0)" 
+        intervals [301]:
+            xmin = 300 
+            xmax = 301 
+            text = "music (0.0)" 
+        intervals [302]:
+            xmin = 301 
+            xmax = 302 
+            text = "music (0.0)" 
+        intervals [303]:
+            xmin = 302 
+            xmax = 303 
+            text = "music (0.0)" 
+        intervals [304]:
+            xmin = 303 
+            xmax = 304 
+            text = "music (0.0)" 
+        intervals [305]:
+            xmin = 304 
+            xmax = 305 
+            text = "music (0.0)" 
+        intervals [306]:
+            xmin = 305 
+            xmax = 306 
+            text = "music (0.0)" 
+        intervals [307]:
+            xmin = 306 
+            xmax = 307 
+            text = "speech (0.994)" 
+        intervals [308]:
+            xmin = 307 
+            xmax = 308 
+            text = "speech (0.996)" 
+        intervals [309]:
+            xmin = 308 
+            xmax = 309 
+            text = "speech (1.0)" 
+        intervals [310]:
+            xmin = 309 
+            xmax = 310 
+            text = "speech (1.0)" 
+        intervals [311]:
+            xmin = 310 
+            xmax = 311 
+            text = "speech (1.0)" 
+        intervals [312]:
+            xmin = 311 
+            xmax = 312 
+            text = "speech (0.999)" 
+        intervals [313]:
+            xmin = 312 
+            xmax = 313 
+            text = "speech (0.999)" 
+        intervals [314]:
+            xmin = 313 
+            xmax = 314 
+            text = "speech (0.999)" 
+        intervals [315]:
+            xmin = 314 
+            xmax = 315 
+            text = "speech (0.999)" 
+        intervals [316]:
+            xmin = 315 
+            xmax = 316 
+            text = "speech (0.999)" 
+        intervals [317]:
+            xmin = 316 
+            xmax = 317 
+            text = "speech (1.0)" 
+        intervals [318]:
+            xmin = 317 
+            xmax = 318 
+            text = "speech (1.0)" 
+        intervals [319]:
+            xmin = 318 
+            xmax = 319 
+            text = "speech (1.0)" 
+        intervals [320]:
+            xmin = 319 
+            xmax = 320 
+            text = "speech (1.0)" 
+        intervals [321]:
+            xmin = 320 
+            xmax = 321 
+            text = "speech (0.997)" 
+        intervals [322]:
+            xmin = 321 
+            xmax = 322 
+            text = "speech (0.998)" 
+        intervals [323]:
+            xmin = 322 
+            xmax = 323 
+            text = "speech (0.999)" 
+        intervals [324]:
+            xmin = 323 
+            xmax = 324 
+            text = "speech (0.999)" 
+        intervals [325]:
+            xmin = 324 
+            xmax = 325 
+            text = "speech (1.0)" 
+        intervals [326]:
+            xmin = 325 
+            xmax = 326 
+            text = "speech (1.0)" 
+        intervals [327]:
+            xmin = 326 
+            xmax = 327 
+            text = "speech (0.999)" 
+        intervals [328]:
+            xmin = 327 
+            xmax = 328 
+            text = "speech (1.0)" 
+        intervals [329]:
+            xmin = 328 
+            xmax = 329 
+            text = "speech (0.999)" 
+        intervals [330]:
+            xmin = 329 
+            xmax = 330 
+            text = "speech (0.999)" 
+        intervals [331]:
+            xmin = 330 
+            xmax = 331 
+            text = "speech (0.999)" 
+        intervals [332]:
+            xmin = 331 
+            xmax = 332 
+            text = "speech (0.999)" 
+        intervals [333]:
+            xmin = 332 
+            xmax = 333 
+            text = "speech (0.999)" 
+        intervals [334]:
+            xmin = 333 
+            xmax = 334 
+            text = "speech (0.999)" 
+        intervals [335]:
+            xmin = 334 
+            xmax = 335 
+            text = "speech (0.999)" 
+        intervals [336]:
+            xmin = 335 
+            xmax = 336 
+            text = "speech (0.998)" 
+        intervals [337]:
+            xmin = 336 
+            xmax = 337 
+            text = "speech (1.0)" 
+        intervals [338]:
+            xmin = 337 
+            xmax = 338 
+            text = "speech (0.999)" 
+        intervals [339]:
+            xmin = 338 
+            xmax = 339 
+            text = "speech (1.0)" 
+        intervals [340]:
+            xmin = 339 
+            xmax = 340 
+            text = "speech (0.997)" 
+        intervals [341]:
+            xmin = 340 
+            xmax = 341 
+            text = "speech (1.0)" 
+        intervals [342]:
+            xmin = 341 
+            xmax = 342 
+            text = "speech (1.0)" 
+        intervals [343]:
+            xmin = 342 
+            xmax = 343 
+            text = "speech (1.0)" 
+        intervals [344]:
+            xmin = 343 
+            xmax = 344 
+            text = "speech (0.999)" 
+        intervals [345]:
+            xmin = 344 
+            xmax = 345 
+            text = "speech (0.893)" 
+        intervals [346]:
+            xmin = 345 
+            xmax = 346 
+            text = "speech (0.334)" 
+        intervals [347]:
+            xmin = 346 
+            xmax = 347 
+            text = "music (0.029)" 
+        intervals [348]:
+            xmin = 347 
+            xmax = 348 
+            text = "speech (0.197)" 
+        intervals [349]:
+            xmin = 348 
+            xmax = 349 
+            text = "speech (0.329)" 
+        intervals [350]:
+            xmin = 349 
+            xmax = 350 
+            text = "speech (0.948)" 
+        intervals [351]:
+            xmin = 350 
+            xmax = 351 
+            text = "speech (0.902)" 
+        intervals [352]:
+            xmin = 351 
+            xmax = 352 
+            text = "speech (0.408)" 
+        intervals [353]:
+            xmin = 352 
+            xmax = 353 
+            text = "speech (0.146)" 
+        intervals [354]:
+            xmin = 353 
+            xmax = 354 
+            text = "music (0.045)" 
+        intervals [355]:
+            xmin = 354 
+            xmax = 355 
+            text = "speech (0.125)" 
+        intervals [356]:
+            xmin = 355 
+            xmax = 356 
+            text = "music (0.026)" 
+        intervals [357]:
+            xmin = 356 
+            xmax = 357 
+            text = "music (0.007)" 
+        intervals [358]:
+            xmin = 357 
+            xmax = 358 
+            text = "music (0.014)" 
+        intervals [359]:
+            xmin = 358 
+            xmax = 359 
+            text = "music (0.007)" 
+        intervals [360]:
+            xmin = 359 
+            xmax = 360 
+            text = "music (0.03)" 
+        intervals [361]:
+            xmin = 360 
+            xmax = 361 
+            text = "music (0.006)" 
+        intervals [362]:
+            xmin = 361 
+            xmax = 362 
+            text = "music (0.008)" 
+        intervals [363]:
+            xmin = 362 
+            xmax = 363 
+            text = "music (0.01)" 
+        intervals [364]:
+            xmin = 363 
+            xmax = 364 
+            text = "speech (0.876)" 
+        intervals [365]:
+            xmin = 364 
+            xmax = 365 
+            text = "music (0.094)" 
+        intervals [366]:
+            xmin = 365 
+            xmax = 366 
+            text = "speech (0.88)" 
+        intervals [367]:
+            xmin = 366 
+            xmax = 367 
+            text = "speech (0.98)" 
+        intervals [368]:
+            xmin = 367 
+            xmax = 368 
+            text = "speech (0.951)" 
+        intervals [369]:
+            xmin = 368 
+            xmax = 369 
+            text = "speech (0.993)" 
+        intervals [370]:
+            xmin = 369 
+            xmax = 370 
+            text = "speech (0.991)" 
+        intervals [371]:
+            xmin = 370 
+            xmax = 371 
+            text = "speech (0.309)" 
+        intervals [372]:
+            xmin = 371 
+            xmax = 372 
+            text = "speech (0.94)" 
+        intervals [373]:
+            xmin = 372 
+            xmax = 373 
+            text = "speech (0.499)" 
+        intervals [374]:
+            xmin = 373 
+            xmax = 374 
+            text = "speech (0.371)" 
+        intervals [375]:
+            xmin = 374 
+            xmax = 375 
+            text = "speech (0.171)" 
+        intervals [376]:
+            xmin = 375 
+            xmax = 376 
+            text = "speech (0.585)" 
+        intervals [377]:
+            xmin = 376 
+            xmax = 377 
+            text = "music (0.004)" 
+        intervals [378]:
+            xmin = 377 
+            xmax = 378 
+            text = "music (0.028)" 
+        intervals [379]:
+            xmin = 378 
+            xmax = 379 
+            text = "music (0.067)" 
+        intervals [380]:
+            xmin = 379 
+            xmax = 380 
+            text = "music (0.01)" 
+        intervals [381]:
+            xmin = 380 
+            xmax = 381 
+            text = "speech (0.235)" 
+        intervals [382]:
+            xmin = 381 
+            xmax = 382 
+            text = "speech (0.713)" 
+        intervals [383]:
+            xmin = 382 
+            xmax = 383 
+            text = "speech (0.897)" 
+        intervals [384]:
+            xmin = 383 
+            xmax = 384 
+            text = "speech (0.969)" 
+        intervals [385]:
+            xmin = 384 
+            xmax = 385 
+            text = "speech (0.44)" 
+        intervals [386]:
+            xmin = 385 
+            xmax = 386 
+            text = "speech (0.191)" 
+        intervals [387]:
+            xmin = 386 
+            xmax = 387 
+            text = "speech (0.341)" 
+        intervals [388]:
+            xmin = 387 
+            xmax = 388 
+            text = "speech (0.18)" 
+        intervals [389]:
+            xmin = 388 
+            xmax = 389 
+            text = "speech (0.987)" 
+        intervals [390]:
+            xmin = 389 
+            xmax = 390 
+            text = "speech (0.324)" 
+        intervals [391]:
+            xmin = 390 
+            xmax = 391 
+            text = "music (0.0)" 
+        intervals [392]:
+            xmin = 391 
+            xmax = 392 
+            text = "music (0.0)" 
+        intervals [393]:
+            xmin = 392 
+            xmax = 393 
+            text = "music (0.0)" 
+        intervals [394]:
+            xmin = 393 
+            xmax = 394 
+            text = "music (0.0)" 
+        intervals [395]:
+            xmin = 394 
+            xmax = 395 
+            text = "music (0.0)" 
+        intervals [396]:
+            xmin = 395 
+            xmax = 396 
+            text = "music (0.0)" 
+        intervals [397]:
+            xmin = 396 
+            xmax = 397 
+            text = "music (0.0)" 
+        intervals [398]:
+            xmin = 397 
+            xmax = 398 
+            text = "music (0.0)" 
+        intervals [399]:
+            xmin = 398 
+            xmax = 399 
+            text = "music (0.0)" 
+        intervals [400]:
+            xmin = 399 
+            xmax = 400 
+            text = "music (0.0)" 
+        intervals [401]:
+            xmin = 400 
+            xmax = 401 
+            text = "music (0.0)" 
+        intervals [402]:
+            xmin = 401 
+            xmax = 402 
+            text = "music (0.0)" 
+        intervals [403]:
+            xmin = 402 
+            xmax = 403 
+            text = "music (0.0)" 
+        intervals [404]:
+            xmin = 403 
+            xmax = 404 
+            text = "music (0.0)" 
+        intervals [405]:
+            xmin = 404 
+            xmax = 405 
+            text = "music (0.0)" 
+        intervals [406]:
+            xmin = 405 
+            xmax = 406 
+            text = "music (0.0)" 
+        intervals [407]:
+            xmin = 406 
+            xmax = 407 
+            text = "music (0.0)" 
+        intervals [408]:
+            xmin = 407 
+            xmax = 408 
+            text = "music (0.0)" 
+        intervals [409]:
+            xmin = 408 
+            xmax = 409 
+            text = "music (0.0)" 
+        intervals [410]:
+            xmin = 409 
+            xmax = 410 
+            text = "music (0.0)" 
+        intervals [411]:
+            xmin = 410 
+            xmax = 411 
+            text = "music (0.0)" 
+        intervals [412]:
+            xmin = 411 
+            xmax = 412 
+            text = "music (0.0)" 
+        intervals [413]:
+            xmin = 412 
+            xmax = 413 
+            text = "music (0.0)" 
+        intervals [414]:
+            xmin = 413 
+            xmax = 414 
+            text = "music (0.0)" 
+        intervals [415]:
+            xmin = 414 
+            xmax = 415 
+            text = "music (0.0)" 
+        intervals [416]:
+            xmin = 415 
+            xmax = 416 
+            text = "music (0.0)" 
+        intervals [417]:
+            xmin = 416 
+            xmax = 417 
+            text = "music (0.0)" 
+        intervals [418]:
+            xmin = 417 
+            xmax = 418 
+            text = "music (0.0)" 
+        intervals [419]:
+            xmin = 418 
+            xmax = 419 
+            text = "music (0.0)" 
+        intervals [420]:
+            xmin = 419 
+            xmax = 420 
+            text = "music (0.0)" 
+        intervals [421]:
+            xmin = 420 
+            xmax = 421 
+            text = "music (0.0)" 
+        intervals [422]:
+            xmin = 421 
+            xmax = 422 
+            text = "music (0.0)" 
+        intervals [423]:
+            xmin = 422 
+            xmax = 423 
+            text = "music (0.0)" 
+        intervals [424]:
+            xmin = 423 
+            xmax = 424 
+            text = "music (0.0)" 
+        intervals [425]:
+            xmin = 424 
+            xmax = 425 
+            text = "music (0.0)" 
+        intervals [426]:
+            xmin = 425 
+            xmax = 426 
+            text = "music (0.0)" 
+        intervals [427]:
+            xmin = 426 
+            xmax = 427 
+            text = "music (0.0)" 
+        intervals [428]:
+            xmin = 427 
+            xmax = 428 
+            text = "music (0.0)" 
+        intervals [429]:
+            xmin = 428 
+            xmax = 429 
+            text = "music (0.0)" 
+        intervals [430]:
+            xmin = 429 
+            xmax = 430 
+            text = "music (0.0)" 
+        intervals [431]:
+            xmin = 430 
+            xmax = 431 
+            text = "music (0.0)" 
+        intervals [432]:
+            xmin = 431 
+            xmax = 432 
+            text = "music (0.0)" 
+        intervals [433]:
+            xmin = 432 
+            xmax = 433 
+            text = "music (0.0)" 
+        intervals [434]:
+            xmin = 433 
+            xmax = 434 
+            text = "music (0.0)" 
+        intervals [435]:
+            xmin = 434 
+            xmax = 435 
+            text = "music (0.0)" 
+        intervals [436]:
+            xmin = 435 
+            xmax = 436 
+            text = "music (0.0)" 
+        intervals [437]:
+            xmin = 436 
+            xmax = 437 
+            text = "music (0.0)" 
+        intervals [438]:
+            xmin = 437 
+            xmax = 438 
+            text = "music (0.0)" 
+        intervals [439]:
+            xmin = 438 
+            xmax = 439 
+            text = "music (0.0)" 
+        intervals [440]:
+            xmin = 439 
+            xmax = 440 
+            text = "music (0.0)" 
+        intervals [441]:
+            xmin = 440 
+            xmax = 441 
+            text = "music (0.0)" 
+        intervals [442]:
+            xmin = 441 
+            xmax = 442 
+            text = "music (0.0)" 
+        intervals [443]:
+            xmin = 442 
+            xmax = 443 
+            text = "music (0.0)" 
+        intervals [444]:
+            xmin = 443 
+            xmax = 444 
+            text = "music (0.0)" 
+        intervals [445]:
+            xmin = 444 
+            xmax = 445 
+            text = "music (0.0)" 
+        intervals [446]:
+            xmin = 445 
+            xmax = 446 
+            text = "music (0.0)" 
+        intervals [447]:
+            xmin = 446 
+            xmax = 447 
+            text = "music (0.0)" 
+        intervals [448]:
+            xmin = 447 
+            xmax = 448 
+            text = "music (0.0)" 
+        intervals [449]:
+            xmin = 448 
+            xmax = 449 
+            text = "music (0.0)" 
+        intervals [450]:
+            xmin = 449 
+            xmax = 450 
+            text = "music (0.0)" 
+        intervals [451]:
+            xmin = 450 
+            xmax = 451 
+            text = "music (0.0)" 
+        intervals [452]:
+            xmin = 451 
+            xmax = 452 
+            text = "music (0.0)" 
+        intervals [453]:
+            xmin = 452 
+            xmax = 453 
+            text = "music (0.0)" 
+        intervals [454]:
+            xmin = 453 
+            xmax = 454 
+            text = "music (0.0)" 
+        intervals [455]:
+            xmin = 454 
+            xmax = 455 
+            text = "music (0.0)" 
+        intervals [456]:
+            xmin = 455 
+            xmax = 456 
+            text = "music (0.0)" 
+        intervals [457]:
+            xmin = 456 
+            xmax = 457 
+            text = "music (0.0)" 
+        intervals [458]:
+            xmin = 457 
+            xmax = 458 
+            text = "music (0.0)" 
+        intervals [459]:
+            xmin = 458 
+            xmax = 459 
+            text = "music (0.0)" 
+        intervals [460]:
+            xmin = 459 
+            xmax = 460 
+            text = "music (0.0)" 
+        intervals [461]:
+            xmin = 460 
+            xmax = 461 
+            text = "music (0.0)" 
+        intervals [462]:
+            xmin = 461 
+            xmax = 462 
+            text = "music (0.0)" 
+        intervals [463]:
+            xmin = 462 
+            xmax = 463 
+            text = "music (0.0)" 
+        intervals [464]:
+            xmin = 463 
+            xmax = 464 
+            text = "music (0.0)" 
+        intervals [465]:
+            xmin = 464 
+            xmax = 465 
+            text = "music (0.0)" 
+        intervals [466]:
+            xmin = 465 
+            xmax = 466 
+            text = "music (0.0)" 
+        intervals [467]:
+            xmin = 466 
+            xmax = 467 
+            text = "music (0.0)" 
+        intervals [468]:
+            xmin = 467 
+            xmax = 468 
+            text = "music (0.0)" 
+        intervals [469]:
+            xmin = 468 
+            xmax = 469 
+            text = "music (0.0)" 
+        intervals [470]:
+            xmin = 469 
+            xmax = 470 
+            text = "music (0.0)" 
+        intervals [471]:
+            xmin = 470 
+            xmax = 471 
+            text = "music (0.0)" 
+        intervals [472]:
+            xmin = 471 
+            xmax = 472 
+            text = "music (0.0)" 
+        intervals [473]:
+            xmin = 472 
+            xmax = 473 
+            text = "music (0.0)" 
+        intervals [474]:
+            xmin = 473 
+            xmax = 474 
+            text = "music (0.0)" 
+        intervals [475]:
+            xmin = 474 
+            xmax = 475 
+            text = "music (0.0)" 
+        intervals [476]:
+            xmin = 475 
+            xmax = 476 
+            text = "music (0.0)" 
+        intervals [477]:
+            xmin = 476 
+            xmax = 477 
+            text = "music (0.0)" 
+        intervals [478]:
+            xmin = 477 
+            xmax = 478 
+            text = "music (0.0)" 
+        intervals [479]:
+            xmin = 478 
+            xmax = 479 
+            text = "music (0.0)" 
+        intervals [480]:
+            xmin = 479 
+            xmax = 480 
+            text = "music (0.0)" 
+        intervals [481]:
+            xmin = 480 
+            xmax = 481 
+            text = "music (0.0)" 
+        intervals [482]:
+            xmin = 481 
+            xmax = 482 
+            text = "music (0.0)" 
+        intervals [483]:
+            xmin = 482 
+            xmax = 483 
+            text = "music (0.0)" 
+        intervals [484]:
+            xmin = 483 
+            xmax = 484 
+            text = "music (0.0)" 
+        intervals [485]:
+            xmin = 484 
+            xmax = 485 
+            text = "music (0.0)" 
+        intervals [486]:
+            xmin = 485 
+            xmax = 486 
+            text = "music (0.0)" 
+        intervals [487]:
+            xmin = 486 
+            xmax = 487 
+            text = "music (0.032)" 
+        intervals [488]:
+            xmin = 487 
+            xmax = 488 
+            text = "music (0.014)" 
+        intervals [489]:
+            xmin = 488 
+            xmax = 489 
+            text = "speech (0.303)" 
+        intervals [490]:
+            xmin = 489 
+            xmax = 490 
+            text = "speech (0.741)" 
+        intervals [491]:
+            xmin = 490 
+            xmax = 491 
+            text = "speech (0.984)" 
+        intervals [492]:
+            xmin = 491 
+            xmax = 492 
+            text = "speech (0.943)" 
+        intervals [493]:
+            xmin = 492 
+            xmax = 493 
+            text = "speech (0.995)" 
+        intervals [494]:
+            xmin = 493 
+            xmax = 494 
+            text = "speech (1.0)" 
+        intervals [495]:
+            xmin = 494 
+            xmax = 495 
+            text = "speech (0.998)" 
+        intervals [496]:
+            xmin = 495 
+            xmax = 496 
+            text = "speech (0.993)" 
+        intervals [497]:
+            xmin = 496 
+            xmax = 497 
+            text = "speech (0.999)" 
+        intervals [498]:
+            xmin = 497 
+            xmax = 498 
+            text = "speech (0.988)" 
+        intervals [499]:
+            xmin = 498 
+            xmax = 499 
+            text = "speech (0.992)" 
+        intervals [500]:
+            xmin = 499 
+            xmax = 500 
+            text = "speech (0.999)" 
+        intervals [501]:
+            xmin = 500 
+            xmax = 501 
+            text = "speech (1.0)" 
+        intervals [502]:
+            xmin = 501 
+            xmax = 502 
+            text = "speech (0.987)" 
+        intervals [503]:
+            xmin = 502 
+            xmax = 503 
+            text = "speech (0.969)" 
+        intervals [504]:
+            xmin = 503 
+            xmax = 504 
+            text = "speech (0.968)" 
+        intervals [505]:
+            xmin = 504 
+            xmax = 505 
+            text = "speech (0.853)" 
+        intervals [506]:
+            xmin = 505 
+            xmax = 506 
+            text = "speech (1.0)" 
+        intervals [507]:
+            xmin = 506 
+            xmax = 507 
+            text = "speech (0.999)" 
+        intervals [508]:
+            xmin = 507 
+            xmax = 508 
+            text = "speech (0.998)" 
+        intervals [509]:
+            xmin = 508 
+            xmax = 509 
+            text = "speech (0.998)" 
+        intervals [510]:
+            xmin = 509 
+            xmax = 510 
+            text = "speech (0.999)" 
+        intervals [511]:
+            xmin = 510 
+            xmax = 511 
+            text = "speech (1.0)" 
+        intervals [512]:
+            xmin = 511 
+            xmax = 512 
+            text = "speech (0.997)" 
+        intervals [513]:
+            xmin = 512 
+            xmax = 513 
+            text = "speech (1.0)" 
+        intervals [514]:
+            xmin = 513 
+            xmax = 514 
+            text = "speech (1.0)" 
+        intervals [515]:
+            xmin = 514 
+            xmax = 515 
+            text = "speech (1.0)" 
+        intervals [516]:
+            xmin = 515 
+            xmax = 516 
+            text = "speech (1.0)" 
+        intervals [517]:
+            xmin = 516 
+            xmax = 517 
+            text = "speech (0.998)" 
+        intervals [518]:
+            xmin = 517 
+            xmax = 518 
+            text = "speech (0.996)" 
+        intervals [519]:
+            xmin = 518 
+            xmax = 519 
+            text = "speech (0.998)" 
+        intervals [520]:
+            xmin = 519 
+            xmax = 520 
+            text = "speech (1.0)" 
+        intervals [521]:
+            xmin = 520 
+            xmax = 521 
+            text = "speech (1.0)" 
+        intervals [522]:
+            xmin = 521 
+            xmax = 522 
+            text = "speech (1.0)" 
+        intervals [523]:
+            xmin = 522 
+            xmax = 523 
+            text = "speech (1.0)" 
+        intervals [524]:
+            xmin = 523 
+            xmax = 524 
+            text = "speech (1.0)" 
+        intervals [525]:
+            xmin = 524 
+            xmax = 525 
+            text = "speech (1.0)" 
+        intervals [526]:
+            xmin = 525 
+            xmax = 526 
+            text = "speech (0.997)" 
+        intervals [527]:
+            xmin = 526 
+            xmax = 527 
+            text = "speech (0.999)" 
+        intervals [528]:
+            xmin = 527 
+            xmax = 528 
+            text = "speech (1.0)" 
+        intervals [529]:
+            xmin = 528 
+            xmax = 529 
+            text = "speech (0.73)" 
+        intervals [530]:
+            xmin = 529 
+            xmax = 530 
+            text = "music (0.066)" 
+        intervals [531]:
+            xmin = 530 
+            xmax = 531 
+            text = "speech (0.314)" 
+        intervals [532]:
+            xmin = 531 
+            xmax = 532 
+            text = "speech (0.219)" 
+        intervals [533]:
+            xmin = 532 
+            xmax = 533 
+            text = "speech (0.999)" 
+        intervals [534]:
+            xmin = 533 
+            xmax = 534 
+            text = "speech (0.961)" 
+        intervals [535]:
+            xmin = 534 
+            xmax = 535 
+            text = "speech (0.998)" 
+        intervals [536]:
+            xmin = 535 
+            xmax = 536 
+            text = "speech (1.0)" 
+        intervals [537]:
+            xmin = 536 
+            xmax = 537 
+            text = "speech (0.999)" 
+        intervals [538]:
+            xmin = 537 
+            xmax = 538 
+            text = "speech (0.999)" 
+        intervals [539]:
+            xmin = 538 
+            xmax = 539 
+            text = "speech (0.979)" 
+        intervals [540]:
+            xmin = 539 
+            xmax = 540 
+            text = "speech (0.981)" 
+        intervals [541]:
+            xmin = 540 
+            xmax = 541 
+            text = "speech (0.181)" 
+        intervals [542]:
+            xmin = 541 
+            xmax = 542 
+            text = "music (0.072)" 
+        intervals [543]:
+            xmin = 542 
+            xmax = 543 
+            text = "speech (0.34)" 
+        intervals [544]:
+            xmin = 543 
+            xmax = 544 
+            text = "music (0.07)" 
+        intervals [545]:
+            xmin = 544 
+            xmax = 545 
+            text = "speech (0.927)" 
+        intervals [546]:
+            xmin = 545 
+            xmax = 546 
+            text = "speech (0.999)" 
+        intervals [547]:
+            xmin = 546 
+            xmax = 547 
+            text = "speech (0.999)" 
+        intervals [548]:
+            xmin = 547 
+            xmax = 548 
+            text = "speech (0.997)" 
+        intervals [549]:
+            xmin = 548 
+            xmax = 549 
+            text = "speech (0.994)" 
+        intervals [550]:
+            xmin = 549 
+            xmax = 550 
+            text = "speech (0.938)" 
+        intervals [551]:
+            xmin = 550 
+            xmax = 551 
+            text = "speech (0.284)" 
+        intervals [552]:
+            xmin = 551 
+            xmax = 552 
+            text = "speech (0.833)" 
+        intervals [553]:
+            xmin = 552 
+            xmax = 553 
+            text = "music (0.02)" 
+        intervals [554]:
+            xmin = 553 
+            xmax = 554 
+            text = "speech (0.709)" 
+        intervals [555]:
+            xmin = 554 
+            xmax = 555 
+            text = "music (0.028)" 
+        intervals [556]:
+            xmin = 555 
+            xmax = 556 
+            text = "music (0.06)" 
+        intervals [557]:
+            xmin = 556 
+            xmax = 557 
+            text = "speech (0.192)" 
+        intervals [558]:
+            xmin = 557 
+            xmax = 558 
+            text = "speech (0.718)" 
+        intervals [559]:
+            xmin = 558 
+            xmax = 559 
+            text = "speech (0.99)" 
+        intervals [560]:
+            xmin = 559 
+            xmax = 560 
+            text = "speech (0.892)" 
+        intervals [561]:
+            xmin = 560 
+            xmax = 561 
+            text = "speech (0.985)" 
+        intervals [562]:
+            xmin = 561 
+            xmax = 562 
+            text = "speech (0.61)" 
+        intervals [563]:
+            xmin = 562 
+            xmax = 563 
+            text = "speech (0.43)" 
+        intervals [564]:
+            xmin = 563 
+            xmax = 564 
+            text = "speech (0.545)" 
+        intervals [565]:
+            xmin = 564 
+            xmax = 565 
+            text = "speech (0.993)" 
+        intervals [566]:
+            xmin = 565 
+            xmax = 566 
+            text = "speech (0.657)" 
+        intervals [567]:
+            xmin = 566 
+            xmax = 567 
+            text = "speech (0.836)" 
+        intervals [568]:
+            xmin = 567 
+            xmax = 568 
+            text = "speech (0.897)" 
+        intervals [569]:
+            xmin = 568 
+            xmax = 569 
+            text = "speech (0.691)" 
+        intervals [570]:
+            xmin = 569 
+            xmax = 570 
+            text = "speech (0.992)" 
+        intervals [571]:
+            xmin = 570 
+            xmax = 571 
+            text = "speech (0.532)" 
+        intervals [572]:
+            xmin = 571 
+            xmax = 572 
+            text = "speech (0.994)" 
+        intervals [573]:
+            xmin = 572 
+            xmax = 573 
+            text = "speech (0.996)" 
+        intervals [574]:
+            xmin = 573 
+            xmax = 574 
+            text = "speech (0.997)" 
+        intervals [575]:
+            xmin = 574 
+            xmax = 575 
+            text = "speech (1.0)" 
+        intervals [576]:
+            xmin = 575 
+            xmax = 576 
+            text = "speech (0.977)" 
+        intervals [577]:
+            xmin = 576 
+            xmax = 577 
+            text = "speech (0.921)" 
+        intervals [578]:
+            xmin = 577 
+            xmax = 578 
+            text = "speech (0.465)" 
+        intervals [579]:
+            xmin = 578 
+            xmax = 579 
+            text = "speech (0.994)" 
+        intervals [580]:
+            xmin = 579 
+            xmax = 580 
+            text = "speech (0.983)" 
+        intervals [581]:
+            xmin = 580 
+            xmax = 581 
+            text = "speech (0.998)" 
+        intervals [582]:
+            xmin = 581 
+            xmax = 582 
+            text = "speech (0.996)" 
+        intervals [583]:
+            xmin = 582 
+            xmax = 583 
+            text = "speech (0.861)" 
+        intervals [584]:
+            xmin = 583 
+            xmax = 584 
+            text = "speech (0.968)" 
+        intervals [585]:
+            xmin = 584 
+            xmax = 585 
+            text = "speech (0.999)" 
+        intervals [586]:
+            xmin = 585 
+            xmax = 586 
+            text = "speech (0.859)" 
+        intervals [587]:
+            xmin = 586 
+            xmax = 587 
+            text = "speech (0.134)" 
+        intervals [588]:
+            xmin = 587 
+            xmax = 588 
+            text = "music (0.016)" 
+        intervals [589]:
+            xmin = 588 
+            xmax = 589 
+            text = "music (0.008)" 
+        intervals [590]:
+            xmin = 589 
+            xmax = 590 
+            text = "music (0.087)" 
+        intervals [591]:
+            xmin = 590 
+            xmax = 591 
+            text = "music (0.037)" 
+        intervals [592]:
+            xmin = 591 
+            xmax = 592 
+            text = "speech (0.71)" 
+        intervals [593]:
+            xmin = 592 
+            xmax = 593 
+            text = "music (0.026)" 
+        intervals [594]:
+            xmin = 593 
+            xmax = 594 
+            text = "music (0.003)" 
+        intervals [595]:
+            xmin = 594 
+            xmax = 595 
+            text = "speech (0.231)" 
+        intervals [596]:
+            xmin = 595 
+            xmax = 596 
+            text = "speech (0.797)" 
+        intervals [597]:
+            xmin = 596 
+            xmax = 597 
+            text = "speech (0.993)" 
+        intervals [598]:
+            xmin = 597 
+            xmax = 598 
+            text = "speech (0.985)" 
+        intervals [599]:
+            xmin = 598 
+            xmax = 599 
+            text = "speech (0.589)" 
+        intervals [600]:
+            xmin = 599 
+            xmax = 600 
+            text = "music (0.015)" 
+        intervals [601]:
+            xmin = 600 
+            xmax = 601 
+            text = "music (0.006)" 
+        intervals [602]:
+            xmin = 601 
+            xmax = 602 
+            text = "music (0.016)" 
+        intervals [603]:
+            xmin = 602 
+            xmax = 603 
+            text = "speech (0.963)" 
+        intervals [604]:
+            xmin = 603 
+            xmax = 604 
+            text = "speech (0.982)" 
+        intervals [605]:
+            xmin = 604 
+            xmax = 605 
+            text = "speech (0.996)" 
+        intervals [606]:
+            xmin = 605 
+            xmax = 606 
+            text = "speech (0.996)" 
+        intervals [607]:
+            xmin = 606 
+            xmax = 607 
+            text = "speech (0.988)" 
+        intervals [608]:
+            xmin = 607 
+            xmax = 608 
+            text = "speech (0.7)" 
+        intervals [609]:
+            xmin = 608 
+            xmax = 609 
+            text = "speech (0.926)" 
+        intervals [610]:
+            xmin = 609 
+            xmax = 610 
+            text = "speech (0.283)" 
+        intervals [611]:
+            xmin = 610 
+            xmax = 611 
+            text = "speech (0.196)" 
+        intervals [612]:
+            xmin = 611 
+            xmax = 612 
+            text = "speech (0.792)" 
+        intervals [613]:
+            xmin = 612 
+            xmax = 613 
+            text = "speech (0.602)" 
+        intervals [614]:
+            xmin = 613 
+            xmax = 614 
+            text = "speech (0.988)" 
+        intervals [615]:
+            xmin = 614 
+            xmax = 615 
+            text = "speech (0.945)" 
+        intervals [616]:
+            xmin = 615 
+            xmax = 616 
+            text = "speech (0.543)" 
+        intervals [617]:
+            xmin = 616 
+            xmax = 617 
+            text = "speech (0.105)" 
+        intervals [618]:
+            xmin = 617 
+            xmax = 618 
+            text = "speech (0.164)" 
+        intervals [619]:
+            xmin = 618 
+            xmax = 619 
+            text = "music (0.036)" 
+        intervals [620]:
+            xmin = 619 
+            xmax = 620 
+            text = "music (0.037)" 
+        intervals [621]:
+            xmin = 620 
+            xmax = 621 
+            text = "speech (0.764)" 
+        intervals [622]:
+            xmin = 621 
+            xmax = 622 
+            text = "speech (0.993)" 
+        intervals [623]:
+            xmin = 622 
+            xmax = 623 
+            text = "speech (1.0)" 
+        intervals [624]:
+            xmin = 623 
+            xmax = 624 
+            text = "speech (0.997)" 
+        intervals [625]:
+            xmin = 624 
+            xmax = 625 
+            text = "speech (0.998)" 
+        intervals [626]:
+            xmin = 625 
+            xmax = 626 
+            text = "speech (0.995)" 
+        intervals [627]:
+            xmin = 626 
+            xmax = 627 
+            text = "speech (0.984)" 
+        intervals [628]:
+            xmin = 627 
+            xmax = 628 
+            text = "speech (1.0)" 
+        intervals [629]:
+            xmin = 628 
+            xmax = 629 
+            text = "speech (0.622)" 
+        intervals [630]:
+            xmin = 629 
+            xmax = 630 
+            text = "speech (0.126)" 
+        intervals [631]:
+            xmin = 630 
+            xmax = 631 
+            text = "speech (0.961)" 
+        intervals [632]:
+            xmin = 631 
+            xmax = 632 
+            text = "speech (0.986)" 
+        intervals [633]:
+            xmin = 632 
+            xmax = 633 
+            text = "speech (0.995)" 
+        intervals [634]:
+            xmin = 633 
+            xmax = 634 
+            text = "speech (0.66)" 
+        intervals [635]:
+            xmin = 634 
+            xmax = 635 
+            text = "speech (0.998)" 
+        intervals [636]:
+            xmin = 635 
+            xmax = 636 
+            text = "speech (0.971)" 
+        intervals [637]:
+            xmin = 636 
+            xmax = 637 
+            text = "speech (0.965)" 
+        intervals [638]:
+            xmin = 637 
+            xmax = 638 
+            text = "speech (0.991)" 
+        intervals [639]:
+            xmin = 638 
+            xmax = 639 
+            text = "speech (0.994)" 
+        intervals [640]:
+            xmin = 639 
+            xmax = 640 
+            text = "speech (1.0)" 
+        intervals [641]:
+            xmin = 640 
+            xmax = 641 
+            text = "speech (0.999)" 
+        intervals [642]:
+            xmin = 641 
+            xmax = 642 
+            text = "speech (1.0)" 
+        intervals [643]:
+            xmin = 642 
+            xmax = 643 
+            text = "speech (1.0)" 
+        intervals [644]:
+            xmin = 643 
+            xmax = 644 
+            text = "speech (0.822)" 
+        intervals [645]:
+            xmin = 644 
+            xmax = 645 
+            text = "speech (0.996)" 
+        intervals [646]:
+            xmin = 645 
+            xmax = 646 
+            text = "speech (0.982)" 
+        intervals [647]:
+            xmin = 646 
+            xmax = 647 
+            text = "speech (0.997)" 
+        intervals [648]:
+            xmin = 647 
+            xmax = 648 
+            text = "speech (0.941)" 
+        intervals [649]:
+            xmin = 648 
+            xmax = 649 
+            text = "speech (0.94)" 
+        intervals [650]:
+            xmin = 649 
+            xmax = 650 
+            text = "music (0.041)" 
+        intervals [651]:
+            xmin = 650 
+            xmax = 651 
+            text = "music (0.08)" 
+        intervals [652]:
+            xmin = 651 
+            xmax = 652 
+            text = "speech (0.94)" 
+        intervals [653]:
+            xmin = 652 
+            xmax = 653 
+            text = "speech (0.998)" 
+        intervals [654]:
+            xmin = 653 
+            xmax = 654 
+            text = "speech (1.0)" 
+        intervals [655]:
+            xmin = 654 
+            xmax = 655 
+            text = "speech (0.997)" 
+        intervals [656]:
+            xmin = 655 
+            xmax = 656 
+            text = "speech (0.997)" 
+        intervals [657]:
+            xmin = 656 
+            xmax = 657 
+            text = "speech (0.287)" 
+        intervals [658]:
+            xmin = 657 
+            xmax = 658 
+            text = "speech (0.702)" 
+        intervals [659]:
+            xmin = 658 
+            xmax = 659 
+            text = "speech (0.954)" 
+        intervals [660]:
+            xmin = 659 
+            xmax = 660 
+            text = "speech (0.607)" 
+        intervals [661]:
+            xmin = 660 
+            xmax = 661 
+            text = "speech (0.995)" 
+        intervals [662]:
+            xmin = 661 
+            xmax = 662 
+            text = "speech (0.999)" 
+        intervals [663]:
+            xmin = 662 
+            xmax = 663 
+            text = "speech (0.994)" 
+        intervals [664]:
+            xmin = 663 
+            xmax = 664 
+            text = "speech (0.998)" 
+        intervals [665]:
+            xmin = 664 
+            xmax = 665 
+            text = "speech (0.999)" 
+        intervals [666]:
+            xmin = 665 
+            xmax = 666 
+            text = "speech (0.998)" 
+        intervals [667]:
+            xmin = 666 
+            xmax = 667 
+            text = "speech (0.989)" 
+        intervals [668]:
+            xmin = 667 
+            xmax = 668 
+            text = "speech (0.992)" 
+        intervals [669]:
+            xmin = 668 
+            xmax = 669 
+            text = "speech (0.902)" 
+        intervals [670]:
+            xmin = 669 
+            xmax = 670 
+            text = "speech (0.852)" 
+        intervals [671]:
+            xmin = 670 
+            xmax = 671 
+            text = "speech (0.998)" 
+        intervals [672]:
+            xmin = 671 
+            xmax = 672 
+            text = "speech (0.997)" 
+        intervals [673]:
+            xmin = 672 
+            xmax = 673 
+            text = "speech (0.947)" 
+        intervals [674]:
+            xmin = 673 
+            xmax = 674 
+            text = "speech (0.737)" 
+        intervals [675]:
+            xmin = 674 
+            xmax = 675 
+            text = "music (0.0)" 
+        intervals [676]:
+            xmin = 675 
+            xmax = 676 
+            text = "music (0.001)" 
+        intervals [677]:
+            xmin = 676 
+            xmax = 677 
+            text = "music (0.0)" 
+        intervals [678]:
+            xmin = 677 
+            xmax = 678 
+            text = "music (0.0)" 
+        intervals [679]:
+            xmin = 678 
+            xmax = 679 
+            text = "music (0.0)" 
+        intervals [680]:
+            xmin = 679 
+            xmax = 680 
+            text = "speech (0.283)" 
+        intervals [681]:
+            xmin = 680 
+            xmax = 681 
+            text = "speech (0.992)" 
+        intervals [682]:
+            xmin = 681 
+            xmax = 682 
+            text = "speech (0.984)" 
+        intervals [683]:
+            xmin = 682 
+            xmax = 683 
+            text = "speech (0.779)" 
+        intervals [684]:
+            xmin = 683 
+            xmax = 684 
+            text = "speech (0.989)" 
+        intervals [685]:
+            xmin = 684 
+            xmax = 685 
+            text = "speech (0.918)" 
+        intervals [686]:
+            xmin = 685 
+            xmax = 686 
+            text = "speech (0.985)" 
+        intervals [687]:
+            xmin = 686 
+            xmax = 687 
+            text = "speech (0.3)" 
+        intervals [688]:
+            xmin = 687 
+            xmax = 688 
+            text = "speech (0.832)" 
+        intervals [689]:
+            xmin = 688 
+            xmax = 689 
+            text = "speech (0.597)" 
+        intervals [690]:
+            xmin = 689 
+            xmax = 690 
+            text = "speech (0.953)" 
+        intervals [691]:
+            xmin = 690 
+            xmax = 691 
+            text = "speech (0.992)" 
+        intervals [692]:
+            xmin = 691 
+            xmax = 692 
+            text = "speech (0.987)" 
+        intervals [693]:
+            xmin = 692 
+            xmax = 693 
+            text = "speech (0.873)" 
+        intervals [694]:
+            xmin = 693 
+            xmax = 694 
+            text = "speech (0.497)" 
+        intervals [695]:
+            xmin = 694 
+            xmax = 695 
+            text = "speech (0.984)" 
+        intervals [696]:
+            xmin = 695 
+            xmax = 696 
+            text = "speech (0.99)" 
+        intervals [697]:
+            xmin = 696 
+            xmax = 697 
+            text = "speech (0.999)" 
+        intervals [698]:
+            xmin = 697 
+            xmax = 698 
+            text = "speech (1.0)" 
+        intervals [699]:
+            xmin = 698 
+            xmax = 699 
+            text = "speech (1.0)" 
+        intervals [700]:
+            xmin = 699 
+            xmax = 700 
+            text = "speech (1.0)" 
+        intervals [701]:
+            xmin = 700 
+            xmax = 701 
+            text = "speech (0.996)" 
+        intervals [702]:
+            xmin = 701 
+            xmax = 702 
+            text = "speech (0.954)" 
+        intervals [703]:
+            xmin = 702 
+            xmax = 703 
+            text = "speech (0.981)" 
+        intervals [704]:
+            xmin = 703 
+            xmax = 704 
+            text = "speech (0.895)" 
+        intervals [705]:
+            xmin = 704 
+            xmax = 705 
+            text = "speech (0.892)" 
+        intervals [706]:
+            xmin = 705 
+            xmax = 706 
+            text = "speech (0.981)" 
+        intervals [707]:
+            xmin = 706 
+            xmax = 707 
+            text = "speech (0.95)" 
+        intervals [708]:
+            xmin = 707 
+            xmax = 708 
+            text = "speech (0.182)" 
+        intervals [709]:
+            xmin = 708 
+            xmax = 709 
+            text = "speech (0.993)" 
+        intervals [710]:
+            xmin = 709 
+            xmax = 710 
+            text = "speech (0.994)" 
+        intervals [711]:
+            xmin = 710 
+            xmax = 711 
+            text = "speech (0.999)" 
+        intervals [712]:
+            xmin = 711 
+            xmax = 712 
+            text = "speech (1.0)" 
+        intervals [713]:
+            xmin = 712 
+            xmax = 713 
+            text = "speech (0.998)" 
+        intervals [714]:
+            xmin = 713 
+            xmax = 714 
+            text = "music (0.084)" 
+        intervals [715]:
+            xmin = 714 
+            xmax = 715 
+            text = "music (0.05)" 
+        intervals [716]:
+            xmin = 715 
+            xmax = 716 
+            text = "music (0.058)" 
+        intervals [717]:
+            xmin = 716 
+            xmax = 717 
+            text = "speech (0.45)" 
+        intervals [718]:
+            xmin = 717 
+            xmax = 718 
+            text = "speech (0.987)" 
+        intervals [719]:
+            xmin = 718 
+            xmax = 719 
+            text = "speech (0.996)" 
+        intervals [720]:
+            xmin = 719 
+            xmax = 720 
+            text = "music (0.001)" 
+        intervals [721]:
+            xmin = 720 
+            xmax = 721 
+            text = "speech (0.598)" 
+        intervals [722]:
+            xmin = 721 
+            xmax = 722 
+            text = "music (0.014)" 
+        intervals [723]:
+            xmin = 722 
+            xmax = 723 
+            text = "speech (0.733)" 
+        intervals [724]:
+            xmin = 723 
+            xmax = 724 
+            text = "speech (0.979)" 
+        intervals [725]:
+            xmin = 724 
+            xmax = 725 
+            text = "speech (0.994)" 
+        intervals [726]:
+            xmin = 725 
+            xmax = 726 
+            text = "speech (0.998)" 
+        intervals [727]:
+            xmin = 726 
+            xmax = 727 
+            text = "speech (0.997)" 
+        intervals [728]:
+            xmin = 727 
+            xmax = 728 
+            text = "speech (0.973)" 
+        intervals [729]:
+            xmin = 728 
+            xmax = 729 
+            text = "speech (0.799)" 
+        intervals [730]:
+            xmin = 729 
+            xmax = 730 
+            text = "speech (0.54)" 
+        intervals [731]:
+            xmin = 730 
+            xmax = 731 
+            text = "speech (0.113)" 
+        intervals [732]:
+            xmin = 731 
+            xmax = 732 
+            text = "speech (0.571)" 
+        intervals [733]:
+            xmin = 732 
+            xmax = 733 
+            text = "speech (0.137)" 
+        intervals [734]:
+            xmin = 733 
+            xmax = 734 
+            text = "music (0.009)" 
+        intervals [735]:
+            xmin = 734 
+            xmax = 735 
+            text = "music (0.011)" 
+        intervals [736]:
+            xmin = 735 
+            xmax = 736 
+            text = "music (0.002)" 
+        intervals [737]:
+            xmin = 736 
+            xmax = 737 
+            text = "music (0.009)" 
+        intervals [738]:
+            xmin = 737 
+            xmax = 738 
+            text = "music (0.005)" 
+        intervals [739]:
+            xmin = 738 
+            xmax = 739 
+            text = "speech (0.119)" 
+        intervals [740]:
+            xmin = 739 
+            xmax = 740 
+            text = "music (0.007)" 
+        intervals [741]:
+            xmin = 740 
+            xmax = 741 
+            text = "music (0.006)" 
+        intervals [742]:
+            xmin = 741 
+            xmax = 742 
+            text = "music (0.002)" 
+        intervals [743]:
+            xmin = 742 
+            xmax = 743 
+            text = "music (0.018)" 
+        intervals [744]:
+            xmin = 743 
+            xmax = 744 
+            text = "speech (0.773)" 
+        intervals [745]:
+            xmin = 744 
+            xmax = 745 
+            text = "speech (0.479)" 
+        intervals [746]:
+            xmin = 745 
+            xmax = 746 
+            text = "speech (0.996)" 
+        intervals [747]:
+            xmin = 746 
+            xmax = 747 
+            text = "speech (0.352)" 
+        intervals [748]:
+            xmin = 747 
+            xmax = 748 
+            text = "speech (0.793)" 
+        intervals [749]:
+            xmin = 748 
+            xmax = 749 
+            text = "speech (0.609)" 
+        intervals [750]:
+            xmin = 749 
+            xmax = 750 
+            text = "speech (0.982)" 
+        intervals [751]:
+            xmin = 750 
+            xmax = 751 
+            text = "speech (0.999)" 
+        intervals [752]:
+            xmin = 751 
+            xmax = 752 
+            text = "speech (0.995)" 
+        intervals [753]:
+            xmin = 752 
+            xmax = 753 
+            text = "speech (1.0)" 
+        intervals [754]:
+            xmin = 753 
+            xmax = 754 
+            text = "speech (1.0)" 
+        intervals [755]:
+            xmin = 754 
+            xmax = 755 
+            text = "speech (0.998)" 
+        intervals [756]:
+            xmin = 755 
+            xmax = 756 
+            text = "speech (1.0)" 
+        intervals [757]:
+            xmin = 756 
+            xmax = 757 
+            text = "speech (0.969)" 
+        intervals [758]:
+            xmin = 757 
+            xmax = 758 
+            text = "speech (0.991)" 
+        intervals [759]:
+            xmin = 758 
+            xmax = 759 
+            text = "speech (0.958)" 
+        intervals [760]:
+            xmin = 759 
+            xmax = 760 
+            text = "music (0.034)" 
+        intervals [761]:
+            xmin = 760 
+            xmax = 761 
+            text = "speech (0.991)" 
+        intervals [762]:
+            xmin = 761 
+            xmax = 762 
+            text = "speech (0.897)" 
+        intervals [763]:
+            xmin = 762 
+            xmax = 763 
+            text = "speech (0.309)" 
+        intervals [764]:
+            xmin = 763 
+            xmax = 764 
+            text = "speech (0.277)" 
+        intervals [765]:
+            xmin = 764 
+            xmax = 765 
+            text = "speech (0.108)" 
+        intervals [766]:
+            xmin = 765 
+            xmax = 766 
+            text = "speech (0.985)" 
+        intervals [767]:
+            xmin = 766 
+            xmax = 767 
+            text = "music (0.021)" 
+        intervals [768]:
+            xmin = 767 
+            xmax = 768 
+            text = "music (0.002)" 
+        intervals [769]:
+            xmin = 768 
+            xmax = 769 
+            text = "speech (0.225)" 
+        intervals [770]:
+            xmin = 769 
+            xmax = 770 
+            text = "speech (0.222)" 
+        intervals [771]:
+            xmin = 770 
+            xmax = 771 
+            text = "speech (0.982)" 
+        intervals [772]:
+            xmin = 771 
+            xmax = 772 
+            text = "speech (0.995)" 
+        intervals [773]:
+            xmin = 772 
+            xmax = 773 
+            text = "speech (0.993)" 
+        intervals [774]:
+            xmin = 773 
+            xmax = 774 
+            text = "speech (0.997)" 
+        intervals [775]:
+            xmin = 774 
+            xmax = 775 
+            text = "speech (1.0)" 
+        intervals [776]:
+            xmin = 775 
+            xmax = 776 
+            text = "speech (0.928)" 
+        intervals [777]:
+            xmin = 776 
+            xmax = 777 
+            text = "speech (0.376)" 
+        intervals [778]:
+            xmin = 777 
+            xmax = 778 
+            text = "music (0.008)" 
+        intervals [779]:
+            xmin = 778 
+            xmax = 779 
+            text = "speech (0.806)" 
+        intervals [780]:
+            xmin = 779 
+            xmax = 780 
+            text = "speech (0.997)" 
+        intervals [781]:
+            xmin = 780 
+            xmax = 781 
+            text = "speech (1.0)" 
+        intervals [782]:
+            xmin = 781 
+            xmax = 782 
+            text = "speech (1.0)" 
+        intervals [783]:
+            xmin = 782 
+            xmax = 783 
+            text = "speech (1.0)" 
+        intervals [784]:
+            xmin = 783 
+            xmax = 784 
+            text = "speech (0.999)" 
+        intervals [785]:
+            xmin = 784 
+            xmax = 785 
+            text = "speech (0.997)" 
+        intervals [786]:
+            xmin = 785 
+            xmax = 786 
+            text = "speech (0.95)" 
+        intervals [787]:
+            xmin = 786 
+            xmax = 787 
+            text = "music (0.036)" 
+        intervals [788]:
+            xmin = 787 
+            xmax = 788 
+            text = "music (0.024)" 
+        intervals [789]:
+            xmin = 788 
+            xmax = 789 
+            text = "speech (0.11)" 
+        intervals [790]:
+            xmin = 789 
+            xmax = 790 
+            text = "speech (0.649)" 
+        intervals [791]:
+            xmin = 790 
+            xmax = 791 
+            text = "speech (0.743)" 
+        intervals [792]:
+            xmin = 791 
+            xmax = 792 
+            text = "speech (0.692)" 
+        intervals [793]:
+            xmin = 792 
+            xmax = 793 
+            text = "speech (0.905)" 
+        intervals [794]:
+            xmin = 793 
+            xmax = 794 
+            text = "speech (0.877)" 
+        intervals [795]:
+            xmin = 794 
+            xmax = 795 
+            text = "speech (0.907)" 
+        intervals [796]:
+            xmin = 795 
+            xmax = 796 
+            text = "speech (0.762)" 
+        intervals [797]:
+            xmin = 796 
+            xmax = 797 
+            text = "speech (0.996)" 
+        intervals [798]:
+            xmin = 797 
+            xmax = 798 
+            text = "speech (0.997)" 
+        intervals [799]:
+            xmin = 798 
+            xmax = 799 
+            text = "speech (0.994)" 
+        intervals [800]:
+            xmin = 799 
+            xmax = 800 
+            text = "speech (0.467)" 
+        intervals [801]:
+            xmin = 800 
+            xmax = 801 
+            text = "speech (0.246)" 
+        intervals [802]:
+            xmin = 801 
+            xmax = 802 
+            text = "speech (0.769)" 
+        intervals [803]:
+            xmin = 802 
+            xmax = 803 
+            text = "music (0.048)" 
+        intervals [804]:
+            xmin = 803 
+            xmax = 804 
+            text = "speech (0.895)" 
+        intervals [805]:
+            xmin = 804 
+            xmax = 805 
+            text = "speech (0.597)" 
+        intervals [806]:
+            xmin = 805 
+            xmax = 806 
+            text = "music (0.044)" 
+        intervals [807]:
+            xmin = 806 
+            xmax = 807 
+            text = "speech (0.709)" 
+        intervals [808]:
+            xmin = 807 
+            xmax = 808 
+            text = "speech (0.22)" 
+        intervals [809]:
+            xmin = 808 
+            xmax = 809 
+            text = "speech (0.758)" 
+        intervals [810]:
+            xmin = 809 
+            xmax = 810 
+            text = "speech (0.249)" 
+        intervals [811]:
+            xmin = 810 
+            xmax = 811 
+            text = "speech (0.212)" 
+        intervals [812]:
+            xmin = 811 
+            xmax = 812 
+            text = "speech (0.601)" 
+        intervals [813]:
+            xmin = 812 
+            xmax = 813 
+            text = "speech (0.632)" 
+        intervals [814]:
+            xmin = 813 
+            xmax = 814 
+            text = "speech (0.978)" 
+        intervals [815]:
+            xmin = 814 
+            xmax = 815 
+            text = "speech (0.992)" 
+        intervals [816]:
+            xmin = 815 
+            xmax = 816 
+            text = "speech (0.979)" 
+        intervals [817]:
+            xmin = 816 
+            xmax = 817 
+            text = "speech (0.136)" 
+        intervals [818]:
+            xmin = 817 
+            xmax = 818 
+            text = "speech (0.429)" 
+        intervals [819]:
+            xmin = 818 
+            xmax = 819 
+            text = "speech (0.629)" 
+        intervals [820]:
+            xmin = 819 
+            xmax = 820 
+            text = "speech (0.403)" 
+        intervals [821]:
+            xmin = 820 
+            xmax = 821 
+            text = "speech (0.979)" 
+        intervals [822]:
+            xmin = 821 
+            xmax = 822 
+            text = "speech (0.53)" 
+        intervals [823]:
+            xmin = 822 
+            xmax = 823 
+            text = "speech (0.997)" 
+        intervals [824]:
+            xmin = 823 
+            xmax = 824 
+            text = "speech (0.29)" 
+        intervals [825]:
+            xmin = 824 
+            xmax = 825 
+            text = "speech (0.875)" 
+        intervals [826]:
+            xmin = 825 
+            xmax = 826 
+            text = "music (0.02)" 
+        intervals [827]:
+            xmin = 826 
+            xmax = 827 
+            text = "music (0.0)" 
+        intervals [828]:
+            xmin = 827 
+            xmax = 828 
+            text = "music (0.0)" 
+        intervals [829]:
+            xmin = 828 
+            xmax = 829 
+            text = "music (0.0)" 
+        intervals [830]:
+            xmin = 829 
+            xmax = 830 
+            text = "music (0.0)" 
+        intervals [831]:
+            xmin = 830 
+            xmax = 831 
+            text = "music (0.0)" 
+        intervals [832]:
+            xmin = 831 
+            xmax = 832 
+            text = "music (0.0)" 
+        intervals [833]:
+            xmin = 832 
+            xmax = 833 
+            text = "music (0.0)" 
+        intervals [834]:
+            xmin = 833 
+            xmax = 834 
+            text = "music (0.0)" 
+        intervals [835]:
+            xmin = 834 
+            xmax = 835 
+            text = "music (0.0)" 
+        intervals [836]:
+            xmin = 835 
+            xmax = 837.9849433106576 
+            text = "music (0.055)" 
