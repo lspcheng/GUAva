@@ -1,0 +1,98 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 1.6529931972789116 
+tiers? <exists> 
+size = 3 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "utterance - words" 
+        xmin = 0 
+        xmax = 1.6529931972789116 
+        intervals: size = 5 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.25 
+            text = "" 
+        intervals [2]:
+            xmin = 0.25 
+            xmax = 0.514145880574452 
+            text = "<unk>" 
+        intervals [3]:
+            xmin = 0.514145880574452 
+            xmax = 0.6592032570604 
+            text = "art" 
+        intervals [4]:
+            xmin = 0.6592032570604 
+            xmax = 1.38 
+            text = "history" 
+        intervals [5]:
+            xmin = 1.38 
+            xmax = 1.6529931972789116 
+            text = "" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "utterance - phones" 
+        xmin = 0 
+        xmax = 1.6529931972789116 
+        intervals: size = 12 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.25 
+            text = "" 
+        intervals [2]:
+            xmin = 0.25 
+            xmax = 0.514145880574452 
+            text = "spn" 
+        intervals [3]:
+            xmin = 0.514145880574452 
+            xmax = 0.57 
+            text = "AA0" 
+        intervals [4]:
+            xmin = 0.57 
+            xmax = 0.6388109213633799 
+            text = "R" 
+        intervals [5]:
+            xmin = 0.6388109213633799 
+            xmax = 0.6592032570604 
+            text = "T" 
+        intervals [6]:
+            xmin = 0.6592032570604 
+            xmax = 0.7691969330104923 
+            text = "HH" 
+        intervals [7]:
+            xmin = 0.7691969330104923 
+            xmax = 0.8285748792270532 
+            text = "IH1" 
+        intervals [8]:
+            xmin = 0.8285748792270532 
+            xmax = 0.96 
+            text = "S" 
+        intervals [9]:
+            xmin = 0.96 
+            xmax = 1.0277758881330312 
+            text = "T" 
+        intervals [10]:
+            xmin = 1.0277758881330312 
+            xmax = 1.1398734853706534 
+            text = "ER0" 
+        intervals [11]:
+            xmin = 1.1398734853706534 
+            xmax = 1.38 
+            text = "IY0" 
+        intervals [12]:
+            xmin = 1.38 
+            xmax = 1.6529931972789116 
+            text = "" 
+    item [3]:
+        class = "IntervalTier" 
+        name = "utterance - issues" 
+        xmin = 0 
+        xmax = 1.6529931972789116 
+        intervals: size = 1 
+        intervals [1]:
+            xmin = 0 
+            xmax = 1.6529931972789116 
+            text = "" 
