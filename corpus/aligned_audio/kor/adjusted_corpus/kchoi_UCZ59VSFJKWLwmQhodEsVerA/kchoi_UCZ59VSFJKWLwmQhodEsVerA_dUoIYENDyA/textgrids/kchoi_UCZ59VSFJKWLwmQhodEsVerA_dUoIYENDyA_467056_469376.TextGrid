@@ -1,0 +1,126 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 2.82 
+tiers? <exists> 
+size = 3 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "utterance - words" 
+        xmin = 0 
+        xmax = 2.82 
+        intervals: size = 8 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.25 
+            text = "" 
+        intervals [2]:
+            xmin = 0.25 
+            xmax = 0.79 
+            text = "and" 
+        intervals [3]:
+            xmin = 0.79 
+            xmax = 0.9262492063492064 
+            text = "" 
+        intervals [4]:
+            xmin = 0.9262492063492064 
+            xmax = 1.3708849836230788 
+            text = "i" 
+        intervals [5]:
+            xmin = 1.3708849836230788 
+            xmax = 1.5132743764172336 
+            text = "" 
+        intervals [6]:
+            xmin = 1.5132743764172336 
+            xmax = 1.75 
+            text = "in" 
+        intervals [7]:
+            xmin = 1.75 
+            xmax = 2.536626984126984 
+            text = "general" 
+        intervals [8]:
+            xmin = 2.536626984126984 
+            xmax = 2.82 
+            text = "" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "utterance - phones" 
+        xmin = 0 
+        xmax = 2.82 
+        intervals: size = 16 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.25 
+            text = "" 
+        intervals [2]:
+            xmin = 0.25 
+            xmax = 0.5340018476526414 
+            text = "AE2" 
+        intervals [3]:
+            xmin = 0.5340018476526414 
+            xmax = 0.6916190476190477 
+            text = "N" 
+        intervals [4]:
+            xmin = 0.6916190476190477 
+            xmax = 0.79 
+            text = "D" 
+        intervals [5]:
+            xmin = 0.79 
+            xmax = 0.9262492063492064 
+            text = "sp" 
+        intervals [6]:
+            xmin = 0.9262492063492064 
+            xmax = 1.3708849836230788 
+            text = "AY1" 
+        intervals [7]:
+            xmin = 1.3708849836230788 
+            xmax = 1.5132743764172336 
+            text = "sp" 
+        intervals [8]:
+            xmin = 1.5132743764172336 
+            xmax = 1.5667838246409675 
+            text = "IH0" 
+        intervals [9]:
+            xmin = 1.5667838246409675 
+            xmax = 1.75 
+            text = "N" 
+        intervals [10]:
+            xmin = 1.75 
+            xmax = 1.8254944120505345 
+            text = "JH" 
+        intervals [11]:
+            xmin = 1.8254944120505345 
+            xmax = 1.9345233338090482 
+            text = "EH1" 
+        intervals [12]:
+            xmin = 1.9345233338090482 
+            xmax = 1.980199390100868 
+            text = "N" 
+        intervals [13]:
+            xmin = 1.980199390100868 
+            xmax = 2.0998032484311553 
+            text = "ER0" 
+        intervals [14]:
+            xmin = 2.0998032484311553 
+            xmax = 2.2102242767353024 
+            text = "AH0" 
+        intervals [15]:
+            xmin = 2.2102242767353024 
+            xmax = 2.536626984126984 
+            text = "L" 
+        intervals [16]:
+            xmin = 2.536626984126984 
+            xmax = 2.82 
+            text = "" 
+    item [3]:
+        class = "IntervalTier" 
+        name = "utterance - issues" 
+        xmin = 0 
+        xmax = 2.82 
+        intervals: size = 1 
+        intervals [1]:
+            xmin = 0 
+            xmax = 2.82 
+            text = "" 
