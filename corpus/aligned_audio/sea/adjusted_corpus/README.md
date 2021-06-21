@@ -1,0 +1,1 @@
+Channel folders for aligned audio files (found within the "queue" folder of each video sub-folder) go here.
