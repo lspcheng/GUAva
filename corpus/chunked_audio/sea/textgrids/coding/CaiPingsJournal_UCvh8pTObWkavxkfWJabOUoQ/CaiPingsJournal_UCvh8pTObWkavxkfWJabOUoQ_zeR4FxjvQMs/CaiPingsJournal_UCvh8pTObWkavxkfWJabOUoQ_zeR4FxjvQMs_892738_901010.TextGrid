@@ -1,0 +1,26 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 8.77201814058957 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "utterance" 
+        xmin = 0 
+        xmax = 8.77201814058957 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.25 
+            text = "" 
+        intervals [2]:
+            xmin = 0.25 
+            xmax = 8.52201814058957 
+            text = "grades man grades kill us Asians like seriously the other stereotype that really gets me is a Malaysian stereotype and that is speaking" 
+        intervals [3]:
+            xmin = 8.52201814058957 
+            xmax = 8.77201814058957 
+            text = "" 

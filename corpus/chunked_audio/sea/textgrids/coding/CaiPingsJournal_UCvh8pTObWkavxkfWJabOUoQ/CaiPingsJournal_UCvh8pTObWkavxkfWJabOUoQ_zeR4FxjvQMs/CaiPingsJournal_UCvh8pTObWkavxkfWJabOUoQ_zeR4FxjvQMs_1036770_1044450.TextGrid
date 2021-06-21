@@ -1,0 +1,26 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 8.18 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "utterance" 
+        xmin = 0 
+        xmax = 8.18 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.25 
+            text = "" 
+        intervals [2]:
+            xmin = 0.25 
+            xmax = 7.93 
+            text = "only and she would just be like but_unn I'm_unn comfortable_unn like_unn this_unn and I'm like okay_unn never_unn mind_unn Mandarin Chinese" 
+        intervals [3]:
+            xmin = 7.93 
+            xmax = 8.18 
+            text = "" 

@@ -1,0 +1,26 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 12.596507936507937 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "utterance" 
+        xmin = 0 
+        xmax = 12.596507936507937 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.25 
+            text = "" 
+        intervals [2]:
+            xmin = 0.25 
+            xmax = 12.346507936507937 
+            text = "they are good friends with the Dean of Loma Linda and then they slid me their number and they were like when you apply to Loma Linda give us a call and then we will call up the Dean and um let them know that you're applying it was pretty much" 
+        intervals [3]:
+            xmin = 12.346507936507937 
+            xmax = 12.596507936507937 
+            text = "" 

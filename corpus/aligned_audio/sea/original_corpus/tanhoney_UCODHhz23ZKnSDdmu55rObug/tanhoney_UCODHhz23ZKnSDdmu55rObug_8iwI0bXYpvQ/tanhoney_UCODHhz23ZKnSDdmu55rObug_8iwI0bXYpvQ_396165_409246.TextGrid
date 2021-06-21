@@ -1,0 +1,26 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 13.580498866213151 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "utterance" 
+        xmin = 0 
+        xmax = 13.580498866213151 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.25 
+            text = "" 
+        intervals [2]:
+            xmin = 0.25 
+            xmax = 13.330498866213151 
+            text = "I knew the first is to be honest with yourself in every decision you make anything you do any choice you make make sure you are being completely* honest and being true to yourself the second is to figure out a plan before going cold turkey yes" 
+        intervals [3]:
+            xmin = 13.330498866213151 
+            xmax = 13.580498866213151 
+            text = "" 

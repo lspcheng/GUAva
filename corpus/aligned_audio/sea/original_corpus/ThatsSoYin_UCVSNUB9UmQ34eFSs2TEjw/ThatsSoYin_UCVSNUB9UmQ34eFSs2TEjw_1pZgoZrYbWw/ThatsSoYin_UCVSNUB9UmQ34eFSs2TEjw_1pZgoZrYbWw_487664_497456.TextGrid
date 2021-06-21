@@ -1,0 +1,26 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 10.291995464852608 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "utterance" 
+        xmin = 0 
+        xmax = 10.291995464852608 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.25 
+            text = "" 
+        intervals [2]:
+            xmin = 0.25 
+            xmax = 10.041995464852608 
+            text = "goodbye_unn you- good_unn bye_unn have_unn a_unn nice_unn day_unn like I would be all up in there I would literally go in and just take the <unk> lotus root lettuce" 
+        intervals [3]:
+            xmin = 10.041995464852608 
+            xmax = 10.291995464852608 
+            text = "" 

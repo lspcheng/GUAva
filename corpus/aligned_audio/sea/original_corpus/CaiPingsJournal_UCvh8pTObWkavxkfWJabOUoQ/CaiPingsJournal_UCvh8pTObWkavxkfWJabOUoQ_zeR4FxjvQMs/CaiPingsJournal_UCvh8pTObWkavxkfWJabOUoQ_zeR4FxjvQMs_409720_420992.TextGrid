@@ -1,0 +1,26 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 11.77201814058957 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "utterance" 
+        xmin = 0 
+        xmax = 11.77201814058957 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.25 
+            text = "" 
+        intervals [2]:
+            xmin = 0.25 
+            xmax = 11.52201814058957 
+            text = "my family still has their house there and I remember once in the car I was with ma- one of my cousins so my cousins in Malaysia some went to public school where Malay is taught heavily and then some went to international school which is" 
+        intervals [3]:
+            xmin = 11.52201814058957 
+            xmax = 11.77201814058957 
+            text = "" 

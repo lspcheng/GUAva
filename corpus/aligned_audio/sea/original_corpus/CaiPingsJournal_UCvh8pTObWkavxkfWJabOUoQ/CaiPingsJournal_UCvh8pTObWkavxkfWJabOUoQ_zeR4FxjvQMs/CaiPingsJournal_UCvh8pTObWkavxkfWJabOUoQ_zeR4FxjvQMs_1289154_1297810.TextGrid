@@ -1,0 +1,26 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 9.156009070294784 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "utterance" 
+        xmin = 0 
+        xmax = 9.156009070294784 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.25 
+            text = "" 
+        intervals [2]:
+            xmin = 0.25 
+            xmax = 8.906009070294784 
+            text = "um especially after college if I think af- I think college is when I felt the worst about it I've accepted that I'm never gonna be truly home somewhere like I can't ex-" 
+        intervals [3]:
+            xmin = 8.906009070294784 
+            xmax = 9.156009070294784 
+            text = "" 

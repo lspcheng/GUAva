@@ -1,0 +1,26 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 8.156009070294784 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "utterance" 
+        xmin = 0 
+        xmax = 8.156009070294784 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.25 
+            text = "" 
+        intervals [2]:
+            xmin = 0.25 
+            xmax = 7.906009070294784 
+            text = "a car with my mom is Connecticut and the m- the woman who rented it to us was Malaysian and we could tell so we- she asked us where we were from 'cause she could" 
+        intervals [3]:
+            xmin = 7.906009070294784 
+            xmax = 8.156009070294784 
+            text = "" 

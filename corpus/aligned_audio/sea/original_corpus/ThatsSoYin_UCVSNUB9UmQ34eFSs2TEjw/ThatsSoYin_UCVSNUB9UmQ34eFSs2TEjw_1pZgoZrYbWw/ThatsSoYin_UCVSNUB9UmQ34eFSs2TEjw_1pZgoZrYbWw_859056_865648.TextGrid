@@ -1,0 +1,26 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 7.091995464852608 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "utterance" 
+        xmin = 0 
+        xmax = 7.091995464852608 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.25 
+            text = "" 
+        intervals [2]:
+            xmin = 0.25 
+            xmax = 6.841995464852608 
+            text = "oh I don't know like I'll just hold up this 'cause it's right in front of me my hourglass highlighter it would just be like can_unn you_unn read_unn this_unn" 
+        intervals [3]:
+            xmin = 6.841995464852608 
+            xmax = 7.091995464852608 
+            text = "" 

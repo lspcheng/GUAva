@@ -1,0 +1,26 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 12.948004535147392 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "utterance" 
+        xmin = 0 
+        xmax = 12.948004535147392 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.25 
+            text = "" 
+        intervals [2]:
+            xmin = 0.25 
+            xmax = 12.698004535147392 
+            text = "so I'm just gonna go on to my YouTube community tab where you guys ask me some questions and I got one from emerald on the moon that says LOL you're like the first one I've ever seen on YouTube so it would be a cool video" 
+        intervals [3]:
+            xmin = 12.698004535147392 
+            xmax = 12.948004535147392 
+            text = "" 

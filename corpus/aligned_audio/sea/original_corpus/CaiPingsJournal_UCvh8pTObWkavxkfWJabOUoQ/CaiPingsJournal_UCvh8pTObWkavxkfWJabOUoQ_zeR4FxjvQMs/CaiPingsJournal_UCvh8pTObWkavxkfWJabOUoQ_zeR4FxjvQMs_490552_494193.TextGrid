@@ -1,0 +1,26 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 4.140521541950114 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "utterance" 
+        xmin = 0 
+        xmax = 4.140521541950114 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.25 
+            text = "" 
+        intervals [2]:
+            xmin = 0.25 
+            xmax = 3.890521541950114 
+            text = "at a hawker stall hawker stalls are basically like are like food carts" 
+        intervals [3]:
+            xmin = 3.890521541950114 
+            xmax = 4.140521541950114 
+            text = "" 

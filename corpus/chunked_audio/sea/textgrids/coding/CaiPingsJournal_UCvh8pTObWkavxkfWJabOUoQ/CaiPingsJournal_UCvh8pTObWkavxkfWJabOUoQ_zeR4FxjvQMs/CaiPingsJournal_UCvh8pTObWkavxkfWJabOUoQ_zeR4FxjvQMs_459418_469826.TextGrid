@@ -1,0 +1,26 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 10.908004535147393 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "utterance" 
+        xmin = 0 
+        xmax = 10.908004535147393 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.25 
+            text = "" 
+        intervals [2]:
+            xmin = 0.25 
+            xmax = 10.658004535147393 
+            text = "and I'm just like wait_unn what_unn does_unn that_unn mean_unn and then she goes like you_unn don't_unn know_unn what_unn that_unn means_unn and I'm just like no_unn and she was like you how_unn can_unn you_unn be_unn malay-_unn be_unn Malaysian_unn if_unn you_unn don't_unn know_unn what_unn na_unn na_unn na_unn means_unn and I was just like" 
+        intervals [3]:
+            xmin = 10.658004535147393 
+            xmax = 10.908004535147393 
+            text = "" 

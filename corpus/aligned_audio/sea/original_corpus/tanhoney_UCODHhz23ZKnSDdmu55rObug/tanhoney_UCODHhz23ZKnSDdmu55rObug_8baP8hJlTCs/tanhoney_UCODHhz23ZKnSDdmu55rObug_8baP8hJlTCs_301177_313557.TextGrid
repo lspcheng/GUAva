@@ -1,0 +1,26 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 12.880022675736962 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "utterance" 
+        xmin = 0 
+        xmax = 12.880022675736962 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.25 
+            text = "" 
+        intervals [2]:
+            xmin = 0.25 
+            xmax = 12.630022675736962 
+            text = "it's not all fun and games over here i'm gonna keep it real with you guys so i'm going to talk about some of the things to watch out for as well so_unc the main thing to watch out for is the community college trap" 
+        intervals [3]:
+            xmin = 12.630022675736962 
+            xmax = 12.880022675736962 
+            text = "" 

@@ -1,0 +1,26 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 11.96501133786848 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "utterance" 
+        xmin = 0 
+        xmax = 11.96501133786848 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.25 
+            text = "" 
+        intervals [2]:
+            xmin = 0.25 
+            xmax = 11.71501133786848 
+            text = "exactly what happens 'cause people say like in like a certain friend group here I feel like I'm the Asian I don't really get that feeling but when they go back to where their mother country is they'll be like oh I'm the American" 
+        intervals [3]:
+            xmin = 11.71501133786848 
+            xmax = 11.96501133786848 
+            text = "" 

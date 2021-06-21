@@ -1,0 +1,26 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 9.020997732426304 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "utterance" 
+        xmin = 0 
+        xmax = 9.020997732426304 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.25 
+            text = "" 
+        intervals [2]:
+            xmin = 0.25 
+            xmax = 8.770997732426304 
+            text = "that is very Western influence that my- the Asian side of my family like would not be able to see and so that's sort of like what brought- has brought me closer to my parents which is" 
+        intervals [3]:
+            xmin = 8.770997732426304 
+            xmax = 9.020997732426304 
+            text = "" 

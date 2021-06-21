@@ -1,0 +1,26 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 10.676009070294786 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "utterance" 
+        xmin = 0 
+        xmax = 10.676009070294786 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.25 
+            text = "" 
+        intervals [2]:
+            xmin = 0.25 
+            xmax = 10.426009070294786 
+            text = "were their names people- I think people are like oh_unn my_unn gosh_unn their_unn names_unn are_unn so_unn like_unn foreign_unn and_unn like_unn cool_unn but it really just means one two three and four and that's how I learned how to say one two-" 
+        intervals [3]:
+            xmin = 10.426009070294786 
+            xmax = 10.676009070294786 
+            text = "" 

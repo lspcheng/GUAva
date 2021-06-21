@@ -1,0 +1,26 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 12.318004535147393 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "utterance" 
+        xmin = 0 
+        xmax = 12.318004535147393 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.25 
+            text = "" 
+        intervals [2]:
+            xmin = 0.25 
+            xmax = 12.068004535147393 
+            text = "but you know what at the end of the day I love being Cambodian I love being underrepresented because it gives me the space and opportunity to grow and to show people what's right from wrong and I am so thankful" 
+        intervals [3]:
+            xmin = 12.068004535147393 
+            xmax = 12.318004535147393 
+            text = "" 

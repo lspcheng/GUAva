@@ -1,0 +1,26 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 14.363990929705215 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "utterance" 
+        xmin = 0 
+        xmax = 14.363990929705215 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.25 
+            text = "" 
+        intervals [2]:
+            xmin = 0.25 
+            xmax = 14.113990929705215 
+            text = "unfortunately I can understand it very well I could speak like the bare minimum and as of right now as of like a week ago I've actually been trying to teach myself how to speak more and more Khmer so right now where I'm at" 
+        intervals [3]:
+            xmin = 14.113990929705215 
+            xmax = 14.363990929705215 
+            text = "" 

@@ -1,0 +1,26 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 12.323990929705216 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "utterance" 
+        xmin = 0 
+        xmax = 12.323990929705216 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.25 
+            text = "" 
+        intervals [2]:
+            xmin = 0.25 
+            xmax = 12.073990929705216 
+            text = "especially if you are watching this in the year twenty twenty_unc there's_unc a lot of stigma behind community college but i feel like a lot of that is over inflated you know by the media by high schools" 
+        intervals [3]:
+            xmin = 12.073990929705216 
+            xmax = 12.323990929705216 
+            text = "" 

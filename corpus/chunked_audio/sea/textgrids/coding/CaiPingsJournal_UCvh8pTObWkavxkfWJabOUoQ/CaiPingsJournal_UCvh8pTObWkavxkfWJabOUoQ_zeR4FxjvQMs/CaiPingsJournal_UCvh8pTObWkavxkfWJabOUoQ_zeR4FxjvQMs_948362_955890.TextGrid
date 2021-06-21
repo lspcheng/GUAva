@@ -1,0 +1,26 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 8.027981859410431 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "utterance" 
+        xmin = 0 
+        xmax = 8.027981859410431 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.25 
+            text = "" 
+        intervals [2]:
+            xmin = 0.25 
+            xmax = 7.777981859410431 
+            text = "she's just trying to speak different languages here if you speak like a different language or someone es- especially if that person is so like the same generation as you they're just like as me at least my generation they're just me at least my generation they're just like" 
+        intervals [3]:
+            xmin = 7.777981859410431 
+            xmax = 8.027981859410431 
+            text = "" 

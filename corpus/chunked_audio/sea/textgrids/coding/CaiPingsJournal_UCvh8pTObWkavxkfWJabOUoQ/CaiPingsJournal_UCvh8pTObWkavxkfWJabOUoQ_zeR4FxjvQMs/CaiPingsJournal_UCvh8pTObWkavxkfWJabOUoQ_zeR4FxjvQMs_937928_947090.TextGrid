@@ -1,0 +1,26 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 9.661995464852607 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "utterance" 
+        xmin = 0 
+        xmax = 9.661995464852607 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.25 
+            text = "" 
+        intervals [2]:
+            xmin = 0.25 
+            xmax = 9.411995464852607 
+            text = "like no one cares like they think they don't think like it's cool they don't think like you're trying to be like someone they don't think like" 
+        intervals [3]:
+            xmin = 9.411995464852607 
+            xmax = 9.661995464852607 
+            text = "" 

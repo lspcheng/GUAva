@@ -1,0 +1,26 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 11.620997732426304 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "utterance" 
+        xmin = 0 
+        xmax = 11.620997732426304 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.25 
+            text = "" 
+        intervals [2]:
+            xmin = 0.25 
+            xmax = 11.370997732426304 
+            text = "six months became two years and it just- it just kept going from there okay so I grew up in the Bay Area well it's in the US and Malaysia Penang itself is also Penang and" 
+        intervals [3]:
+            xmin = 11.370997732426304 
+            xmax = 11.620997732426304 
+            text = "" 

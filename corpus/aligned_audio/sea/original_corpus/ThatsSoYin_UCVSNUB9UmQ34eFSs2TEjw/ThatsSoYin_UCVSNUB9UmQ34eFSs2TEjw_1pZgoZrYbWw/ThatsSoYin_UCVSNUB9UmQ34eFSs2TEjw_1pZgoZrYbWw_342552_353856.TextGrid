@@ -1,0 +1,26 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 11.803990929705215 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "utterance" 
+        xmin = 0 
+        xmax = 11.803990929705215 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.25 
+            text = "" 
+        intervals [2]:
+            xmin = 0.25 
+            xmax = 11.553990929705215 
+            text = "we don't have to fall into those stereotypes like we can be like somewhat successful and we can be somebody with those stereotypes attached to us but we don't have to fall into them" 
+        intervals [3]:
+            xmin = 11.553990929705215 
+            xmax = 11.803990929705215 
+            text = "" 

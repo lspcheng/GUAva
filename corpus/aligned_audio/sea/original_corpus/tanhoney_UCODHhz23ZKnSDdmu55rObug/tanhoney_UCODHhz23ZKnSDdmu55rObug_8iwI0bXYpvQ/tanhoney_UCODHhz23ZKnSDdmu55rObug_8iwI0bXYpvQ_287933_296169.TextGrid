@@ -1,0 +1,26 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 8.735986394557823 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "utterance" 
+        xmin = 0 
+        xmax = 8.735986394557823 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.25 
+            text = "" 
+        intervals [2]:
+            xmin = 0.25 
+            xmax = 8.485986394557823 
+            text = "out loud it was definitely freeing in a way like being able to say that but it was like now that I said it it's like oh shit  where do I go now" 
+        intervals [3]:
+            xmin = 8.485986394557823 
+            xmax = 8.735986394557823 
+            text = "" 

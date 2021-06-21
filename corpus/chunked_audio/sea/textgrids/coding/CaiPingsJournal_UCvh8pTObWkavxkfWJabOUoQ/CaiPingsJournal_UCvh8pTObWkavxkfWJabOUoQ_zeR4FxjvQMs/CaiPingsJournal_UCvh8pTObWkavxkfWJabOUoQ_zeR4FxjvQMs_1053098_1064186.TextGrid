@@ -1,0 +1,26 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 11.588004535147393 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "utterance" 
+        xmin = 0 
+        xmax = 11.588004535147393 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.25 
+            text = "" 
+        intervals [2]:
+            xmin = 0.25 
+            xmax = 11.338004535147393 
+            text = "Mandarin in school to the point where she sent us to elementary school where about half of our classes were in Mandarin Chinese I would'nt na- I wouldn't say that I wouldn't understand it at first because sh- this is gonna sound really snobby to some people" 
+        intervals [3]:
+            xmin = 11.338004535147393 
+            xmax = 11.588004535147393 
+            text = "" 

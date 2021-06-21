@@ -1,0 +1,26 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 11.58 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "utterance" 
+        xmin = 0 
+        xmax = 11.58 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.25 
+            text = "" 
+        intervals [2]:
+            xmin = 0.25 
+            xmax = 11.33 
+            text = "and when I order stuff in Malaysia I a- I- <unk> use my different dialects of Chinese or I ordered it in English and I chose to order it in English this time and of course when I spoke English my American accent" 
+        intervals [3]:
+            xmin = 11.33 
+            xmax = 11.58 
+            text = "" 

@@ -1,0 +1,26 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 9.063990929705216 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "utterance" 
+        xmin = 0 
+        xmax = 9.063990929705216 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.25 
+            text = "" 
+        intervals [2]:
+            xmin = 0.25 
+            xmax = 8.813990929705216 
+            text = "what_unn are_unn you_unn trying_unn to_unn do_unn can you speak your language yes and no so Malaysia as I said is made up of like several different languages um" 
+        intervals [3]:
+            xmin = 8.813990929705216 
+            xmax = 9.063990929705216 
+            text = "" 

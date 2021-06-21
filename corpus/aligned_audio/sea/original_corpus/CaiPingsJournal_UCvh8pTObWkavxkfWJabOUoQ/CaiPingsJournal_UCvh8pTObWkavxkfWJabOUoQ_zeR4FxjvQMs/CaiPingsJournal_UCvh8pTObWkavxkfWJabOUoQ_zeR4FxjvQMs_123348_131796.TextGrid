@@ -1,0 +1,26 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 8.948004535147392 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "utterance" 
+        xmin = 0 
+        xmax = 8.948004535147392 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.25 
+            text = "" 
+        intervals [2]:
+            xmin = 0.25 
+            xmax = 8.698004535147392 
+            text = "Malaysia is one of those countries where when you fill out a document they have a slot for nationality where you put like okay Malaysian and then they have a slot for race and then you put like " 
+        intervals [3]:
+            xmin = 8.698004535147392 
+            xmax = 8.948004535147392 
+            text = "" 
