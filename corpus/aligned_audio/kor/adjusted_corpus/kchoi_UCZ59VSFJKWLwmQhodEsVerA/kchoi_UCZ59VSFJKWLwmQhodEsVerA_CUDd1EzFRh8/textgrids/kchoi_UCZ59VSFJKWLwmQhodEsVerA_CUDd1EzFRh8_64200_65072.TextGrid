@@ -1,0 +1,86 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 1.3719954648526078 
+tiers? <exists> 
+size = 3 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "utterance - words" 
+        xmin = 0 
+        xmax = 1.3719954648526078 
+        intervals: size = 5 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.25 
+            text = "" 
+        intervals [2]:
+            xmin = 0.25 
+            xmax = 0.76 
+            text = "but" 
+        intervals [3]:
+            xmin = 0.76 
+            xmax = 0.8417365523564019 
+            text = "" 
+        intervals [4]:
+            xmin = 0.8417365523564019 
+            xmax = 1.04 
+            text = "yeah" 
+        intervals [5]:
+            xmin = 1.04 
+            xmax = 1.3719954648526078 
+            text = "" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "utterance - phones" 
+        xmin = 0 
+        xmax = 1.3719954648526078 
+        intervals: size = 9 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.25 
+            text = "" 
+        intervals [2]:
+            xmin = 0.25 
+            xmax = 0.28 
+            text = "B" 
+        intervals [3]:
+            xmin = 0.28 
+            xmax = 0.67 
+            text = "AH1" 
+        intervals [4]:
+            xmin = 0.67 
+            xmax = 0.76 
+            text = "T" 
+        intervals [5]:
+            xmin = 0.76 
+            xmax = 0.8417365523564019 
+            text = "sp" 
+        intervals [6]:
+            xmin = 0.8417365523564019 
+            xmax = 0.8967031946846719 
+            text = "Y" 
+        intervals [7]:
+            xmin = 0.8967031946846719 
+            xmax = 1.04 
+            text = "AE1" 
+        intervals [8]:
+            xmin = 1.04 
+            xmax = 1.1 
+            text = "sp" 
+        intervals [9]:
+            xmin = 1.1 
+            xmax = 1.3719954648526078 
+            text = "" 
+    item [3]:
+        class = "IntervalTier" 
+        name = "utterance - issues" 
+        xmin = 0 
+        xmax = 1.3719954648526078 
+        intervals: size = 1 
+        intervals [1]:
+            xmin = 0 
+            xmax = 1.3719954648526078 
+            text = "" 
