@@ -1,0 +1,72 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 0.22999999999999687 
+tiers? <exists> 
+size = 2 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "AMYLEE_ - words" 
+        xmin = 0 
+        xmax = 0.22999999999999687 
+        intervals: size = 4 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.00999999999999801 
+            text = "" 
+        intervals [2]:
+            xmin = 0.00999999999999801 
+            xmax = 0.07000000000000028 
+            text = "you" 
+        intervals [3]:
+            xmin = 0.07000000000000028 
+            xmax = 0.1599999999999966 
+            text = "don't" 
+        intervals [4]:
+            xmin = 0.1599999999999966 
+            xmax = 0.22999999999999687 
+            text = "have" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "AMYLEE_ - phones" 
+        xmin = 0 
+        xmax = 0.22999999999999687 
+        intervals: size = 9 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.00999999999999801 
+            text = "sp" 
+        intervals [2]:
+            xmin = 0.00999999999999801 
+            xmax = 0.03999999999999915 
+            text = "Y" 
+        intervals [3]:
+            xmin = 0.03999999999999915 
+            xmax = 0.07000000000000028 
+            text = "UW1" 
+        intervals [4]:
+            xmin = 0.07000000000000028 
+            xmax = 0.10000000000000142 
+            text = "D" 
+        intervals [5]:
+            xmin = 0.10000000000000142 
+            xmax = 0.12999999999999545 
+            text = "OW1" 
+        intervals [6]:
+            xmin = 0.12999999999999545 
+            xmax = 0.1599999999999966 
+            text = "N" 
+        intervals [7]:
+            xmin = 0.1599999999999966 
+            xmax = 0.18999999999999773 
+            text = "HH" 
+        intervals [8]:
+            xmin = 0.18999999999999773 
+            xmax = 0.21999999999999886 
+            text = "AE1" 
+        intervals [9]:
+            xmin = 0.21999999999999886 
+            xmax = 0.22999999999999687 
+            text = "V" 

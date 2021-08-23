@@ -1,0 +1,72 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 0.25 
+tiers? <exists> 
+size = 2 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "AMYLEE_ - words" 
+        xmin = 0 
+        xmax = 0.25 
+        intervals: size = 4 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.07000000000005002 
+            text = "tell" 
+        intervals [2]:
+            xmin = 0.07000000000005002 
+            xmax = 0.17999999999994998 
+            text = "that" 
+        intervals [3]:
+            xmin = 0.17999999999994998 
+            xmax = 0.2400000000000091 
+            text = "to" 
+        intervals [4]:
+            xmin = 0.2400000000000091 
+            xmax = 0.25 
+            text = "people" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "AMYLEE_ - phones" 
+        xmin = 0 
+        xmax = 0.25 
+        intervals: size = 9 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.009999999999990905 
+            text = "T" 
+        intervals [2]:
+            xmin = 0.009999999999990905 
+            xmax = 0.03999999999996362 
+            text = "EH1" 
+        intervals [3]:
+            xmin = 0.03999999999996362 
+            xmax = 0.07000000000005002 
+            text = "L" 
+        intervals [4]:
+            xmin = 0.07000000000005002 
+            xmax = 0.10000000000002274 
+            text = "DH" 
+        intervals [5]:
+            xmin = 0.10000000000002274 
+            xmax = 0.14999999999997726 
+            text = "AE1" 
+        intervals [6]:
+            xmin = 0.14999999999997726 
+            xmax = 0.17999999999994998 
+            text = "T" 
+        intervals [7]:
+            xmin = 0.17999999999994998 
+            xmax = 0.21000000000003638 
+            text = "T" 
+        intervals [8]:
+            xmin = 0.21000000000003638 
+            xmax = 0.2400000000000091 
+            text = "IH0" 
+        intervals [9]:
+            xmin = 0.2400000000000091 
+            xmax = 0.25 
+            text = "P" 

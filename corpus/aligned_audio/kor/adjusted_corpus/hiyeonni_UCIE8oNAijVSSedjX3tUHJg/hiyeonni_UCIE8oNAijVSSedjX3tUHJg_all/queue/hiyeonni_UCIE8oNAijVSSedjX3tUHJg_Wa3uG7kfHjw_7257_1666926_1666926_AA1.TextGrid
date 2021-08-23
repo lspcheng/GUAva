@@ -1,0 +1,72 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 0.23999999999978172 
+tiers? <exists> 
+size = 2 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "hiyeonn - words" 
+        xmin = 0 
+        xmax = 0.23999999999978172 
+        intervals: size = 5 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.02999999999974534 
+            text = "there's" 
+        intervals [2]:
+            xmin = 0.02999999999974534 
+            xmax = 0.06999999999970896 
+            text = "a" 
+        intervals [3]:
+            xmin = 0.06999999999970896 
+            xmax = 0.16999999999984539 
+            text = "lot" 
+        intervals [4]:
+            xmin = 0.16999999999984539 
+            xmax = 0.22999999999979082 
+            text = "of" 
+        intervals [5]:
+            xmin = 0.22999999999979082 
+            xmax = 0.23999999999978172 
+            text = "different" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "hiyeonn - phones" 
+        xmin = 0 
+        xmax = 0.23999999999978172 
+        intervals: size = 8 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.02999999999974534 
+            text = "Z" 
+        intervals [2]:
+            xmin = 0.02999999999974534 
+            xmax = 0.06999999999970896 
+            text = "AH0" 
+        intervals [3]:
+            xmin = 0.06999999999970896 
+            xmax = 0.09999999999990905 
+            text = "L" 
+        intervals [4]:
+            xmin = 0.09999999999990905 
+            xmax = 0.13999999999987267 
+            text = "AA1" 
+        intervals [5]:
+            xmin = 0.13999999999987267 
+            xmax = 0.16999999999984539 
+            text = "T" 
+        intervals [6]:
+            xmin = 0.16999999999984539 
+            xmax = 0.1999999999998181 
+            text = "AH0" 
+        intervals [7]:
+            xmin = 0.1999999999998181 
+            xmax = 0.22999999999979082 
+            text = "V" 
+        intervals [8]:
+            xmin = 0.22999999999979082 
+            xmax = 0.23999999999978172 
+            text = "D" 
