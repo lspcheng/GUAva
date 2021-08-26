@@ -19,13 +19,13 @@ form Modify textgrids
 	sentence out_audio_dir ./audio/
 	comment Directory to write the TextGrid to
 	sentence out_tg_dir ./textgrids/
-	comment Review List Directory
-	sentence out_list_dir ./
 	comment Output filename
 	sentence outfile vowel_coding_log.csv
 	comment Vowel Lists (list each separated by a space)
 	sentence target_vowels OW1 UW1 EY1
+	integer max_target 50
 	sentence reference_vowels IY1 AE1 AA1 AO1
+	integer max_reference 20
 endform
 
 #########################################################
@@ -42,14 +42,14 @@ endfor
 # Create/read file and add header if file doesn't already exist (NOTE: fileReadable location is always relative to script)
 new_outfile = 0
 if !(fileReadable (outfile$))
-		writeFileLine: "'out_list_dir$''outfile$'", "file,order,vowel,boundaries,creak,issues"
+		writeFileLine: "'outfile$'", "file,order,vowel,boundaries,creak,issues,flag"
 		new_outfile = 1
 endif
 
 # Check coding progress
 if new_outfile = 0
 	clearinfo
-	Read Table from comma-separated file... 'out_list_dir$''outfile$'
+	Read Table from comma-separated file... 'outfile$'
 	Rename: "output"
 	total_rows = Get number of rows
 	appendInfoLine: "Total vowels coded: " + string$(total_rows) + newline$
@@ -168,12 +168,16 @@ for i_file to number_of_files
 				option ("breathy/whisper/voiceless")
 				option ("noise/sfx/click/etc.")
 				option ("other")
+			flag = boolean ("Flag", 0)
 
 			clicked = endPause: "Quit", "Skip", "Done", 3, 1
 			if clicked = 1
 						endeditor
 						select all
 						Remove
+						if new_outfile = 1
+							deleteFile: outfile$
+						endif
 						exitScript ()
 			elsif clicked = 2
 						select TextGrid 'name$'
@@ -191,20 +195,21 @@ for i_file to number_of_files
 						filedelete 'audio_dir$''name$'.wav
 
 						# Save to a spreadsheet
-						appendFileLine: "'out_list_dir$''outfile$'",
+						appendFileLine: "'outfile$'",
 							...soundname$, ",",
 							...order$, ",",
 							...vowel$, ",",
 							...boundaries, ",",
 							...creak, ",",
-							...issues
+							...issues, ",",
+							...flag
 
 							if new_outfile = 1
 								new_outfile = 0
 							endif
 
 							clearinfo
-							Read Table from comma-separated file... 'out_list_dir$''outfile$'
+							Read Table from comma-separated file... 'outfile$'
 							Rename: "output"
 							total_rows = Get number of rows
 							appendInfoLine: "Total vowels coded: " + string$(total_rows) + newline$
@@ -221,7 +226,7 @@ for i_file to number_of_files
 
 								vowel_rows# = List row numbers where... self$["vowel"]=current_vowel$
 								number_of_vowels = size(vowel_rows#)
-								if number_of_vowels > 49
+								if number_of_vowels > max_target-1
 									finished_vowels$#[i_vowel] = current_vowel$
 								endif
 								appendInfoLine: current_vowel$ + ": " + string$(number_of_vowels)
@@ -234,7 +239,7 @@ for i_file to number_of_files
 
 								vowel_rows# = List row numbers where... self$["vowel"]=current_vowel$
 								number_of_vowels = size(vowel_rows#)
-								if number_of_vowels > 19
+								if number_of_vowels > max_reference-1
 									finished_vowels$#[i_ref_vowel + size(target_vowels$#)] = current_vowel$
 								endif
 								appendInfoLine: current_vowel$ + ": " + string$(number_of_vowels)
