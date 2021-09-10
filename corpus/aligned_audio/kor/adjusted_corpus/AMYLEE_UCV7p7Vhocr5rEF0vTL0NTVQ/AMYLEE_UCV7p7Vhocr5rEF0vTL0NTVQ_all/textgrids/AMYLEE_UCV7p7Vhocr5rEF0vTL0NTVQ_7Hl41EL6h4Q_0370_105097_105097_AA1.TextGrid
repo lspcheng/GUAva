@@ -1,0 +1,77 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 0.30999999999998806 
+tiers? <exists> 
+size = 3 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "AMYLEE_ - words" 
+        xmin = 0 
+        xmax = 0.30999999999998806 
+        intervals: size = 5 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.06999999999999318 
+            text = "of" 
+        intervals [2]:
+            xmin = 0.06999999999999318 
+            xmax = 0.09999999999999432 
+            text = "" 
+        intervals [3]:
+            xmin = 0.09999999999999432 
+            xmax = 0.23999999999999488 
+            text = "on" 
+        intervals [4]:
+            xmin = 0.23999999999999488 
+            xmax = 0.29999999999999716 
+            text = "the" 
+        intervals [5]:
+            xmin = 0.29999999999999716 
+            xmax = 0.30999999999998806 
+            text = "border" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "AMYLEE_ - phones" 
+        xmin = 0 
+        xmax = 0.30999999999998806 
+        intervals: size = 7 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.06999999999999318 
+            text = "V" 
+        intervals [2]:
+            xmin = 0.06999999999999318 
+            xmax = 0.1398374565577405 
+            text = "sp" 
+        intervals [3]:
+            xmin = 0.1398374565577405 
+            xmax = 0.20999999999999375 
+            text = "AA1" 
+        intervals [4]:
+            xmin = 0.20999999999999375 
+            xmax = 0.23999999999999488 
+            text = "N" 
+        intervals [5]:
+            xmin = 0.23999999999999488 
+            xmax = 0.269999999999996 
+            text = "DH" 
+        intervals [6]:
+            xmin = 0.269999999999996 
+            xmax = 0.29999999999999716 
+            text = "AH1" 
+        intervals [7]:
+            xmin = 0.29999999999999716 
+            xmax = 0.30999999999998806 
+            text = "B" 
+    item [3]:
+        class = "TextTier" 
+        name = "vowel marker" 
+        xmin = 0 
+        xmax = 0.30999999999998806 
+        points: size = 1 
+        points [1]:
+            number = 0.15499999999999403 
+            mark = "target" 
