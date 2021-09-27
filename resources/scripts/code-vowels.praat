@@ -25,9 +25,9 @@ form Modify textgrids
 	sentence outfile vowel_coding_log.csv
 	comment Vowel Lists (list each separated by a space)
 	sentence target_vowels OW1 UW1 EY1
-	integer max_target 50
+	integer max_target 65
 	sentence reference_vowels IY1 AE1 AA1 AO1
-	integer max_reference 20
+	integer max_reference 30
 endform
 
 #########################################################
@@ -56,7 +56,7 @@ if new_outfile = 0
 	total_rows = Get number of rows
 	appendInfoLine: "Total vowels coded: " + string$(total_rows) + newline$
 
-	Extract rows where... self$["boundaries"]="1" & self$["creak"]="1" & self$["issues"]="1"
+	Extract rows where... (self$["boundaries"]="1") & (self$["creak"]="1"|self$["creak"]="2"|self$["creak"]="3") & (self$["issues"]="1"|self$["issues"]="2"|self$["issues"]="4"|self$["issues"]="5")
 	Rename: "usable_output"
 	usable_rows = Get number of rows
 	appendInfoLine: "Usable vowels coded: " + string$(usable_rows) + newline$
@@ -68,7 +68,7 @@ if new_outfile = 0
 
 		vowel_rows# = List row numbers where... self$["vowel"]=current_vowel$
 		number_of_vowels = size(vowel_rows#)
-		if number_of_vowels > 49
+		if number_of_vowels > max_target-1
 			finished_vowels$#[i_vowel] = current_vowel$
 		endif
 		appendInfoLine: current_vowel$ + ": " + string$(number_of_vowels)
@@ -81,7 +81,7 @@ if new_outfile = 0
 
 		vowel_rows# = List row numbers where... self$["vowel"]=current_vowel$
 		number_of_vowels = size(vowel_rows#)
-		if number_of_vowels > 19
+		if number_of_vowels > max_reference-1
 			finished_vowels$#[i_ref_vowel + size(target_vowels$#)] = current_vowel$
 		endif
 		appendInfoLine: current_vowel$ + ": " + string$(number_of_vowels)
@@ -221,7 +221,7 @@ for i_file to number_of_files
 							total_rows = Get number of rows
 							appendInfoLine: "Total vowels coded: " + string$(total_rows) + newline$
 
-							Extract rows where... self$["boundaries"]="1" & self$["creak"]="1" & self$["issues"]="1"
+							Extract rows where... (self$["boundaries"]="1") & (self$["creak"]="1"|self$["creak"]="2"|self$["creak"]="3") & (self$["issues"]="1"|self$["issues"]="2"|self$["issues"]="4"|self$["issues"]="5")
 							Rename: "usable_output"
 							usable_rows = Get number of rows
 							appendInfoLine: "Usable vowels coded: " + string$(usable_rows) + newline$
