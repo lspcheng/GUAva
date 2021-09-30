@@ -1,0 +1,64 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 0.25999999999976353 
+tiers? <exists> 
+size = 2 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "WeylieH - words" 
+        xmin = 0 
+        xmax = 0.25999999999976353 
+        intervals: size = 4 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.04999999999972715 
+            text = "to" 
+        intervals [2]:
+            xmin = 0.04999999999972715 
+            xmax = 0.209999999999809 
+            text = "have" 
+        intervals [3]:
+            xmin = 0.209999999999809 
+            xmax = 0.24999999999977263 
+            text = "a" 
+        intervals [4]:
+            xmin = 0.24999999999977263 
+            xmax = 0.25999999999976353 
+            text = "legacy" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "WeylieH - phones" 
+        xmin = 0 
+        xmax = 0.25999999999976353 
+        intervals: size = 7 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.009999999999763531 
+            text = "T" 
+        intervals [2]:
+            xmin = 0.009999999999763531 
+            xmax = 0.04999999999972715 
+            text = "AH0" 
+        intervals [3]:
+            xmin = 0.04999999999972715 
+            xmax = 0.09999999999990905 
+            text = "HH" 
+        intervals [4]:
+            xmin = 0.09999999999990905 
+            xmax = 0.15999999999985448 
+            text = "AE1" 
+        intervals [5]:
+            xmin = 0.15999999999985448 
+            xmax = 0.209999999999809 
+            text = "V" 
+        intervals [6]:
+            xmin = 0.209999999999809 
+            xmax = 0.24999999999977263 
+            text = "AH0" 
+        intervals [7]:
+            xmin = 0.24999999999977263 
+            xmax = 0.25999999999976353 
+            text = "L" 
