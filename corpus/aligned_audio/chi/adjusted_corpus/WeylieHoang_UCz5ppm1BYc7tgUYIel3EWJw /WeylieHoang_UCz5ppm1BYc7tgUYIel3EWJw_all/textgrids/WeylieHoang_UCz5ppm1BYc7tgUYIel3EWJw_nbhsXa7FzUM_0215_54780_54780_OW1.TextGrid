@@ -1,0 +1,73 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 0.240000000000002 
+tiers? <exists> 
+size = 3 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "WeylieH - words" 
+        xmin = 0 
+        xmax = 0.240000000000002 
+        intervals: size = 4 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.05000000000000426 
+            text = "started" 
+        intervals [2]:
+            xmin = 0.05000000000000426 
+            xmax = 0.14000000000000057 
+            text = "so" 
+        intervals [3]:
+            xmin = 0.14000000000000057 
+            xmax = 0.1700000000000017 
+            text = "i" 
+        intervals [4]:
+            xmin = 0.1700000000000017 
+            xmax = 0.240000000000002 
+            text = "wanted" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "WeylieH - phones" 
+        xmin = 0 
+        xmax = 0.240000000000002 
+        intervals: size = 7 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.05000000000000426 
+            text = "D" 
+        intervals [2]:
+            xmin = 0.05000000000000426 
+            xmax = 0.08682881018702816 
+            text = "S" 
+        intervals [3]:
+            xmin = 0.08682881018702816 
+            xmax = 0.14000000000000057 
+            text = "OW1" 
+        intervals [4]:
+            xmin = 0.14000000000000057 
+            xmax = 0.1700000000000017 
+            text = "AY1" 
+        intervals [5]:
+            xmin = 0.1700000000000017 
+            xmax = 0.20000000000000284 
+            text = "W" 
+        intervals [6]:
+            xmin = 0.20000000000000284 
+            xmax = 0.23000000000000398 
+            text = "AO1" 
+        intervals [7]:
+            xmin = 0.23000000000000398 
+            xmax = 0.240000000000002 
+            text = "N" 
+    item [3]:
+        class = "TextTier" 
+        name = "vowel marker" 
+        xmin = 0 
+        xmax = 0.240000000000002 
+        points: size = 1 
+        points [1]:
+            number = 0.11248853819885274 
+            mark = "target" 
