@@ -1,0 +1,64 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 0.3600000000000705 
+tiers? <exists> 
+size = 2 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "SandyLi - words" 
+        xmin = 0 
+        xmax = 0.3600000000000705 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.06000000000005912 
+            text = "don't" 
+        intervals [2]:
+            xmin = 0.06000000000005912 
+            xmax = 0.34000000000003183 
+            text = "follow" 
+        intervals [3]:
+            xmin = 0.34000000000003183 
+            xmax = 0.3600000000000705 
+            text = "any" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "SandyLi - phones" 
+        xmin = 0 
+        xmax = 0.3600000000000705 
+        intervals: size = 8 
+        intervals [1]:
+            xmin = 0 
+            xmax = 5.6843418860808015e-14 
+            text = "OW1" 
+        intervals [2]:
+            xmin = 5.6843418860808015e-14 
+            xmax = 0.03000000000002956 
+            text = "N" 
+        intervals [3]:
+            xmin = 0.03000000000002956 
+            xmax = 0.06000000000005912 
+            text = "T" 
+        intervals [4]:
+            xmin = 0.06000000000005912 
+            xmax = 0.10000000000002274 
+            text = "F" 
+        intervals [5]:
+            xmin = 0.10000000000002274 
+            xmax = 0.26000000000004775 
+            text = "AA1" 
+        intervals [6]:
+            xmin = 0.26000000000004775 
+            xmax = 0.2900000000000773 
+            text = "L" 
+        intervals [7]:
+            xmin = 0.2900000000000773 
+            xmax = 0.34000000000003183 
+            text = "OW0" 
+        intervals [8]:
+            xmin = 0.34000000000003183 
+            xmax = 0.3600000000000705 
+            text = "EH1" 
