@@ -1,0 +1,56 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 0.259999999999998 
+tiers? <exists> 
+size = 2 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "MeganRa - words" 
+        xmin = 0 
+        xmax = 0.259999999999998 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.00999999999999801 
+            text = "" 
+        intervals [2]:
+            xmin = 0.00999999999999801 
+            xmax = 0.22999999999999687 
+            text = "moved" 
+        intervals [3]:
+            xmin = 0.22999999999999687 
+            xmax = 0.259999999999998 
+            text = "to" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "MeganRa - phones" 
+        xmin = 0 
+        xmax = 0.259999999999998 
+        intervals: size = 6 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.00999999999999801 
+            text = "sp" 
+        intervals [2]:
+            xmin = 0.00999999999999801 
+            xmax = 0.10000000000000142 
+            text = "M" 
+        intervals [3]:
+            xmin = 0.10000000000000142 
+            xmax = 0.1599999999999966 
+            text = "UW1" 
+        intervals [4]:
+            xmin = 0.1599999999999966 
+            xmax = 0.19999999999999574 
+            text = "V" 
+        intervals [5]:
+            xmin = 0.19999999999999574 
+            xmax = 0.22999999999999687 
+            text = "D" 
+        intervals [6]:
+            xmin = 0.22999999999999687 
+            xmax = 0.259999999999998 
+            text = "T" 
