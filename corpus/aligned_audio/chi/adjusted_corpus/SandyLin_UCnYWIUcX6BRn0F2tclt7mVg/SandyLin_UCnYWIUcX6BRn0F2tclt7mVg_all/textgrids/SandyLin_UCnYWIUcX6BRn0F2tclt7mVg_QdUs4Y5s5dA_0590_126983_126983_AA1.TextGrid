@@ -1,0 +1,69 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 0.4199999999999875 
+tiers? <exists> 
+size = 3 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "SandyLi - words" 
+        xmin = 0 
+        xmax = 0.4199999999999875 
+        intervals: size = 4 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.03999999999999204 
+            text = "in" 
+        intervals [2]:
+            xmin = 0.03999999999999204 
+            xmax = 0.06999999999999318 
+            text = "" 
+        intervals [3]:
+            xmin = 0.06999999999999318 
+            xmax = 0.3199999999999932 
+            text = "la" 
+        intervals [4]:
+            xmin = 0.3199999999999932 
+            xmax = 0.4199999999999875 
+            text = "been" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "SandyLi - phones" 
+        xmin = 0 
+        xmax = 0.4199999999999875 
+        intervals: size = 6 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.03999999999999204 
+            text = "N" 
+        intervals [2]:
+            xmin = 0.03999999999999204 
+            xmax = 0.06999999999999318 
+            text = "sp" 
+        intervals [3]:
+            xmin = 0.06999999999999318 
+            xmax = 0.20774517878665513 
+            text = "L" 
+        intervals [4]:
+            xmin = 0.20774517878665513 
+            xmax = 0.3199999999999932 
+            text = "AA1" 
+        intervals [5]:
+            xmin = 0.3199999999999932 
+            xmax = 0.37999999999999545 
+            text = "B" 
+        intervals [6]:
+            xmin = 0.37999999999999545 
+            xmax = 0.4199999999999875 
+            text = "IH0" 
+    item [3]:
+        class = "TextTier" 
+        name = "vowel marker" 
+        xmin = 0 
+        xmax = 0.4199999999999875 
+        points: size = 1 
+        points [1]:
+            number = 0.2438223182000731 
+            mark = "target" 
