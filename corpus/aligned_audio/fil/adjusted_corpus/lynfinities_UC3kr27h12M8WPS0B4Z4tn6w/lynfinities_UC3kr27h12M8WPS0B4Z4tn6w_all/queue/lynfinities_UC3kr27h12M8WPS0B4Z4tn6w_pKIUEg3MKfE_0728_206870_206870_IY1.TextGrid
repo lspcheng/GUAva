@@ -1,0 +1,56 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 0.3299999999999841 
+tiers? <exists> 
+size = 2 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "lynfini - words" 
+        xmin = 0 
+        xmax = 0.3299999999999841 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.009999999999990905 
+            text = "for" 
+        intervals [2]:
+            xmin = 0.009999999999990905 
+            xmax = 0.03999999999999204 
+            text = "a" 
+        intervals [3]:
+            xmin = 0.03999999999999204 
+            xmax = 0.3299999999999841 
+            text = "reason" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "lynfini - phones" 
+        xmin = 0 
+        xmax = 0.3299999999999841 
+        intervals: size = 6 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.009999999999990905 
+            text = "ER0" 
+        intervals [2]:
+            xmin = 0.009999999999990905 
+            xmax = 0.03999999999999204 
+            text = "AH0" 
+        intervals [3]:
+            xmin = 0.03999999999999204 
+            xmax = 0.09999999999999432 
+            text = "R" 
+        intervals [4]:
+            xmin = 0.09999999999999432 
+            xmax = 0.22999999999998977 
+            text = "IY1" 
+        intervals [5]:
+            xmin = 0.22999999999998977 
+            xmax = 0.28000000000000114 
+            text = "Z" 
+        intervals [6]:
+            xmin = 0.28000000000000114 
+            xmax = 0.3299999999999841 
+            text = "AH0" 
