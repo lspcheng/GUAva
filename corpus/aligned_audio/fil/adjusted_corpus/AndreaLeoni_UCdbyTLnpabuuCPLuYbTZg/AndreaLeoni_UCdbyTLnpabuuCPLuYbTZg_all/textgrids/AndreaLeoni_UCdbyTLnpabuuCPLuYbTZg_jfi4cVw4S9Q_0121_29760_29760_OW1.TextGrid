@@ -1,0 +1,81 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 0.30000000000000426 
+tiers? <exists> 
+size = 3 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "AndreaL - words" 
+        xmin = 0 
+        xmax = 0.30000000000000426 
+        intervals: size = 4 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.07000000000000384 
+            text = "gonna" 
+        intervals [2]:
+            xmin = 0.07000000000000384 
+            xmax = 0.20000000000000284 
+            text = "go" 
+        intervals [3]:
+            xmin = 0.20000000000000284 
+            xmax = 0.2900000000000027 
+            text = "through" 
+        intervals [4]:
+            xmin = 0.2900000000000027 
+            xmax = 0.30000000000000426 
+            text = "these" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "AndreaL - phones" 
+        xmin = 0 
+        xmax = 0.30000000000000426 
+        intervals: size = 9 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.010000000000001563 
+            text = "AA1" 
+        intervals [2]:
+            xmin = 0.010000000000001563 
+            xmax = 0.0400000000000027 
+            text = "N" 
+        intervals [3]:
+            xmin = 0.0400000000000027 
+            xmax = 0.07000000000000384 
+            text = "AH0" 
+        intervals [4]:
+            xmin = 0.07000000000000384 
+            xmax = 0.10622216863596325 
+            text = "G" 
+        intervals [5]:
+            xmin = 0.10622216863596325 
+            xmax = 0.2162583393617907 
+            text = "OW1" 
+        intervals [6]:
+            xmin = 0.2162583393617907 
+            xmax = 0.23000000000000398 
+            text = "TH" 
+        intervals [7]:
+            xmin = 0.23000000000000398 
+            xmax = 0.26000000000000156 
+            text = "R" 
+        intervals [8]:
+            xmin = 0.26000000000000156 
+            xmax = 0.2900000000000027 
+            text = "UW1" 
+        intervals [9]:
+            xmin = 0.2900000000000027 
+            xmax = 0.30000000000000426 
+            text = "DH" 
+    item [3]:
+        class = "TextTier" 
+        name = "vowel marker" 
+        xmin = 0 
+        xmax = 0.30000000000000426 
+        points: size = 1 
+        points [1]:
+            number = 0.15000000000000213 
+            mark = "target" 
