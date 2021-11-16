@@ -2,51 +2,56 @@ File type = "ooTextFile"
 Object class = "TextGrid"
 
 xmin = 0 
-xmax = 0.6400000000001 
+xmax = 0.40000000000009095 
 tiers? <exists> 
-size = 2 
+size = 3 
 item []: 
     item [1]:
         class = "IntervalTier" 
         name = "Katrina - words" 
         xmin = 0 
-        xmax = 0.6400000000001 
-        intervals: size = 4 
+        xmax = 0.40000000000009095 
+        intervals: size = 3 
         intervals [1]:
             xmin = 0 
             xmax = 0.07000000000005002 
-            text = "like" 
+            text = "few" 
         intervals [2]:
             xmin = 0.07000000000005002 
             xmax = 0.10000000000002274 
             text = "" 
         intervals [3]:
             xmin = 0.10000000000002274 
-            xmax = 0.5400000000000773 
-            text = "oh" 
-        intervals [4]:
-            xmin = 0.5400000000000773 
-            xmax = 0.6400000000001 
-            text = "" 
+            xmax = 0.40000000000009095 
+            text = "asians" 
     item [2]:
         class = "IntervalTier" 
         name = "Katrina - phones" 
         xmin = 0 
-        xmax = 0.6400000000001 
+        xmax = 0.40000000000009095 
         intervals: size = 4 
         intervals [1]:
             xmin = 0 
             xmax = 0.07000000000005002 
-            text = "K" 
+            text = "UW1" 
         intervals [2]:
             xmin = 0.07000000000005002 
-            xmax = 0.10000000000002274 
+            xmax = 0.16161473966917844 
             text = "sp" 
         intervals [3]:
-            xmin = 0.10000000000002274 
-            xmax = 0.5400000000000773 
-            text = "OW1" 
+            xmin = 0.16161473966917844 
+            xmax = 0.3000000000000682 
+            text = "EY1" 
         intervals [4]:
-            xmin = 0.5400000000000773 
-            xmax = 0.6400000000001 
-            text = "sp" 
+            xmin = 0.3000000000000682 
+            xmax = 0.40000000000009095 
+            text = "ZH" 
+    item [3]:
+        class = "TextTier" 
+        name = "vowel marker" 
+        xmin = 0 
+        xmax = 0.40000000000009095 
+        points: size = 1 
+        points [1]:
+            number = 0.20000000000004547 
+            mark = "target" 

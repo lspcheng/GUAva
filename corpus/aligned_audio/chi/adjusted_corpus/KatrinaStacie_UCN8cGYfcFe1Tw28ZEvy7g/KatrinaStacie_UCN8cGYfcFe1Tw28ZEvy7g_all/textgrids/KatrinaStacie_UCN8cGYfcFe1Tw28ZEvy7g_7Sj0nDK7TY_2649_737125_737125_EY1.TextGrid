@@ -11,45 +11,33 @@ item []:
         name = "Katrina - words" 
         xmin = 0 
         xmax = 0.36000000000001364 
-        intervals: size = 3 
+        intervals: size = 1 
         intervals [1]:
             xmin = 0 
-            xmax = 0.07000000000005002 
-            text = "an" 
-        intervals [2]:
-            xmin = 0.07000000000005002 
-            xmax = 0.10000000000002274 
-            text = "" 
-        intervals [3]:
-            xmin = 0.10000000000002274 
             xmax = 0.36000000000001364 
-            text = "abc" 
+            text = "great" 
     item [2]:
         class = "IntervalTier" 
         name = "Katrina - phones" 
         xmin = 0 
         xmax = 0.36000000000001364 
-        intervals: size = 5 
+        intervals: size = 4 
         intervals [1]:
             xmin = 0 
-            xmax = 0.07000000000005002 
-            text = "N" 
+            xmax = 0.03999999999996362 
+            text = "G" 
         intervals [2]:
-            xmin = 0.07000000000005002 
-            xmax = 0.13261922626455372 
-            text = "sp" 
+            xmin = 0.03999999999996362 
+            xmax = 0.07782987090659077 
+            text = "R" 
         intervals [3]:
-            xmin = 0.13261922626455372 
-            xmax = 0.2669793664944018 
+            xmin = 0.07782987090659077 
+            xmax = 0.20523626689838054 
             text = "EY1" 
         intervals [4]:
-            xmin = 0.2669793664944018 
-            xmax = 0.32000000000005 
-            text = "B" 
-        intervals [5]:
-            xmin = 0.32000000000005 
+            xmin = 0.20523626689838054 
             xmax = 0.36000000000001364 
-            text = "IY1" 
+            text = "T" 
     item [3]:
         class = "TextTier" 
         name = "vowel marker" 
