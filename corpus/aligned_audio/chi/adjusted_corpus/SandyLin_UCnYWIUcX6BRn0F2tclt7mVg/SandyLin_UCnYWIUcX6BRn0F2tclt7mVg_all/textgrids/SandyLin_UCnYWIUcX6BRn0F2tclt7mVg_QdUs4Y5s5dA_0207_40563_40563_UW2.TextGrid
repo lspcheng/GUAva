@@ -1,0 +1,57 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 0.36999999999999744 
+tiers? <exists> 
+size = 3 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "SandyLi - words" 
+        xmin = 0 
+        xmax = 0.36999999999999744 
+        intervals: size = 2 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.29999999999999716 
+            text = "youtube" 
+        intervals [2]:
+            xmin = 0.29999999999999716 
+            xmax = 0.36999999999999744 
+            text = "" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "SandyLi - phones" 
+        xmin = 0 
+        xmax = 0.36999999999999744 
+        intervals: size = 5 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.00999999999999801 
+            text = "UW1" 
+        intervals [2]:
+            xmin = 0.00999999999999801 
+            xmax = 0.102675165171197 
+            text = "T" 
+        intervals [3]:
+            xmin = 0.102675165171197 
+            xmax = 0.1971390507120204 
+            text = "UW2" 
+        intervals [4]:
+            xmin = 0.1971390507120204 
+            xmax = 0.29999999999999716 
+            text = "B" 
+        intervals [5]:
+            xmin = 0.29999999999999716 
+            xmax = 0.36999999999999744 
+            text = "sp" 
+    item [3]:
+        class = "TextTier" 
+        name = "vowel marker" 
+        xmin = 0 
+        xmax = 0.36999999999999744 
+        points: size = 1 
+        points [1]:
+            number = 0.16844674902906004 
+            mark = "target" 
