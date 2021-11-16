@@ -1,0 +1,68 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 0.27000000000003865 
+tiers? <exists> 
+size = 2 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "Katrina - words" 
+        xmin = 0 
+        xmax = 0.27000000000003865 
+        intervals: size = 4 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.10000000000002274 
+            text = "california" 
+        intervals [2]:
+            xmin = 0.10000000000002274 
+            xmax = 0.20000000000004547 
+            text = "all" 
+        intervals [3]:
+            xmin = 0.20000000000004547 
+            xmax = 0.26000000000004775 
+            text = "the" 
+        intervals [4]:
+            xmin = 0.26000000000004775 
+            xmax = 0.27000000000003865 
+            text = "way" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "Katrina - phones" 
+        xmin = 0 
+        xmax = 0.27000000000003865 
+        intervals: size = 8 
+        intervals [1]:
+            xmin = 0 
+            xmax = 5.6843418860808015e-14 
+            text = "N" 
+        intervals [2]:
+            xmin = 5.6843418860808015e-14 
+            xmax = 0.05000000000001137 
+            text = "Y" 
+        intervals [3]:
+            xmin = 0.05000000000001137 
+            xmax = 0.10000000000002274 
+            text = "AH0" 
+        intervals [4]:
+            xmin = 0.10000000000002274 
+            xmax = 0.17000000000001592 
+            text = "AO1" 
+        intervals [5]:
+            xmin = 0.17000000000001592 
+            xmax = 0.20000000000004547 
+            text = "L" 
+        intervals [6]:
+            xmin = 0.20000000000004547 
+            xmax = 0.2300000000000182 
+            text = "DH" 
+        intervals [7]:
+            xmin = 0.2300000000000182 
+            xmax = 0.26000000000004775 
+            text = "AH1" 
+        intervals [8]:
+            xmin = 0.26000000000004775 
+            xmax = 0.27000000000003865 
+            text = "W" 
