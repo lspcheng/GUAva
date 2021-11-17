@@ -1,0 +1,65 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 0.28999999999997783 
+tiers? <exists> 
+size = 3 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "Neens_U - words" 
+        xmin = 0 
+        xmax = 0.28999999999997783 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.04999999999998295 
+            text = "the" 
+        intervals [2]:
+            xmin = 0.04999999999998295 
+            xmax = 0.2499999999999858 
+            text = "name" 
+        intervals [3]:
+            xmin = 0.2499999999999858 
+            xmax = 0.28999999999997783 
+            text = "that" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "Neens_U - phones" 
+        xmin = 0 
+        xmax = 0.28999999999997783 
+        intervals: size = 6 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.01999999999998181 
+            text = "DH" 
+        intervals [2]:
+            xmin = 0.01999999999998181 
+            xmax = 0.04999999999998295 
+            text = "AH0" 
+        intervals [3]:
+            xmin = 0.04999999999998295 
+            xmax = 0.09541137254235983 
+            text = "N" 
+        intervals [4]:
+            xmin = 0.09541137254235983 
+            xmax = 0.18999999999998352 
+            text = "EY1" 
+        intervals [5]:
+            xmin = 0.18999999999998352 
+            xmax = 0.2499999999999858 
+            text = "M" 
+        intervals [6]:
+            xmin = 0.2499999999999858 
+            xmax = 0.28999999999997783 
+            text = "DH" 
+    item [3]:
+        class = "TextTier" 
+        name = "vowel marker" 
+        xmin = 0 
+        xmax = 0.28999999999997783 
+        points: size = 1 
+        points [1]:
+            number = 0.14499999999998892 
+            mark = "target" 

@@ -1,0 +1,68 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 0.25000000000000355 
+tiers? <exists> 
+size = 2 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "Neens_U - words" 
+        xmin = 0 
+        xmax = 0.25000000000000355 
+        intervals: size = 4 
+        intervals [1]:
+            xmin = 0 
+            xmax = 3.552713678800501e-15 
+            text = "and" 
+        intervals [2]:
+            xmin = 3.552713678800501e-15 
+            xmax = 0.10000000000000142 
+            text = "then" 
+        intervals [3]:
+            xmin = 0.10000000000000142 
+            xmax = 0.18000000000000327 
+            text = "on" 
+        intervals [4]:
+            xmin = 0.18000000000000327 
+            xmax = 0.25000000000000355 
+            text = "my" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "Neens_U - phones" 
+        xmin = 0 
+        xmax = 0.25000000000000355 
+        intervals: size = 8 
+        intervals [1]:
+            xmin = 0 
+            xmax = 3.552713678800501e-15 
+            text = "D" 
+        intervals [2]:
+            xmin = 3.552713678800501e-15 
+            xmax = 0.030000000000001137 
+            text = "DH" 
+        intervals [3]:
+            xmin = 0.030000000000001137 
+            xmax = 0.060000000000002274 
+            text = "EH1" 
+        intervals [4]:
+            xmin = 0.060000000000002274 
+            xmax = 0.10000000000000142 
+            text = "N" 
+        intervals [5]:
+            xmin = 0.10000000000000142 
+            xmax = 0.15000000000000213 
+            text = "AA1" 
+        intervals [6]:
+            xmin = 0.15000000000000213 
+            xmax = 0.18000000000000327 
+            text = "N" 
+        intervals [7]:
+            xmin = 0.18000000000000327 
+            xmax = 0.21000000000000085 
+            text = "M" 
+        intervals [8]:
+            xmin = 0.21000000000000085 
+            xmax = 0.25000000000000355 
+            text = "AY1" 
