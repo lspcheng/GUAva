@@ -11,11 +11,15 @@ item []:
         name = "Honeysu - words" 
         xmin = 0 
         xmax = 0.2999999999999545 
-        intervals: size = 1 
+        intervals: size = 2 
         intervals [1]:
             xmin = 0 
+            xmax = 0.2400000000000091 
+            text = "shape" 
+        intervals [2]:
+            xmin = 0.2400000000000091 
             xmax = 0.2999999999999545 
-            text = "mason" 
+            text = "of" 
     item [2]:
         class = "IntervalTier" 
         name = "Honeysu - phones" 
@@ -24,18 +28,18 @@ item []:
         intervals: size = 4 
         intervals [1]:
             xmin = 0 
-            xmax = 0.08854274808728262 
-            text = "M" 
+            xmax = 0.09548476325350061 
+            text = "SH" 
         intervals [2]:
-            xmin = 0.08854274808728262 
-            xmax = 0.15837125358276957 
+            xmin = 0.09548476325350061 
+            xmax = 0.17633882224827496 
             text = "EY1" 
         intervals [3]:
-            xmin = 0.15837125358276957 
-            xmax = 0.2799999999999727 
-            text = "S" 
+            xmin = 0.17633882224827496 
+            xmax = 0.2400000000000091 
+            text = "P" 
         intervals [4]:
-            xmin = 0.2799999999999727 
+            xmin = 0.2400000000000091 
             xmax = 0.2999999999999545 
             text = "AH0" 
     item [3]:
