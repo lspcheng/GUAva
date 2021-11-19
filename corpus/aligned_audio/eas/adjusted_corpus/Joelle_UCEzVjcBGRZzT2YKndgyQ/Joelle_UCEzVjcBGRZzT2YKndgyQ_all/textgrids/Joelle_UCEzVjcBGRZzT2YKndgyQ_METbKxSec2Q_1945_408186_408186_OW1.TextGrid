@@ -1,69 +1,69 @@
 File type = "ooTextFile"
 Object class = "TextGrid"
 
-xmin = 0 
-xmax = 0.41000000000008185 
-tiers? <exists> 
-size = 3 
-item []: 
+xmin = 0
+xmax = 0.41000000000008185
+tiers? <exists>
+size = 3
+item []:
     item [1]:
-        class = "IntervalTier" 
-        name = "Joelle_ - words" 
-        xmin = 0 
-        xmax = 0.41000000000008185 
-        intervals: size = 4 
+        class = "IntervalTier"
+        name = "Joelle_ - words"
+        xmin = 0
+        xmax = 0.41000000000008185
+        intervals: size = 4
         intervals [1]:
-            xmin = 0 
-            xmax = 0.07000000000005002 
-            text = "like" 
+            xmin = 0
+            xmax = 0.07000000000005002
+            text = "like"
         intervals [2]:
-            xmin = 0.07000000000005002 
-            xmax = 0.10000000000002274 
-            text = "" 
+            xmin = 0.07000000000005002
+            xmax = 0.10000000000002274
+            text = ""
         intervals [3]:
-            xmin = 0.10000000000002274 
-            xmax = 0.3100000000000591 
-            text = "oh" 
+            xmin = 0.10000000000002274
+            xmax = 0.3100000000000591
+            text = "oh"
         intervals [4]:
-            xmin = 0.3100000000000591 
-            xmax = 0.41000000000008185 
-            text = "yeah" 
+            xmin = 0.3100000000000591
+            xmax = 0.41000000000008185
+            text = "yeah"
     item [2]:
-        class = "IntervalTier" 
-        name = "Joelle_ - phones" 
-        xmin = 0 
-        xmax = 0.41000000000008185 
-        intervals: size = 6 
+        class = "IntervalTier"
+        name = "Joelle_ - phones"
+        xmin = 0
+        xmax = 0.41000000000008185
+        intervals: size = 6
         intervals [1]:
-            xmin = 0 
-            xmax = 0.010000000000047748 
-            text = "AY1" 
+            xmin = 0
+            xmax = 0.010000000000047748
+            text = "AY1"
         intervals [2]:
-            xmin = 0.010000000000047748 
-            xmax = 0.07000000000005002 
-            text = "K" 
+            xmin = 0.010000000000047748
+            xmax = 0.07000000000005002
+            text = "K"
         intervals [3]:
-            xmin = 0.07000000000005002 
-            xmax = 0.12378795470461737 
-            text = "sp" 
+            xmin = 0.07000000000005002
+            xmax = 0.1309622808527641
+            text = "sp"
         intervals [4]:
-            xmin = 0.12378795470461737 
-            xmax = 0.27486973590298136 
-            text = "OW1" 
+            xmin = 0.12378795470461737
+            xmax = 0.27486973590298136
+            text = "OW1"
         intervals [5]:
-            xmin = 0.27486973590298136 
-            xmax = 0.3900000000000432 
-            text = "Y" 
+            xmin = 0.27486973590298136
+            xmax = 0.3900000000000432
+            text = "Y"
         intervals [6]:
-            xmin = 0.3900000000000432 
-            xmax = 0.41000000000008185 
-            text = "AE1" 
+            xmin = 0.3900000000000432
+            xmax = 0.41000000000008185
+            text = "AE1"
     item [3]:
-        class = "TextTier" 
-        name = "vowel marker" 
-        xmin = 0 
-        xmax = 0.41000000000008185 
-        points: size = 1 
+        class = "TextTier"
+        name = "vowel marker"
+        xmin = 0
+        xmax = 0.41000000000008185
+        points: size = 1
         points [1]:
-            number = 0.20500000000004093 
-            mark = "target" 
+            number = 0.20500000000004093
+            mark = "target"
