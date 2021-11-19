@@ -1,0 +1,73 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 0.22999999999999687 
+tiers? <exists> 
+size = 3 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "RowenaT - words" 
+        xmin = 0 
+        xmax = 0.22999999999999687 
+        intervals: size = 4 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.01999999999999602 
+            text = "around" 
+        intervals [2]:
+            xmin = 0.01999999999999602 
+            xmax = 0.05999999999999517 
+            text = "" 
+        intervals [3]:
+            xmin = 0.05999999999999517 
+            xmax = 0.12999999999999545 
+            text = "you" 
+        intervals [4]:
+            xmin = 0.12999999999999545 
+            xmax = 0.22999999999999687 
+            text = "will" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "RowenaT - phones" 
+        xmin = 0 
+        xmax = 0.22999999999999687 
+        intervals: size = 7 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.01999999999999602 
+            text = "N" 
+        intervals [2]:
+            xmin = 0.01999999999999602 
+            xmax = 0.05999999999999517 
+            text = "sp" 
+        intervals [3]:
+            xmin = 0.05999999999999517 
+            xmax = 0.10000000000000142 
+            text = "Y" 
+        intervals [4]:
+            xmin = 0.10000000000000142 
+            xmax = 0.12999999999999545 
+            text = "UW1" 
+        intervals [5]:
+            xmin = 0.12999999999999545 
+            xmax = 0.1599999999999966 
+            text = "W" 
+        intervals [6]:
+            xmin = 0.1599999999999966 
+            xmax = 0.19999999999999574 
+            text = "AH0" 
+        intervals [7]:
+            xmin = 0.19999999999999574 
+            xmax = 0.22999999999999687 
+            text = "L" 
+    item [3]:
+        class = "TextTier" 
+        name = "vowel marker" 
+        xmin = 0 
+        xmax = 0.22999999999999687 
+        points: size = 1 
+        points [1]:
+            number = 0.11499999999999844 
+            mark = "target" 
