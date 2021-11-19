@@ -4,7 +4,7 @@ Object class = "TextGrid"
 xmin = 0 
 xmax = 0.42000000000007276 
 tiers? <exists> 
-size = 3 
+size = 4 
 item []: 
     item [1]:
         class = "IntervalTier" 
@@ -55,6 +55,15 @@ item []:
             xmax = 0.42000000000007276 
             text = "S" 
     item [3]:
+        class = "TextTier" 
+        name = "vowel marker" 
+        xmin = 0 
+        xmax = 0.42000000000007276 
+        points: size = 1 
+        points [1]:
+            number = 0.21000000000003638 
+            mark = "target" 
+    item [4]:
         class = "TextTier" 
         name = "vowel marker" 
         xmin = 0 
