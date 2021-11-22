@@ -24,18 +24,18 @@ item []:
         intervals: size = 5 
         intervals [1]:
             xmin = 0 
-            xmax = 0.07000000000000028 
+            xmax = 0.034724011478209894 
             text = "IH1" 
         intervals [2]:
-            xmin = 0.07000000000000028 
-            xmax = 0.09732720253756012 
+            xmin = 0.034724011478209894 
+            xmax = 0.0800941490606774 
             text = "R" 
         intervals [3]:
-            xmin = 0.09732720253756012 
-            xmax = 0.14000000000000057 
+            xmin = 0.0800941490606774 
+            xmax = 0.11221753114461422 
             text = "IY0" 
         intervals [4]:
-            xmin = 0.14000000000000057 
+            xmin = 0.11221753114461422 
             xmax = 0.17999999999999972 
             text = "AH0" 
         intervals [5]:
@@ -49,5 +49,5 @@ item []:
         xmax = 0.240000000000002 
         points: size = 1 
         points [1]:
-            number = 0.120000000000001 
+            number = 0.09632142454637743 
             mark = "target" 
