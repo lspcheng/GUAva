@@ -1,0 +1,68 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 0.25000000000005684 
+tiers? <exists> 
+size = 2 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "HeyRayL - words" 
+        xmin = 0 
+        xmax = 0.25000000000005684 
+        intervals: size = 4 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.010000000000047748 
+            text = "some" 
+        intervals [2]:
+            xmin = 0.010000000000047748 
+            xmax = 0.07000000000005002 
+            text = "of" 
+        intervals [3]:
+            xmin = 0.07000000000005002 
+            xmax = 0.19000000000005457 
+            text = "those" 
+        intervals [4]:
+            xmin = 0.19000000000005457 
+            xmax = 0.25000000000005684 
+            text = "stereotypes" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "HeyRayL - phones" 
+        xmin = 0 
+        xmax = 0.25000000000005684 
+        intervals: size = 8 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.010000000000047748 
+            text = "M" 
+        intervals [2]:
+            xmin = 0.010000000000047748 
+            xmax = 0.040000000000020464 
+            text = "AH1" 
+        intervals [3]:
+            xmin = 0.040000000000020464 
+            xmax = 0.07000000000005002 
+            text = "V" 
+        intervals [4]:
+            xmin = 0.07000000000005002 
+            xmax = 0.10000000000002274 
+            text = "DH" 
+        intervals [5]:
+            xmin = 0.10000000000002274 
+            xmax = 0.1500000000000341 
+            text = "OW1" 
+        intervals [6]:
+            xmin = 0.1500000000000341 
+            xmax = 0.19000000000005457 
+            text = "Z" 
+        intervals [7]:
+            xmin = 0.19000000000005457 
+            xmax = 0.22000000000002728 
+            text = "S" 
+        intervals [8]:
+            xmin = 0.22000000000002728 
+            xmax = 0.25000000000005684 
+            text = "T" 
