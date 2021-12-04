@@ -1,0 +1,45 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 0.5399999999999991 
+tiers? <exists> 
+size = 3 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "JoanKim - words" 
+        xmin = 0 
+        xmax = 0.5399999999999991 
+        intervals: size = 1 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.5399999999999991 
+            text = "philippines" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "JoanKim - phones" 
+        xmin = 0 
+        xmax = 0.5399999999999991 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.10000000000000142 
+            text = "P" 
+        intervals [2]:
+            xmin = 0.10000000000000142 
+            xmax = 0.47826383410345913 
+            text = "IY2" 
+        intervals [3]:
+            xmin = 0.47826383410345913 
+            xmax = 0.5399999999999991 
+            text = "N" 
+    item [3]:
+        class = "TextTier" 
+        name = "vowel marker" 
+        xmin = 0 
+        xmax = 0.5399999999999991 
+        points: size = 1 
+        points [1]:
+            number = 0.2699999999999996 
+            mark = "target" 
