@@ -1,0 +1,65 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 0.2400000000000002 
+tiers? <exists> 
+size = 3 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "CaiPing - words" 
+        xmin = 0 
+        xmax = 0.2400000000000002 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.10000000000000009 
+            text = "jump" 
+        intervals [2]:
+            xmin = 0.10000000000000009 
+            xmax = 0.18999999999999995 
+            text = "in" 
+        intervals [3]:
+            xmin = 0.18999999999999995 
+            xmax = 0.2400000000000002 
+            text = "and" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "CaiPing - phones" 
+        xmin = 0 
+        xmax = 0.2400000000000002 
+        intervals: size = 6 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.040000000000000036 
+            text = "M" 
+        intervals [2]:
+            xmin = 0.040000000000000036 
+            xmax = 0.10000000000000009 
+            text = "P" 
+        intervals [3]:
+            xmin = 0.10000000000000009 
+            xmax = 0.1330418746465368 
+            text = "IH0" 
+        intervals [4]:
+            xmin = 0.1330418746465368 
+            xmax = 0.1813971329513882 
+            text = "N" 
+        intervals [5]:
+            xmin = 0.1813971329513882 
+            xmax = 0.22999999999999998 
+            text = "AH0" 
+        intervals [6]:
+            xmin = 0.22999999999999998 
+            xmax = 0.2400000000000002 
+            text = "N" 
+    item [3]:
+        class = "TextTier" 
+        name = "vowel marker" 
+        xmin = 0 
+        xmax = 0.2400000000000002 
+        points: size = 1 
+        points [1]:
+            number = 0.1200000000000001 
+            mark = "target" 
