@@ -1,0 +1,65 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 0.22999999999998977 
+tiers? <exists> 
+size = 3 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "AneesaS - words" 
+        xmin = 0 
+        xmax = 0.22999999999998977 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.01999999999998181 
+            text = "makeup" 
+        intervals [2]:
+            xmin = 0.01999999999998181 
+            xmax = 0.09999999999999432 
+            text = "i've" 
+        intervals [3]:
+            xmin = 0.09999999999999432 
+            xmax = 0.22999999999998977 
+            text = "always" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "AneesaS - phones" 
+        xmin = 0 
+        xmax = 0.22999999999998977 
+        intervals: size = 6 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.01999999999998181 
+            text = "P" 
+        intervals [2]:
+            xmin = 0.01999999999998181 
+            xmax = 0.06999999999999318 
+            text = "AY1" 
+        intervals [3]:
+            xmin = 0.06999999999999318 
+            xmax = 0.11914779565270253 
+            text = "V" 
+        intervals [4]:
+            xmin = 0.11914779565270253 
+            xmax = 0.17813866715787818 
+            text = "AO1" 
+        intervals [5]:
+            xmin = 0.17813866715787818 
+            xmax = 0.19165740854448093 
+            text = "L" 
+        intervals [6]:
+            xmin = 0.19165740854448093 
+            xmax = 0.22999999999998977 
+            text = "W" 
+    item [3]:
+        class = "TextTier" 
+        name = "vowel marker" 
+        xmin = 0 
+        xmax = 0.22999999999998977 
+        points: size = 1 
+        points [1]:
+            number = 0.1474142549155992 
+            mark = "target" 
