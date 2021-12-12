@@ -1,0 +1,77 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 0.2400000000000091 
+tiers? <exists> 
+size = 3 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "ThatsSo - words" 
+        xmin = 0 
+        xmax = 0.2400000000000091 
+        intervals: size = 4 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.06999999999999318 
+            text = "and" 
+        intervals [2]:
+            xmin = 0.06999999999999318 
+            xmax = 0.14000000000001478 
+            text = "they" 
+        intervals [3]:
+            xmin = 0.14000000000001478 
+            xmax = 0.19999999999998863 
+            text = "were" 
+        intervals [4]:
+            xmin = 0.19999999999998863 
+            xmax = 0.2400000000000091 
+            text = "like" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "ThatsSo - phones" 
+        xmin = 0 
+        xmax = 0.2400000000000091 
+        intervals: size = 8 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.009999999999990905 
+            text = "AH0" 
+        intervals [2]:
+            xmin = 0.009999999999990905 
+            xmax = 0.03999999999999204 
+            text = "N" 
+        intervals [3]:
+            xmin = 0.03999999999999204 
+            xmax = 0.06999999999999318 
+            text = "D" 
+        intervals [4]:
+            xmin = 0.06999999999999318 
+            xmax = 0.07946986648307365 
+            text = "DH" 
+        intervals [5]:
+            xmin = 0.07946986648307365 
+            xmax = 0.13003221126657158 
+            text = "EY1" 
+        intervals [6]:
+            xmin = 0.13003221126657158 
+            xmax = 0.1699999999999875 
+            text = "W" 
+        intervals [7]:
+            xmin = 0.1699999999999875 
+            xmax = 0.19999999999998863 
+            text = "ER0" 
+        intervals [8]:
+            xmin = 0.19999999999998863 
+            xmax = 0.2400000000000091 
+            text = "L" 
+    item [3]:
+        class = "TextTier" 
+        name = "vowel marker" 
+        xmin = 0 
+        xmax = 0.2400000000000091 
+        points: size = 1 
+        points [1]:
+            number = 0.12000000000000455 
+            mark = "target" 
