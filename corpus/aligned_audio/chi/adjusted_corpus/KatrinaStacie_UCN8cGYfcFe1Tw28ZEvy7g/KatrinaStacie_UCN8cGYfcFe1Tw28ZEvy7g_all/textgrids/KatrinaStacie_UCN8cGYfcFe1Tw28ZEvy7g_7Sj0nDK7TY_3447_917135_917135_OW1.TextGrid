@@ -1,0 +1,57 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 0.37999999999999545 
+tiers? <exists> 
+size = 3 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "Katrina - words" 
+        xmin = 0 
+        xmax = 0.37999999999999545 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.03999999999996362 
+            text = "americans" 
+        intervals [2]:
+            xmin = 0.03999999999996362 
+            xmax = 0.2799999999999727 
+            text = "so" 
+        intervals [3]:
+            xmin = 0.2799999999999727 
+            xmax = 0.37999999999999545 
+            text = "people" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "Katrina - phones" 
+        xmin = 0 
+        xmax = 0.37999999999999545 
+        intervals: size = 4 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.03999999999996362 
+            text = "Z" 
+        intervals [2]:
+            xmin = 0.03999999999996362 
+            xmax = 0.08138792817862486 
+            text = "S" 
+        intervals [3]:
+            xmin = 0.08138792817862486 
+            xmax = 0.2594035645663521 
+            text = "OW1" 
+        intervals [4]:
+            xmin = 0.2594035645663521 
+            xmax = 0.37999999999999545 
+            text = "P" 
+    item [3]:
+        class = "TextTier" 
+        name = "vowel marker" 
+        xmin = 0 
+        xmax = 0.37999999999999545 
+        points: size = 1 
+        points [1]:
+            number = 0.18999999999999773 
+            mark = "target" 
