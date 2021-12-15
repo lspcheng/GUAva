@@ -1,0 +1,73 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 0.3000000000000682 
+tiers? <exists> 
+size = 3 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "Cameron - words" 
+        xmin = 0 
+        xmax = 0.3000000000000682 
+        intervals: size = 4 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.06000000000005912 
+            text = "to" 
+        intervals [2]:
+            xmin = 0.06000000000005912 
+            xmax = 0.20000000000004547 
+            text = "be" 
+        intervals [3]:
+            xmin = 0.20000000000004547 
+            xmax = 0.2800000000000864 
+            text = "an" 
+        intervals [4]:
+            xmin = 0.2800000000000864 
+            xmax = 0.3000000000000682 
+            text = "engineer" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "Cameron - phones" 
+        xmin = 0 
+        xmax = 0.3000000000000682 
+        intervals: size = 7 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.020000000000095497 
+            text = "T" 
+        intervals [2]:
+            xmin = 0.020000000000095497 
+            xmax = 0.06000000000005912 
+            text = "IH0" 
+        intervals [3]:
+            xmin = 0.06000000000005912 
+            xmax = 0.10837209302328045 
+            text = "B" 
+        intervals [4]:
+            xmin = 0.10837209302328045 
+            xmax = 0.16707811568280484 
+            text = "IY1" 
+        intervals [5]:
+            xmin = 0.16707811568280484 
+            xmax = 0.2300000000000182 
+            text = "AH0" 
+        intervals [6]:
+            xmin = 0.2300000000000182 
+            xmax = 0.2800000000000864 
+            text = "N" 
+        intervals [7]:
+            xmin = 0.2800000000000864 
+            xmax = 0.3000000000000682 
+            text = "EH1" 
+    item [3]:
+        class = "TextTier" 
+        name = "vowel marker" 
+        xmin = 0 
+        xmax = 0.3000000000000682 
+        points: size = 1 
+        points [1]:
+            number = 0.1500000000000341 
+            mark = "target" 
