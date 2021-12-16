@@ -25,7 +25,7 @@ item []:
         name = "WeylieH - phones" 
         xmin = 0 
         xmax = 0.2800000000000047 
-        intervals: size = 5 
+        intervals: size = 4 
         intervals [1]:
             xmin = 0 
             xmax = 0.020000000000003126 
@@ -36,14 +36,10 @@ item []:
             text = "S" 
         intervals [3]:
             xmin = 0.12874688950789445 
-            xmax = 0.1803465181058526 
+            xmax = 0.1984451070032498 
             text = "AO1" 
         intervals [4]:
-            xmin = 0.1803465181058526 
-            xmax = 0.22000000000000242 
-            text = "L" 
-        intervals [5]:
-            xmin = 0.22000000000000242 
+            xmin = 0.1984451070032498 
             xmax = 0.2800000000000047 
             text = "M" 
     item [3]:
