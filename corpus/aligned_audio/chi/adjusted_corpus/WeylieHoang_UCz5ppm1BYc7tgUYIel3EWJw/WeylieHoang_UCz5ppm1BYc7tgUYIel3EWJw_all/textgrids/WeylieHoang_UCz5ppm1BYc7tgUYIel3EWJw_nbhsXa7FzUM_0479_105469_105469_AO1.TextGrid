@@ -1,0 +1,81 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 0.22999999999998977 
+tiers? <exists> 
+size = 3 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "WeylieH - words" 
+        xmin = 0 
+        xmax = 0.22999999999998977 
+        intervals: size = 4 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.010000000000005116 
+            text = "whatever" 
+        intervals [2]:
+            xmin = 0.010000000000005116 
+            xmax = 0.06999999999999318 
+            text = "you" 
+        intervals [3]:
+            xmin = 0.06999999999999318 
+            xmax = 0.18999999999999773 
+            text = "want" 
+        intervals [4]:
+            xmin = 0.18999999999999773 
+            xmax = 0.22999999999998977 
+            text = "to" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "WeylieH - phones" 
+        xmin = 0 
+        xmax = 0.22999999999998977 
+        intervals: size = 9 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.010000000000005116 
+            text = "ER0" 
+        intervals [2]:
+            xmin = 0.010000000000005116 
+            xmax = 0.03999999999999204 
+            text = "Y" 
+        intervals [3]:
+            xmin = 0.03999999999999204 
+            xmax = 0.06999999999999318 
+            text = "UW1" 
+        intervals [4]:
+            xmin = 0.06999999999999318 
+            xmax = 0.13190907282132322 
+            text = "W" 
+        intervals [5]:
+            xmin = 0.13190907282132322 
+            xmax = 0.1625708582039986 
+            text = "AO1" 
+        intervals [6]:
+            xmin = 0.1625708582039986 
+            xmax = 0.17970538532961133 
+            text = "N" 
+        intervals [7]:
+            xmin = 0.17970538532961133 
+            xmax = 0.18999999999999773 
+            text = "T" 
+        intervals [8]:
+            xmin = 0.18999999999999773 
+            xmax = 0.21999999999999886 
+            text = "T" 
+        intervals [9]:
+            xmin = 0.21999999999999886 
+            xmax = 0.22999999999998977 
+            text = "AH0" 
+    item [3]:
+        class = "TextTier" 
+        name = "vowel marker" 
+        xmin = 0 
+        xmax = 0.22999999999998977 
+        points: size = 1 
+        points [1]:
+            number = 0.14814178272979842 
+            mark = "target" 
