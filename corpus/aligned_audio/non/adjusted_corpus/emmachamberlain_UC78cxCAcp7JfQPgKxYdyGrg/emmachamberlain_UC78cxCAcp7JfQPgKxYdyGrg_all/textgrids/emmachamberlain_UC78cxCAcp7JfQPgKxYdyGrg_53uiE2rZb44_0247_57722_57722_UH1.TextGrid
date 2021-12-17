@@ -29,7 +29,7 @@ item []:
         name = "emmacha - phones" 
         xmin = 0 
         xmax = 0.240000000000002 
-        intervals: size = 7 
+        intervals: size = 6 
         intervals [1]:
             xmin = 0 
             xmax = 0.020000000000003126 
@@ -40,21 +40,17 @@ item []:
             text = "S" 
         intervals [3]:
             xmin = 0.07000000000000028 
-            xmax = 0.13074018584469388 
+            xmax = 0.09552136752136832 
             text = "Y" 
         intervals [4]:
-            xmin = 0.13074018584469388 
-            xmax = 0.1435642883458197 
+            xmin = 0.09552136752136832 
+            xmax = 0.1450479030013926 
             text = "UH1" 
         intervals [5]:
-            xmin = 0.1435642883458197 
-            xmax = 0.1700000000000017 
-            text = "R" 
-        intervals [6]:
-            xmin = 0.1700000000000017 
+            xmin = 0.1450479030013926 
             xmax = 0.21999999999999886 
             text = "M" 
-        intervals [7]:
+        intervals [6]:
             xmin = 0.21999999999999886 
             xmax = 0.240000000000002 
             text = "IH1" 
