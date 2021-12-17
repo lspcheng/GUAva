@@ -14,10 +14,10 @@ item []:
         intervals: size = 2 
         intervals [1]:
             xmin = 0 
-            xmax = 0.1699999999999875 
+            xmax = 0.14588729874775402 
             text = "new" 
         intervals [2]:
-            xmin = 0.1699999999999875 
+            xmin = 0.14588729874775402 
             xmax = 0.2699999999999818 
             text = "school" 
     item [2]:
@@ -25,21 +25,17 @@ item []:
         name = "WeylieH - phones" 
         xmin = 0 
         xmax = 0.2699999999999818 
-        intervals: size = 4 
+        intervals: size = 3 
         intervals [1]:
             xmin = 0 
-            xmax = 0.01999999999998181 
+            xmax = 0.03413237924865602 
             text = "N" 
         intervals [2]:
-            xmin = 0.01999999999998181 
-            xmax = 0.08579786488027447 
-            text = "Y" 
-        intervals [3]:
-            xmin = 0.08579786488027447 
-            xmax = 0.158174672538212 
+            xmin = 0.03413237924865602 
+            xmax = 0.14492665474059846 
             text = "UW1" 
-        intervals [4]:
-            xmin = 0.158174672538212 
+        intervals [3]:
+            xmin = 0.14492665474059846 
             xmax = 0.2699999999999818 
             text = "S" 
     item [3]:
