@@ -11,16 +11,12 @@ item []:
         name = "Neens_U - words" 
         xmin = 0 
         xmax = 0.23000000000000398 
-        intervals: size = 3 
+        intervals: size = 2 
         intervals [1]:
             xmin = 0 
-            xmax = 0.07000000000000028 
-            text = "want" 
-        intervals [2]:
-            xmin = 0.07000000000000028 
             xmax = 0.13000000000000256 
-            text = "to" 
-        intervals [3]:
+            text = "wanna" 
+        intervals [2]:
             xmin = 0.13000000000000256 
             xmax = 0.23000000000000398 
             text = "ask" 
@@ -29,29 +25,21 @@ item []:
         name = "Neens_U - phones" 
         xmin = 0 
         xmax = 0.23000000000000398 
-        intervals: size = 6 
+        intervals: size = 4 
         intervals [1]:
             xmin = 0 
-            xmax = 0.010000000000001563 
+            xmax = 0.05062499171801585 
             text = "AO1" 
         intervals [2]:
-            xmin = 0.010000000000001563 
-            xmax = 0.0400000000000027 
+            xmin = 0.05062499171801585 
+            xmax = 0.07000000000000028 
             text = "N" 
         intervals [3]:
-            xmin = 0.0400000000000027 
-            xmax = 0.07000000000000028 
-            text = "T" 
-        intervals [4]:
             xmin = 0.07000000000000028 
-            xmax = 0.10000000000000142 
-            text = "T" 
-        intervals [5]:
-            xmin = 0.10000000000000142 
-            xmax = 0.13000000000000256 
+            xmax = 0.10299787981183509 
             text = "AH0" 
-        intervals [6]:
-            xmin = 0.13000000000000256 
+        intervals [4]:
+            xmin = 0.10299787981183509 
             xmax = 0.23000000000000398 
             text = "AE1" 
     item [3]:
@@ -61,5 +49,5 @@ item []:
         xmax = 0.23000000000000398 
         points: size = 1 
         points [1]:
-            number = 0.11500000000000199 
+            number = 0.0896318823295583 
             mark = "target" 

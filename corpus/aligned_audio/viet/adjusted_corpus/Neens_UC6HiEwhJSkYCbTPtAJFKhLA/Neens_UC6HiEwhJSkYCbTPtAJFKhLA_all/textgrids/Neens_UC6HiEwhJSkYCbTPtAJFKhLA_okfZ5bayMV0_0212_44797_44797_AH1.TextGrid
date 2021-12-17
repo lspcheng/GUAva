@@ -40,14 +40,14 @@ item []:
             text = "AH0" 
         intervals [3]:
             xmin = 0.07000000000000028 
-            xmax = 0.10000000000000142 
+            xmax = 0.1281498708010361 
             text = "L" 
         intervals [4]:
-            xmin = 0.10000000000000142 
-            xmax = 0.1792222090281465 
+            xmin = 0.1281498708010361 
+            xmax = 0.16453574504737617 
             text = "AH1" 
         intervals [5]:
-            xmin = 0.1792222090281465 
+            xmin = 0.16453574504737617 
             xmax = 0.21000000000000085 
             text = "V" 
         intervals [6]:
@@ -61,5 +61,5 @@ item []:
         xmax = 0.2600000000000051 
         points: size = 1 
         points [1]:
-            number = 0.13000000000000256 
+            number = 0.13925064599483478 
             mark = "target" 

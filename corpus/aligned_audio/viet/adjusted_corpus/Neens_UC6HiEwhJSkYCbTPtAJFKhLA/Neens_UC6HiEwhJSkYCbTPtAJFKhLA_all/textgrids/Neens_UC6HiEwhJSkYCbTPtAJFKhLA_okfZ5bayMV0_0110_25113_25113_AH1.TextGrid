@@ -33,7 +33,7 @@ item []:
         name = "Neens_U - phones" 
         xmin = 0 
         xmax = 0.23000000000000398 
-        intervals: size = 6 
+        intervals: size = 5 
         intervals [1]:
             xmin = 0 
             xmax = 0.010000000000001563 
@@ -44,17 +44,13 @@ item []:
             text = "AY1" 
         intervals [3]:
             xmin = 0.07000000000000384 
-            xmax = 0.10000000000000142 
-            text = "W" 
-        intervals [4]:
-            xmin = 0.10000000000000142 
-            xmax = 0.14121927428794628 
+            xmax = 0.125911018352881 
             text = "AH1" 
-        intervals [5]:
-            xmin = 0.14121927428794628 
+        intervals [4]:
+            xmin = 0.125911018352881 
             xmax = 0.20000000000000284 
             text = "Z" 
-        intervals [6]:
+        intervals [5]:
             xmin = 0.20000000000000284 
             xmax = 0.23000000000000398 
             text = "L" 
