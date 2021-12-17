@@ -1,0 +1,61 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 0.23000000000000398 
+tiers? <exists> 
+size = 3 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "emmacha - words" 
+        xmin = 0 
+        xmax = 0.23000000000000398 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.060000000000002274 
+            text = "i" 
+        intervals [2]:
+            xmin = 0.060000000000002274 
+            xmax = 0.18999999999999773 
+            text = "have" 
+        intervals [3]:
+            xmin = 0.18999999999999773 
+            xmax = 0.23000000000000398 
+            text = "seventy" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "emmacha - phones" 
+        xmin = 0 
+        xmax = 0.23000000000000398 
+        intervals: size = 5 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.12375645748905204 
+            text = "AY1" 
+        intervals [2]:
+            xmin = 0.12375645748905204 
+            xmax = 0.15693882271071538 
+            text = "HH" 
+        intervals [3]:
+            xmin = 0.15693882271071538 
+            xmax = 0.17537347005608392 
+            text = "AE1" 
+        intervals [4]:
+            xmin = 0.17537347005608392 
+            xmax = 0.18999999999999773 
+            text = "V" 
+        intervals [5]:
+            xmin = 0.18999999999999773 
+            xmax = 0.23000000000000398 
+            text = "S" 
+    item [3]:
+        class = "TextTier" 
+        name = "vowel marker" 
+        xmin = 0 
+        xmax = 0.23000000000000398 
+        points: size = 1 
+        points [1]:
+            number = 0.16646339050582246 
+            mark = "target" 
