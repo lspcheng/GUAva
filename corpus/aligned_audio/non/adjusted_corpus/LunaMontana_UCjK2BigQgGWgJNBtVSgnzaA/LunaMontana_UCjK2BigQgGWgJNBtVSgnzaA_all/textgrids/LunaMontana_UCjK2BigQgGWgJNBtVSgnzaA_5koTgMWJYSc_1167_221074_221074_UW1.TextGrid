@@ -1,0 +1,77 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 0.5199999999999818 
+tiers? <exists> 
+size = 3 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "LunaMon - words" 
+        xmin = 0 
+        xmax = 0.5199999999999818 
+        intervals: size = 5 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.020000000000010232 
+            text = "girl" 
+        intervals [2]:
+            xmin = 0.020000000000010232 
+            xmax = 0.04999999999998295 
+            text = "" 
+        intervals [3]:
+            xmin = 0.04999999999998295 
+            xmax = 0.4199999999999875 
+            text = "who" 
+        intervals [4]:
+            xmin = 0.4199999999999875 
+            xmax = 0.44999999999998863 
+            text = "" 
+        intervals [5]:
+            xmin = 0.44999999999998863 
+            xmax = 0.5199999999999818 
+            text = "that" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "LunaMon - phones" 
+        xmin = 0 
+        xmax = 0.5199999999999818 
+        intervals: size = 7 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.020000000000010232 
+            text = "L" 
+        intervals [2]:
+            xmin = 0.020000000000010232 
+            xmax = 0.04999999999998295 
+            text = "sp" 
+        intervals [3]:
+            xmin = 0.04999999999998295 
+            xmax = 0.09289073815246159 
+            text = "HH" 
+        intervals [4]:
+            xmin = 0.09289073815246159 
+            xmax = 0.4040993806981186 
+            text = "UW1" 
+        intervals [5]:
+            xmin = 0.4040993806981186 
+            xmax = 0.44999999999998863 
+            text = "sp" 
+        intervals [6]:
+            xmin = 0.44999999999998863 
+            xmax = 0.5 
+            text = "DH" 
+        intervals [7]:
+            xmin = 0.5 
+            xmax = 0.5199999999999818 
+            text = "AE1" 
+    item [3]:
+        class = "TextTier" 
+        name = "vowel marker" 
+        xmin = 0 
+        xmax = 0.5199999999999818 
+        points: size = 1 
+        points [1]:
+            number = 0.2599999999999909 
+            mark = "target" 

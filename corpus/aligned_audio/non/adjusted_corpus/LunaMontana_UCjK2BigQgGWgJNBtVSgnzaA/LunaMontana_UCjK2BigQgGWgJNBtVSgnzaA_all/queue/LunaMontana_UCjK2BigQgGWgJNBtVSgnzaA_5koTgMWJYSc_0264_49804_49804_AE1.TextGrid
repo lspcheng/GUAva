@@ -1,0 +1,44 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 0.3100000000000023 
+tiers? <exists> 
+size = 2 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "LunaMon - words" 
+        xmin = 0 
+        xmax = 0.3100000000000023 
+        intervals: size = 2 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.03999999999999915 
+            text = "place" 
+        intervals [2]:
+            xmin = 0.03999999999999915 
+            xmax = 0.3100000000000023 
+            text = "than" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "LunaMon - phones" 
+        xmin = 0 
+        xmax = 0.3100000000000023 
+        intervals: size = 4 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.03999999999999915 
+            text = "S" 
+        intervals [2]:
+            xmin = 0.03999999999999915 
+            xmax = 0.10000000000000142 
+            text = "DH" 
+        intervals [3]:
+            xmin = 0.10000000000000142 
+            xmax = 0.21000000000000085 
+            text = "AE1" 
+        intervals [4]:
+            xmin = 0.21000000000000085 
+            xmax = 0.3100000000000023 
+            text = "N" 
