@@ -25,24 +25,20 @@ item []:
         name = "LunaMon - phones" 
         xmin = 0 
         xmax = 0.3200000000000003 
-        intervals: size = 5 
+        intervals: size = 4 
         intervals [1]:
             xmin = 0 
             xmax = 0.049999999999998934 
             text = "L" 
         intervals [2]:
             xmin = 0.049999999999998934 
-            xmax = 0.1679649588594087 
+            xmax = 0.1850479030013915 
             text = "M" 
         intervals [3]:
-            xmin = 0.1679649588594087 
-            xmax = 0.26000448345701854 
+            xmin = 0.1850479030013915 
+            xmax = 0.2699999999999996 
             text = "AO1" 
         intervals [4]:
-            xmin = 0.26000448345701854 
-            xmax = 0.2699999999999996 
-            text = "L" 
-        intervals [5]:
             xmin = 0.2699999999999996 
             xmax = 0.3200000000000003 
             text = "W" 

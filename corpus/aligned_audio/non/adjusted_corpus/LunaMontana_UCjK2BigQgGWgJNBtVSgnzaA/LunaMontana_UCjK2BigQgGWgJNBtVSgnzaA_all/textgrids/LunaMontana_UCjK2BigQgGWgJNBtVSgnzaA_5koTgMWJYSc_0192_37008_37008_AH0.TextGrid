@@ -32,18 +32,18 @@ item []:
             text = "AY1" 
         intervals [2]:
             xmin = 0.03999999999999915 
-            xmax = 0.07000000000000028 
+            xmax = 0.0606605711256874 
             text = "N" 
         intervals [3]:
-            xmin = 0.07000000000000028 
-            xmax = 0.10000000000000142 
+            xmin = 0.0606605711256874 
+            xmax = 0.0692589279798582 
             text = "D" 
         intervals [4]:
-            xmin = 0.10000000000000142 
-            xmax = 0.15500687625853565 
+            xmin = 0.0692589279798582 
+            xmax = 0.12559299012787384 
             text = "AH0" 
         intervals [5]:
-            xmin = 0.15500687625853565 
+            xmin = 0.12559299012787384 
             xmax = 0.20000000000000284 
             text = "M" 
         intervals [6]:
@@ -57,5 +57,5 @@ item []:
         xmax = 0.25 
         points: size = 1 
         points [1]:
-            number = 0.125 
+            number = 0.09920492943748757 
             mark = "target" 
