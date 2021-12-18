@@ -1,0 +1,73 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 0.45999999999999996 
+tiers? <exists> 
+size = 3 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "Karin_U - words" 
+        xmin = 0 
+        xmax = 0.45999999999999996 
+        intervals: size = 4 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.07 
+            text = "" 
+        intervals [2]:
+            xmin = 0.07 
+            xmax = 0.36 
+            text = "hey" 
+        intervals [3]:
+            xmin = 0.36 
+            xmax = 0.44999999999999996 
+            text = "guys" 
+        intervals [4]:
+            xmin = 0.44999999999999996 
+            xmax = 0.45999999999999996 
+            text = "it's" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "Karin_U - phones" 
+        xmin = 0 
+        xmax = 0.45999999999999996 
+        intervals: size = 7 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.013283432609641549 
+            text = "" 
+        intervals [2]:
+            xmin = 0.013283432609641549 
+            xmax = 0.10336265360320483 
+            text = "HH" 
+        intervals [3]:
+            xmin = 0.10336265360320483 
+            xmax = 0.21258558501938968 
+            text = "EY1" 
+        intervals [4]:
+            xmin = 0.21258558501938968 
+            xmax = 0.2291226049903224 
+            text = "G" 
+        intervals [5]:
+            xmin = 0.2291226049903224 
+            xmax = 0.3806194766613152 
+            text = "AY1" 
+        intervals [6]:
+            xmin = 0.3806194766613152 
+            xmax = 0.44999999999999996 
+            text = "Z" 
+        intervals [7]:
+            xmin = 0.44999999999999996 
+            xmax = 0.45999999999999996 
+            text = "IH0" 
+    item [3]:
+        class = "TextTier" 
+        name = "vowel marker" 
+        xmin = 0 
+        xmax = 0.45999999999999996 
+        points: size = 1 
+        points [1]:
+            number = 0.1741391843838617 
+            mark = "target" 
