@@ -4,7 +4,7 @@ Object class = "TextGrid"
 xmin = 0 
 xmax = 0.26000000000000156 
 tiers? <exists> 
-size = 3 
+size = 2 
 item []: 
     item [1]:
         class = "IntervalTier" 
@@ -14,16 +14,16 @@ item []:
         intervals: size = 3 
         intervals [1]:
             xmin = 0 
-            xmax = 0.07000000000000028 
-            text = "on" 
+            xmax = 0.030000000000001137 
+            text = "back" 
         intervals [2]:
-            xmin = 0.07000000000000028 
+            xmin = 0.030000000000001137 
             xmax = 0.16000000000000014 
-            text = "my" 
+            text = "to" 
         intervals [3]:
             xmin = 0.16000000000000014 
             xmax = 0.26000000000000156 
-            text = "calendar" 
+            text = "back" 
     item [2]:
         class = "IntervalTier" 
         name = "Cynthia - phones" 
@@ -33,29 +33,20 @@ item []:
         intervals [1]:
             xmin = 0 
             xmax = 0.030000000000001137 
-            text = "AA1" 
+            text = "K" 
         intervals [2]:
             xmin = 0.030000000000001137 
-            xmax = 0.07000000000000028 
-            text = "N" 
+            xmax = 0.10000000000000142 
+            text = "T" 
         intervals [3]:
-            xmin = 0.07000000000000028 
-            xmax = 0.10444205530219357 
-            text = "M" 
+            xmin = 0.10000000000000142 
+            xmax = 0.16000000000000014 
+            text = "IH0" 
         intervals [4]:
-            xmin = 0.10444205530219357 
-            xmax = 0.1671297955769909 
-            text = "AY1" 
+            xmin = 0.16000000000000014 
+            xmax = 0.23000000000000043 
+            text = "B" 
         intervals [5]:
-            xmin = 0.1671297955769909 
+            xmin = 0.23000000000000043 
             xmax = 0.26000000000000156 
-            text = "K" 
-    item [3]:
-        class = "TextTier" 
-        name = "vowel marker" 
-        xmin = 0 
-        xmax = 0.26000000000000156 
-        points: size = 1 
-        points [1]:
-            number = 0.13000000000000078 
-            mark = "target" 
+            text = "AE1" 

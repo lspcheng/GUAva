@@ -2,56 +2,47 @@ File type = "ooTextFile"
 Object class = "TextGrid"
 
 xmin = 0 
-xmax = 0.3199999999999985 
+xmax = 0.3200000000000003 
 tiers? <exists> 
-size = 3 
+size = 2 
 item []: 
     item [1]:
         class = "IntervalTier" 
         name = "Cynthia - words" 
         xmin = 0 
-        xmax = 0.3199999999999985 
+        xmax = 0.3200000000000003 
         intervals: size = 3 
         intervals [1]:
             xmin = 0 
-            xmax = 0.10650195517494353 
-            text = "day" 
+            xmax = 0.10000000000000142 
+            text = "today" 
         intervals [2]:
-            xmin = 0.10650195517494353 
+            xmin = 0.10000000000000142 
             xmax = 0.21999999999999886 
             text = "i" 
         intervals [3]:
             xmin = 0.21999999999999886 
-            xmax = 0.3199999999999985 
-            text = "think" 
+            xmax = 0.3200000000000003 
+            text = "actually" 
     item [2]:
         class = "IntervalTier" 
         name = "Cynthia - phones" 
         xmin = 0 
-        xmax = 0.3199999999999985 
+        xmax = 0.3200000000000003 
         intervals: size = 4 
         intervals [1]:
             xmin = 0 
-            xmax = 0.10818604449078849 
+            xmax = 0.10000000000000142 
             text = "EY1" 
         intervals [2]:
-            xmin = 0.10818604449078849 
+            xmin = 0.10000000000000142 
             xmax = 0.21999999999999886 
             text = "AY1" 
         intervals [3]:
             xmin = 0.21999999999999886 
-            xmax = 0.2699999999999996 
-            text = "TH" 
+            xmax = 0.28999999999999915 
+            text = "AE1" 
         intervals [4]:
-            xmin = 0.2699999999999996 
-            xmax = 0.3199999999999985 
-            text = "IH1" 
-    item [3]:
-        class = "TextTier" 
-        name = "vowel marker" 
-        xmin = 0 
-        xmax = 0.3199999999999985 
-        points: size = 1 
-        points [1]:
-            number = 0.1900782998801808 
-            mark = "target" 
+            xmin = 0.28999999999999915 
+            xmax = 0.3200000000000003 
+            text = "K" 
