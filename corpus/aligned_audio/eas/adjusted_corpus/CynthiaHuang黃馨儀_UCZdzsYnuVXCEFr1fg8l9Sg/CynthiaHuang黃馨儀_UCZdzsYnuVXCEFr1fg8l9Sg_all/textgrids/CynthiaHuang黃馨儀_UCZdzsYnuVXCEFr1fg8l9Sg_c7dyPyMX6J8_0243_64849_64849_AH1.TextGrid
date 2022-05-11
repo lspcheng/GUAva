@@ -4,7 +4,7 @@ Object class = "TextGrid"
 xmin = 0 
 xmax = 0.269999999999996 
 tiers? <exists> 
-size = 2 
+size = 3 
 item []: 
     item [1]:
         class = "IntervalTier" 
@@ -14,43 +14,48 @@ item []:
         intervals: size = 3 
         intervals [1]:
             xmin = 0 
-            xmax = 0.09999999999999432 
-            text = "one" 
+            xmax = 0.03999999999999204 
+            text = "had" 
         intervals [2]:
-            xmin = 0.09999999999999432 
+            xmin = 0.03999999999999204 
             xmax = 0.23000000000000398 
-            text = "at" 
+            text = "one" 
         intervals [3]:
             xmin = 0.23000000000000398 
             xmax = 0.269999999999996 
-            text = "nine" 
+            text = "at" 
     item [2]:
         class = "IntervalTier" 
         name = "Cynthia - phones" 
         xmin = 0 
         xmax = 0.269999999999996 
-        intervals: size = 6 
+        intervals: size = 5 
         intervals [1]:
             xmin = 0 
-            xmax = 0.010000000000005116 
-            text = "W" 
+            xmax = 0.03999999999999204 
+            text = "D" 
         intervals [2]:
-            xmin = 0.010000000000005116 
-            xmax = 0.04999999999999716 
-            text = "AH1" 
+            xmin = 0.03999999999999204 
+            xmax = 0.08984859717153151 
+            text = "W" 
         intervals [3]:
-            xmin = 0.04999999999999716 
-            xmax = 0.09999999999999432 
-            text = "N" 
+            xmin = 0.08984859717153151 
+            xmax = 0.18187145626954893 
+            text = "AH1" 
         intervals [4]:
-            xmin = 0.09999999999999432 
-            xmax = 0.1700000000000017 
-            text = "AE1" 
-        intervals [5]:
-            xmin = 0.1700000000000017 
+            xmin = 0.18187145626954893 
             xmax = 0.23000000000000398 
-            text = "T" 
-        intervals [6]:
+            text = "N" 
+        intervals [5]:
             xmin = 0.23000000000000398 
             xmax = 0.269999999999996 
-            text = "N" 
+            text = "AE1" 
+    item [3]:
+        class = "TextTier" 
+        name = "vowel marker" 
+        xmin = 0 
+        xmax = 0.269999999999996 
+        points: size = 1 
+        points [1]:
+            number = 0.134999999999998 
+            mark = "target" 

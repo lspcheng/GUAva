@@ -11,13 +11,9 @@ item []:
         name = "Cynthia - words" 
         xmin = 0 
         xmax = 0.2700000000000031 
-        intervals: size = 2 
+        intervals: size = 1 
         intervals [1]:
             xmin = 0 
-            xmax = 0.1700000000000017 
-            text = "we're" 
-        intervals [2]:
-            xmin = 0.1700000000000017 
             xmax = 0.2700000000000031 
             text = "part" 
     item [2]:
@@ -25,19 +21,23 @@ item []:
         name = "Cynthia - phones" 
         xmin = 0 
         xmax = 0.2700000000000031 
-        intervals: size = 3 
+        intervals: size = 4 
         intervals [1]:
             xmin = 0 
-            xmax = 0.0806749788190833 
-            text = "W" 
-        intervals [2]:
-            xmin = 0.0806749788190833 
-            xmax = 0.1454636584332655 
-            text = "ER1" 
-        intervals [3]:
-            xmin = 0.1454636584332655 
-            xmax = 0.2700000000000031 
+            xmax = 0.11077591403806175 
             text = "P" 
+        intervals [2]:
+            xmin = 0.11077591403806175 
+            xmax = 0.1700000000000017 
+            text = "AA1" 
+        intervals [3]:
+            xmin = 0.1700000000000017 
+            xmax = 0.240000000000002 
+            text = "R" 
+        intervals [4]:
+            xmin = 0.240000000000002 
+            xmax = 0.2700000000000031 
+            text = "T" 
     item [3]:
         class = "TextTier" 
         name = "vowel marker" 
