@@ -4,30 +4,26 @@ Object class = "TextGrid"
 xmin = 0 
 xmax = 0.2800000000000864 
 tiers? <exists> 
-size = 2 
+size = 3 
 item []: 
     item [1]:
         class = "IntervalTier" 
         name = "Michell - words" 
         xmin = 0 
         xmax = 0.2800000000000864 
-        intervals: size = 4 
+        intervals: size = 3 
         intervals [1]:
             xmin = 0 
-            xmax = 0.009999999999990905 
-            text = "you" 
+            xmax = 0.03999999999996362 
+            text = "don't" 
         intervals [2]:
-            xmin = 0.009999999999990905 
+            xmin = 0.03999999999996362 
             xmax = 0.18000000000006366 
-            text = "do" 
+            text = "know" 
         intervals [3]:
             xmin = 0.18000000000006366 
-            xmax = 0.25 
-            text = "it" 
-        intervals [4]:
-            xmin = 0.25 
             xmax = 0.2800000000000864 
-            text = "" 
+            text = "it" 
     item [2]:
         class = "IntervalTier" 
         name = "Michell - phones" 
@@ -37,24 +33,33 @@ item []:
         intervals [1]:
             xmin = 0 
             xmax = 0.009999999999990905 
-            text = "UW1" 
+            text = "OW1" 
         intervals [2]:
             xmin = 0.009999999999990905 
-            xmax = 0.10000000000002274 
-            text = "D" 
+            xmax = 0.03999999999996362 
+            text = "N" 
         intervals [3]:
+            xmin = 0.03999999999996362 
+            xmax = 0.10000000000002274 
+            text = "N" 
+        intervals [4]:
             xmin = 0.10000000000002274 
             xmax = 0.18000000000006366 
-            text = "UW1" 
-        intervals [4]:
-            xmin = 0.18000000000006366 
-            xmax = 0.21000000000003638 
-            text = "IH1" 
+            text = "OW1" 
         intervals [5]:
-            xmin = 0.21000000000003638 
-            xmax = 0.25 
-            text = "T" 
+            xmin = 0.18000000000006366 
+            xmax = 0.2599999999999909 
+            text = "IH1" 
         intervals [6]:
-            xmin = 0.25 
+            xmin = 0.2599999999999909 
             xmax = 0.2800000000000864 
-            text = "" 
+            text = "T" 
+    item [3]:
+        class = "TextTier" 
+        name = "vowel marker" 
+        xmin = 0 
+        xmax = 0.2800000000000864 
+        points: size = 1 
+        points [1]:
+            number = 0.1400000000000432 
+            mark = "target" 
