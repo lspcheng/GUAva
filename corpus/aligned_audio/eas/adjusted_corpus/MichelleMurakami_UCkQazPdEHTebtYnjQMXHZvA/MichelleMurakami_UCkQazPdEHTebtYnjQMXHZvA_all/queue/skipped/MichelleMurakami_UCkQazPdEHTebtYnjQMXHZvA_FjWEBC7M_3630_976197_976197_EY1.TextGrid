@@ -11,15 +11,19 @@ item []:
         name = "Michell - words" 
         xmin = 0 
         xmax = 0.3000000000000682 
-        intervals: size = 2 
+        intervals: size = 3 
         intervals [1]:
             xmin = 0 
-            xmax = 0.010000000000047748 
-            text = "" 
+            xmax = 0.020000000000095497 
+            text = "tryna" 
         intervals [2]:
-            xmin = 0.010000000000047748 
+            xmin = 0.020000000000095497 
+            xmax = 0.2599999999999909 
+            text = "make" 
+        intervals [3]:
+            xmin = 0.2599999999999909 
             xmax = 0.3000000000000682 
-            text = "maybe" 
+            text = "you" 
     item [2]:
         class = "IntervalTier" 
         name = "Michell - phones" 
@@ -28,24 +32,24 @@ item []:
         intervals: size = 5 
         intervals [1]:
             xmin = 0 
-            xmax = 0.010000000000047748 
-            text = "" 
+            xmax = 0.020000000000095497 
+            text = "AH0" 
         intervals [2]:
-            xmin = 0.010000000000047748 
-            xmax = 0.08326829705424206 
+            xmin = 0.020000000000095497 
+            xmax = 0.10000000000002274 
             text = "M" 
         intervals [3]:
-            xmin = 0.08326829705424206 
-            xmax = 0.18987803978464568 
+            xmin = 0.10000000000002274 
+            xmax = 0.20000000000004547 
             text = "EY1" 
         intervals [4]:
-            xmin = 0.18987803978464568 
-            xmax = 0.25000000000005684 
-            text = "B" 
+            xmin = 0.20000000000004547 
+            xmax = 0.2599999999999909 
+            text = "K" 
         intervals [5]:
-            xmin = 0.25000000000005684 
+            xmin = 0.2599999999999909 
             xmax = 0.3000000000000682 
-            text = "IY0" 
+            text = "Y" 
     item [3]:
         class = "TextTier" 
         name = "vowel marker" 
