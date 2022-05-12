@@ -25,9 +25,11 @@ form Modify textgrids
 	sentence outfile vowel_coding_log.csv
 	comment Vowel Lists (list each separated by a space)
 	sentence target_vowels OW1 UW1 EY1
-	integer max_target 65
+	integer max_target 70
 	sentence reference_vowels IY1 AE1 AA1 AO1
 	integer max_reference 30
+	comment Filename filter string
+	sentence filename_filter 
 endform
 
 #########################################################
@@ -97,7 +99,7 @@ endif
 #########################################################
 # Get list of all files
 clearinfo
-Create Strings as file list... list 'audio_dir$'*.wav
+Create Strings as file list... list 'audio_dir$'*'filename_filter$'*.wav
 number_of_files = Get number of strings
 
 # Process each file
