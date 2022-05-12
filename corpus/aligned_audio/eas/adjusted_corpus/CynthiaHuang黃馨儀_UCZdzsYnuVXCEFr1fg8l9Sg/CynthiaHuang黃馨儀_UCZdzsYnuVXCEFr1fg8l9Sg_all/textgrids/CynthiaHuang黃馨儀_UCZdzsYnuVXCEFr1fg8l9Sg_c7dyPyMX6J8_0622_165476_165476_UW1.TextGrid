@@ -1,0 +1,49 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 0.25 
+tiers? <exists> 
+size = 3 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "Cynthia - words" 
+        xmin = 0 
+        xmax = 0.25 
+        intervals: size = 1 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.25 
+            text = "super" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "Cynthia - phones" 
+        xmin = 0 
+        xmax = 0.25 
+        intervals: size = 4 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.09999999999999432 
+            text = "S" 
+        intervals [2]:
+            xmin = 0.09999999999999432 
+            xmax = 0.14079370057785887 
+            text = "UW1" 
+        intervals [3]:
+            xmin = 0.14079370057785887 
+            xmax = 0.2300000000000182 
+            text = "P" 
+        intervals [4]:
+            xmin = 0.2300000000000182 
+            xmax = 0.25 
+            text = "ER0" 
+    item [3]:
+        class = "TextTier" 
+        name = "vowel marker" 
+        xmin = 0 
+        xmax = 0.25 
+        points: size = 1 
+        points [1]:
+            number = 0.125 
+            mark = "target" 
