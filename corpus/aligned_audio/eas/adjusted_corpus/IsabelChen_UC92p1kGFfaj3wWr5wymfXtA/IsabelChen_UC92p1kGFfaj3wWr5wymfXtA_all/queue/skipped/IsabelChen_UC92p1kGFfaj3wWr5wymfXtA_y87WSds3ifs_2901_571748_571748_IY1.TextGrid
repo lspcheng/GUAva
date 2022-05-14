@@ -1,0 +1,69 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 0.2699999999999818 
+tiers? <exists> 
+size = 3 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "IsabelC - words" 
+        xmin = 0 
+        xmax = 0.2699999999999818 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.03999999999996362 
+            text = "like" 
+        intervals [2]:
+            xmin = 0.03999999999996362 
+            xmax = 0.2599999999999909 
+            text = "being" 
+        intervals [3]:
+            xmin = 0.2599999999999909 
+            xmax = 0.2699999999999818 
+            text = "american" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "IsabelC - phones" 
+        xmin = 0 
+        xmax = 0.2699999999999818 
+        intervals: size = 7 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.009999999999990905 
+            text = "AY1" 
+        intervals [2]:
+            xmin = 0.009999999999990905 
+            xmax = 0.03999999999996362 
+            text = "K" 
+        intervals [3]:
+            xmin = 0.03999999999996362 
+            xmax = 0.10000000000002274 
+            text = "B" 
+        intervals [4]:
+            xmin = 0.10000000000002274 
+            xmax = 0.16999999999995907 
+            text = "IY1" 
+        intervals [5]:
+            xmin = 0.16999999999995907 
+            xmax = 0.20000000000004547 
+            text = "IH0" 
+        intervals [6]:
+            xmin = 0.20000000000004547 
+            xmax = 0.2599999999999909 
+            text = "NG" 
+        intervals [7]:
+            xmin = 0.2599999999999909 
+            xmax = 0.2699999999999818 
+            text = "AH0" 
+    item [3]:
+        class = "TextTier" 
+        name = "vowel marker" 
+        xmin = 0 
+        xmax = 0.2699999999999818 
+        points: size = 1 
+        points [1]:
+            number = 0.1349999999999909 
+            mark = "target" 
