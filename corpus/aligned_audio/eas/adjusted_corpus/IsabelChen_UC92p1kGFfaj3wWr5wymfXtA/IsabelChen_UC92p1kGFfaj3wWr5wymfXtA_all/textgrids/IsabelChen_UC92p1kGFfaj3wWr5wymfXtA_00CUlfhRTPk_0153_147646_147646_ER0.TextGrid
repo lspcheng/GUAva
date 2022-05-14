@@ -14,10 +14,10 @@ item []:
         intervals: size = 2 
         intervals [1]:
             xmin = 0 
-            xmax = 0.09999999999999432 
+            xmax = 0.03803726212199992 
             text = "to" 
         intervals [2]:
-            xmin = 0.09999999999999432 
+            xmin = 0.03803726212199992 
             xmax = 0.29999999999998295 
             text = "arrive" 
     item [2]:
@@ -28,14 +28,14 @@ item []:
         intervals: size = 3 
         intervals [1]:
             xmin = 0 
-            xmax = 0.15434200557869573 
+            xmax = 0.0240220118613125 
             text = "UW1" 
         intervals [2]:
-            xmin = 0.15434200557869573 
-            xmax = 0.19999999999998863 
+            xmin = 0.0240220118613125 
+            xmax = 0.1463369232273118 
             text = "ER0" 
         intervals [3]:
-            xmin = 0.19999999999998863 
+            xmin = 0.1463369232273118 
             xmax = 0.29999999999998295 
             text = "AY1" 
     item [3]:
@@ -45,5 +45,5 @@ item []:
         xmax = 0.29999999999998295 
         points: size = 1 
         points [1]:
-            number = 0.16625150659457025 
+            number = 0.1011058882950933 
             mark = "target" 
