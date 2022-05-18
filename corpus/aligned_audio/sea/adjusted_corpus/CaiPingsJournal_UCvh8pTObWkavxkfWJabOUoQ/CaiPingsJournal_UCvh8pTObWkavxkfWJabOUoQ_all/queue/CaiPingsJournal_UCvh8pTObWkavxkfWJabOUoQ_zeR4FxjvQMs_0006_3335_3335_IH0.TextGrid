@@ -1,0 +1,60 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 0.22999999999999998 
+tiers? <exists> 
+size = 2 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "CaiPing - words" 
+        xmin = 0 
+        xmax = 0.22999999999999998 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.06999999999999984 
+            text = "i" 
+        intervals [2]:
+            xmin = 0.06999999999999984 
+            xmax = 0.18999999999999995 
+            text = "just" 
+        intervals [3]:
+            xmin = 0.18999999999999995 
+            xmax = 0.22999999999999998 
+            text = "need" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "CaiPing - phones" 
+        xmin = 0 
+        xmax = 0.22999999999999998 
+        intervals: size = 7 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.06999999999999984 
+            text = "AY1" 
+        intervals [2]:
+            xmin = 0.06999999999999984 
+            xmax = 0.10000000000000009 
+            text = "JH" 
+        intervals [3]:
+            xmin = 0.10000000000000009 
+            xmax = 0.1299999999999999 
+            text = "IH0" 
+        intervals [4]:
+            xmin = 0.1299999999999999 
+            xmax = 0.16000000000000014 
+            text = "S" 
+        intervals [5]:
+            xmin = 0.16000000000000014 
+            xmax = 0.18999999999999995 
+            text = "T" 
+        intervals [6]:
+            xmin = 0.18999999999999995 
+            xmax = 0.21999999999999975 
+            text = "N" 
+        intervals [7]:
+            xmin = 0.21999999999999975 
+            xmax = 0.22999999999999998 
+            text = "IY1" 
