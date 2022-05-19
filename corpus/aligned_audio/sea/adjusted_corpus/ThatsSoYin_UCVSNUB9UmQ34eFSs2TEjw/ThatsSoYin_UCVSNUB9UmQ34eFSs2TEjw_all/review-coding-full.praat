@@ -22,6 +22,8 @@ form Modify textgrids
 	#sentence file_list review_list.txt
 	comment Review All or Flagged Only
 	boolean flagged_only 0
+	comment Review Skipped
+	boolean skipped_files 0
 	comment Start from file number...
 	positive start_number 1
 	comment Delete Existing Review List
