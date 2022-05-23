@@ -1,0 +1,73 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 0.2900000000000773 
+tiers? <exists> 
+size = 3 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "tanhone - words" 
+        xmin = 0 
+        xmax = 0.2900000000000773 
+        intervals: size = 4 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.07000000000005002 
+            text = "where" 
+        intervals [2]:
+            xmin = 0.07000000000005002 
+            xmax = 0.19000000000005457 
+            text = "do" 
+        intervals [3]:
+            xmin = 0.19000000000005457 
+            xmax = 0.29000000000002046 
+            text = "i" 
+        intervals [4]:
+            xmin = 0.29000000000002046 
+            xmax = 0.2900000000000773 
+            text = "go" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "tanhone - phones" 
+        xmin = 0 
+        xmax = 0.2900000000000773 
+        intervals: size = 7 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.010000000000047748 
+            text = "W" 
+        intervals [2]:
+            xmin = 0.010000000000047748 
+            xmax = 0.040000000000020464 
+            text = "EH1" 
+        intervals [3]:
+            xmin = 0.040000000000020464 
+            xmax = 0.07000000000005002 
+            text = "R" 
+        intervals [4]:
+            xmin = 0.07000000000005002 
+            xmax = 0.09008206680999549 
+            text = "D" 
+        intervals [5]:
+            xmin = 0.09008206680999549 
+            xmax = 0.16209366132409184 
+            text = "UW1" 
+        intervals [6]:
+            xmin = 0.16209366132409184 
+            xmax = 0.29000000000002046 
+            text = "AY1" 
+        intervals [7]:
+            xmin = 0.29000000000002046 
+            xmax = 0.2900000000000773 
+            text = "G" 
+    item [3]:
+        class = "TextTier" 
+        name = "vowel marker" 
+        xmin = 0 
+        xmax = 0.2900000000000773 
+        points: size = 1 
+        points [1]:
+            number = 0.14500000000003865 
+            mark = "target" 
