@@ -1,0 +1,52 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 0.3100000000000023 
+tiers? <exists> 
+size = 2 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "tanhone - words" 
+        xmin = 0 
+        xmax = 0.3100000000000023 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.03999999999999915 
+            text = "a" 
+        intervals [2]:
+            xmin = 0.03999999999999915 
+            xmax = 0.28999999999999915 
+            text = "lot" 
+        intervals [3]:
+            xmin = 0.28999999999999915 
+            xmax = 0.3100000000000023 
+            text = "of" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "tanhone - phones" 
+        xmin = 0 
+        xmax = 0.3100000000000023 
+        intervals: size = 5 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.03999999999999915 
+            text = "AH0" 
+        intervals [2]:
+            xmin = 0.03999999999999915 
+            xmax = 0.10000000000000142 
+            text = "L" 
+        intervals [3]:
+            xmin = 0.10000000000000142 
+            xmax = 0.21000000000000085 
+            text = "AA1" 
+        intervals [4]:
+            xmin = 0.21000000000000085 
+            xmax = 0.28999999999999915 
+            text = "T" 
+        intervals [5]:
+            xmin = 0.28999999999999915 
+            xmax = 0.3100000000000023 
+            text = "AH0" 

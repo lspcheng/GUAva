@@ -1,0 +1,61 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 0.4200000000000088 
+tiers? <exists> 
+size = 3 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "tanhone - words" 
+        xmin = 0 
+        xmax = 0.4200000000000088 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.3200000000000074 
+            text = "okay" 
+        intervals [2]:
+            xmin = 0.3200000000000074 
+            xmax = 0.4200000000000017 
+            text = "" 
+        intervals [3]:
+            xmin = 0.4200000000000017 
+            xmax = 0.4200000000000088 
+            text = "let's" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "tanhone - phones" 
+        xmin = 0 
+        xmax = 0.4200000000000088 
+        intervals: size = 5 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.010000000000005116 
+            text = "OW2" 
+        intervals [2]:
+            xmin = 0.010000000000005116 
+            xmax = 0.09307457768816738 
+            text = "K" 
+        intervals [3]:
+            xmin = 0.09307457768816738 
+            xmax = 0.25915783520618213 
+            text = "EY1" 
+        intervals [4]:
+            xmin = 0.25915783520618213 
+            xmax = 0.4200000000000017 
+            text = "sp" 
+        intervals [5]:
+            xmin = 0.4200000000000017 
+            xmax = 0.4200000000000088 
+            text = "L" 
+    item [3]:
+        class = "TextTier" 
+        name = "vowel marker" 
+        xmin = 0 
+        xmax = 0.4200000000000088 
+        points: size = 1 
+        points [1]:
+            number = 0.2100000000000044 
+            mark = "target" 
