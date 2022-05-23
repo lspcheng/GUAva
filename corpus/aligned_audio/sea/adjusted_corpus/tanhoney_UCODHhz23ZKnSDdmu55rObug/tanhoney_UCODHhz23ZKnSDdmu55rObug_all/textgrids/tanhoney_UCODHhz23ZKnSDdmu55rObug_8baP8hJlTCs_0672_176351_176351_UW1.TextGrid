@@ -21,20 +21,24 @@ item []:
         name = "tanhone - phones" 
         xmin = 0 
         xmax = 0.2599999999999909 
-        intervals: size = 4 
+        intervals: size = 5 
         intervals [1]:
             xmin = 0 
-            xmax = 0.03457695050283879 
+            xmax = 0.03804789080856475 
             text = "N" 
         intervals [2]:
-            xmin = 0.03457695050283879 
-            xmax = 0.1599999999999966 
-            text = "UW1" 
+            xmin = 0.03804789080856475 
+            xmax = 0.10554465181078516 
+            text = "Y" 
         intervals [3]:
-            xmin = 0.1599999999999966 
+            xmin = 0.10554465181078516 
+            xmax = 0.1661939153200267 
+            text = "UW1" 
+        intervals [4]:
+            xmin = 0.1661939153200267 
             xmax = 0.25 
             text = "Z" 
-        intervals [4]:
+        intervals [5]:
             xmin = 0.25 
             xmax = 0.2599999999999909 
             text = "P" 
