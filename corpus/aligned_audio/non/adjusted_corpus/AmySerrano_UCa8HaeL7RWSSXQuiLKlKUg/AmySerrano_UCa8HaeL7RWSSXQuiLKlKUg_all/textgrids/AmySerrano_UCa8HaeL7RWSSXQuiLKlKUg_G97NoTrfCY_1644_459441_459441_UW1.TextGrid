@@ -24,14 +24,14 @@ item []:
         intervals: size = 3 
         intervals [1]:
             xmin = 0 
-            xmax = 0.10000000000002274 
+            xmax = 0.15556309288127163 
             text = "R" 
         intervals [2]:
-            xmin = 0.10000000000002274 
-            xmax = 0.17000000000001592 
+            xmin = 0.15556309288127163 
+            xmax = 0.25854850020390713 
             text = "UW1" 
         intervals [3]:
-            xmin = 0.17000000000001592 
+            xmin = 0.25854850020390713 
             xmax = 0.27000000000003865 
             text = "M" 
     item [3]:
@@ -41,5 +41,5 @@ item []:
         xmax = 0.27000000000003865 
         points: size = 1 
         points [1]:
-            number = 0.13500000000001933 
+            number = 0.1810545303373695 
             mark = "target" 
