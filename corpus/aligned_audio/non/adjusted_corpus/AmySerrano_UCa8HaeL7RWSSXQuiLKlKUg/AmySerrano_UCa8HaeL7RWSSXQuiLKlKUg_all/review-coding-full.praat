@@ -16,6 +16,8 @@ form Modify textgrids
 	sentence audio_dir	./audio/
 	comment Source Textgrid Directory
 	sentence tg_dir	./textgrids/
+	comment Original Source Directory
+	sentence original_dir	./queue/
 	comment Coding Log Filename
 	sentence coding_log vowel_coding_log.csv
 	#comment Review List Filename
@@ -26,8 +28,25 @@ form Modify textgrids
 	positive start_number 1
 	comment Delete Existing Review List
 	boolean delete_list 0
+
+	comment Vowel Lists (list each separated by a space)
+	sentence target_vowels OW1 UW1 EY1
+	integer max_target 65
+	sentence reference_vowels IY1 AE1 AA1 AO1
+	integer max_reference 30
 endform
 
+#########################################################
+# Create vowel list vectors
+target_vowels$# = splitByWhitespace$#(target_vowels$)
+reference_vowels$# = splitByWhitespace$#(reference_vowels$)
+finished_vowels$# = empty$#(size(target_vowels$#) + size(reference_vowels$#))
+for j from 1 to size(finished_vowels$#)
+	finished_vowels$#[j] = " "
+endfor
+#########################################################
+
+# Create vowel list vectors
 # Set names based on boolean
 if flagged_only = 0
 	file_list$ = "review_list_all.txt"
@@ -98,7 +117,17 @@ for i_file to number_of_files
      select Strings review_list_in
      soundname$ = Get string... i_file
 		 name$ = soundname$-".wav"
-	 	 Read from file... 'audio_dir$''name$'.wav
+
+		 if not fileReadable: audio_dir$ + name$ + ".wav"
+			## Hotfix for reviewing without already moved audio
+			appendInfoLine: "Moving " + name$
+			Read from file... 'original_dir$''name$'.wav
+			select Sound 'name$'
+			Write to WAV file... 'audio_dir$''name$'.wav
+			filedelete 'original_dir$''name$'.wav
+		 else
+	 	 	Read from file... 'audio_dir$''name$'.wav
+		 endif
      Read from file... 'tg_dir$''name$'.TextGrid
 
 	# Print coding row values
@@ -119,6 +148,44 @@ for i_file to number_of_files
 
 	# Get row index info
 	sound_idx$ = Get value: sound_row#[1], "row_index"
+
+	# Print total info
+	select Table 'table_name$'
+	Extract rows where... (self$["boundaries"]="1") & (self$["creak"]="1"|self$["creak"]="2"|self$["creak"]="3") & (self$["issues"]="1"|self$["issues"]="2"|self$["issues"]="4"|self$["issues"]="5")
+	Rename: "usable_output"
+	usable_rows = Get number of rows
+	appendInfoLine: newline$
+	appendInfoLine: "Usable vowels coded: " + string$(usable_rows) + newline$
+
+	appendInfoLine: "Target vowels usable: "
+							for i_vowel from 1 to size(target_vowels$#)
+								current_vowel$ = target_vowels$#[i_vowel]
+								select Table usable_output
+
+								vowel_rows# = List row numbers where... self$["vowel"]=current_vowel$
+								number_of_vowels = size(vowel_rows#)
+								if number_of_vowels > max_target-1
+									finished_vowels$#[i_vowel] = current_vowel$
+								endif
+								appendInfoLine: current_vowel$ + ": " + string$(number_of_vowels)
+							endfor
+
+	appendInfoLine:  newline$ + "Reference vowels usable: "
+							for i_ref_vowel from 1 to size(reference_vowels$#)
+								current_vowel$ = reference_vowels$#[i_ref_vowel]
+								select Table usable_output
+
+								vowel_rows# = List row numbers where... self$["vowel"]=current_vowel$
+								number_of_vowels = size(vowel_rows#)
+								if number_of_vowels > max_reference-1
+									finished_vowels$#[i_ref_vowel + size(target_vowels$#)] = current_vowel$
+								endif
+								appendInfoLine: current_vowel$ + ": " + string$(number_of_vowels)
+							endfor
+
+	#select Table output
+	select Table usable_output
+	Remove
 
 	# Edit sound and TextGrid
 	 select Sound 'name$'
@@ -145,17 +212,32 @@ for i_file to number_of_files
 			 option ("other")
 		 flag = boolean ("Flag", number(sound_flag$))
 
-		 clicked = endPause: "Quit", "Skip", "Done", "Keep", 3, 1
+		 clicked = endPause: "Quit", "Set 0", "Done", "Keep", 3, 1
 		 if clicked = 1
 					 endeditor
 					 select all
 					 Remove
 					 exitScript ()
 		 elsif clicked = 2
+					 # First save the new coding if different
+					 select Table all_rows
+					 Set numeric value: number(sound_idx$), "boundaries", 0
+					 Set numeric value: number(sound_idx$), "creak", 0
+					 Set numeric value: number(sound_idx$), "issues", 0
+					 Set numeric value: number(sound_idx$), "flag", 0
+					 Copy... updated_rows
+					 Remove column... row_index
+					 Save as comma-separated file... 'coding_log$'
+					 Remove
+
 					 select TextGrid 'name$'
 					 plus Sound 'name$'
 					 Remove
-					 list_index = list_index + 1
+					 
+					 # Now remove filename from review file
+					 select Strings review_list_out
+					 Remove string... list_index
+					 Save as raw text file... 'file_list$'
 		 elsif clicked = 3
 		 			 # First save the new coding if different
 					 select Table all_rows

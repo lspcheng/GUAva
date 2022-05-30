@@ -29,28 +29,24 @@ item []:
         name = "AmySerr - phones" 
         xmin = 0 
         xmax = 0.28000000000000114 
-        intervals: size = 6 
+        intervals: size = 5 
         intervals [1]:
             xmin = 0 
             xmax = 0.030000000000001137 
             text = "S" 
         intervals [2]:
             xmin = 0.030000000000001137 
-            xmax = 0.07000000000000028 
+            xmax = 0.08413283978758243 
             text = "F" 
         intervals [3]:
-            xmin = 0.07000000000000028 
-            xmax = 0.11846603970741951 
-            text = "R" 
-        intervals [4]:
-            xmin = 0.11846603970741951 
-            xmax = 0.17999999999999972 
+            xmin = 0.08413283978758243 
+            xmax = 0.16273458570158397 
             text = "ER0" 
-        intervals [5]:
-            xmin = 0.17999999999999972 
+        intervals [4]:
+            xmin = 0.16273458570158397 
             xmax = 0.21000000000000085 
             text = "DH" 
-        intervals [6]:
+        intervals [5]:
             xmin = 0.21000000000000085 
             xmax = 0.28000000000000114 
             text = "EH1" 
