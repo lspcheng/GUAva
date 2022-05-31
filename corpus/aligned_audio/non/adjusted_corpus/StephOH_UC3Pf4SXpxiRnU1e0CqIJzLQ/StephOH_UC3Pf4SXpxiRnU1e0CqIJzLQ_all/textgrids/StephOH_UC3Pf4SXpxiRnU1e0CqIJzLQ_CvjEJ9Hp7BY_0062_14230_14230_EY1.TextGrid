@@ -1,0 +1,69 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 0.4499999999999993 
+tiers? <exists> 
+size = 3 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "StephOH - words" 
+        xmin = 0 
+        xmax = 0.4499999999999993 
+        intervals: size = 4 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.03999999999999915 
+            text = "<unk>" 
+        intervals [2]:
+            xmin = 0.03999999999999915 
+            xmax = 0.34999999999999964 
+            text = "okay" 
+        intervals [3]:
+            xmin = 0.34999999999999964 
+            xmax = 0.379999999999999 
+            text = "" 
+        intervals [4]:
+            xmin = 0.379999999999999 
+            xmax = 0.4499999999999993 
+            text = "let's" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "StephOH - phones" 
+        xmin = 0 
+        xmax = 0.4499999999999993 
+        intervals: size = 6 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.03999999999999915 
+            text = "spn" 
+        intervals [2]:
+            xmin = 0.03999999999999915 
+            xmax = 0.07000000000000028 
+            text = "OW2" 
+        intervals [3]:
+            xmin = 0.07000000000000028 
+            xmax = 0.13546251444589225 
+            text = "K" 
+        intervals [4]:
+            xmin = 0.13546251444589225 
+            xmax = 0.2208617128525409 
+            text = "EY1" 
+        intervals [5]:
+            xmin = 0.2208617128525409 
+            xmax = 0.379999999999999 
+            text = "sp" 
+        intervals [6]:
+            xmin = 0.379999999999999 
+            xmax = 0.4499999999999993 
+            text = "L" 
+    item [3]:
+        class = "TextTier" 
+        name = "vowel marker" 
+        xmin = 0 
+        xmax = 0.4499999999999993 
+        points: size = 1 
+        points [1]:
+            number = 0.15276807888071972 
+            mark = "target" 
