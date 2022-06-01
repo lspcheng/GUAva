@@ -1,0 +1,65 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 0.3000000000000682 
+tiers? <exists> 
+size = 3 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "ohnonin - words" 
+        xmin = 0 
+        xmax = 0.3000000000000682 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.06000000000005912 
+            text = "even" 
+        intervals [2]:
+            xmin = 0.06000000000005912 
+            xmax = 0.20000000000004547 
+            text = "though" 
+        intervals [3]:
+            xmin = 0.20000000000004547 
+            xmax = 0.3000000000000682 
+            text = "it" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "ohnonin - phones" 
+        xmin = 0 
+        xmax = 0.3000000000000682 
+        intervals: size = 6 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.020000000000095497 
+            text = "IH0" 
+        intervals [2]:
+            xmin = 0.020000000000095497 
+            xmax = 0.06000000000005912 
+            text = "N" 
+        intervals [3]:
+            xmin = 0.06000000000005912 
+            xmax = 0.08900937556803179 
+            text = "DH" 
+        intervals [4]:
+            xmin = 0.08900937556803179 
+            xmax = 0.18757626706495192 
+            text = "OW1" 
+        intervals [5]:
+            xmin = 0.18757626706495192 
+            xmax = 0.2700000000000955 
+            text = "IH0" 
+        intervals [6]:
+            xmin = 0.2700000000000955 
+            xmax = 0.3000000000000682 
+            text = "T" 
+    item [3]:
+        class = "TextTier" 
+        name = "vowel marker" 
+        xmin = 0 
+        xmax = 0.3000000000000682 
+        points: size = 1 
+        points [1]:
+            number = 0.1500000000000341 
+            mark = "target" 
