@@ -1,0 +1,65 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 0.30999999999998806 
+tiers? <exists> 
+size = 3 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "Cynthia - words" 
+        xmin = 0 
+        xmax = 0.30999999999998806 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.06999999999999318 
+            text = "made" 
+        intervals [2]:
+            xmin = 0.06999999999999318 
+            xmax = 0.20999999999999375 
+            text = "me" 
+        intervals [3]:
+            xmin = 0.20999999999999375 
+            xmax = 0.30999999999998806 
+            text = "feel" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "Cynthia - phones" 
+        xmin = 0 
+        xmax = 0.30999999999998806 
+        intervals: size = 6 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.03999999999999204 
+            text = "EY1" 
+        intervals [2]:
+            xmin = 0.03999999999999204 
+            xmax = 0.06999999999999318 
+            text = "D" 
+        intervals [3]:
+            xmin = 0.06999999999999318 
+            xmax = 0.09595082226856004 
+            text = "M" 
+        intervals [4]:
+            xmin = 0.09595082226856004 
+            xmax = 0.17299154634004033 
+            text = "IY1" 
+        intervals [5]:
+            xmin = 0.17299154634004033 
+            xmax = 0.2699999999999818 
+            text = "F" 
+        intervals [6]:
+            xmin = 0.2699999999999818 
+            xmax = 0.30999999999998806 
+            text = "IY1" 
+    item [3]:
+        class = "TextTier" 
+        name = "vowel marker" 
+        xmin = 0 
+        xmax = 0.30999999999998806 
+        points: size = 1 
+        points [1]:
+            number = 0.15499999999999403 
+            mark = "target" 
