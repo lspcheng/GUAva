@@ -16,6 +16,8 @@ form Modify textgrids
 	sentence audio_dir	./audio/
 	comment Source Textgrid Directory
 	sentence tg_dir	./textgrids/
+	comment Original Source Directory
+	sentence original_dir	./queue/
 	comment Coding Log Filename
 	sentence coding_log vowel_coding_log.csv
 	#comment Review List Filename
@@ -115,7 +117,17 @@ for i_file to number_of_files
      select Strings review_list_in
      soundname$ = Get string... i_file
 		 name$ = soundname$-".wav"
-	 	 Read from file... 'audio_dir$''name$'.wav
+
+		 if not fileReadable: audio_dir$ + name$ + ".wav"
+			## Hotfix for reviewing without already moved audio
+			appendInfoLine: "Moving " + name$
+			Read from file... 'original_dir$''name$'.wav
+			select Sound 'name$'
+			Write to WAV file... 'audio_dir$''name$'.wav
+			filedelete 'original_dir$''name$'.wav
+		 else
+	 	 	Read from file... 'audio_dir$''name$'.wav
+		 endif
      Read from file... 'tg_dir$''name$'.TextGrid
 
 	# Print coding row values

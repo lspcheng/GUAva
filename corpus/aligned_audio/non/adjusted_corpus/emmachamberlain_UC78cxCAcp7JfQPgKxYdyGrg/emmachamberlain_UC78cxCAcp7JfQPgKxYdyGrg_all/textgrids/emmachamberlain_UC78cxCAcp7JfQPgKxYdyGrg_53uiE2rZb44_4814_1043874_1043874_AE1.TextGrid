@@ -1,0 +1,73 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 0.2999999999999545 
+tiers? <exists> 
+size = 3 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "emmacha - words" 
+        xmin = 0 
+        xmax = 0.2999999999999545 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.009999999999990905 
+            text = "" 
+        intervals [2]:
+            xmin = 0.009999999999990905 
+            xmax = 0.2300000000000182 
+            text = "track" 
+        intervals [3]:
+            xmin = 0.2300000000000182 
+            xmax = 0.2999999999999545 
+            text = "and" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "emmacha - phones" 
+        xmin = 0 
+        xmax = 0.2999999999999545 
+        intervals: size = 8 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.009999999999990905 
+            text = "" 
+        intervals [2]:
+            xmin = 0.009999999999990905 
+            xmax = 0.049999999999954525 
+            text = "T" 
+        intervals [3]:
+            xmin = 0.049999999999954525 
+            xmax = 0.10982036797506455 
+            text = "R" 
+        intervals [4]:
+            xmin = 0.10982036797506455 
+            xmax = 0.17232201779159548 
+            text = "AE1" 
+        intervals [5]:
+            xmin = 0.17232201779159548 
+            xmax = 0.2300000000000182 
+            text = "K" 
+        intervals [6]:
+            xmin = 0.2300000000000182 
+            xmax = 0.2599999999999909 
+            text = "AH0" 
+        intervals [7]:
+            xmin = 0.2599999999999909 
+            xmax = 0.2899999999999636 
+            text = "N" 
+        intervals [8]:
+            xmin = 0.2899999999999636 
+            xmax = 0.2999999999999545 
+            text = "D" 
+    item [3]:
+        class = "TextTier" 
+        name = "vowel marker" 
+        xmin = 0 
+        xmax = 0.2999999999999545 
+        points: size = 1 
+        points [1]:
+            number = 0.14999999999997726 
+            mark = "target" 
