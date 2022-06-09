@@ -11,15 +11,19 @@ item []:
         name = "tanhone - words" 
         xmin = 0 
         xmax = 0.32000000000005 
-        intervals: size = 2 
+        intervals: size = 3 
         intervals [1]:
             xmin = 0 
-            xmax = 0.25 
-            text = "plan" 
+            xmax = 0.040000000000020464 
+            text = "i'm" 
         intervals [2]:
-            xmin = 0.25 
+            xmin = 0.040000000000020464 
+            xmax = 0.3100000000000023 
+            text = "not" 
+        intervals [3]:
+            xmin = 0.3100000000000023 
             xmax = 0.32000000000005 
-            text = "for" 
+            text = "at" 
     item [2]:
         class = "IntervalTier" 
         name = "tanhone - phones" 
@@ -28,24 +32,24 @@ item []:
         intervals: size = 5 
         intervals [1]:
             xmin = 0 
-            xmax = 0.05000000000006821 
-            text = "P" 
+            xmax = 0.040000000000020464 
+            text = "M" 
         intervals [2]:
-            xmin = 0.05000000000006821 
+            xmin = 0.040000000000020464 
             xmax = 0.10000000000002274 
-            text = "L" 
+            text = "N" 
         intervals [3]:
             xmin = 0.10000000000002274 
             xmax = 0.22000000000002728 
-            text = "AE1" 
+            text = "AA1" 
         intervals [4]:
             xmin = 0.22000000000002728 
-            xmax = 0.25 
-            text = "N" 
+            xmax = 0.3100000000000023 
+            text = "T" 
         intervals [5]:
-            xmin = 0.25 
+            xmin = 0.3100000000000023 
             xmax = 0.32000000000005 
-            text = "F" 
+            text = "AE1" 
     item [3]:
         class = "TextTier" 
         name = "vowel marker" 
